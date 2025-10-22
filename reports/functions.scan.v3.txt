@@ -1,0 +1,121 @@
+NETLIFY FUNCTIONS INVENTORY
+ERROR (earlier attempt): Invoke-Expression: A positional parameter cannot be found that accepts argument '$null'.
+ERROR (earlier attempt): Set-Content: Cannot bind argument to parameter 'Path' because it is null.
+ERROR (earlier attempt): Add-Content: Cannot bind argument to parameter 'Path' because it is null.
+ERROR (earlier attempt): ParserError: Unexpected token """ in expression or statement.
+ERROR (earlier attempt): Invoke-Expression: A positional parameter cannot be found that accepts argument 'Get-Location\'.
+FullName | Length | LastWriteTime
+C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\netlify\functions\ai.js | 2841 | 2025-10-14T15:40:56.112Z
+C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\netlify\functions\beacon.js | 0 | 2025-10-14T15:40:56.114Z
+C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\netlify\functions\gemini.js | 1040 | 2025-10-16T08:40:09.742Z
+C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\netlify\functions\laptops-refresh.js | 520 | 2025-10-16T08:40:55.085Z
+C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\netlify\functions\laptops.js | 2823 | 2025-10-11T06:17:11.202Z
+C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\netlify\functions\websearch.js | 1304 | 2025-10-02T11:36:35.307Z
+
+NETLIFY.TOML (first 120 lines)
+[functions]
+  node_bundler = "esbuild"
+
+[functions."laptops-refresh"]
+  # Mon 00:05 MYT == Sun 16:05 UTC
+  schedule = "5 16 * * 0"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+  X-Content-Type-Options = "nosniff"
+  Referrer-Policy = "strict-origin-when-cross-origin"
+
+
+PACKAGE.JSON (raw)
+{
+  "name": "ai-bradaa-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "serve": "node scripts/serve.js",
+    "test": "echo 'No automated tests configured yet' && exit 0",
+    "lint": "node scripts/run-lint.js",
+    "lint:fix": "node scripts/run-lint.js --fix",
+    "syeddy:lint": "eslint .",
+    "syeddy:test": "node -e \"require('./ai_pod/syeddy-orchestrator.js')\"",
+    "syeddy:regress": "node ./ai_pod/tests/run_regression.js",
+    "laptops:test": "node ./ai_pod/tests/laptops.spec.mjs",
+    "brand:check": "node ./ai_pod/tests/check_assets_licenses.js",
+    "sri:inject": "node ./ai_pod/scripts/inject_sri.js",
+    "mobile:check": "node ./ai_pod/tests/mobile_check.js",
+    "syeddy:prune": "node -e \"try{const fs=require('fs');const p='ai_pod/tests/test_run_logs.jsonl';if(fs.existsSync(p)){const l=fs.readFileSync(p,'utf8').trim().split(/\n/).slice(-5000).join('\n');fs.writeFileSync(p,l)} }catch(e){}\"",
+    "syeddy:ci": "npm run syeddy:lint && npm run syeddy:test && npm run laptops:test && npm run brand:check && npm run mobile:check && npm run syeddy:regress && npm run syeddy:prune"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.2",
+    "@mui/material": "^7.3.2",
+    "@tanstack/query-sync-storage-persister": "^5.90.2",
+    "@tanstack/react-query": "^5.90.2",
+    "@tanstack/react-query-devtools": "^5.90.2",
+    "@tanstack/react-query-persist-client": "^5.90.2",
+    "@types/react-lazy-load-image-component": "^1.6.4",
+    "i18next": "^25.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-ga4": "^2.1.0",
+    "react-i18next": "^16.0.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-lazy-load-image-component": "^1.6.3",
+    "react-router-dom": "^6.11.0",
+    "typescript": "^5.5.4",
+    "workbox-cacheable-response": "^7.3.0",
+    "workbox-core": "^7.3.0",
+    "workbox-expiration": "^7.3.0",
+    "workbox-precaching": "^7.3.0",
+    "workbox-routing": "^7.3.0",
+    "workbox-strategies": "^7.3.0",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/aria-query": "^5.0.4",
+    "@types/jest": "^29.5.14",
+    "@types/jsdom": "^27.0.0",
+    "@types/node": "^24.6.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@types/testing-library__jest-dom": "^5.14.9",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "axe-core": "^4.11.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-react": "^7.32.2",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "lighthouse": "^12.8.2",
+    "ts-jest": "^29.1.0",
+    "workbox-cli": "^6.5.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+
+
+LOCAL REACHABILITY (127.0.0.1:8888)
+netlify dev not running on :8888 — skipped
+
+CONCLUSION: netlify dev not running on :8888 — skipped

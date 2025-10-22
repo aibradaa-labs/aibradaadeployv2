@@ -1,0 +1,14 @@
+# EN: Collect minimum data with TTL. BM: Kumpul data minimum dengan tempoh simpanan (TTL).
+data_classes:
+  - id: analytics
+    lawful_basis: legitimate_interest
+    ttl_days: 30
+  - id: telemetry_deck
+    lawful_basis: legitimate_interest
+    ttl_days: 14
+purge:
+  cadence: "daily"
+  script: "scripts/data_ttl_sweeper.mjs"
+access_logs: true
+export_delete:
+  runbook: "governance/playbooks/incident_response.md#user-requests"  # BM: Rujuk bahagian eksport/padam

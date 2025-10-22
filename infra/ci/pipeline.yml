@@ -1,0 +1,102 @@
+name: MO Pipeline
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm ci || npm i
+
+  schema_validate:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm ci || npm i
+      - run: node scripts/schema_validate.mjs "Master Operation Config.yaml"
+
+  policy_lint:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - run: node -e "require('fs').readdirSync('governance/policies').length || process.exit(1)"
+
+  prompt_lint:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - run: node scripts/prompt_lint.mjs tests/fixtures/deck_sample.md
+
+  a11y_smoke:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm ci || npm i
+      - run: node tests/a11y/axe.smoke.mjs
+
+  pwa_checks:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - run: node -e "require('fs').existsSync('pwa/manifest.json')||process.exit(1)"
+
+  lighthouse_smoke:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm ci || npm i
+      - run: node tests/perf/run-lh.mjs
+
+  secrets_scan:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: node scripts/secrets_scan.mjs
+
+  licenses_scan:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - run: node -e "const pkg=require('./package.json'); const deps=[...Object.keys(pkg.dependencies||{}),...Object.keys(pkg.devDependencies||{})]; console.log('deps:',deps.join(',')); process.exit(0);"
+
+  data_ttl_linter:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm ci || npm i
+      - run: node scripts/data_ttl_sweeper.mjs --dry
+
+  link_check:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm ci || npm i
+      - run: node scripts/link_check.mjs

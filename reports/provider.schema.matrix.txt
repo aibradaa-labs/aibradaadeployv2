@@ -1,0 +1,6 @@
+Dataset | Pass | Missing | Notes
+data/fallbackLaptops.json | PASS | — | Price stored under price.value; score lives in raw.score
+ai_pod/data/laptops/top35.cache.json | FAIL | sku, timestamp | No SKU/ID present; Missing updated timestamp; Fully aligned with provider expectations
+data/laptops.json | FAIL | sku, timestamp | No SKU/ID present; Missing updated timestamp
+ai_pod/data/laptops/explorer.top10.gaming.json | FAIL | sku, timestamp | No SKU/ID present; Missing updated timestamp
+ai_pod/tokens/laptops.tokens.json | FAIL | displayName, price, sku, score, timestamp | Missing name/model field; Price field needs flattening; No SKU/ID present; Score missing; Missing updated timestamp

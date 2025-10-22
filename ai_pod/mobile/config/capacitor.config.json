@@ -1,0 +1,7 @@
+{
+  "appId": "app.aibradaa.pwa",
+  "appName": "AI Bradaa",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "server": { "androidScheme": "https" }
+}

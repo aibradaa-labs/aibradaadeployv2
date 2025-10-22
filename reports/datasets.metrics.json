@@ -1,0 +1,124 @@
+[
+  {
+    "fullPath": "data/fallbackLaptops.json",
+    "totalItems": 73,
+    "price_min": 3599,
+    "price_max": 6999,
+    "count_in_range_3500_7000": 73,
+    "count_lte_4500": 10,
+    "keys": [
+      "battery_wh",
+      "brand",
+      "buy",
+      "cpu",
+      "display",
+      "first_seen",
+      "gpu",
+      "images",
+      "model",
+      "price",
+      "ram_gb",
+      "raw",
+      "region",
+      "sku",
+      "source",
+      "storage",
+      "uid",
+      "updated_at",
+      "weight_kg"
+    ],
+    "errors": []
+  },
+  {
+    "fullPath": "ai_pod/data/laptops/top35.cache.json",
+    "totalItems": 22,
+    "price_min": 3500,
+    "price_max": 6999,
+    "count_in_range_3500_7000": 22,
+    "count_lte_4500": 4,
+    "keys": [
+      "brand",
+      "model",
+      "platform",
+      "price",
+      "price_source_url",
+      "score",
+      "scores",
+      "why"
+    ],
+    "errors": []
+  },
+  {
+    "fullPath": "data/laptops.json",
+    "totalItems": 12,
+    "price_min": 5399,
+    "price_max": 6999,
+    "count_in_range_3500_7000": 12,
+    "count_lte_4500": 0,
+    "keys": [
+      "best_deal_url",
+      "brand",
+      "cpu",
+      "display",
+      "gpu",
+      "imageUrl",
+      "lazada_url",
+      "model",
+      "platform",
+      "price",
+      "price_source_url",
+      "ram",
+      "release_year",
+      "score",
+      "scores",
+      "segments",
+      "shopee_url",
+      "storage",
+      "tiktok_url",
+      "why"
+    ],
+    "errors": []
+  },
+  {
+    "fullPath": "ai_pod/data/laptops/explorer.top10.gaming.json",
+    "totalItems": 5,
+    "price_min": 5399,
+    "price_max": 6999,
+    "count_in_range_3500_7000": 5,
+    "count_lte_4500": 0,
+    "keys": [
+      "brand",
+      "model",
+      "platform",
+      "price",
+      "score",
+      "scores",
+      "why"
+    ],
+    "errors": []
+  },
+  {
+    "fullPath": "ai_pod/tokens/laptops.tokens.json",
+    "totalItems": 0,
+    "price_min": null,
+    "price_max": null,
+    "count_in_range_3500_7000": 0,
+    "count_lte_4500": 0,
+    "keys": [],
+    "errors": [
+      "JSON file did not contain array or items[]"
+    ]
+  },
+  {
+    "fullPath": "data/laptops.schema.json",
+    "totalItems": 0,
+    "price_min": null,
+    "price_max": null,
+    "count_in_range_3500_7000": 0,
+    "count_lte_4500": 0,
+    "keys": [],
+    "errors": [
+      "JSON file did not contain array or items[]"
+    ]
+  }
+]

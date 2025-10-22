@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+  <shortcut android:shortcutId="open_matchmaker" android:enabled="true" android:shortcutShortLabel="Matchmaker">
+    <intent android:action="android.intent.action.VIEW" android:data="https://example.app/matchmaker" />
+  </shortcut>
+  <shortcut android:shortcutId="open_versus" android:enabled="true" android:shortcutShortLabel="Versus">
+    <intent android:action="android.intent.action.VIEW" android:data="https://example.app/comparison" />
+  </shortcut>
+  <shortcut android:shortcutId="open_explore" android:enabled="true" android:shortcutShortLabel="Explore">
+    <intent android:action="android.intent.action.VIEW" android:data="https://example.app/explorer" />
+  </shortcut>
+</shortcuts>

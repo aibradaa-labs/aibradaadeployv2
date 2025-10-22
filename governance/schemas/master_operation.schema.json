@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/master_operation.schema.json",
+  "title": "Master Operation (MO) Schema",
+  "type": "object",
+  "required": ["meta", "org_config", "mentors_config", "deck_ai", "policies"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["version", "updated_at", "timezone"],
+      "properties": {
+        "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(-[a-z0-9\\.]+)?$" },
+        "updated_at": { "type": "string", "format": "date-time" },
+        "timezone": { "type": "string", "const": "Asia/Kuala_Lumpur" }
+      }
+    },
+    "org_config": {
+      "type": "object",
+      "required": ["name", "languages"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "languages": {
+          "type": "array", "minItems": 1,
+          "items": { "type": "string", "enum": ["en", "bm", "zh", "ta", "id"] }
+        }
+      }
+    },
+    "mentors_config": {
+      "type": "object",
+      "required": ["lenses"],
+      "properties": {
+        "lenses": {
+          "type": "array",
+          "minItems": 10,
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "weight"],
+            "properties": {
+              "id": { "type": "string", "pattern": "^[a-z0-9\\-]{2,40}$" },
+              "name": { "type": "string", "minLength": 2 },
+              "weight": { "type": "number", "minimum": 0, "maximum": 1, "default": 0.025 }
+            }
+          }
+        }
+      }
+    },
+    "deck_ai": {
+      "type": "object",
+      "required": ["retrieval", "freshness", "accessibility", "readability", "telemetry"],
+      "properties": {
+        "retrieval": {
+          "type": "object",
+          "required": ["strategy", "fallback"],
+          "properties": {
+            "strategy": { "type": "string", "enum": ["web_first", "local_first", "hybrid"], "default": "web_first" },
+            "fallback": { "type": "string", "enum": ["local_db", "cached_web"] }
+          }
+        },
+        "freshness": {
+          "type": "object",
+          "required": ["timezone", "format"],
+          "properties": {
+            "timezone": { "type": "string", "const": "Asia/Kuala_Lumpur" },
+            "format": { "type": "string", "const": "YYYY-MM-DD HH:mm (Asia/Kuala_Lumpur)" }
+          }
+        },
+        "accessibility": {
+          "type": "object",
+          "required": ["reduced_motion", "keyboard", "targets"],
+          "properties": {
+            "reduced_motion": { "type": "boolean", "default": true },
+            "keyboard": { "type": "boolean", "default": true },
+            "targets": { "type": "number", "minimum": 44, "default": 44 }
+          }
+        },
+        "readability": {
+          "type": "object",
+          "required": ["measure_ch_min", "measure_ch_max", "cls_max"],
+          "properties": {
+            "measure_ch_min": { "type": "number", "default": 68 },
+            "measure_ch_max": { "type": "number", "default": 75 },
+            "cls_max": { "type": "number", "default": 0.10 }
+          }
+        },
+        "telemetry": {
+          "type": "object",
+          "required": ["events"],
+          "properties": {
+            "events": {
+              "type": "array",
+              "minItems": 4,
+              "items": { "type": "string", "enum": ["deckSlides", "timeToTLDR", "abortCount", "mobileSwipe", "CLS", "INP"] }
+            }
+          }
+        }
+      }
+    },
+    "policies": {
+      "type": "object",
+      "required": ["ai_guardrails", "privacy_least_data_ttl", "accessibility", "consent_receipts", "localization_bm_en"],
+      "properties": {
+        "ai_guardrails": { "type": "boolean" },
+        "privacy_least_data_ttl": { "type": "boolean" },
+        "accessibility": { "type": "boolean" },
+        "consent_receipts": { "type": "boolean" },
+        "localization_bm_en": { "type": "boolean" }
+      }
+    }
+  },
+  "additionalProperties": false
+}

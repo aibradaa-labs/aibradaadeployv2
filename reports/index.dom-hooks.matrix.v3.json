@@ -1,0 +1,27 @@
+[
+  {
+    "hook": "data-explore-top10",
+    "present": false,
+    "line": null
+  },
+  {
+    "hook": "data-intel",
+    "present": false,
+    "line": null
+  },
+  {
+    "hook": "data-appendices",
+    "present": false,
+    "line": null
+  },
+  {
+    "hook": "data-soul",
+    "present": false,
+    "line": null
+  },
+  {
+    "hook": "data-explore",
+    "present": false,
+    "line": null
+  }
+]

@@ -1,0 +1,9 @@
+# EN: Consent receipts; BM: Resit persetujuan.
+receipt_fields:
+  - user_id
+  - purpose
+  - scope
+  - timestamp
+  - expiry
+persistence: local_encrypted
+retention_days: 365

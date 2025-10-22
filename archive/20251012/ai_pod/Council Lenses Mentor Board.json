@@ -1,0 +1,2570 @@
+[
+  {
+    "mentor_id": "warrenbuffett",
+    "name_canonical": "Warren Buffett",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Finance & IR",
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Finance & IR",
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Finance & IR",
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": true,
+    "executive_role": "EXEC-CHAIR",
+    "is_cofounder": true,
+    "cofounder_primary": true,
+    "sort_order": 1
+  },
+  {
+    "mentor_id": "charliemunger",
+    "name_canonical": "Charlie Munger",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1002
+  },
+  {
+    "mentor_id": "michaelporter",
+    "name_canonical": "Michael Porter",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1003
+  },
+  {
+    "mentor_id": "jeffbezos",
+    "name_canonical": "Jeff Bezos",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1004
+  },
+  {
+    "mentor_id": "timcook",
+    "name_canonical": "Tim Cook",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Operations & Localization"
+    ],
+    "departments_atomic": [
+      "Operations & Localization"
+    ],
+    "departments_raw": [
+      "Operations & Localization"
+    ],
+    "executive_report_to": "EXEC-CPOps",
+    "lens_keys": [
+      "localization",
+      "ops"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1005
+  },
+  {
+    "mentor_id": "kentbeck",
+    "name_canonical": "Kent Beck",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Platform"
+    ],
+    "departments_atomic": [
+      "Platform"
+    ],
+    "departments_raw": [
+      "Platform"
+    ],
+    "executive_report_to": "EXEC-CTO",
+    "lens_keys": [
+      "slo",
+      "observability"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1006
+  },
+  {
+    "mentor_id": "andrewng",
+    "name_canonical": "Andrew Ng",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "AI POD"
+    ],
+    "departments_atomic": [
+      "AI POD"
+    ],
+    "departments_raw": [
+      "AI POD"
+    ],
+    "executive_report_to": "EXEC-CAIO",
+    "lens_keys": [
+      "eval",
+      "offline_online",
+      "rollback"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1007
+  },
+  {
+    "mentor_id": "brianbalfour",
+    "name_canonical": "Brian Balfour",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Growth"
+    ],
+    "departments_atomic": [
+      "Growth"
+    ],
+    "departments_raw": [
+      "Growth"
+    ],
+    "executive_report_to": "EXEC-CGO",
+    "lens_keys": [
+      "growth_loop",
+      "retention"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1008
+  },
+  {
+    "mentor_id": "bruceschneier",
+    "name_canonical": "Bruce Schneier",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Safety & Governance"
+    ],
+    "departments_atomic": [
+      "Safety & Governance"
+    ],
+    "departments_raw": [
+      "Safety & Governance"
+    ],
+    "executive_report_to": "EXEC-CSGO",
+    "lens_keys": [
+      "pdpa",
+      "consent",
+      "ttl"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1009
+  },
+  {
+    "mentor_id": "navalravikant",
+    "name_canonical": "Naval Ravikant",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1010
+  },
+  {
+    "mentor_id": "elonmusk",
+    "name_canonical": "Elon Musk",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1011
+  },
+  {
+    "mentor_id": "tonyfernandes",
+    "name_canonical": "Tony Fernandes",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Operations & Localization"
+    ],
+    "departments_atomic": [
+      "Operations & Localization"
+    ],
+    "departments_raw": [
+      "Operations & Localization"
+    ],
+    "executive_report_to": "EXEC-CPOps",
+    "lens_keys": [
+      "localization",
+      "ops"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1012
+  },
+  {
+    "mentor_id": "markcuban",
+    "name_canonical": "Mark Cuban",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Finance & IR"
+    ],
+    "departments_atomic": [
+      "Finance & IR"
+    ],
+    "departments_raw": [
+      "Finance & IR"
+    ],
+    "executive_report_to": "EXEC-CFO",
+    "lens_keys": [
+      "valuation",
+      "owner_earnings"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1013
+  },
+  {
+    "mentor_id": "sethgodin",
+    "name_canonical": "Seth Godin",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Growth"
+    ],
+    "departments_atomic": [
+      "Growth"
+    ],
+    "departments_raw": [
+      "Growth"
+    ],
+    "executive_report_to": "EXEC-CGO",
+    "lens_keys": [
+      "growth_loop",
+      "retention"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1014
+  },
+  {
+    "mentor_id": "ritamcgrath",
+    "name_canonical": "Rita McGrath",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1015
+  },
+  {
+    "mentor_id": "claytonchristensen",
+    "name_canonical": "Clayton Christensen",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1016
+  },
+  {
+    "mentor_id": "aswathdamodaran",
+    "name_canonical": "Aswath Damodaran",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Finance & IR"
+    ],
+    "departments_atomic": [
+      "Finance & IR"
+    ],
+    "departments_raw": [
+      "Finance & IR"
+    ],
+    "executive_report_to": "EXEC-CFO",
+    "lens_keys": [
+      "valuation",
+      "owner_earnings"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1017
+  },
+  {
+    "mentor_id": "muhammadyunus",
+    "name_canonical": "Muhammad Yunus",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Finance & IR"
+    ],
+    "departments_atomic": [
+      "Finance & IR"
+    ],
+    "departments_raw": [
+      "Finance & IR"
+    ],
+    "executive_report_to": "EXEC-CFO",
+    "lens_keys": [
+      "valuation",
+      "owner_earnings"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1018
+  },
+  {
+    "mentor_id": "maxschrems",
+    "name_canonical": "Max Schrems",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Legal & Compliance",
+      "Safety & Governance"
+    ],
+    "departments_atomic": [
+      "Legal & Compliance",
+      "Safety & Governance"
+    ],
+    "departments_raw": [
+      "Legal & Compliance",
+      "Safety & Governance"
+    ],
+    "executive_report_to": "EXEC-CSGO",
+    "lens_keys": [
+      "pdpa",
+      "consent",
+      "ttl"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1019
+  },
+  {
+    "mentor_id": "juliebrill",
+    "name_canonical": "Julie Brill",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Legal & Compliance",
+      "Safety & Governance"
+    ],
+    "departments_atomic": [
+      "Legal & Compliance",
+      "Safety & Governance"
+    ],
+    "departments_raw": [
+      "Legal & Compliance",
+      "Safety & Governance"
+    ],
+    "executive_report_to": "EXEC-CSGO",
+    "lens_keys": [
+      "pdpa",
+      "consent",
+      "ttl"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1020
+  },
+  {
+    "mentor_id": "corydoctorow",
+    "name_canonical": "Cory Doctorow",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Legal & Compliance",
+      "Safety & Governance"
+    ],
+    "departments_atomic": [
+      "Legal & Compliance",
+      "Safety & Governance"
+    ],
+    "departments_raw": [
+      "Legal & Compliance",
+      "Safety & Governance"
+    ],
+    "executive_report_to": "EXEC-CSGO",
+    "lens_keys": [
+      "pdpa",
+      "consent",
+      "ttl"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1021
+  },
+  {
+    "mentor_id": "muhammadtaqiusmani",
+    "name_canonical": "Muhammad Taqi Usmani",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Legal & Compliance"
+    ],
+    "departments_atomic": [
+      "Legal & Compliance"
+    ],
+    "departments_raw": [
+      "Legal & Compliance"
+    ],
+    "executive_report_to": "EXEC-CLCO",
+    "lens_keys": [
+      "pdpa",
+      "consent",
+      "ttl"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1022
+  },
+  {
+    "mentor_id": "muftimenk",
+    "name_canonical": "Mufti Menk",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Safety & Governance"
+    ],
+    "departments_atomic": [
+      "Safety & Governance"
+    ],
+    "departments_raw": [
+      "Safety & Governance"
+    ],
+    "executive_report_to": "EXEC-CSGO",
+    "lens_keys": [
+      "pdpa",
+      "consent",
+      "ttl"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1023
+  },
+  {
+    "mentor_id": "genekim",
+    "name_canonical": "Gene Kim",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Platform"
+    ],
+    "departments_atomic": [
+      "Platform"
+    ],
+    "departments_raw": [
+      "Platform"
+    ],
+    "executive_report_to": "EXEC-CTO",
+    "lens_keys": [
+      "slo",
+      "observability"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1024
+  },
+  {
+    "mentor_id": "melanieperkins",
+    "name_canonical": "Melanie Perkins",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Customer & Design"
+    ],
+    "departments_atomic": [
+      "Customer & Design"
+    ],
+    "departments_raw": [
+      "Customer & Design"
+    ],
+    "executive_report_to": "EXEC-CCDPO",
+    "lens_keys": [
+      "prfaq",
+      "customer_promise"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1025
+  },
+  {
+    "mentor_id": "martycagan",
+    "name_canonical": "Marty Cagan",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Customer & Design"
+    ],
+    "departments_atomic": [
+      "Customer & Design"
+    ],
+    "departments_raw": [
+      "Customer & Design"
+    ],
+    "executive_report_to": "EXEC-CCDPO",
+    "lens_keys": [
+      "prfaq",
+      "customer_promise"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1026
+  },
+  {
+    "mentor_id": "donnorman",
+    "name_canonical": "Don Norman",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Customer & Design"
+    ],
+    "departments_atomic": [
+      "Customer & Design"
+    ],
+    "departments_raw": [
+      "Customer & Design"
+    ],
+    "executive_report_to": "EXEC-CCDPO",
+    "lens_keys": [
+      "prfaq",
+      "customer_promise"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1027
+  },
+  {
+    "mentor_id": "paulascher",
+    "name_canonical": "Paula Scher",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Customer & Design"
+    ],
+    "departments_atomic": [
+      "Customer & Design"
+    ],
+    "departments_raw": [
+      "Customer & Design"
+    ],
+    "executive_report_to": "EXEC-CCDPO",
+    "lens_keys": [
+      "prfaq",
+      "customer_promise"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1028
+  },
+  {
+    "mentor_id": "chrisdo",
+    "name_canonical": "Chris Do",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Customer & Design"
+    ],
+    "departments_atomic": [
+      "Customer & Design"
+    ],
+    "departments_raw": [
+      "Customer & Design"
+    ],
+    "executive_report_to": "EXEC-CCDPO",
+    "lens_keys": [
+      "prfaq",
+      "customer_promise"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1029
+  },
+  {
+    "mentor_id": "caseyneistat",
+    "name_canonical": "Casey Neistat",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Growth"
+    ],
+    "departments_atomic": [
+      "Growth"
+    ],
+    "departments_raw": [
+      "Growth"
+    ],
+    "executive_report_to": "EXEC-CGO",
+    "lens_keys": [
+      "growth_loop",
+      "retention"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1030
+  },
+  {
+    "mentor_id": "annhandley",
+    "name_canonical": "Ann Handley",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Customer & Design"
+    ],
+    "departments_atomic": [
+      "Customer & Design"
+    ],
+    "departments_raw": [
+      "Customer & Design"
+    ],
+    "executive_report_to": "EXEC-CCDPO",
+    "lens_keys": [
+      "prfaq",
+      "customer_promise"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1031
+  },
+  {
+    "mentor_id": "guidovanrossum",
+    "name_canonical": "Guido van Rossum",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Platform"
+    ],
+    "departments_atomic": [
+      "Platform"
+    ],
+    "departments_raw": [
+      "Platform"
+    ],
+    "executive_report_to": "EXEC-CTO",
+    "lens_keys": [
+      "slo",
+      "observability"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1032
+  },
+  {
+    "mentor_id": "johncarmack",
+    "name_canonical": "John Carmack",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Platform"
+    ],
+    "departments_atomic": [
+      "Platform"
+    ],
+    "departments_raw": [
+      "Platform"
+    ],
+    "executive_report_to": "EXEC-CTO",
+    "lens_keys": [
+      "slo",
+      "observability"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1033
+  },
+  {
+    "mentor_id": "natesilver",
+    "name_canonical": "Nate Silver",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "AI POD"
+    ],
+    "departments_atomic": [
+      "AI POD"
+    ],
+    "departments_raw": [
+      "AI POD"
+    ],
+    "executive_report_to": "EXEC-CAIO",
+    "lens_keys": [
+      "eval",
+      "offline_online",
+      "rollback"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1034
+  },
+  {
+    "mentor_id": "andrewchen",
+    "name_canonical": "Andrew Chen",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Growth"
+    ],
+    "departments_atomic": [
+      "Growth"
+    ],
+    "departments_raw": [
+      "Growth"
+    ],
+    "executive_report_to": "EXEC-CGO",
+    "lens_keys": [
+      "growth_loop",
+      "retention"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1035
+  },
+  {
+    "mentor_id": "monicarogati",
+    "name_canonical": "Monica Rogati",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "AI POD"
+    ],
+    "departments_atomic": [
+      "AI POD"
+    ],
+    "departments_raw": [
+      "AI POD"
+    ],
+    "executive_report_to": "EXEC-CAIO",
+    "lens_keys": [
+      "eval",
+      "offline_online",
+      "rollback"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1036
+  },
+  {
+    "mentor_id": "seanellis",
+    "name_canonical": "Sean Ellis",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Growth"
+    ],
+    "departments_atomic": [
+      "Growth"
+    ],
+    "departments_raw": [
+      "Growth"
+    ],
+    "executive_report_to": "EXEC-CGO",
+    "lens_keys": [
+      "growth_loop",
+      "retention"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1037
+  },
+  {
+    "mentor_id": "caseywinters",
+    "name_canonical": "Casey Winters",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Growth"
+    ],
+    "departments_atomic": [
+      "Growth"
+    ],
+    "departments_raw": [
+      "Growth"
+    ],
+    "executive_report_to": "EXEC-CGO",
+    "lens_keys": [
+      "growth_loop",
+      "retention"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1038
+  },
+  {
+    "mentor_id": "neilpatel",
+    "name_canonical": "Neil Patel",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Growth"
+    ],
+    "departments_atomic": [
+      "Growth"
+    ],
+    "departments_raw": [
+      "Growth"
+    ],
+    "executive_report_to": "EXEC-CGO",
+    "lens_keys": [
+      "growth_loop",
+      "retention"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1039
+  },
+  {
+    "mentor_id": "rorysutherland",
+    "name_canonical": "Rory Sutherland",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Growth"
+    ],
+    "departments_atomic": [
+      "Growth"
+    ],
+    "departments_raw": [
+      "Growth"
+    ],
+    "executive_report_to": "EXEC-CGO",
+    "lens_keys": [
+      "growth_loop",
+      "retention"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1040
+  },
+  {
+    "mentor_id": "benthompson",
+    "name_canonical": "Ben Thompson",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1041
+  },
+  {
+    "mentor_id": "laszlobock",
+    "name_canonical": "Laszlo Bock",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Operations & Localization"
+    ],
+    "departments_atomic": [
+      "Operations & Localization"
+    ],
+    "departments_raw": [
+      "Operations & Localization"
+    ],
+    "executive_report_to": "EXEC-CPOps",
+    "lens_keys": [
+      "localization",
+      "ops"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1042
+  },
+  {
+    "mentor_id": "pattymccord",
+    "name_canonical": "Patty McCord",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Operations & Localization"
+    ],
+    "departments_atomic": [
+      "Operations & Localization"
+    ],
+    "departments_raw": [
+      "Operations & Localization"
+    ],
+    "executive_report_to": "EXEC-CPOps",
+    "lens_keys": [
+      "localization",
+      "ops"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1043
+  },
+  {
+    "mentor_id": "charitymajors",
+    "name_canonical": "Charity Majors",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Platform"
+    ],
+    "departments_atomic": [
+      "Platform"
+    ],
+    "departments_raw": [
+      "Platform"
+    ],
+    "executive_report_to": "EXEC-CTO",
+    "lens_keys": [
+      "slo",
+      "observability"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1044
+  },
+  {
+    "mentor_id": "daniellecitron",
+    "name_canonical": "Danielle Citron",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Legal & Compliance",
+      "Safety & Governance"
+    ],
+    "departments_atomic": [
+      "Legal & Compliance",
+      "Safety & Governance"
+    ],
+    "departments_raw": [
+      "Legal & Compliance",
+      "Safety & Governance"
+    ],
+    "executive_report_to": "EXEC-CSGO",
+    "lens_keys": [
+      "pdpa",
+      "consent",
+      "ttl"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1045
+  },
+  {
+    "mentor_id": "darioamodei",
+    "name_canonical": "Dario Amodei",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Safety & Governance"
+    ],
+    "departments_atomic": [
+      "Safety & Governance"
+    ],
+    "departments_raw": [
+      "Safety & Governance"
+    ],
+    "executive_report_to": "EXEC-CSGO",
+    "lens_keys": [
+      "pdpa",
+      "consent",
+      "ttl"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1046
+  },
+  {
+    "mentor_id": "jakobnielsen",
+    "name_canonical": "Jakob Nielsen",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Customer & Design"
+    ],
+    "departments_atomic": [
+      "Customer & Design"
+    ],
+    "departments_raw": [
+      "Customer & Design"
+    ],
+    "executive_report_to": "EXEC-CCDPO",
+    "lens_keys": [
+      "prfaq",
+      "customer_promise"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1047
+  },
+  {
+    "mentor_id": "jennylay-flurrie",
+    "name_canonical": "Jenny Lay-Flurrie",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Customer & Design"
+    ],
+    "departments_atomic": [
+      "Customer & Design"
+    ],
+    "departments_raw": [
+      "Customer & Design"
+    ],
+    "executive_report_to": "EXEC-CCDPO",
+    "lens_keys": [
+      "prfaq",
+      "customer_promise"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1048
+  },
+  {
+    "mentor_id": "jezhumble",
+    "name_canonical": "Jez Humble",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Platform"
+    ],
+    "departments_atomic": [
+      "Platform"
+    ],
+    "departments_raw": [
+      "Platform"
+    ],
+    "executive_report_to": "EXEC-CTO",
+    "lens_keys": [
+      "slo",
+      "observability"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1049
+  },
+  {
+    "mentor_id": "jrstorment",
+    "name_canonical": "J.R. Storment",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Finance & IR"
+    ],
+    "departments_atomic": [
+      "Finance & IR"
+    ],
+    "departments_raw": [
+      "Finance & IR"
+    ],
+    "executive_report_to": "EXEC-CFO",
+    "lens_keys": [
+      "valuation",
+      "owner_earnings"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1050
+  },
+  {
+    "mentor_id": "mikefuller",
+    "name_canonical": "Mike Fuller",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Finance & IR"
+    ],
+    "departments_atomic": [
+      "Finance & IR"
+    ],
+    "departments_raw": [
+      "Finance & IR"
+    ],
+    "executive_report_to": "EXEC-CFO",
+    "lens_keys": [
+      "valuation",
+      "owner_earnings"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1051
+  },
+  {
+    "mentor_id": "nadiemmakarim",
+    "name_canonical": "Nadiem Makarim",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Operations & Localization"
+    ],
+    "departments_atomic": [
+      "Operations & Localization"
+    ],
+    "departments_raw": [
+      "Operations & Localization"
+    ],
+    "executive_report_to": "EXEC-CPOps",
+    "lens_keys": [
+      "localization",
+      "ops"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1052
+  },
+  {
+    "mentor_id": "nicoleforsgren",
+    "name_canonical": "Nicole Forsgren",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Platform"
+    ],
+    "departments_atomic": [
+      "Platform"
+    ],
+    "departments_raw": [
+      "Platform"
+    ],
+    "executive_report_to": "EXEC-CTO",
+    "lens_keys": [
+      "slo",
+      "observability"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1053
+  },
+  {
+    "mentor_id": "stuartrussell",
+    "name_canonical": "Stuart Russell",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Safety & Governance"
+    ],
+    "departments_atomic": [
+      "Safety & Governance"
+    ],
+    "departments_raw": [
+      "Safety & Governance"
+    ],
+    "executive_report_to": "EXEC-CSGO",
+    "lens_keys": [
+      "pdpa",
+      "consent",
+      "ttl"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1054
+  },
+  {
+    "mentor_id": "tanhooiling",
+    "name_canonical": "Tan Hooi Ling",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Operations & Localization"
+    ],
+    "departments_atomic": [
+      "Operations & Localization"
+    ],
+    "departments_raw": [
+      "Operations & Localization"
+    ],
+    "executive_report_to": "EXEC-CPOps",
+    "lens_keys": [
+      "localization",
+      "ops"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1055
+  },
+  {
+    "mentor_id": "geoffreyhinton",
+    "name_canonical": "Geoffrey Hinton",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "AI POD"
+    ],
+    "departments_atomic": [
+      "AI POD"
+    ],
+    "departments_raw": [
+      "AI POD"
+    ],
+    "executive_report_to": "EXEC-CAIO",
+    "lens_keys": [
+      "eval",
+      "offline_online",
+      "rollback"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1056
+  },
+  {
+    "mentor_id": "yoshuabengio",
+    "name_canonical": "Yoshua Bengio",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "AI POD"
+    ],
+    "departments_atomic": [
+      "AI POD"
+    ],
+    "departments_raw": [
+      "AI POD"
+    ],
+    "executive_report_to": "EXEC-CAIO",
+    "lens_keys": [
+      "eval",
+      "offline_online",
+      "rollback"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1057
+  },
+  {
+    "mentor_id": "yannlecun",
+    "name_canonical": "Yann LeCun",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "AI POD"
+    ],
+    "departments_atomic": [
+      "AI POD"
+    ],
+    "departments_raw": [
+      "AI POD"
+    ],
+    "executive_report_to": "EXEC-CAIO",
+    "lens_keys": [
+      "eval",
+      "offline_online",
+      "rollback"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1058
+  },
+  {
+    "mentor_id": "demishassabis",
+    "name_canonical": "Demis Hassabis",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "AI POD"
+    ],
+    "departments_atomic": [
+      "AI POD"
+    ],
+    "departments_raw": [
+      "AI POD"
+    ],
+    "executive_report_to": "EXEC-CAIO",
+    "lens_keys": [
+      "eval",
+      "offline_online",
+      "rollback"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1059
+  },
+  {
+    "mentor_id": "jeffdean",
+    "name_canonical": "Jeff Dean",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Platform"
+    ],
+    "departments_atomic": [
+      "Platform"
+    ],
+    "departments_raw": [
+      "Platform"
+    ],
+    "executive_report_to": "EXEC-CTO",
+    "lens_keys": [
+      "slo",
+      "observability"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1060
+  },
+  {
+    "mentor_id": "chrislattner",
+    "name_canonical": "Chris Lattner",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Platform"
+    ],
+    "departments_atomic": [
+      "Platform"
+    ],
+    "departments_raw": [
+      "Platform"
+    ],
+    "executive_report_to": "EXEC-CTO",
+    "lens_keys": [
+      "slo",
+      "observability"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1061
+  },
+  {
+    "mentor_id": "andrejkarpathy",
+    "name_canonical": "Andrej Karpathy",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "AI POD"
+    ],
+    "departments_atomic": [
+      "AI POD"
+    ],
+    "departments_raw": [
+      "AI POD"
+    ],
+    "executive_report_to": "EXEC-CAIO",
+    "lens_keys": [
+      "eval",
+      "offline_online",
+      "rollback"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1062
+  },
+  {
+    "mentor_id": "sebastianthrun",
+    "name_canonical": "Sebastian Thrun",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "AI POD"
+    ],
+    "departments_atomic": [
+      "AI POD"
+    ],
+    "departments_raw": [
+      "AI POD"
+    ],
+    "executive_report_to": "EXEC-CAIO",
+    "lens_keys": [
+      "eval",
+      "offline_online",
+      "rollback"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1063
+  },
+  {
+    "mentor_id": "fei-feili",
+    "name_canonical": "Fei-Fei Li",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "AI POD"
+    ],
+    "departments_atomic": [
+      "AI POD"
+    ],
+    "departments_raw": [
+      "AI POD"
+    ],
+    "executive_report_to": "EXEC-CAIO",
+    "lens_keys": [
+      "eval",
+      "offline_online",
+      "rollback"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": false,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1064
+  },
+  {
+    "mentor_id": "alancooper",
+    "name_canonical": "Alan Cooper",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": true,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1065
+  },
+  {
+    "mentor_id": "susanweinschenk",
+    "name_canonical": "Susan Weinschenk",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": true,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1066
+  },
+  {
+    "mentor_id": "donellameadows",
+    "name_canonical": "Donella Meadows",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": true,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1067
+  },
+  {
+    "mentor_id": "wedwardsdeming",
+    "name_canonical": "W. Edwards Deming",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": true,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1068
+  },
+  {
+    "mentor_id": "teresatorres",
+    "name_canonical": "Teresa Torres",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "AI POD"
+    ],
+    "departments_atomic": [
+      "AI POD"
+    ],
+    "departments_raw": [
+      "AI POD"
+    ],
+    "executive_report_to": "EXEC-CAIO",
+    "lens_keys": [
+      "eval",
+      "offline_online",
+      "rollback"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": true,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1069
+  },
+  {
+    "mentor_id": "johncutler",
+    "name_canonical": "John Cutler",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "AI POD"
+    ],
+    "departments_atomic": [
+      "AI POD"
+    ],
+    "departments_raw": [
+      "AI POD"
+    ],
+    "executive_report_to": "EXEC-CAIO",
+    "lens_keys": [
+      "eval",
+      "offline_online",
+      "rollback"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": true,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1070
+  },
+  {
+    "mentor_id": "johndoerr",
+    "name_canonical": "John Doerr",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": true,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1071
+  },
+  {
+    "mentor_id": "ericries",
+    "name_canonical": "Eric Ries",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": true,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1072
+  },
+  {
+    "mentor_id": "steveblank",
+    "name_canonical": "Steve Blank",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Strategy"
+    ],
+    "departments_atomic": [
+      "Strategy"
+    ],
+    "departments_raw": [
+      "Strategy"
+    ],
+    "executive_report_to": "EXEC-CHAIR",
+    "lens_keys": [
+      "wont-do",
+      "trade-off",
+      "moat"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": true,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1073
+  },
+  {
+    "mentor_id": "bentreynorsloss",
+    "name_canonical": "Ben Treynor Sloss",
+    "aliases": [],
+    "councils": [],
+    "departments_canonical": [
+      "Platform"
+    ],
+    "departments_atomic": [
+      "Platform"
+    ],
+    "departments_raw": [
+      "Platform"
+    ],
+    "executive_report_to": "EXEC-CTO",
+    "lens_keys": [
+      "slo",
+      "observability"
+    ],
+    "notes": "Auto-generated baseline; enrich further.",
+    "is_new": true,
+    "active": true,
+    "ttl_months": 12,
+    "last_reviewed_myt": "2025-10-12 11:30:37 +08+0800",
+    "source_count": 0,
+    "reliability_weight_avg": 3.5,
+    "needs_review": true,
+    "confidence_pct": 85,
+    "is_executive": false,
+    "executive_role": "",
+    "is_cofounder": false,
+    "cofounder_primary": false,
+    "sort_order": 1074
+  }
+]

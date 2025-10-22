@@ -1,0 +1,9 @@
+# EN: BM/EN localization rules; BM: Peraturan dwibahasa BM/EN.
+languages: ["bm","en"]
+date_time:
+  timezone: Asia/Kuala_Lumpur
+  display_format: "YYYY-MM-DD HH:mm (Asia/Kuala_Lumpur)"
+glossary:
+  - term: "Kaa-Ching"
+    bm: "Kaa-Ching"
+    en: "Kaa-Ching"

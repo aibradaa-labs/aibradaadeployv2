@@ -1,0 +1,51 @@
+{
+  "top35": {
+    "candidate": "ai_pod/data/laptops/top35.cache.json",
+    "counts": {
+      "totalItems": 22,
+      "price_min": 3500,
+      "price_max": 6999,
+      "count_in_range_3500_7000": 22,
+      "count_lte_4500": 4
+    },
+    "why": "Meets all acceptance thresholds (>=10 items total, >=6 items in RM3500-7000 window, >=2 items <=RM4500) and already structured for AI POD runtime."
+  },
+  "fallback": {
+    "candidate_or_concat_plan": [
+      "GENERATE ai_pod/data/laptops/fallback.laptops.jsonl from data/fallbackLaptops.json",
+      "OPTIONAL: append supplemental rows from ai_pod/data/laptops/explorer.top10.gaming.json"
+    ],
+    "counts": {
+      "source_totalItems": 73,
+      "price_min": 3599,
+      "price_max": 6999,
+      "count_in_range_3500_7000": 73,
+      "count_lte_4500": 10
+    },
+    "why": "No JSONL exists in repo; the richest fallback data lives in data/fallbackLaptops.json (73 rows) and covers the full acceptance window. Converting to JSONL preserves schema compatibility and PDPA posture."
+  },
+  "alternatives": [
+    {
+      "path": "data/laptops.json",
+      "counts": {
+        "totalItems": 12,
+        "price_min": 5399,
+        "price_max": 6999,
+        "count_in_range_3500_7000": 12,
+        "count_lte_4500": 0
+      },
+      "notes": "Solid schema but lacks sub-RM4500 coverage; useful as secondary blend once lower-price entries added."
+    },
+    {
+      "path": "ai_pod/data/laptops/explorer.top10.gaming.json",
+      "counts": {
+        "totalItems": 5,
+        "price_min": 5399,
+        "price_max": 6999,
+        "count_in_range_3500_7000": 5,
+        "count_lte_4500": 0
+      },
+      "notes": "Gaming-focused slice; insufficient volume for canonical feeds but good for supplementary explorer cards."
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "Total": 76,
+  "ByDir": [
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\types",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\types",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\simulation",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\metrics",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\graph",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\core",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\insights",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data",
+      "Count": 3
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\data\\laptops",
+      "Count": 2
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\workbox-recipes\\node_modules\\workbox-cacheable-response",
+      "Count": 2
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\workbox-cacheable-response",
+      "Count": 2
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\data\\laptops",
+      "Count": 2
+    },
+    {
+      "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\workbox-build\\node_modules\\workbox-cacheable-response",
+      "Count": 2
+    }
+  ],
+  "ByExt": {
+    "Name": ".json",
+    "Count": 76
+  },
+  "Sample": [
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\data\\intel\\tech_signals.json",
+      "Length": 1020,
+      "LastWriteTime": "2025-10-13T03:35:24.7575621+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\data\\laptops\\explorer.top10.gaming.json",
+      "Length": 1371,
+      "LastWriteTime": "2025-10-12T18:44:14.0500146+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\data\\laptops\\top35.cache.json",
+      "Length": 6500,
+      "LastWriteTime": "2025-10-12T18:32:07.5828158+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\tokens\\laptops.tokens.json",
+      "Length": 154,
+      "LastWriteTime": "2025-10-12T18:08:00.0827915+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data\\fallbackLaptops.json",
+      "Length": 74979,
+      "LastWriteTime": "2025-10-12T17:24:41.9991593+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data\\laptops.json",
+      "Length": 15572,
+      "LastWriteTime": "2025-10-11T16:47:28.9783246+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data\\laptops.schema.json",
+      "Length": 278,
+      "LastWriteTime": "2025-10-09T11:27:23.0374348+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\data\\intel\\tech_signals.json",
+      "Length": 1020,
+      "LastWriteTime": "2025-10-13T03:35:24.7575621+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\data\\laptops\\explorer.top10.gaming.json",
+      "Length": 1371,
+      "LastWriteTime": "2025-10-12T18:44:14.0500146+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\data\\laptops\\top35.cache.json",
+      "Length": 6500,
+      "LastWriteTime": "2025-10-12T18:32:07.5828158+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\tokens\\laptops.tokens.json",
+      "Length": 154,
+      "LastWriteTime": "2025-10-12T18:08:00.0827915+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data\\fallbackLaptops.json",
+      "Length": 74979,
+      "LastWriteTime": "2025-10-12T17:24:41.9991593+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data\\laptops.json",
+      "Length": 15572,
+      "LastWriteTime": "2025-10-11T16:47:28.9783246+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data\\laptops.schema.json",
+      "Length": 278,
+      "LastWriteTime": "2025-10-09T11:27:23.0374348+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@emotion\\cache\\package.json",
+      "Length": 3563,
+      "LastWriteTime": "2025-10-14T21:11:30.8726105+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile\\bundle-tsconfig.json",
+      "Length": 252,
+      "LastWriteTime": "2025-10-14T21:11:36.3812579+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile\\cpu_profile-tsconfig.json",
+      "Length": 1407,
+      "LastWriteTime": "2025-10-14T21:11:36.5914995+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+      "Length": 1201,
+      "LastWriteTime": "2025-10-14T21:11:36.7110915+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras\\bundle-tsconfig.json",
+      "Length": 250,
+      "LastWriteTime": "2025-10-14T21:11:36.4020754+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+      "Length": 1208,
+      "LastWriteTime": "2025-10-14T21:11:36.733463+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras\\extras-tsconfig.json",
+      "Length": 1918,
+      "LastWriteTime": "2025-10-14T21:11:37.0530809+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers\\bundle-tsconfig.json",
+      "Length": 258,
+      "LastWriteTime": "2025-10-14T21:11:36.4097784+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+      "Length": 1216,
+      "LastWriteTime": "2025-10-14T21:11:36.7426709+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers\\handlers-tsconfig.json",
+      "Length": 4218,
+      "LastWriteTime": "2025-10-14T21:11:37.2152554+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers\\bundle-tsconfig.json",
+      "Length": 254,
+      "LastWriteTime": "2025-10-14T21:11:36.4187437+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+      "Length": 1212,
+      "LastWriteTime": "2025-10-14T21:11:36.7529565+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers\\helpers-tsconfig.json",
+      "Length": 1998,
+      "LastWriteTime": "2025-10-14T21:11:37.2496688+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\insights\\bundle-tsconfig.json",
+      "Length": 258,
+      "LastWriteTime": "2025-10-14T21:11:36.431403+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\insights\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+      "Length": 1216,
+      "LastWriteTime": "2025-10-14T21:11:36.7629882+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\insights\\insights-tsconfig.json",
+      "Length": 3081,
+      "LastWriteTime": "2025-10-14T21:11:37.3689608+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\core\\bundle-tsconfig.json",
+      "Length": 264,
+      "LastWriteTime": "2025-10-14T21:11:36.4514116+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\core\\core-tsconfig.json",
+      "Length": 1301,
+      "LastWriteTime": "2025-10-14T21:11:36.5801499+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\core\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+      "Length": 1231,
+      "LastWriteTime": "2025-10-14T21:11:36.7717683+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\graph\\bundle-tsconfig.json",
+      "Length": 268,
+      "LastWriteTime": "2025-10-14T21:11:36.4608874+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\graph\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+      "Length": 1235,
+      "LastWriteTime": "2025-10-14T21:11:36.7898811+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\graph\\graph-tsconfig.json",
+      "Length": 1525,
+      "LastWriteTime": "2025-10-14T21:11:37.1729404+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\metrics\\bundle-tsconfig.json",
+      "Length": 276,
+      "LastWriteTime": "2025-10-14T21:11:36.4710541+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\metrics\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+      "Length": 1243,
+      "LastWriteTime": "2025-10-14T21:11:36.8016731+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\metrics\\metrics-tsconfig.json",
+      "Length": 2020,
+      "LastWriteTime": "2025-10-14T21:11:37.7610764+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\simulation\\bundle-tsconfig.json",
+      "Length": 288,
+      "LastWriteTime": "2025-10-14T21:11:36.4785428+08:00"
+    }
+  ]
+}

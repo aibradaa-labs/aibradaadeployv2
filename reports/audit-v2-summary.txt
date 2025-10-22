@@ -1,0 +1,35 @@
+=== DEEP AUDIT V2 SUMMARY ===
+Timestamp: 2025-10-19 12:04:39
+Git Root: C:/Users/syedu/OneDrive/Desktop/ai-bradaa-pwa-latest
+Branch: chore/orchestrator-hardening
+
+=== KEY FINDINGS ===
+1. Git Status:
+   - Branch: chore/orchestrator-hardening
+   - Untracked: Microsoft.PowerShell.Commands.GenericMeasureInfo.Count files
+
+2. Data Files:
+   - top35.cache.json: FOUND (1 items)
+   - fallback.laptops.jsonl: MISSING
+   - Price Range: N/A
+   - In Range (3500-7000 MYR): 0 items
+   - Under 4500 MYR: 1 items
+
+3. DOM Hooks:
+      - data-explore-top10: MISSING    - data-intel: MISSING    - data-appendices: MISSING    - data-soul: MISSING    - data-explore: MISSING
+
+4. Netlify Functions:
+      - ai.js (2.52 KB)    - ai.js.map (5.05 KB)    - beacon.js (0.05 KB)    - beacon.js.map (0.17 KB)    - laptops.js (14.7 KB)    - laptops.js.map (23.72 KB)    - websearch.js (1.25 KB)    - websearch.js.map (2.53 KB)    - ai.js (2.77 KB)    - beacon.js (0 KB)    - gemini.js (1.02 KB)    - laptops-refresh.js (0.51 KB)    - laptops.js (2.76 KB)    - websearch.js (1.27 KB)
+   Function endpoint error: The request was canceled due to the configured HttpClient.Timeout of 3 seconds elapsing.
+
+=== REPORT FILES ===
+- Git: reports/git.*.txt
+- Datasets: reports/datasets.inventory.v2.json
+- DOM Hooks: reports/index.dom-hooks.matrix.json
+- Functions: reports/functions.scan.txt
+- Emoji/Fonts: reports/emoji_fonts.scan.v2.txt
+
+=== NEXT STEPS ===
+1. Review missing DOM hooks in index.html
+2. Check data validation in datasets.canonical.check.json
+3. Verify Netlify function deployment

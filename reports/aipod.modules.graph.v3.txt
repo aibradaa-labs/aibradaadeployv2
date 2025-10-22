@@ -1,0 +1,13 @@
+public/js/startup.js
+ -> public/js/ai-pod-loader.js
+    -> public/js/aipod/runtime-lite.js
+    -> public/js/aipod/tools-wire.js
+    -> public/js/aipod/intel-cards.js
+    -> public/js/aipod/provider.js
+
+public/js/aipod directory listing (Name | Length)
+intel-cards.js | 5414
+loader.js | 219
+provider.js | 2716
+runtime-lite.js | 7623
+tools-wire.js | 8099

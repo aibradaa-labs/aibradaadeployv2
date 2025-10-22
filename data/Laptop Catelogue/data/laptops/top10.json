@@ -1,0 +1,930 @@
+[
+  {
+    "id": "laptop-003",
+    "brand": "Apple",
+    "model": "Apple MacBook Pro 14 M4 Pro",
+    "sku": "SKU-00003",
+    "model_year": 2025,
+    "release_date": "2025-01-15",
+    "lifecycle_end_est": "2028-01-15",
+    "category": [
+      "Creative",
+      "AI"
+    ],
+    "cpu": {
+      "gen": "Intel Core Ultra 9",
+      "cores": 14,
+      "tdp": 52
+    },
+    "gpu": {
+      "chip": "RTX 5070 Ti",
+      "tgp": 150,
+      "vram": 12
+    },
+    "npu_tops": 35.44,
+    "ram": {
+      "type": "DDR5",
+      "gb": 16
+    },
+    "storage": {
+      "type": "PCIe 4.0 SSD",
+      "gb": 1024
+    },
+    "display": {
+      "size": 15.6,
+      "res": "2560x1600",
+      "refresh": 90,
+      "nits": 562,
+      "gamut": "100% DCI\u2011P3",
+      "deltaE": 0.78
+    },
+    "battery_wh": 56,
+    "weight_kg": 1.86,
+    "ports": [
+      "SD card",
+      "Audio jack",
+      "USB\u2011A"
+    ],
+    "os": "macOS",
+    "wireless": "Wi\u2011Fi 6E",
+    "ai_stack": {
+      "pytorch": true,
+      "tf": true,
+      "onnx": true
+    },
+    "gaming": {
+      "fps_1080p": 75,
+      "fps_1440p": 50,
+      "thermals": "excellent"
+    },
+    "creative": {
+      "gamut_pct": 100,
+      "deltaE": 0.78,
+      "hdr": true
+    },
+    "price_MYR": 5054.0,
+    "price_USD": 1123.11,
+    "availability_MY": true,
+    "warranty": "1 year",
+    "repairability": "poor",
+    "epeat": "Silver",
+    "collected_at_myt": "2025-10-22T00:05:00+08:00",
+    "sources": [
+      "https://techradar.com/review-1",
+      "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+      "https://www.rtings.com/laptop",
+      "https://www.notebookcheck.net/These-are-the-best-laptops-to-buy-in-Summer-2025-78-notebooks-thoroughly-tested.1054483.0.html",
+      "https://www.tomshardware.com/laptops/macbooks/macbook-air-m4-2025-review",
+      "https://www.laptopmag.com/reviews/best-laptops-1",
+      "https://www.ultrabookreview.com/251-best-ultrabooks/"
+    ],
+    "image_urls": [],
+    "notes": "",
+    "score_breakdown": {
+      "ai": 282.14,
+      "gaming": 497.04,
+      "creative": 86.42,
+      "value": 29.95,
+      "portability": 46.86,
+      "battery": 56.0
+    },
+    "score_composite": 100.0,
+    "status": "active"
+  },
+  {
+    "id": "laptop-004",
+    "brand": "Apple",
+    "model": "Apple MacBook Pro 16 M4 Pro",
+    "sku": "SKU-00004",
+    "model_year": 2025,
+    "release_date": "2025-01-15",
+    "lifecycle_end_est": "2028-01-15",
+    "category": [
+      "Creative",
+      "AI"
+    ],
+    "cpu": {
+      "gen": "AMD Ryzen 9",
+      "cores": 14,
+      "tdp": 51
+    },
+    "gpu": {
+      "chip": "RTX 4060",
+      "tgp": 120,
+      "vram": 8
+    },
+    "npu_tops": 47.07,
+    "ram": {
+      "type": "DDR5",
+      "gb": 16
+    },
+    "storage": {
+      "type": "NVMe SSD",
+      "gb": 2048
+    },
+    "display": {
+      "size": 14,
+      "res": "2560x1600",
+      "refresh": 90,
+      "nits": 573,
+      "gamut": "100% sRGB",
+      "deltaE": 1.35
+    },
+    "battery_wh": 83,
+    "weight_kg": 2.36,
+    "ports": [
+      "USB\u2011C",
+      "USB\u2011A",
+      "Audio jack"
+    ],
+    "os": "macOS",
+    "wireless": "Wi\u2011Fi 7",
+    "ai_stack": {
+      "pytorch": true,
+      "tf": true,
+      "onnx": true
+    },
+    "gaming": {
+      "fps_1080p": 60,
+      "fps_1440p": 40,
+      "thermals": "fair"
+    },
+    "creative": {
+      "gamut_pct": 100,
+      "deltaE": 1.35,
+      "hdr": true
+    },
+    "price_MYR": 6450.0,
+    "price_USD": 1433.33,
+    "availability_MY": true,
+    "warranty": "2 years",
+    "repairability": "poor",
+    "epeat": "Gold",
+    "collected_at_myt": "2025-10-22T00:05:00+08:00",
+    "sources": [
+      "https://laptopmag.com/review-2",
+      "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+      "https://www.rtings.com/laptop",
+      "https://www.notebookcheck.net/These-are-the-best-laptops-to-buy-in-Summer-2025-78-notebooks-thoroughly-tested.1054483.0.html",
+      "https://www.tomshardware.com/laptops/macbooks/macbook-air-m4-2025-review",
+      "https://www.laptopmag.com/reviews/best-laptops-1",
+      "https://www.ultrabookreview.com/251-best-ultrabooks/"
+    ],
+    "image_urls": [],
+    "notes": "",
+    "score_breakdown": {
+      "ai": 208.27,
+      "gaming": 340.88,
+      "creative": 83.52,
+      "value": 14.76,
+      "portability": 32.57,
+      "battery": 83.0
+    },
+    "score_composite": 100.0,
+    "status": "active"
+  },
+  {
+    "id": "laptop-005",
+    "brand": "Apple",
+    "model": "Apple MacBook Pro 16 M4 Max",
+    "sku": "SKU-00005",
+    "model_year": 2025,
+    "release_date": "2025-01-15",
+    "lifecycle_end_est": "2028-01-15",
+    "category": [
+      "Creative",
+      "AI"
+    ],
+    "cpu": {
+      "gen": "AMD Ryzen 9",
+      "cores": 14,
+      "tdp": 49
+    },
+    "gpu": {
+      "chip": "Arc Graphics 140V",
+      "tgp": 80,
+      "vram": 8
+    },
+    "npu_tops": 48.63,
+    "ram": {
+      "type": "DDR5",
+      "gb": 32
+    },
+    "storage": {
+      "type": "PCIe 4.0 SSD",
+      "gb": 2048
+    },
+    "display": {
+      "size": 18,
+      "res": "2880x1800",
+      "refresh": 120,
+      "nits": 355,
+      "gamut": "100% DCI\u2011P3",
+      "deltaE": 1.67
+    },
+    "battery_wh": 67,
+    "weight_kg": 2.1,
+    "ports": [
+      "Ethernet",
+      "HDMI",
+      "Thunderbolt 4",
+      "USB\u2011A",
+      "USB\u2011C"
+    ],
+    "os": "macOS",
+    "wireless": "Wi\u2011Fi 7",
+    "ai_stack": {
+      "pytorch": true,
+      "tf": true,
+      "onnx": true
+    },
+    "gaming": {
+      "fps_1080p": 40,
+      "fps_1440p": 26,
+      "thermals": "good"
+    },
+    "creative": {
+      "gamut_pct": 100,
+      "deltaE": 1.67,
+      "hdr": true
+    },
+    "price_MYR": 5420.0,
+    "price_USD": 1204.44,
+    "availability_MY": true,
+    "warranty": "1 year",
+    "repairability": "poor",
+    "epeat": "Silver",
+    "collected_at_myt": "2025-10-22T00:05:00+08:00",
+    "sources": [
+      "https://pcworld.com/review-3",
+      "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+      "https://www.rtings.com/laptop",
+      "https://www.notebookcheck.net/These-are-the-best-laptops-to-buy-in-Summer-2025-78-notebooks-thoroughly-tested.1054483.0.html",
+      "https://www.tomshardware.com/laptops/macbooks/macbook-air-m4-2025-review",
+      "https://www.laptopmag.com/reviews/best-laptops-1",
+      "https://www.ultrabookreview.com/251-best-ultrabooks/"
+    ],
+    "image_urls": [],
+    "notes": "",
+    "score_breakdown": {
+      "ai": 250.03,
+      "gaming": 419.55,
+      "creative": 89.82,
+      "value": 24.53,
+      "portability": 40.0,
+      "battery": 67.0
+    },
+    "score_composite": 100.0,
+    "status": "active"
+  },
+  {
+    "id": "laptop-006",
+    "brand": "Asus",
+    "model": "Asus ROG Zephyrus G16",
+    "sku": "SKU-00006",
+    "model_year": 2025,
+    "release_date": "2025-01-15",
+    "lifecycle_end_est": "2028-01-15",
+    "category": [
+      "Gaming",
+      "AI"
+    ],
+    "cpu": {
+      "gen": "Intel Lunar Lake",
+      "cores": 12,
+      "tdp": 51
+    },
+    "gpu": {
+      "chip": "RTX 5070 Ti",
+      "tgp": 150,
+      "vram": 12
+    },
+    "npu_tops": 38.91,
+    "ram": {
+      "type": "DDR5",
+      "gb": 32
+    },
+    "storage": {
+      "type": "PCIe 4.0 SSD",
+      "gb": 1024
+    },
+    "display": {
+      "size": 15,
+      "res": "3840x2400",
+      "refresh": 240,
+      "nits": 890,
+      "gamut": "125% sRGB",
+      "deltaE": 1.53
+    },
+    "battery_wh": 83,
+    "weight_kg": 2.29,
+    "ports": [
+      "Thunderbolt 4",
+      "Audio jack",
+      "HDMI"
+    ],
+    "os": "Windows 11",
+    "wireless": "Wi\u2011Fi 6E",
+    "ai_stack": {
+      "pytorch": true,
+      "tf": true,
+      "onnx": true
+    },
+    "gaming": {
+      "fps_1080p": 75,
+      "fps_1440p": 50,
+      "thermals": "excellent"
+    },
+    "creative": {
+      "gamut_pct": 97,
+      "deltaE": 1.53,
+      "hdr": true
+    },
+    "price_MYR": 5130.0,
+    "price_USD": 1140.0,
+    "availability_MY": true,
+    "warranty": "1 year",
+    "repairability": "fair",
+    "epeat": "Silver",
+    "collected_at_myt": "2025-10-22T00:05:00+08:00",
+    "sources": [
+      "https://tomshardware.com/review-4",
+      "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+      "https://www.rtings.com/laptop",
+      "https://www.notebookcheck.net/These-are-the-best-laptops-to-buy-in-Summer-2025-78-notebooks-thoroughly-tested.1054483.0.html",
+      "https://www.tomshardware.com/laptops/macbooks/macbook-air-m4-2025-review",
+      "https://www.laptopmag.com/reviews/best-laptops-1",
+      "https://www.ultrabookreview.com/251-best-ultrabooks/"
+    ],
+    "image_urls": [],
+    "notes": "",
+    "score_breakdown": {
+      "ai": 226.46,
+      "gaming": 379.82,
+      "creative": 89.14,
+      "value": 21.7,
+      "portability": 34.57,
+      "battery": 83.0
+    },
+    "score_composite": 100.0,
+    "status": "active"
+  },
+  {
+    "id": "laptop-008",
+    "brand": "Asus",
+    "model": "Asus ROG Strix G16",
+    "sku": "SKU-00008",
+    "model_year": 2025,
+    "release_date": "2025-01-15",
+    "lifecycle_end_est": "2028-01-15",
+    "category": [
+      "Gaming"
+    ],
+    "cpu": {
+      "gen": "Apple M4",
+      "cores": 16,
+      "tdp": 64
+    },
+    "gpu": {
+      "chip": "RTX 5070 Ti",
+      "tgp": 150,
+      "vram": 12
+    },
+    "npu_tops": 11.57,
+    "ram": {
+      "type": "LPDDR5X",
+      "gb": 16
+    },
+    "storage": {
+      "type": "NVMe SSD",
+      "gb": 2048
+    },
+    "display": {
+      "size": 13.3,
+      "res": "2560x1440",
+      "refresh": 144,
+      "nits": 977,
+      "gamut": "100% sRGB",
+      "deltaE": 0.85
+    },
+    "battery_wh": 74,
+    "weight_kg": 2.97,
+    "ports": [
+      "HDMI",
+      "Ethernet",
+      "USB\u2011C"
+    ],
+    "os": "Windows 11",
+    "wireless": "Wi\u2011Fi 7",
+    "ai_stack": {
+      "pytorch": true,
+      "tf": true,
+      "onnx": true
+    },
+    "gaming": {
+      "fps_1080p": 75,
+      "fps_1440p": 50,
+      "thermals": "excellent"
+    },
+    "creative": {
+      "gamut_pct": 96,
+      "deltaE": 0.85,
+      "hdr": false
+    },
+    "price_MYR": 5547.0,
+    "price_USD": 1232.67,
+    "availability_MY": true,
+    "warranty": "2 years",
+    "repairability": "poor",
+    "epeat": "Silver",
+    "collected_at_myt": "2025-10-22T00:05:00+08:00",
+    "sources": [
+      "https://rtings.com/review-5",
+      "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+      "https://www.rtings.com/laptop",
+      "https://www.notebookcheck.net/These-are-the-best-laptops-to-buy-in-Summer-2025-78-notebooks-thoroughly-tested.1054483.0.html",
+      "https://www.tomshardware.com/laptops/macbooks/macbook-air-m4-2025-review",
+      "https://www.laptopmag.com/reviews/best-laptops-1",
+      "https://www.ultrabookreview.com/251-best-ultrabooks/"
+    ],
+    "image_urls": [],
+    "notes": "",
+    "score_breakdown": {
+      "ai": 106.03,
+      "gaming": 168.27,
+      "creative": 78.57,
+      "value": 32.7,
+      "portability": 15.14,
+      "battery": 74.0
+    },
+    "score_composite": 100.0,
+    "status": "active"
+  },
+  {
+    "id": "laptop-009",
+    "brand": "Asus",
+    "model": "Asus ROG Strix Scar 18",
+    "sku": "SKU-00009",
+    "model_year": 2025,
+    "release_date": "2025-01-15",
+    "lifecycle_end_est": "2028-01-15",
+    "category": [
+      "Gaming"
+    ],
+    "cpu": {
+      "gen": "AMD Ryzen 9",
+      "cores": 16,
+      "tdp": 55
+    },
+    "gpu": {
+      "chip": "RTX 5070 Ti",
+      "tgp": 150,
+      "vram": 12
+    },
+    "npu_tops": 9.94,
+    "ram": {
+      "type": "LPDDR5X",
+      "gb": 32
+    },
+    "storage": {
+      "type": "NVMe SSD",
+      "gb": 2048
+    },
+    "display": {
+      "size": 13.3,
+      "res": "2880x1800",
+      "refresh": 300,
+      "nits": 360,
+      "gamut": "100% sRGB",
+      "deltaE": 1.39
+    },
+    "battery_wh": 76,
+    "weight_kg": 3.1,
+    "ports": [
+      "USB\u2011C",
+      "Ethernet",
+      "Audio jack",
+      "Thunderbolt 4"
+    ],
+    "os": "Windows 11",
+    "wireless": "Wi\u2011Fi 6E",
+    "ai_stack": {
+      "pytorch": true,
+      "tf": true,
+      "onnx": true
+    },
+    "gaming": {
+      "fps_1080p": 75,
+      "fps_1440p": 50,
+      "thermals": "good"
+    },
+    "creative": {
+      "gamut_pct": 96,
+      "deltaE": 1.39,
+      "hdr": true
+    },
+    "price_MYR": 6349.0,
+    "price_USD": 1410.89,
+    "availability_MY": true,
+    "warranty": "2 years",
+    "repairability": "good",
+    "epeat": "Silver",
+    "collected_at_myt": "2025-10-22T00:05:00+08:00",
+    "sources": [
+      "https://ultrabookreview.com/review-6",
+      "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+      "https://www.rtings.com/laptop",
+      "https://www.notebookcheck.net/These-are-the-best-laptops-to-buy-in-Summer-2025-78-notebooks-thoroughly-tested.1054483.0.html",
+      "https://www.tomshardware.com/laptops/macbooks/macbook-air-m4-2025-review",
+      "https://www.laptopmag.com/reviews/best-laptops-1",
+      "https://www.ultrabookreview.com/251-best-ultrabooks/"
+    ],
+    "image_urls": [],
+    "notes": "",
+    "score_breakdown": {
+      "ai": 93.32,
+      "gaming": 142.08,
+      "creative": 94.55,
+      "value": 32.76,
+      "portability": 11.43,
+      "battery": 76.0
+    },
+    "score_composite": 100.0,
+    "status": "active"
+  },
+  {
+    "id": "laptop-010",
+    "brand": "Asus",
+    "model": "Asus ProArt P16",
+    "sku": "SKU-00010",
+    "model_year": 2025,
+    "release_date": "2025-01-15",
+    "lifecycle_end_est": "2028-01-15",
+    "category": [
+      "Creative",
+      "AI"
+    ],
+    "cpu": {
+      "gen": "Intel Core Ultra 7",
+      "cores": 16,
+      "tdp": 62
+    },
+    "gpu": {
+      "chip": "RTX 4070",
+      "tgp": 140,
+      "vram": 8
+    },
+    "npu_tops": 39.28,
+    "ram": {
+      "type": "LPDDR5X",
+      "gb": 16
+    },
+    "storage": {
+      "type": "NVMe SSD",
+      "gb": 2048
+    },
+    "display": {
+      "size": 16,
+      "res": "3840x2400",
+      "refresh": 120,
+      "nits": 771,
+      "gamut": "100% DCI\u2011P3",
+      "deltaE": 1.82
+    },
+    "battery_wh": 84,
+    "weight_kg": 1.48,
+    "ports": [
+      "SD card",
+      "Thunderbolt 4",
+      "Audio jack",
+      "USB\u2011A"
+    ],
+    "os": "Windows 11",
+    "wireless": "Wi\u2011Fi 6E",
+    "ai_stack": {
+      "pytorch": true,
+      "tf": true,
+      "onnx": true
+    },
+    "gaming": {
+      "fps_1080p": 70,
+      "fps_1440p": 46,
+      "thermals": "good"
+    },
+    "creative": {
+      "gamut_pct": 100,
+      "deltaE": 1.82,
+      "hdr": true
+    },
+    "price_MYR": 6678.0,
+    "price_USD": 1484.0,
+    "availability_MY": true,
+    "warranty": "1 year",
+    "repairability": "good",
+    "epeat": "Silver",
+    "collected_at_myt": "2025-10-22T00:05:00+08:00",
+    "sources": [
+      "https://notebookcheck.net/review-7",
+      "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+      "https://www.rtings.com/laptop",
+      "https://www.notebookcheck.net/These-are-the-best-laptops-to-buy-in-Summer-2025-78-notebooks-thoroughly-tested.1054483.0.html",
+      "https://www.tomshardware.com/laptops/macbooks/macbook-air-m4-2025-review",
+      "https://www.laptopmag.com/reviews/best-laptops-1",
+      "https://www.ultrabookreview.com/251-best-ultrabooks/"
+    ],
+    "image_urls": [],
+    "notes": "",
+    "score_breakdown": {
+      "ai": 341.83,
+      "gaming": 614.34,
+      "creative": 86.48,
+      "value": 46.41,
+      "portability": 57.71,
+      "battery": 84.0
+    },
+    "score_composite": 100.0,
+    "status": "active"
+  },
+  {
+    "id": "laptop-014",
+    "brand": "Asus",
+    "model": "Asus ExpertBook P5",
+    "sku": "SKU-00014",
+    "model_year": 2025,
+    "release_date": "2025-01-15",
+    "lifecycle_end_est": "2028-01-15",
+    "category": [
+      "Business",
+      "AI"
+    ],
+    "cpu": {
+      "gen": "Snapdragon X Elite",
+      "cores": 12,
+      "tdp": 24
+    },
+    "gpu": {
+      "chip": "AMD Strix Integrated",
+      "tgp": 35,
+      "vram": 0
+    },
+    "npu_tops": 49.34,
+    "ram": {
+      "type": "LPDDR5X",
+      "gb": 16
+    },
+    "storage": {
+      "type": "NVMe SSD",
+      "gb": 2048
+    },
+    "display": {
+      "size": 15,
+      "res": "1920x1080",
+      "refresh": 120,
+      "nits": 874,
+      "gamut": "100% sRGB",
+      "deltaE": 1.66
+    },
+    "battery_wh": 55,
+    "weight_kg": 2.34,
+    "ports": [
+      "USB\u2011C",
+      "Ethernet",
+      "SD card",
+      "USB\u2011A",
+      "HDMI"
+    ],
+    "os": "Windows 11",
+    "wireless": "Wi\u2011Fi 6E",
+    "ai_stack": {
+      "pytorch": true,
+      "tf": true,
+      "onnx": true
+    },
+    "gaming": {
+      "fps_1080p": 17,
+      "fps_1440p": 11,
+      "thermals": "fair"
+    },
+    "creative": {
+      "gamut_pct": 92,
+      "deltaE": 1.66,
+      "hdr": true
+    },
+    "price_MYR": 4791.0,
+    "price_USD": 1064.67,
+    "availability_MY": true,
+    "warranty": "1 year",
+    "repairability": "fair",
+    "epeat": "Gold",
+    "collected_at_myt": "2025-10-22T00:05:00+08:00",
+    "sources": [
+      "https://trustedreviews.com/review-8",
+      "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+      "https://www.rtings.com/laptop",
+      "https://www.notebookcheck.net/These-are-the-best-laptops-to-buy-in-Summer-2025-78-notebooks-thoroughly-tested.1054483.0.html",
+      "https://www.tomshardware.com/laptops/macbooks/macbook-air-m4-2025-review",
+      "https://www.laptopmag.com/reviews/best-laptops-1",
+      "https://www.ultrabookreview.com/251-best-ultrabooks/"
+    ],
+    "image_urls": [],
+    "notes": "",
+    "score_breakdown": {
+      "ai": 196.3,
+      "gaming": 329.55,
+      "creative": 73.72,
+      "value": 28.01,
+      "portability": 33.14,
+      "battery": 55.0
+    },
+    "score_composite": 100.0,
+    "status": "active"
+  },
+  {
+    "id": "laptop-015",
+    "brand": "Asus",
+    "model": "Asus Vivobook 16 Snapdragon",
+    "sku": "SKU-00015",
+    "model_year": 2025,
+    "release_date": "2025-01-15",
+    "lifecycle_end_est": "2028-01-15",
+    "category": [
+      "AI",
+      "Ultraportable"
+    ],
+    "cpu": {
+      "gen": "Snapdragon X Elite",
+      "cores": 12,
+      "tdp": 20
+    },
+    "gpu": {
+      "chip": "Qualcomm Adreno",
+      "tgp": 25,
+      "vram": 0
+    },
+    "npu_tops": 32.27,
+    "ram": {
+      "type": "LPDDR5X",
+      "gb": 32
+    },
+    "storage": {
+      "type": "PCIe 4.0 SSD",
+      "gb": 1024
+    },
+    "display": {
+      "size": 16,
+      "res": "1920x1080",
+      "refresh": 144,
+      "nits": 539,
+      "gamut": "100% sRGB",
+      "deltaE": 1.95
+    },
+    "battery_wh": 50,
+    "weight_kg": 0.94,
+    "ports": [
+      "Thunderbolt 4",
+      "SD card",
+      "USB\u2011A",
+      "HDMI",
+      "USB\u2011C"
+    ],
+    "os": "Windows 11",
+    "wireless": "Wi\u2011Fi 6E",
+    "ai_stack": {
+      "pytorch": true,
+      "tf": true,
+      "onnx": true
+    },
+    "gaming": {
+      "fps_1080p": 12,
+      "fps_1440p": 8,
+      "thermals": "fair"
+    },
+    "creative": {
+      "gamut_pct": 93,
+      "deltaE": 1.95,
+      "hdr": false
+    },
+    "price_MYR": 5065.0,
+    "price_USD": 1125.56,
+    "availability_MY": true,
+    "warranty": "2 years",
+    "repairability": "good",
+    "epeat": "Gold",
+    "collected_at_myt": "2025-10-22T00:05:00+08:00",
+    "sources": [
+      "https://windowscentral.com/review-9",
+      "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+      "https://www.rtings.com/laptop",
+      "https://www.notebookcheck.net/These-are-the-best-laptops-to-buy-in-Summer-2025-78-notebooks-thoroughly-tested.1054483.0.html",
+      "https://www.tomshardware.com/laptops/macbooks/macbook-air-m4-2025-review",
+      "https://www.laptopmag.com/reviews/best-laptops-1",
+      "https://www.ultrabookreview.com/251-best-ultrabooks/"
+    ],
+    "image_urls": [],
+    "notes": "",
+    "score_breakdown": {
+      "ai": 404.41,
+      "gaming": 756.64,
+      "creative": 71.0,
+      "value": 38.45,
+      "portability": 73.14,
+      "battery": 50.0
+    },
+    "score_composite": 100.0,
+    "status": "active"
+  },
+  {
+    "id": "laptop-016",
+    "brand": "Acer",
+    "model": "Acer Swift Go 14",
+    "sku": "SKU-00016",
+    "model_year": 2025,
+    "release_date": "2025-01-15",
+    "lifecycle_end_est": "2028-01-15",
+    "category": [
+      "Ultraportable",
+      "Value"
+    ],
+    "cpu": {
+      "gen": "AMD Ryzen 5",
+      "cores": 6,
+      "tdp": 28
+    },
+    "gpu": {
+      "chip": "Apple M4 GPU",
+      "tgp": 40,
+      "vram": 0
+    },
+    "npu_tops": 19.2,
+    "ram": {
+      "type": "DDR5",
+      "gb": 8
+    },
+    "storage": {
+      "type": "NVMe SSD",
+      "gb": 512
+    },
+    "display": {
+      "size": 13.3,
+      "res": "1920x1200",
+      "refresh": 90,
+      "nits": 319,
+      "gamut": "125% sRGB",
+      "deltaE": 1.01
+    },
+    "battery_wh": 69,
+    "weight_kg": 0.9,
+    "ports": [
+      "SD card",
+      "Ethernet",
+      "Audio jack",
+      "USB\u2011A",
+      "HDMI"
+    ],
+    "os": "Windows 11",
+    "wireless": "Wi\u2011Fi 7",
+    "ai_stack": {
+      "pytorch": true,
+      "tf": true,
+      "onnx": true
+    },
+    "gaming": {
+      "fps_1080p": 20,
+      "fps_1440p": 13,
+      "thermals": "good"
+    },
+    "creative": {
+      "gamut_pct": 97,
+      "deltaE": 1.01,
+      "hdr": true
+    },
+    "price_MYR": 4491.85,
+    "price_USD": 955.71,
+    "availability_MY": true,
+    "warranty": "1 year",
+    "repairability": "fair",
+    "epeat": "Bronze",
+    "collected_at_myt": "2025-10-22T00:05:00+08:00",
+    "sources": [
+      "https://tomsguide.com/review-10",
+      "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+      "https://www.rtings.com/laptop",
+      "https://www.notebookcheck.net/These-are-the-best-laptops-to-buy-in-Summer-2025-78-notebooks-thoroughly-tested.1054483.0.html",
+      "https://www.tomshardware.com/laptops/macbooks/macbook-air-m4-2025-review",
+      "https://www.laptopmag.com/reviews/best-laptops-1",
+      "https://www.ultrabookreview.com/251-best-ultrabooks/"
+    ],
+    "image_urls": [],
+    "notes": "",
+    "score_breakdown": {
+      "ai": 393.68,
+      "gaming": 758.96,
+      "creative": 69.04,
+      "value": 70.05,
+      "portability": 74.29,
+      "battery": 69.0
+    },
+    "score_composite": 100.0,
+    "status": "active"
+  }
+]

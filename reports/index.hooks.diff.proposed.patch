@@ -1,0 +1,23 @@
+--- a/public/index.html
++++ b/public/index.html
+@@
+-            <section id="explorer" class="card">
+-                <div class="card-content">
++            <section id="explorer" class="card" data-explore>
++                <div class="card-content" data-explore-top10>
+@@
+-            <section id="intelligence" class="card">
+-                <div class="card-content">
++            <section id="intelligence" class="card" data-intel>
++                <div class="card-content" data-intel>
+@@
+-            <section id="appendices" class="card">
+-                <div class="card-content">
++            <section id="appendices" class="card" data-appendices>
++                <div class="card-content" data-appendices>
+@@
+-        <div id="aipod-fab-popover" role="dialog" aria-label="AI Bradaa background tasks" aria-hidden="true">
++        <div id="aipod-fab-popover" role="dialog" aria-label="AI Bradaa background tasks" aria-hidden="true" data-soul>
+@@
+-        <div id="aipod-dock-indicator" aria-hidden="true" title="AI Bradaa is working"></div>
++        <div id="aipod-dock-indicator" aria-hidden="true" title="AI Bradaa is working" data-soul></div>

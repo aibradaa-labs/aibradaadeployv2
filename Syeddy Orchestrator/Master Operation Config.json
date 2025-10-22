@@ -1,0 +1,214 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "as_of_myt": "2025-10-12 11:30:37 +08+0800"
+  },
+  "departments": {
+    "Strategy": {
+      "reports_to": "EXEC-CHAIR",
+      "councils": [
+        "Strategy_Council"
+      ],
+      "mentors": [
+        "Warren Buffett",
+        "Charlie Munger",
+        "Michael Porter",
+        "Jeff Bezos",
+        "Naval Ravikant",
+        "Elon Musk",
+        "Rita McGrath",
+        "Clayton Christensen",
+        "Ben Thompson",
+        "Alan Cooper",
+        "Susan Weinschenk",
+        "Donella Meadows",
+        "W. Edwards Deming",
+        "John Doerr",
+        "Eric Ries",
+        "Steve Blank"
+      ]
+    },
+    "Platform": {
+      "reports_to": "EXEC-CTO",
+      "councils": [
+        "Platform_Council"
+      ],
+      "mentors": [
+        "Kent Beck",
+        "Gene Kim",
+        "Guido van Rossum",
+        "John Carmack",
+        "Charity Majors",
+        "Jez Humble",
+        "Nicole Forsgren",
+        "Jeff Dean",
+        "Chris Lattner",
+        "Ben Treynor Sloss"
+      ]
+    },
+    "Safety & Governance": {
+      "reports_to": "EXEC-CSGO",
+      "councils": [
+        "Safety_Council"
+      ],
+      "mentors": [
+        "Bruce Schneier",
+        "Max Schrems",
+        "Julie Brill",
+        "Cory Doctorow",
+        "Mufti Menk",
+        "Danielle Citron",
+        "Dario Amodei",
+        "Stuart Russell"
+      ]
+    },
+    "Legal & Compliance": {
+      "reports_to": "EXEC-CLCO",
+      "councils": [
+        "Legal_Council"
+      ],
+      "mentors": [
+        "Max Schrems",
+        "Julie Brill",
+        "Cory Doctorow",
+        "Muhammad Taqi Usmani",
+        "Danielle Citron"
+      ]
+    },
+    "Customer & Design": {
+      "reports_to": "EXEC-CCDPO",
+      "councils": [
+        "Customer_Council"
+      ],
+      "mentors": [
+        "Melanie Perkins",
+        "Marty Cagan",
+        "Don Norman",
+        "Paula Scher",
+        "Chris Do",
+        "Ann Handley",
+        "Jakob Nielsen",
+        "Jenny Lay-Flurrie"
+      ]
+    },
+    "Growth": {
+      "reports_to": "EXEC-CGO",
+      "councils": [
+        "Growth_Council"
+      ],
+      "mentors": [
+        "Brian Balfour",
+        "Seth Godin",
+        "Casey Neistat",
+        "Andrew Chen",
+        "Sean Ellis",
+        "Casey Winters",
+        "Neil Patel",
+        "Rory Sutherland"
+      ]
+    },
+    "Finance & IR": {
+      "reports_to": "EXEC-CFO",
+      "councils": [
+        "Finance_IR_Council"
+      ],
+      "mentors": [
+        "Warren Buffett",
+        "Mark Cuban",
+        "Aswath Damodaran",
+        "Muhammad Yunus",
+        "J.R. Storment",
+        "Mike Fuller"
+      ]
+    },
+    "Operations & Localization": {
+      "reports_to": "EXEC-CPOps",
+      "councils": [
+        "Ops_Council"
+      ],
+      "mentors": [
+        "Tim Cook",
+        "Tony Fernandes",
+        "Laszlo Bock",
+        "Patty McCord",
+        "Nadiem Makarim",
+        "Tan Hooi Ling"
+      ]
+    },
+    "AI POD": {
+      "reports_to": "EXEC-CAIO",
+      "councils": [
+        "AI_POD"
+      ],
+      "mentors": [
+        "Andrew Ng",
+        "Nate Silver",
+        "Monica Rogati",
+        "Geoffrey Hinton",
+        "Yoshua Bengio",
+        "Yann LeCun",
+        "Demis Hassabis",
+        "Andrej Karpathy",
+        "Sebastian Thrun",
+        "Fei-Fei Li",
+        "Teresa Torres",
+        "John Cutler"
+      ]
+    }
+  },
+  "executives": {
+    "count": 10,
+    "primary": "Warren Buffett",
+    "roles": [
+      "EXEC-CHAIR",
+      "EXEC-CTO",
+      "EXEC-CAIO",
+      "EXEC-CLCO",
+      "EXEC-CSGO",
+      "EXEC-CCDPO",
+      "EXEC-CSO",
+      "EXEC-CGO",
+      "EXEC-CFO",
+      "EXEC-CPOps"
+    ]
+  },
+  "weights": {
+    "strategy": {
+      "Strategy": 0.2,
+      "Finance & IR": 0.05,
+      "Safety & Governance": 0.05
+    },
+    "product_prfaq": {
+      "Customer & Design": 0.15,
+      "AI POD": 0.15,
+      "Growth": 0.1
+    },
+    "infra_slo": {
+      "Platform": 0.15,
+      "Operations & Localization": 0.15,
+      "AI POD": 0.05
+    },
+    "safety_release": {
+      "Safety & Governance": 0.2,
+      "Legal & Compliance": 0.15
+    },
+    "capital_allocation": {
+      "Finance & IR": 0.2,
+      "Strategy": 0.1
+    }
+  },
+  "lens_keys_ascii": [
+    "wont-do",
+    "trade-off",
+    "moat",
+    "prfaq",
+    "slo",
+    "pdpa",
+    "consent",
+    "ttl",
+    "bias",
+    "fairness",
+    "observability",
+    "owner_earnings"
+  ]
+}

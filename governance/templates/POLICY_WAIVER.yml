@@ -1,0 +1,9 @@
+# Policy Waiver (time-bound)
+owner: ""
+scope: ""
+reason: ""
+risk: "LOW|MED|HIGH"
+expiry: "YYYY-MM-DD"
+mitigations: ""
+linked_issue: ""
+approvals: ["security","maintainer"]

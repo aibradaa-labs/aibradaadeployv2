@@ -1,0 +1,6 @@
+Hook | Present | Line
+data-explore-top10 | NO | —
+data-intel | NO | —
+data-appendices | NO | —
+data-soul | NO | —
+data-explore | NO | —

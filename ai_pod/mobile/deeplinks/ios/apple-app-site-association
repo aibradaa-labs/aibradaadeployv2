@@ -1,0 +1,8 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      { "appID": "ABCDE12345.app.aibradaa.pwa", "paths": [ "/", "/*", "/matchmaker*", "/comparison*", "/explorer*" ] }
+    ]
+  }
+}

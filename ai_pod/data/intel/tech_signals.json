@@ -1,0 +1,35 @@
+{
+  "generated_at": "2025-10-13T03:27:00+08:00",
+  "intelligence": [
+    {
+      "title": "Local GPU deals steady",
+      "summary": "Prices for mid‑range RTX and NPU laptops remain stable in Malaysia.",
+      "verdict": "SOLID",
+      "links": [
+        "https://www.lowyat.net/category/tech/",
+        "https://www.techspot.com/news/"
+      ],
+      "ts": "2025-10-12T16:00:00+08:00"
+    },
+    {
+      "title": "OLED 120Hz goes mainstream",
+      "summary": "More sub‑RM6k laptops ship with high‑refresh OLED panels.",
+      "verdict": "SOLID",
+      "links": [
+        "https://www.notebookcheck.net/",
+        "https://www.rtings.com/laptop"
+      ],
+      "ts": "2025-10-11T14:30:00+08:00"
+    },
+    {
+      "title": "Next‑gen chips incoming",
+      "summary": "New AI‑focused CPUs may shift value in the coming quarter.",
+      "verdict": "WAIT",
+      "links": [
+        "https://www.anandtech.com/",
+        "https://www.techpowerup.com/"
+      ],
+      "ts": "2025-09-24T09:00:00+08:00"
+    }
+  ]
+}

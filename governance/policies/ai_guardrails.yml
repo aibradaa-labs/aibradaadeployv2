@@ -1,0 +1,25 @@
+# EN: AI guardrails for Deck AI runtime. BM: Tatakelakuan AI untuk Deck AI.
+retrieval:
+  strategy: web_first     # EN: Web-first; BM: Utamakan web
+  fallback: local_db      # EN: Local DB fallback; BM: Sandaran pangkalan data tempatan
+freshness:
+  timezone: Asia/Kuala_Lumpur
+  format: "YYYY-MM-DD HH:mm (Asia/Kuala_Lumpur)"
+citations:
+  placement: inline_or_end_of_paragraph   # EN: Cite near claims; BM: Rujuk bersama dakwaan
+  required_for: ["prices","availability","benchmarks","news"]
+responsiveness:
+  debounce_ms: 250
+  tldr_fallback_ms: [4000, 6000]   # jitter range
+  abort_on_new_action: true
+accessibility:
+  reduced_motion: true
+  keyboard_nav: true
+  min_target_px: 44
+readability:
+  measure_ch: [68, 75]
+  cls_max: 0.10
+containment:
+  deck_feature_flag: "data-deck-experimental"  # place on .ai-modal-sheet or html
+telemetry:
+  events: ["deckSlides","timeToTLDR","abortCount","mobileSwipe","CLS","INP"]

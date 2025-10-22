@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "as_of_myt": "2025-10-12 11:30:37 +08+0800",
+    "tz": "Asia/Kuala_Lumpur"
+  },
+  "governance": {
+    "composite_gate": 98,
+    "pdpa_least_data": true,
+    "bm_en_parity": true
+  },
+  "routing": {
+    "decision_types": [
+      "strategy",
+      "product_prfaq",
+      "infra_slo",
+      "safety_release",
+      "capital_allocation"
+    ],
+    "weights": {
+      "strategy": {
+        "Strategy": 0.2,
+        "Finance & IR": 0.05,
+        "Safety & Governance": 0.05
+      },
+      "product_prfaq": {
+        "Customer & Design": 0.15,
+        "AI POD": 0.15,
+        "Growth": 0.1
+      },
+      "infra_slo": {
+        "Platform": 0.15,
+        "Operations & Localization": 0.15,
+        "AI POD": 0.05
+      },
+      "safety_release": {
+        "Safety & Governance": 0.2,
+        "Legal & Compliance": 0.15
+      },
+      "capital_allocation": {
+        "Finance & IR": 0.2,
+        "Strategy": 0.1
+      }
+    }
+  },
+  "lens_requirements": {
+    "strategy": [
+      "trade-off",
+      "won't-do",
+      "moat",
+      "positioning",
+      "narrative"
+    ],
+    "product_prfaq": [
+      "prfaq",
+      "press release",
+      "customer promise",
+      "working backwards"
+    ],
+    "infra_slo": [
+      "slo",
+      "latency",
+      "p95",
+      "throughput",
+      "error budget"
+    ],
+    "safety_release": [
+      "pdpa",
+      "consent",
+      "ttl",
+      "privacy",
+      "bias",
+      "fairness",
+      "data minimization"
+    ],
+    "capital_allocation": [
+      "owners earnings",
+      "runway",
+      "hurdle rate",
+      "roc"
+    ]
+  },
+  "feature_flags": {
+    "LENS_COVERAGE_V1": {
+      "enabled": false,
+      "ttl_days": 180,
+      "fallback": "current_lenses"
+    },
+    "TELEMETRY_WEAK_LENS": {
+      "enabled": true
+    },
+    "PDPA_TOKENS": {
+      "enabled": true
+    }
+  },
+  "telemetry": {
+    "non_pii": true,
+    "events": [
+      "weak_lens",
+      "composite_score",
+      "route_used"
+    ],
+    "sink": "AI_POD_TOKEN://telemetry.endpoint"
+  },
+  "executives": {
+    "total": 10,
+    "primary": "Warren Buffett",
+    "roles": [
+      "EXEC-CHAIR",
+      "EXEC-CTO",
+      "EXEC-CAIO",
+      "EXEC-CLCO",
+      "EXEC-CSGO",
+      "EXEC-CCDPO",
+      "EXEC-CSO",
+      "EXEC-CGO",
+      "EXEC-CFO",
+      "EXEC-CPOps"
+    ]
+  },
+  "mentors": {
+    "canon_39": [
+      "Warren Buffett",
+      "Charlie Munger",
+      "Michael Porter",
+      "Jeff Bezos",
+      "Tim Cook",
+      "Kent Beck",
+      "Andrew Ng",
+      "Brian Balfour",
+      "Bruce Schneier",
+      "Naval Ravikant",
+      "Elon Musk",
+      "Tony Fernandes",
+      "Mark Cuban",
+      "Seth Godin",
+      "Rita McGrath",
+      "Clayton Christensen",
+      "Aswath Damodaran",
+      "Muhammad Yunus",
+      "Max Schrems",
+      "Julie Brill",
+      "Cory Doctorow",
+      "Muhammad Taqi Usmani",
+      "Mufti Menk",
+      "Gene Kim",
+      "Melanie Perkins",
+      "Marty Cagan",
+      "Don Norman",
+      "Paula Scher",
+      "Chris Do",
+      "Casey Neistat",
+      "Ann Handley",
+      "Guido van Rossum",
+      "John Carmack",
+      "Nate Silver",
+      "Andrew Chen",
+      "Monica Rogati",
+      "Sean Ellis",
+      "Casey Winters",
+      "Neil Patel"
+    ],
+    "adjunct_16": [
+      "Rory Sutherland",
+      "Ben Thompson",
+      "Laszlo Bock",
+      "Patty McCord",
+      "Charity Majors",
+      "Danielle Citron",
+      "Dario Amodei",
+      "Jakob Nielsen",
+      "Jenny Lay-Flurrie",
+      "Jez Humble",
+      "J.R. Storment",
+      "Mike Fuller",
+      "Nadiem Makarim",
+      "Nicole Forsgren",
+      "Stuart Russell",
+      "Tan Hooi Ling"
+    ],
+    "ai_core_9": [
+      "Geoffrey Hinton",
+      "Yoshua Bengio",
+      "Yann LeCun",
+      "Demis Hassabis",
+      "Jeff Dean",
+      "Chris Lattner",
+      "Andrej Karpathy",
+      "Sebastian Thrun",
+      "Fei-Fei Li"
+    ],
+    "new_10": [
+      "Alan Cooper",
+      "Susan Weinschenk",
+      "Donella Meadows",
+      "W. Edwards Deming",
+      "Teresa Torres",
+      "John Cutler",
+      "John Doerr",
+      "Eric Ries",
+      "Steve Blank",
+      "Ben Treynor Sloss"
+    ],
+    "total": 74
+  }
+}

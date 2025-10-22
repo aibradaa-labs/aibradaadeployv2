@@ -1,0 +1,15 @@
+CANONICAL DATASET PLAN (Deep Audit v3)
+
+TOP35 CACHE
+- Candidate: ai_pod/data/laptops/top35.cache.json
+- Metrics: totalItems=22, price_min=3500, price_max=6999, in_range_3500_7000=22, count_lte_4500=4
+- Rationale: Already wired to AI POD runtime, satisfies acceptance gates (>=10 total, >=6 in range, >=2 <=4500) with modern timestamps.
+
+FALLBACK JSONL
+- Action: Convert data/fallbackLaptops.json (73 rows) into ai_pod/data/laptops/fallback.laptops.jsonl
+- Metrics (source JSON): totalItems=73, price_min=3599, price_max=6999, in_range_3500_7000=73, count_lte_4500=10
+- Rationale: Richest dataset in repo, covers full acceptance window, just needs JSONL serialization per provider expectations. Optionally append explorer.top10.gaming inventory for gaming slice.
+
+ALTERNATIVES
+1) data/laptops.json — totalItems=12, in_range=12, <=4500=0. Good schema but lacks sub-RM4.5k coverage.
+2) ai_pod/data/laptops/explorer.top10.gaming.json — totalItems=5 (all in range). Use for themed explorer cards, not canonical feeds.

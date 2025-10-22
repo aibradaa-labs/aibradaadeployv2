@@ -1,0 +1,26 @@
+﻿{
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  },
+  "testEnvironment": "jsdom",
+  "setupFilesAfterEnv": [
+    "@testing-library/jest-dom"
+  ],
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node"
+  ],
+  "moduleNameMapper": {
+    "^@features/(.*)$": "<rootDir>/src/features/$1",
+    "^@shared/(.*)$": "<rootDir>/src/shared/$1",
+    "^@utils/(.*)$": "<rootDir>/src/utils/$1",
+    "^@types/(.*)$": "<rootDir>/src/types/$1",
+    "^@config/(.*)$": "<rootDir>/src/config/$1",
+    "^@i18n/(.*)$": "<rootDir>/src/i18n/$1"
+  }
+}

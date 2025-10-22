@@ -1,0 +1,7 @@
+fullPath | totalItems | price_min | price_max | in_range_3500_7000 | <=4500
+data/fallbackLaptops.json | 73 | 3599 | 6999 | 73 | 10
+ai_pod/data/laptops/top35.cache.json | 22 | 3500 | 6999 | 22 | 4
+data/laptops.json | 12 | 5399 | 6999 | 12 | 0
+ai_pod/data/laptops/explorer.top10.gaming.json | 5 | 5399 | 6999 | 5 | 0
+ai_pod/tokens/laptops.tokens.json | 0 |  |  | 0 | 0
+data/laptops.schema.json | 0 |  |  | 0 | 0ERROR: initial node run failed - ReferenceError reportsDir not defined

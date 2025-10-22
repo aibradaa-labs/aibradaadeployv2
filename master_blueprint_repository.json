@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "blueprint_name": "Universal Web→PWA Repo Blueprint",
+    "version": "1.0.0",
+    "generated_at": "2025-10-05T00:11:21+08:00",
+    "workspace_root": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest",
+    "locale_defaults": { "primary": "bm", "secondary": "en", "timezone": "Asia/Kuala_Lumpur" },
+    "provenance": {
+      "tool": "Windsurf",
+      "inputs": ["on-disk files","schema_validate","axe smoke","lighthouse smoke (script)"],
+      "reproducible_cmds": [
+        "node scripts/schema_validate.mjs 'Master Operation Config.yaml'",
+        "node tests/perf/run-lh.mjs",
+        "node tests/a11y/axe.smoke.mjs"
+      ]
+    }
+  },
+  "target_tree": [
+    { "path": "/app", "purpose": "routes/pages/components", "tag": "ADD" },
+    { "path": "/public", "purpose": "static assets", "tag": "KEEP" },
+    { "path": "/pwa", "purpose": "manifest, service worker, offline shell", "tag": "ADD" },
+    { "path": "/ai", "purpose": "providers,retrieval,prompts,evaluators,citations,telemetry,deck", "tag": "ADD" },
+    { "path": "/governance", "purpose": "schemas,policies,playbooks,templates,reports", "tag": "ADD" },
+    { "path": "/tests", "purpose": "unit,e2e,accessibility,performance,deck,fixtures", "tag": "ADD" },
+    { "path": "/scripts", "purpose": "validators,codemods,migrations,TTL,rollback,secrets,prompt", "tag": "ADD" },
+    { "path": "/infra", "purpose": "ci,deploy,adapters", "tag": "ADD" },
+    { "path": "/docs", "purpose": "ADRs, ARCHITECTURE.md, RISKS.md, governance report", "tag": "ADD" }
+  ],
+  "mapping": [
+    { "from": "manifest.json", "to": "pwa/manifest.json", "tag": "MIGRATE" },
+    { "from": "service-worker.js", "to": "pwa/service-worker.js", "tag": "MIGRATE" },
+    { "from": "lib/ai/geminiClient.js", "to": "ai/providers/geminiClient.js", "tag": "MIGRATE", "shim": "legacy kept" },
+    { "from": "lib/ui/replyModalDeck.js", "to": "ai/deck/replyModalDeck.js", "tag": "MIGRATE", "shim": "legacy kept" },
+    { "from": "lib/ui/replyDeck.js", "to": "ai/deck/replyDeck.js", "tag": "MIGRATE", "shim": "legacy kept" },
+    { "from": "index.html", "to": "app/index.html", "tag": "MIGRATE", "shim": "root stub" }
+  ],
+  "budgets": {
+    "lighthouse": { "mobile": { "performance": 90, "accessibility": 95, "best_practices": 100, "seo": 95 }, "desktop": { "performance": 95, "accessibility": 95, "best_practices": 100, "seo": 95 } },
+    "deck_vitals": { "cls_max": 0.10, "tldr_ms_p50": 5000 },
+    "accessibility": { "blockers_max": 0, "warnings_max": 5 }
+  },
+  "acceptance": {
+    "run": [
+      "node scripts/schema_validate.mjs 'Master Operation Config.yaml'",
+      "node scripts/prompt_lint.mjs tests/fixtures/deck_sample.md",
+      "node scripts/secrets_scan.mjs",
+      "node tests/a11y/axe.smoke.mjs",
+      "node tests/perf/run-lh.mjs",
+      "node tests/deck/telemetry-harvest.mjs",
+      "node scripts/data_ttl_sweeper.mjs --dry",
+      "node scripts/link_check.mjs"
+    ]
+  },
+  "policy": { "ai_guardrails": true, "privacy_least_data_ttl": true, "accessibility": true, "consent_receipts": true, "localization_bm_en": true }
+}

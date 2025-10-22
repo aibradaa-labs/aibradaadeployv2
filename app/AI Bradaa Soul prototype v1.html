@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Bradaa Soul prototype v1</title>
+  <style>
+    :root {
+      --c-bg: #071018;
+      --glow-success: rgba(51,255,153,0.95);
+      --glow-running: rgba(255,171,64,0.95);
+      --glow-error: rgba(255,64,64,0.95);
+      --glow-queued: rgba(230,0,128,0.95);
+    }
+    html, body { height: 100%; }
+    body { margin: 0; background: radial-gradient(1200px at 50% 30%, #0a1a26, #071018 65%); color: #e8f6ff; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .wrap { display: grid; place-items: center; min-height: 100%; padding: 24px; }
+
+    .gauge { position: relative; width: 360px; height: 360px; }
+    .gauge::before { content: ''; position: absolute; inset: 16px; border-radius: 999px; background: radial-gradient(circle at 50% 30%, rgba(0,240,255,0.18), transparent 70%); filter: blur(12px); opacity: 0.85; }
+
+    .core { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; transform: translate(var(--mx, 0px), var(--my, 0px)); }
+
+    /* Video center (circularly clipped) */
+    .soul-video-root { position: absolute; top: 50%; left: 50%; width: 168px; height: 168px; transform: translate(-50%, -50%); pointer-events: none; z-index: 4; border-radius: 50%; overflow: hidden; clip-path: circle(50% at 50% 50%); will-change: transform, opacity; background-repeat: no-repeat; background-position: center; background-size: contain; }
+    .soul-video { width: 100%; height: 100%; display: block; object-fit: cover; opacity: 0; transition: opacity 220ms ease; filter: url(#soul-luma-key) saturate(1.08) contrast(1.04); background: transparent; will-change: opacity; mix-blend-mode: screen; }
+    .soul-video.v1 { opacity: 1; }
+
+    /* Sprite fallback (kept for completeness) */
+    .soul-sprite-root { position: absolute; top: 50%; left: 50%; width: 168px; height: 168px; transform: translate(-50%, -50%); pointer-events: none; z-index: 3; filter: drop-shadow(0 0 22px rgba(0,0,0,0.55)); will-change: transform, opacity; }
+    .soul-sprite { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; opacity: 0; transition: opacity 240ms ease, transform 320ms ease; image-rendering: auto; }
+
+    /* Outer ring */
+    .ring { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2; filter: drop-shadow(0 0 12px rgba(0,255,160,0.35)); }
+    .ring .spike { stroke: rgba(255,255,255,0.85); stroke-linecap: round; filter: drop-shadow(0 0 6px rgba(0,255,160,0.45)); }
+    .ring .spike-core { stroke: var(--glow, rgba(0,255,160,0.8)); }
+
+    /* Core glow under video */
+    .core-glow { position: absolute; inset: 0; width: 180px; height: 180px; pointer-events: none; z-index: 1; }
+    .core-glow circle { fill: var(--glow, var(--glow-queued)); filter: blur(28px) drop-shadow(0 0 48px var(--glow)); animation: core-pulse 2.4s ease-in-out infinite; }
+    @keyframes core-pulse { 0%,100% { opacity: 0.75; transform: scale(0.88); } 50% { opacity: 1; transform: scale(1.12); } }
+
+    /* Controls (demo) */
+    .controls { margin-top: 20px; display: flex; gap: 8px; align-items: center; justify-content: center; flex-wrap: wrap; }
+    .controls button { background: rgba(255,255,255,0.06); color: #eaf6ff; border: 1px solid rgba(255,255,255,0.16); border-radius: 999px; padding: 8px 12px; cursor: pointer; }
+    .controls input[type="range"] { width: 240px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="gauge" id="gauge" data-stage="running">
+      <!-- Hidden SVG filter: luma key to remove white from videos -->
+      <svg aria-hidden="true" width="0" height="0" style="position:absolute; left:-9999px; top:-9999px;">
+        <defs>
+          <filter id="soul-luma-key" color-interpolation-filters="sRGB" x="0" y="0" width="1" height="1">
+            <!-- Alpha ≈ 1 - luminance (white → transparent, black → opaque), then composite -->
+            <feColorMatrix in="SourceGraphic" type="matrix"
+              values="1 0 0 0 0
+                      0 1 0 0 0
+                      0 0 1 0 0
+                     -0.2126 -0.7152 -0.0722 1 0" result="invLuma" />
+            <feComponentTransfer in="invLuma">
+              <feFuncA type="linear" slope="2.0" intercept="-0.2" />
+            </feComponentTransfer>
+            <feComposite in="SourceGraphic" in2="invLuma" operator="in"/>
+          </filter>
+        </defs>
+      </svg>
+
+      <div class="core" id="core">
+        <!-- Video center -->
+        <div class="soul-video-root" id="soulVideoRoot" aria-hidden="false"
+             style="background-image:url('../AI Bradaa Soul - Amber.png')">
+          <video id="vid1" class="soul-video v1" src="../AI%20Bradaa%20Animation%201.mp4" preload="auto" muted playsinline autoplay loop></video>
+          <video id="vid2" class="soul-video v2" src="../AI%20Bradaa%20Animation%202.mp4" preload="auto" muted playsinline autoplay loop></video>
+        </div>
+        <!-- Core glow underlay -->
+        <svg class="core-glow" viewBox="0 0 200 200"><circle cx="100" cy="100" r="32"/></svg>
+      </div>
+
+      <!-- Outer spikes ring -->
+      <svg class="ring" id="ring" viewBox="-60 -60 360 360" aria-hidden="true"></svg>
+    </div>
+
+    <div class="controls">
+      <button onclick="aiBradaaSoul.setStatus('queued')">Queued</button>
+      <button onclick="aiBradaaSoul.setStatus('running')">Running</button>
+      <button onclick="aiBradaaSoul.setStatus('success')">Success</button>
+      <button onclick="aiBradaaSoul.setStatus('error')">Error</button>
+      <label>Progress <input id="prog" type="range" min="0" max="1" step="0.01" value="0.6" oninput="aiBradaaSoul.setProgress(parseFloat(this.value))"></label>
+    </div>
+  </div>
+
+  <script>
+    // AI Bradaa Soul prototype v1 — Self-contained renderer
+    (function(){
+      const gauge = document.getElementById('gauge');
+      const core  = document.getElementById('core');
+      const ring  = document.getElementById('ring');
+      const videoRoot = document.getElementById('soulVideoRoot');
+      const vid1  = document.getElementById('vid1');
+      const vid2  = document.getElementById('vid2');
+      const glow  = document.querySelector('.core-glow circle');
+
+      // Build ring spikes once
+      const svgNS = 'http://www.w3.org/2000/svg';
+      const spikes = []; const N = 64; const cx = 120, cy = 120; const R = 100; const MAX_R = 152;
+      for (let i=0;i<N;i++){
+        const theta = (i/N)*Math.PI*2;
+        const x1 = cx + Math.cos(theta)*R;
+        const y1 = cy + Math.sin(theta)*R;
+        const x2 = cx + Math.cos(theta)*(R+14);
+        const y2 = cy + Math.sin(theta)*(R+14);
+        const lOuter = document.createElementNS(svgNS,'line');
+        lOuter.setAttribute('x1',x1.toFixed(2)); lOuter.setAttribute('y1',y1.toFixed(2));
+        lOuter.setAttribute('x2',x2.toFixed(2)); lOuter.setAttribute('y2',y2.toFixed(2));
+        lOuter.setAttribute('stroke-width','8.5'); lOuter.setAttribute('class','spike');
+        const lCore = document.createElementNS(svgNS,'line');
+        lCore.setAttribute('x1',x1.toFixed(2)); lCore.setAttribute('y1',y1.toFixed(2));
+        lCore.setAttribute('x2',x2.toFixed(2)); lCore.setAttribute('y2',y2.toFixed(2));
+        lCore.setAttribute('stroke-width','4.2'); lCore.setAttribute('class','spike spike-core');
+        ring.appendChild(lOuter); ring.appendChild(lCore);
+        spikes.push({ theta, lOuter, lCore, seed: Math.random()*2-1, lengthScale: 1.35 + Math.random()*0.25 });
+      }
+
+      const stageToGlow = {
+        queued:  getComputedStyle(document.documentElement).getPropertyValue('--glow-queued').trim(),
+        running: getComputedStyle(document.documentElement).getPropertyValue('--glow-running').trim(),
+        success: getComputedStyle(document.documentElement).getPropertyValue('--glow-success').trim(),
+        error:   getComputedStyle(document.documentElement).getPropertyValue('--glow-error').trim(),
+      };
+      const stageBasePng = {
+        queued: "../AI Bradaa Soul - Neutral.png",
+        running:"../AI Bradaa Soul - Amber.png",
+        success:"../AI Bradaa Soul - Green.png",
+        error:  "../AI Bradaa Soul - Red.png",
+      };
+
+      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      let rafId = 0, targetX = 0, targetY = 0, curX = 0, curY = 0, pointerMag = 0;
+      let magnetAngle = 0, magnetTargetAngle = 0;
+      let lastTs = performance.now();
+      let progress = 0.6; // 0..1
+      let stage = 'running';
+
+      // Smooth state integrators
+      let videoScaleL = 0.6, videoRotL = 0, fade2Alpha = 0, useV2State = false;
+      let v1Dur = 7.0, v2Dur = 7.0;
+      if (vid1) vid1.addEventListener('loadedmetadata', () => { try { if (vid1.duration && isFinite(vid1.duration)) v1Dur = vid1.duration; } catch {} });
+      if (vid2) vid2.addEventListener('loadedmetadata', () => { try { if (vid2.duration && isFinite(vid2.duration)) v2Dur = vid2.duration; } catch {} });
+      const phaseDurationsMs = [7000, 7000];
+      const totalCycleMs = phaseDurationsMs[0] + phaseDurationsMs[1];
+      const cycleOrigin = performance.now();
+
+      const animationPatterns = [
+        { frequency: 1.2, amplitude: 0.8, phase: 0, wobble: 1.0 },
+        { frequency: 1.8, amplitude: 1.2, phase: Math.PI/3, wobble: 0.7 },
+        { frequency: 0.9, amplitude: 1.5, phase: Math.PI/2, wobble: 1.3 },
+        { frequency: 2.1, amplitude: 0.6, phase: Math.PI, wobble: 0.9 },
+        { frequency: 1.5, amplitude: 1.1, phase: Math.PI*1.5, wobble: 1.1 },
+      ];
+      let currentPattern = 0; let patternStart = performance.now();
+
+      const ensurePlay = (vid)=>{ try{ const p = vid && vid.play && vid.play(); if (p && p.then) p.catch(()=>{});}catch(e){} };
+      ensurePlay(vid1); ensurePlay(vid2);
+
+      const onMove = (e)=>{
+        const rect = gauge.getBoundingClientRect();
+        const cxr = rect.left + rect.width/2; const cyr = rect.top + rect.height/2;
+        const dx = Math.max(-1, Math.min(1, (e.clientX - cxr)/(rect.width/2)));
+        const dy = Math.max(-1, Math.min(1, (e.clientY - cyr)/(rect.height/2)));
+        pointerMag = Math.min(1, Math.hypot(dx,dy));
+        targetX = dx * 12; targetY = dy * 12; // drift
+        magnetTargetAngle = Math.atan2(dy, dx);
+        ensurePlay(vid1); ensurePlay(vid2);
+      };
+      gauge.addEventListener('pointermove', onMove);
+      gauge.addEventListener('pointerleave', ()=>{ targetX=0; targetY=0; pointerMag=0; });
+
+      function setStage(next){
+        stage = next;
+        gauge.dataset.stage = next;
+        glow.style.setProperty('fill', stageToGlow[next] || stageToGlow.running);
+        core.style.setProperty('--glow', stageToGlow[next] || stageToGlow.running);
+        videoRoot.style.backgroundImage = `url('${stageBasePng[next]}')`;
+      }
+      setStage(stage);
+
+      function setProgress(p){ progress = Math.max(0, Math.min(1, p)); }
+
+      function animate(){
+        const now = performance.now(); const dt = Math.min(0.05, Math.max(0.016, (now-lastTs)/1000)); lastTs = now;
+        const cursorLerp = Math.min(0.45, 0.18 + 0.42 * pointerMag);
+        curX += (targetX - curX) * cursorLerp; curY += (targetY - curY) * cursorLerp;
+        core.style.setProperty('--mx', `${curX.toFixed(2)}px`); core.style.setProperty('--my', `${curY.toFixed(2)}px`);
+
+        // Orbit / pattern
+        const patDur = 3000 + (currentPattern%3)*1500; if (now - patternStart > patDur){ currentPattern = (currentPattern + 1) % animationPatterns.length; patternStart = now; }
+        const pat = animationPatterns[currentPattern]; const t = now/1000;
+        if (pointerMag < 0.02){ magnetTargetAngle = (t*0.9*pat.frequency + pat.phase) % (Math.PI*2); }
+        magnetAngle += (magnetTargetAngle - magnetAngle) * (0.06 + pat.wobble*0.02);
+        if (!Number.isFinite(magnetAngle)) magnetAngle = 0;
+
+        // Soul video center smoothing
+        const patternWave = Math.sin(t * pat.frequency + pat.phase) * pat.wobble;
+        const sBase = 0.6 + progress * 0.34; const sPulse = 1 + 0.025*Math.sin(t*2.0 + pat.phase) + 0.02*((Math.sin(t*1.5*pat.frequency)+1)*0.5);
+        const sWanted = Math.min(0.98, sBase*sPulse);
+        const rWanted = (magnetAngle*180/Math.PI) * 0.18 + patternWave * 10;
+        const sK = prefersReduced ? 0.12 : (0.18 + 0.22 * pointerMag);
+        const rK = prefersReduced ? 0.10 : (0.14 + 0.18 * pointerMag);
+        videoScaleL += (sWanted - videoScaleL)*sK; videoRotL += (rWanted - videoRotL)*rK;
+        videoRoot.style.transform = `translate(-50%, -50%) rotate(${videoRotL.toFixed(2)}deg) scale(${videoScaleL.toFixed(3)})`;
+        videoRoot.style.opacity = (0.78 + 0.22 * progress).toFixed(2);
+
+        // Crossfade between videos with hysteresis
+        const wantV2 = (stage === 'success') || (progress > 0.66); if (wantV2) useV2State = true; else if (progress < 0.58 && stage !== 'success') useV2State = false;
+        const target2 = useV2State ? 1 : 0; const fadeK = prefersReduced ? 0.08 : (pointerMag>0.1 ? 0.22 : 0.14);
+        fade2Alpha += (target2 - fade2Alpha)*fadeK; fade2Alpha = Math.max(0, Math.min(1, fade2Alpha));
+        vid2.style.opacity = fade2Alpha.toFixed(3); vid1.style.opacity = (1 - fade2Alpha).toFixed(3);
+
+        // Spikes as tidy border
+        const ampBase = 8 + 28 * progress; const uniformity = progress; const magnetStrength = (0.4 + progress*0.45 + (pointerMag ? 0.35:0)) * pat.amplitude;
+        for (const s of spikes){
+          const d = Math.atan2(Math.sin(s.theta - magnetAngle), Math.cos(s.theta - magnetAngle));
+          const pull = Math.max(0, 1 - Math.abs(d) / (Math.PI/4));
+          const jitter = (Math.sin(t*2.2 + s.seed*7.3)+1)*0.5;
+          const lenBase = 10 + ampBase * (0.55*pull + (1 - uniformity)*0.25*jitter);
+          const len = Math.min(42, lenBase * (s.lengthScale || 1.0));
+          const x1 = cx + Math.cos(s.theta)*R; const y1 = cy + Math.sin(s.theta)*R;
+          const r2 = Math.min(R + len, MAX_R); const x2 = cx + Math.cos(s.theta)*r2; const y2 = cy + Math.sin(s.theta)*r2;
+          s.lOuter.setAttribute('x1', x1.toFixed(2)); s.lOuter.setAttribute('y1', y1.toFixed(2));
+          s.lOuter.setAttribute('x2', x2.toFixed(2)); s.lOuter.setAttribute('y2', y2.toFixed(2));
+          s.lCore.setAttribute('x1', x1.toFixed(2));  s.lCore.setAttribute('y1', y1.toFixed(2));
+          s.lCore.setAttribute('x2', x2.toFixed(2));  s.lCore.setAttribute('y2', y2.toFixed(2));
+        }
+        rafId = requestAnimationFrame(animate);
+      }
+
+      // Public API
+      window.aiBradaaSoul = {
+        setStatus(v){
+          const map = { ready:'success', progress:'running', start:'queued', queued:'queued', running:'running', success:'success', error:'error', 0:'queued',1:'running',2:'success',3:'error' };
+          const next = map[String(v)] || map[v] || 'success';
+          setStage(next);
+        },
+        setProgress(p){ setProgress(p); },
+        start(){ if (!rafId) rafId = requestAnimationFrame(animate); },
+        stop(){ if (rafId) cancelAnimationFrame(rafId); rafId = 0; }
+      };
+
+      // Kick off
+      aiBradaaSoul.start();
+    })();
+  </script>
+</body>
+</html>

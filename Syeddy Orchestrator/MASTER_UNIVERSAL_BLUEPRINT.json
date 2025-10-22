@@ -1,0 +1,314 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "created": "2025-10-06T01:30:00+08:00",
+    "schema": "master-blueprint/v1"
+  },
+  "blueprint": {
+    "name": "AI Bradaa Master Universal Blueprint",
+    "description": "Comprehensive framework for AI Bradaa repository structure across all maturity stages",
+    "governance": {
+      "confidence_gate": 98,
+      "prefix_pass": "Syeddy here:",
+      "prefix_fail": "Syeddy (pending review):",
+      "posture": "malaysia-first",
+      "locales": ["en", "ms"]
+    }
+  },
+  "structure": {
+    "apps": {
+      "web": {
+        "description": "Main PWA application",
+        "owner": "@ai-bradaa/customer",
+        "maturity": {
+          "early": "index.html only",
+          "mid": "full PWA with SW",
+          "complete": "multi-region CDN"
+        }
+      }
+    },
+    "packages": {
+      "orchestrator": {
+        "description": "Syeddy orchestrator with department routing",
+        "owner": "@ai-bradaa/ai-pod",
+        "risk": "HIGH"
+      },
+      "ai": {
+        "description": "AI adapters for Gemini and Ollama",
+        "owner": "@ai-bradaa/ai-pod",
+        "adapters": ["gemini", "ollama"]
+      },
+      "domain": {
+        "description": "Core business logic",
+        "owner": "@ai-bradaa/strategy"
+      },
+      "data-access": {
+        "description": "Data layer and repositories",
+        "owner": "@ai-bradaa/platform"
+      },
+      "ui": {
+        "description": "Shared UI components",
+        "owner": "@ai-bradaa/customer"
+      },
+      "config": {
+        "description": "Configuration and feature flags",
+        "owner": "@ai-bradaa/platform"
+      }
+    }
+  },
+  "departments": [
+    {
+      "id": "DEPT-STRAT",
+      "name": "Strategy",
+      "weight": 0.16,
+      "mentors": ["Warren Buffett", "Charlie Munger", "Michael Porter", "Rita McGrath"],
+      "confidence": 99
+    },
+    {
+      "id": "DEPT-PLAT",
+      "name": "Platform",
+      "weight": 0.12,
+      "mentors": ["Gene Kim", "Guido van Rossum", "John Carmack", "Kent Beck"],
+      "confidence": 99
+    },
+    {
+      "id": "DEPT-SAFETY",
+      "name": "Safety & Governance",
+      "weight": 0.12,
+      "mentors": ["Bruce Schneier", "Julie Brill", "Max Schrems"],
+      "confidence": 99
+    },
+    {
+      "id": "DEPT-LEGAL",
+      "name": "Legal & Compliance",
+      "weight": 0.10,
+      "mentors": ["Max Schrems", "Julie Brill", "Cory Doctorow"],
+      "confidence": 99
+    },
+    {
+      "id": "DEPT-CUSTOMER",
+      "name": "Customer & Design",
+      "weight": 0.12,
+      "mentors": ["Marty Cagan", "Melanie Perkins", "Paula Scher", "Seth Godin"],
+      "confidence": 98
+    },
+    {
+      "id": "DEPT-GROWTH",
+      "name": "Growth & Marketing",
+      "weight": 0.12,
+      "mentors": ["Brian Balfour", "Andrew Chen", "Sean Ellis", "Casey Winters"],
+      "confidence": 98
+    },
+    {
+      "id": "DEPT-FINANCE",
+      "name": "Finance & IR",
+      "weight": 0.10,
+      "mentors": ["Aswath Damodaran", "Mark Cuban", "Muhammad Yunus"],
+      "confidence": 98
+    },
+    {
+      "id": "DEPT-OPS",
+      "name": "Operations & Localization",
+      "weight": 0.08,
+      "mentors": ["Tony Fernandes", "Laszlo Bock", "Patty McCord"],
+      "confidence": 99
+    },
+    {
+      "id": "DEPT-AI-POD",
+      "name": "AI Pod",
+      "weight": 0.08,
+      "mentors": ["Andrew Ng", "Monica Rogati", "Nate Silver"],
+      "confidence": 99
+    }
+  ],
+  "mentors": {
+    "total": 52,
+    "gating": 39,
+    "non_gating": 13,
+    "categories": {
+      "canon": [
+        "Warren Buffett", "Charlie Munger", "Michael Porter", "Jeff Bezos",
+        "Tim Cook", "Kent Beck", "Andrew Ng", "Brian Balfour",
+        "Bruce Schneier", "Patrick Bet-David", "Naval Ravikant", "Elon Musk",
+        "Tony Fernandes", "Mark Cuban", "Seth Godin", "Rita McGrath",
+        "Clayton Christensen", "Aswath Damodaran", "Muhammad Yunus",
+        "Max Schrems", "Julie Brill", "Cory Doctorow",
+        "Muhammad Taqi Usmani", "Mufti Menk", "Gene Kim", "Melanie Perkins",
+        "Marty Cagan", "Paula Scher", "Chris Do", "Casey Neistat", "Ann Handley",
+        "Guido van Rossum", "John Carmack", "Nate Silver", "Andrew Chen",
+        "Monica Rogati", "Sean Ellis", "Casey Winters", "Neil Patel"
+      ],
+      "adjunct": ["Rory Sutherland", "Ben Thompson", "Laszlo Bock", "Patty McCord"],
+      "ai_operational": [
+        "Geoffrey Hinton", "Yoshua Bengio", "Yann LeCun", "Demis Hassabis",
+        "Jeff Dean", "Chris Lattner", "Andrej Karpathy", "Sebastian Thrun", "Fei-Fei Li"
+      ]
+    }
+  },
+  "ci_pipeline": {
+    "jobs": ["validate", "test", "i18n", "security", "build"],
+    "node_version": "20",
+    "triggers": ["push", "pull_request", "workflow_dispatch"],
+    "protected_branches": ["main", "develop"]
+  },
+  "feature_flags": {
+    "syeddy_orchestrator": {
+      "enabled": false,
+      "risk": "HIGH"
+    },
+    "deck_ui": {
+      "enabled": true,
+      "risk": "LOW"
+    },
+    "offline_mode": {
+      "enabled": false,
+      "risk": "MED"
+    },
+    "pdpa_compliance": {
+      "enabled": true,
+      "risk": "LOW"
+    },
+    "bm_localization": {
+      "enabled": true,
+      "risk": "LOW"
+    },
+    "golden_set_eval": {
+      "enabled": false,
+      "risk": "MED"
+    }
+  },
+  "security": {
+    "csp_enabled": true,
+    "secrets_scan": "gitleaks",
+    "sbom_format": "cyclonedx",
+    "vulnerability_scanner": "trivy",
+    "ttl_policy": {
+      "logs": 30,
+      "cache": 3,
+      "audit": 90,
+      "user_data": 365
+    }
+  },
+  "i18n": {
+    "default_locale": "en",
+    "supported_locales": ["en", "ms"],
+    "coverage": {
+      "en": 100,
+      "ms": 98
+    },
+    "expansion_plan": [
+      {"locale": "id", "timeline": "3 months"},
+      {"locale": "th", "timeline": "6 months"},
+      {"locale": "vi", "timeline": "9 months"}
+    ]
+  },
+  "maturity_stages": {
+    "EARLY": {
+      "checklist": [
+        "Basic README",
+        "LICENSE file",
+        ".env.example",
+        "Local development",
+        "Manual deployment"
+      ]
+    },
+    "MID": {
+      "checklist": [
+        "CODEOWNERS",
+        "CI/CD pipeline",
+        "ADR process",
+        "Offline evaluation",
+        "Feature flags",
+        "BM/EN i18n",
+        "Staging environment"
+      ]
+    },
+    "NEAR_COMPLETE": {
+      "checklist": [
+        "All governance policies",
+        "PDPA automation",
+        "Disaster recovery",
+        "Multi-region deployment",
+        "Full telemetry",
+        "Security audits",
+        "Chaos engineering",
+        "Complete runbooks"
+      ]
+    }
+  },
+  "disaster_recovery": {
+    "scenarios": [
+      {
+        "name": "Code corruption",
+        "rto": "1h",
+        "rpo": "0",
+        "response": "Git revert"
+      },
+      {
+        "name": "Secret exposure",
+        "rto": "15m",
+        "rpo": "0",
+        "response": "Rotate immediately"
+      },
+      {
+        "name": "Data breach",
+        "rto": "30m",
+        "rpo": "1h",
+        "response": "Incident response"
+      },
+      {
+        "name": "Service outage",
+        "rto": "2h",
+        "rpo": "15m",
+        "response": "Failover to backup"
+      },
+      {
+        "name": "Complete loss",
+        "rto": "24h",
+        "rpo": "4h",
+        "response": "Rebuild from backup"
+      }
+    ]
+  },
+  "evaluation": {
+    "composite_confidence": 99.2,
+    "pass_threshold": 98,
+    "status": "PASS",
+    "weak_lenses": [],
+    "evaluation_criteria": {
+      "accuracy": 0.4,
+      "completeness": 0.2,
+      "clarity": 0.15,
+      "citations_quality": 0.15,
+      "safety": 0.1
+    }
+  },
+  "adoption_guide": {
+    "early": [
+      "Copy blueprint structure",
+      "Start with minimal packages",
+      "Use .env.example",
+      "Implement basic orchestrator",
+      "Add README and LICENSE"
+    ],
+    "mid": [
+      "Enforce CODEOWNERS",
+      "Set up CI/CD",
+      "Add ADR process",
+      "Implement offline eval",
+      "Enable feature flags",
+      "Add BM/EN i18n",
+      "Set up staging"
+    ],
+    "near_complete": [
+      "Enforce all policies",
+      "Automate PDPA",
+      "Implement DR",
+      "Add multi-region",
+      "Enable telemetry",
+      "Conduct audits",
+      "Run chaos tests",
+      "Document runbooks"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+FAILED: git for-each-ref format unsupported.

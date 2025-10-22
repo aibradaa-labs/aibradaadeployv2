@@ -1,0 +1,23 @@
+name: Laptops — Weekly Refresh
+on:
+  schedule:
+    - cron: "5 16 * * 0"
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install deps
+        run: npm ci || true
+      - name: Fetch (auto)
+        run: node ./scripts/fetch/auto/fetch_prices.js || true
+      - name: Validate
+        run: node ./scripts/validate/validator.js
+      - name: Rank & Windows
+        run: node -e "console.log('TODO: rank and emit top100/shortlist35/top10/appendix65')"
+      - name: Snapshot & Report
+        run: node -e "console.log('TODO: write snapshots and /reports/refresh/YYYY-WW.md')" 

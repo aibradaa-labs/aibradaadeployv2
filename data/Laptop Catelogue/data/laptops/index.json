@@ -1,0 +1,19 @@
+{
+  "total": 100,
+  "categories": {
+    "Creative": 28,
+    "AI": 33,
+    "Gaming": 36,
+    "Business": 18,
+    "Ultraportable": 21,
+    "Value": 35,
+    "Student": 17,
+    "Sustainable": 3,
+    "Portable": 1,
+    "Battery": 6,
+    "Productivity": 1
+  },
+  "price_band_range": {
+    "3500-7000": 64
+  }
+}

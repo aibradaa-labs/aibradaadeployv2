@@ -1,0 +1,5 @@
+origin | 08d5d99 | 6 days ago | chore(ai-pod): centralize orchestrator and pipelines
+origin/chore/ci-eslint8-fix | 5019af6 | 5 days ago | chore: align eslint toolchain for CI
+origin/chore/copilot-hardening | 5019af6 | 5 days ago | chore: align eslint toolchain for CI
+origin/chore/orchestrator-hardening | 08d5d99 | 6 days ago | chore(ai-pod): centralize orchestrator and pipelines
+origin/main | 08d5d99 | 6 days ago | chore(ai-pod): centralize orchestrator and pipelines

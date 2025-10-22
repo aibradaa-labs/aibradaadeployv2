@@ -1,0 +1,22 @@
+{
+  "name": "AI Bradaa — Malaysian Laptop Intel",
+  "short_name": "AI Bradaa",
+  "description": "Malaysia-first laptop advisor with AI Bradaa (VAB) persona. Compare specs, find deals, get strategic tech intel.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#010409",
+  "theme_color": "#010409",
+  "icons": [
+    { "src": "/icons/icon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/icons/icon-64.png", "sizes": "64x64", "type": "image/png" },
+    { "src": "/icons/icon-180.png", "sizes": "180x180", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-1024.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" }
+  ],
+  "categories": ["shopping", "utilities", "productivity"],
+  "lang": "en-MY",
+  "dir": "ltr"
+}

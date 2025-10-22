@@ -1,0 +1,136 @@
+{
+  "version": "1.0.0",
+  "updated_at_myt": "2025-10-21 17:24:50",
+  "price_band_myr": [
+    3500,
+    7000
+  ],
+  "n_top": 100,
+  "windows": {
+    "top100": 100,
+    "shortlist35": 35,
+    "top10": 10
+  },
+  "fields": {
+    "id": "string",
+    "brand": "string",
+    "model": "string",
+    "sku": "string",
+    "model_year": "int",
+    "release_date": "date",
+    "lifecycle_end_est": "date",
+    "category": "string[]",
+    "cpu": {
+      "gen": "string",
+      "cores": "int",
+      "tdp": "int"
+    },
+    "gpu": {
+      "chip": "string",
+      "tgp": "int",
+      "vram": "int"
+    },
+    "npu_tops": "number",
+    "ram": {
+      "type": "string",
+      "gb": "int"
+    },
+    "storage": {
+      "type": "string",
+      "gb": "int"
+    },
+    "display": {
+      "size": "number",
+      "res": "string",
+      "refresh": "int",
+      "nits": "int",
+      "gamut": "string",
+      "deltaE": "number"
+    },
+    "battery_wh": "number",
+    "weight_kg": "number",
+    "ports": "string[]",
+    "os": "string",
+    "wireless": "string",
+    "ai_stack": {
+      "pytorch": "bool",
+      "tf": "bool",
+      "onnx": "bool"
+    },
+    "gaming": {
+      "fps_1080p": "number",
+      "fps_1440p": "number",
+      "thermals": "string"
+    },
+    "creative": {
+      "gamut_pct": "number",
+      "deltaE": "number",
+      "hdr": "bool"
+    },
+    "price_MYR": "number",
+    "price_USD": "number",
+    "availability_MY": "string",
+    "warranty": "string",
+    "repairability": "string",
+    "epeat": "string",
+    "collected_at_myt": "datetime",
+    "sources": "url[]",
+    "image_urls": "url[]",
+    "score_composite": "number",
+    "score_breakdown": {
+      "ai": "number",
+      "gaming": "number",
+      "creative": "number",
+      "value": "number",
+      "portability": "number",
+      "battery": "number"
+    },
+    "status": "string",
+    "notes": "string"
+  },
+  "weights": {
+    "ai": {
+      "npu": 25,
+      "gpu_tensor": 25,
+      "ram": 15,
+      "vram": 10,
+      "cpu_multi": 10,
+      "storage": 5,
+      "thermals": 5,
+      "value": 5
+    },
+    "gaming": {
+      "gpu": 40,
+      "cpu": 10,
+      "ram": 10,
+      "cooling": 10,
+      "display_refresh": 10,
+      "storage": 5,
+      "battery": 5,
+      "value": 10
+    },
+    "creative": {
+      "display_accu_coverage": 30,
+      "cpu_multi": 20,
+      "ram": 15,
+      "storage": 10,
+      "gpu": 10,
+      "display_brightness_size": 10,
+      "value": 5
+    }
+  },
+  "diversity_caps": {
+    "brand_share_max_top35": 0.3,
+    "category_share_max_top10": 0.4
+  },
+  "lifecycle_months_min": 36,
+  "pdpa": {
+    "user_capture_ttl_months": 12,
+    "pii_allowed": false
+  },
+  "sentinel": {
+    "name": "Alienware m16 \"Aurora\"",
+    "price_myr": 5489,
+    "max_rank_drift": 10
+  }
+}

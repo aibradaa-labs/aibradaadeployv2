@@ -1,0 +1,10 @@
+f81893b chore(aipod): consolidate runtime to /public/js/aipod; archive originals 20251018_015855; eliminate 404s
+664a99d fix(css): build Tailwind, add safelist, wire link tags, add audits
+7a354cc chore(hardening): CSP+MIME headers, Netlify functions (Gemini + scheduled refresh), self-host vendors, inline→module
+c705fa3 fix(homepage): resolve Inter font 404 via local copy or system fallback; keep no-404 invariant
+323447b fix(dev): normalise asset paths (/public→/), Soul alias refs, loader/font paths, prune preloads
+ff9605d fix(devserver): Live Server mounts + Soul image aliases + preload + startup hook
+8a7b25e fix(assets): correct soul asset path and add preload link
+8a5a1ff fix(governance): add missing top-level keys; enrich mentors lens_keys; fix soul asset path (alias + preload)
+90c9f76 Revert "chore: save WIP before orchestrator hardening"
+5a3255b chore: save WIP before orchestrator hardening

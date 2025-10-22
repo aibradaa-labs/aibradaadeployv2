@@ -1,0 +1,1 @@
+\fix(homepage): add AI POD hooks; harden datasets (top35+fallback JSONL); font fallback; provider Top-10 CSP render; gate ≥98

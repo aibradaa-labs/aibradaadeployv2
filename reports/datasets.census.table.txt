@@ -1,0 +1,10 @@
+fullPath | totalItems | price_min | price_max | in_range_3500_7000 | <=4500
+ai_pod/data/laptops/explorer.top10.gaming.json | 1 |  |  | 0 | 0
+ai_pod/data/laptops/top35.cache.json | 1 |  |  | 0 | 0
+ai_pod/tokens/laptops.tokens.json | 1 |  |  | 0 | 0
+data/fallbackLaptops.json | 73 |  |  | 0 | 0
+data/laptops.json | 1 |  |  | 0 | 0
+data/laptops.schema.json | 1 |  |  | 0 | 0
+reports/datasets.canonical.check.json | 1 |  |  | 0 | 0
+reports/datasets.inventory.json | 1 |  |  | 0 | 0
+reports/datasets.inventory.v2.json | 1 |  |  | 0 | 0

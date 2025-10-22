@@ -1,0 +1,20 @@
+AUDIT V3 SUMMARY
+
+BULLETS
+* Datasets:
+  - data/fallbackLaptops.json: total=73, inRM3500-7000=73, <=RM4500=10 (MEETS)
+  - ai_pod/data/laptops/top35.cache.json: total=22, inRM3500-7000=22, <=RM4500=4 (MEETS)
+  - data/laptops.json: total=12, inRM3500-7000=12, <=RM4500=0 (MISS)
+  - ai_pod/data/laptops/explorer.top10.gaming.json: total=5, inRM3500-7000=5, <=RM4500=0 (MISS)
+  - ai_pod/tokens/laptops.tokens.json: total=0, inRM3500-7000=0, <=RM4500=0 (MISS)
+  - data/laptops.schema.json: total=0, inRM3500-7000=0, <=RM4500=0 (MISS)
+* DOM hooks: DOM hooks missing; see patch proposal (reports/index.hooks.diff.proposed.patch)
+* Functions: See reports/functions.scan.v3.txt for inventory & reachability (local dev not running).
+* Emoji/Fonts: See reports/emoji_fonts.scan.v3.txt (Inter references only; Inter-roman var file zero bytes). PASS with noted zero-byte asset.
+* Boot chain: Boot chain documented in reports/aipod.modules.graph.v3.txt.
+* Next actions (read-only guidance):
+  - public/index.html (add missing DOM hooks per patch).
+  - ai_pod/data/laptops/top35.cache.json (add sku/timestamp fields).
+  - data/fallbackLaptops.json (promote to JSONL fallback file).
+  - netlify/functions/*.js (review before enabling netlify dev).
+  - public/assets/fonts/Inter-roman.var.woff2 (replace zero-byte font).

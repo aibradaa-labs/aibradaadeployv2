@@ -1,0 +1,16 @@
+{
+  "brand": "string",
+  "model": "string",
+  "cpu": "string",
+  "gpu": "string",
+  "ram": "string",
+  "storage": "string",
+  "display": "string",
+  "weight": "string",
+  "price_myr": "number",
+  "score": "number",
+  "links": {
+    "product": "string",
+    "alt": "string"
+  }
+}

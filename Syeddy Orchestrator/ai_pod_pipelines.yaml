@@ -1,0 +1,31 @@
+
+version: 1
+as_of_myt: "2025-10-12 11:30:37 +08+0800"
+pipelines:
+  websearch:
+    description: Primary fetch via web; recency-biased.
+    steps:
+      - search: query_from_user
+      - rank: bm25+recency
+      - extract: main_content
+      - cache_ttl: 3d
+  notion_db:
+    description: Ingest from Notion mentor DB and ops docs.
+    steps:
+      - connect: notion_api_token
+      - sync: mentors, decisions, prompts
+      - cache_ttl: 7d
+  fallback_cache:
+    description: Use last-known good knowledge when offline.
+    steps:
+      - read: local_cache.json
+      - validate: freshness<=30d
+  ollama_local:
+    description: Local LLM inference for privacy/offline.
+    steps:
+      - model: llama3
+      - context: syeddy-orchestrator.json, mentors_enriched.json
+      - eval: golden_set
+sinks:
+  telemetry: AI_POD_TOKEN://telemetry.endpoint
+  storage: s3://ai-bradaa-bucket/{env}/knowledge

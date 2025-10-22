@@ -1,0 +1,10 @@
+{
+  "top35_exists": true,
+  "fallback_exists": false,
+  "price_max": null,
+  "in_range_3500_7000": 0,
+  "top35_count": 1,
+  "under_4500": 1,
+  "price_min": null,
+  "fallback_candidates": []
+}

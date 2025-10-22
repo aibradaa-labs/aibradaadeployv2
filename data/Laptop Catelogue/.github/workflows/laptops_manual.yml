@@ -1,0 +1,34 @@
+name: Laptops — Manual Fetch
+on:
+  workflow_dispatch:
+    inputs:
+      force_recompute:
+        description: 'Force recompute windows'
+        type: boolean
+        default: false
+      recrawl_prices:
+        description: 'Recrawl retailer pricing'
+        type: boolean
+        default: false
+      reason:
+        description: 'Why are you running this?'
+        type: string
+        required: false
+jobs:
+  manual:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install deps
+        run: npm ci || true
+      - name: Manual Fetch
+        run: bash ./scripts/fetch/manual/manual_fetch.sh "${{ inputs.force_recompute }}" "${{ inputs.recrawl_prices }}" "${{ inputs.reason }}"
+      - name: Validate
+        run: node ./scripts/validate/validator.js
+      - name: Rank & Windows
+        run: node -e "console.log('TODO: rank and emit top100/shortlist35/top10/appendix65')"
+      - name: Snapshot & Report
+        run: node -e "console.log('TODO: write snapshots and /reports/refresh/YYYY-WW.md')" 

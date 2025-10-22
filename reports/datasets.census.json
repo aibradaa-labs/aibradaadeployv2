@@ -1,0 +1,3832 @@
+[
+  {
+    "fullPath": "ai_pod/data/laptops/explorer.top10.gaming.json",
+    "extension": ".json",
+    "length": 1371,
+    "lastWriteTime": "2025-10-12T10:44:14.050Z",
+    "totalItems": 1,
+    "price_min": null,
+    "price_max": null,
+    "count_in_range_3500_7000": 0,
+    "count_lte_4500": 0,
+    "keys": [
+      "generated_at",
+      "items"
+    ],
+    "sample": [
+      {
+        "generated_at": "2025-10-12T17:15:00+08:00",
+        "items": [
+          {
+            "brand": "Lenovo",
+            "model": "Legion Slim 5i Gen 10 (2025)",
+            "price": 6299,
+            "score": 98,
+            "platform": "CUDA",
+            "why": "Excellent balance of powerful performance, a top-tier creator display, and robust build quality.",
+            "scores": {
+              "ai": 9,
+              "thermals": 9,
+              "upgrade": 8,
+              "linux": 8,
+              "portability": 8,
+              "value": 9
+            }
+          },
+          {
+            "brand": "ASUS",
+            "model": "ROG Zephyrus G16",
+            "price": 6999,
+            "score": 96,
+            "platform": "CUDA",
+            "why": "Top-of-the-line specs and display, pushing the budget limit.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 8,
+              "portability": 8,
+              "value": 8
+            }
+          },
+          {
+            "brand": "Acer",
+            "model": "Predator Helios Neo 16",
+            "price": 6499,
+            "score": 93,
+            "platform": "CUDA",
+            "why": "Powerful performer with a bright, color-accurate screen.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 7,
+              "value": 8
+            }
+          },
+          {
+            "brand": "ASUS",
+            "model": "TUF Gaming A16 (2025)",
+            "price": 5899,
+            "score": 97,
+            "platform": "CUDA",
+            "why": "Unbeatable performance for its price. Offers next-gen components and a solid display.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 8,
+              "portability": 7,
+              "value": 9
+            }
+          },
+          {
+            "brand": "MSI",
+            "model": "Katana 15 (2025)",
+            "price": 5399,
+            "score": 96,
+            "platform": "CUDA",
+            "why": "Slightly outperforms the Alienware benchmark for a lower price, featuring a solid build.",
+            "scores": {
+              "ai": 8,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 7,
+              "value": 9
+            }
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fullPath": "ai_pod/data/laptops/top35.cache.json",
+    "extension": ".json",
+    "length": 6500,
+    "lastWriteTime": "2025-10-12T10:32:07.583Z",
+    "totalItems": 1,
+    "price_min": null,
+    "price_max": null,
+    "count_in_range_3500_7000": 0,
+    "count_lte_4500": 0,
+    "keys": [
+      "generated_at",
+      "items"
+    ],
+    "sample": [
+      {
+        "generated_at": "2025-10-12T17:10:00+08:00",
+        "items": [
+          {
+            "brand": "Illegear",
+            "model": "Illegear Z7 (2025)",
+            "price": 6899,
+            "score": 95,
+            "platform": "CUDA",
+            "why": "Exceptional thermal performance and full-power RTX 4060.",
+            "scores": {
+              "ai": 9,
+              "thermals": 10,
+              "upgrade": 9,
+              "linux": 7,
+              "portability": 6,
+              "value": 9
+            },
+            "price_source_url": "https://www.illegear.com/laptops/z7/"
+          },
+          {
+            "brand": "Lenovo",
+            "model": "Legion Slim 5 16APH8",
+            "price": 6299,
+            "score": 93,
+            "platform": "CUDA",
+            "why": "Outstanding balance of build quality, performance, and aesthetic.",
+            "scores": {
+              "ai": 9,
+              "thermals": 9,
+              "upgrade": 8,
+              "linux": 8,
+              "portability": 7,
+              "value": 9
+            },
+            "price_source_url": "https://www.lenovo.com/my/en/p/laptops/legion-laptops/legion-slim-series/legion-slim-5-gen-8-16-inch-amd/82y9006qmj"
+          },
+          {
+            "brand": "ASUS",
+            "model": "ROG Zephyrus G14 (2023)",
+            "price": 6999,
+            "score": 92,
+            "platform": "CUDA",
+            "why": "Benchmark for compact power; incredible performance in a 14-inch chassis.",
+            "scores": {
+              "ai": 8,
+              "thermals": 8,
+              "upgrade": 7,
+              "linux": 8,
+              "portability": 9,
+              "value": 8
+            },
+            "price_source_url": "https://www.asus.com/my/laptops/for-gaming/rog-republic-of-gamers/rog-zephyrus-g14-2023/"
+          },
+          {
+            "brand": "Lenovo",
+            "model": "Legion Slim 5i Gen 10 (2025)",
+            "price": 6299,
+            "score": 98,
+            "platform": "CUDA",
+            "why": "Excellent balance of powerful performance, a top-tier creator display, and robust build quality.",
+            "scores": {
+              "ai": 9,
+              "thermals": 9,
+              "upgrade": 8,
+              "linux": 8,
+              "portability": 8,
+              "value": 9
+            },
+            "price_source_url": "https://pcsupport.lenovo.com/my/en/products/laptops-and-netbooks/legion-series/legion-slim-5-16irx9h/tech-specs"
+          },
+          {
+            "brand": "ASUS",
+            "model": "TUF Gaming A16 (2025)",
+            "price": 5899,
+            "score": 97,
+            "platform": "CUDA",
+            "why": "Unbeatable performance for its price. Offers next-gen components and a solid display.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 8,
+              "portability": 7,
+              "value": 9
+            },
+            "price_source_url": "https://rog.asus.com/my/laptops/rog-tuf-gaming/"
+          },
+          {
+            "brand": "MSI",
+            "model": "Katana 15 (2025)",
+            "price": 5399,
+            "score": 96,
+            "platform": "CUDA",
+            "why": "Solid build with strong value.",
+            "scores": {
+              "ai": 8,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 7,
+              "value": 9
+            },
+            "price_source_url": "https://www.msi.com/Laptop/Katana-15-A1VX"
+          },
+          {
+            "brand": "Alienware",
+            "model": "Alienware m16 Aurora",
+            "price": 5489,
+            "score": 92,
+            "platform": "CUDA",
+            "why": "Benchmark model; good performance.",
+            "scores": {
+              "ai": 8,
+              "thermals": 8,
+              "upgrade": 7,
+              "linux": 7,
+              "portability": 6,
+              "value": 7
+            },
+            "price_source_url": "https://www.dell.com/en-my/"
+          },
+          {
+            "brand": "Acer",
+            "model": "Predator Helios Neo 16",
+            "price": 6499,
+            "score": 93,
+            "platform": "CUDA",
+            "why": "Bright, color-accurate screen.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 7,
+              "value": 8
+            },
+            "price_source_url": "https://www.acer.com/my-en/predator/laptops/helios-neo-16"
+          },
+          {
+            "brand": "HP",
+            "model": "Omen 16 Transcend",
+            "price": 6899,
+            "score": 94,
+            "platform": "CUDA",
+            "why": "Premium build and OLED display.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 7,
+              "value": 8
+            },
+            "price_source_url": "https://www.hp.com/my-en/"
+          },
+          {
+            "brand": "ASUS",
+            "model": "ROG Zephyrus G16",
+            "price": 6999,
+            "score": 96,
+            "platform": "CUDA",
+            "why": "Top-of-the-line specs and display.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 8,
+              "portability": 8,
+              "value": 8
+            },
+            "price_source_url": "https://rog.asus.com/"
+          },
+          {
+            "brand": "Razer",
+            "model": "Razer Blade 15 (Base)",
+            "price": 6999,
+            "score": 95,
+            "platform": "CUDA",
+            "why": "Sleek design, strong performance.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 7,
+              "linux": 7,
+              "portability": 8,
+              "value": 7
+            },
+            "price_source_url": "https://www.razer.com/gaming-laptops/razer-blade-15"
+          },
+          {
+            "brand": "MSI",
+            "model": "Vector GP68",
+            "price": 6799,
+            "score": 93,
+            "platform": "CUDA",
+            "why": "Great performance with 2TB storage.",
+            "scores": {
+              "ai": 8,
+              "thermals": 8,
+              "upgrade": 9,
+              "linux": 7,
+              "portability": 7,
+              "value": 8
+            },
+            "price_source_url": "https://www.msi.com/Laptop/Vector-GP68-HX-14VX"
+          },
+          {
+            "brand": "Lenovo",
+            "model": "LOQ 15 (2025)",
+            "price": 4299,
+            "score": 88,
+            "platform": "CUDA",
+            "why": "Balanced performance with excellent keyboard and thermals.",
+            "scores": {
+              "ai": 8,
+              "thermals": 8,
+              "upgrade": 9,
+              "linux": 7,
+              "portability": 6,
+              "value": 8
+            },
+            "price_source_url": "https://www.lenovo.com/"
+          },
+          {
+            "brand": "Dell",
+            "model": "G15 Gaming (2025)",
+            "price": 4499,
+            "score": 90,
+            "platform": "CUDA",
+            "why": "Steady thermals and next-gen AI Tensor acceleration.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 6,
+              "value": 8
+            },
+            "price_source_url": "https://www.dell.com/"
+          },
+          {
+            "brand": "MSI",
+            "model": "Bravo 15 (2025)",
+            "price": 4599,
+            "score": 89,
+            "platform": "CUDA",
+            "why": "All-rounder with strong AI acceleration.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 8,
+              "portability": 6,
+              "value": 8
+            },
+            "price_source_url": "https://www.msi.com/"
+          },
+          {
+            "brand": "ASUS",
+            "model": "Vivobook Pro 15 OLED (2025)",
+            "price": 4699,
+            "score": 91,
+            "platform": "CUDA",
+            "why": "OLED creator panel with Intel AI Boost NPU.",
+            "scores": {
+              "ai": 9,
+              "thermals": 7,
+              "upgrade": 7,
+              "linux": 7,
+              "portability": 7,
+              "value": 8
+            },
+            "price_source_url": "https://www.asus.com/"
+          },
+          {
+            "brand": "Gigabyte",
+            "model": "G5 (2025)",
+            "price": 4799,
+            "score": 90,
+            "platform": "CUDA",
+            "why": "High refresh esports panel with AI ready silicon.",
+            "scores": {
+              "ai": 8,
+              "thermals": 7,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 6,
+              "value": 9
+            },
+            "price_source_url": "https://www.gigabyte.com/"
+          },
+          {
+            "brand": "Acer",
+            "model": "Nitro 5 (2025)",
+            "price": 4999,
+            "score": 92,
+            "platform": "CUDA",
+            "why": "QHD screen plus solid thermals under RM5k.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 6,
+              "value": 9
+            },
+            "price_source_url": "https://www.acer.com/"
+          },
+          {
+            "brand": "Apple",
+            "model": "MacBook Pro 14\" M3 Pro",
+            "price": 6999,
+            "score": 93,
+            "platform": "Mac",
+            "why": "Most powerful Mac in budget.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 1,
+              "linux": 1,
+              "portability": 9,
+              "value": 8
+            },
+            "price_source_url": "https://www.apple.com/my/"
+          },
+          {
+            "brand": "HP",
+            "model": "Victus 16 (2024)",
+            "price": 3999,
+            "score": 86,
+            "platform": "CUDA",
+            "why": "Entry RTX power under RM4k balanced for gaming and AI workloads.",
+            "scores": {
+              "ai": 8,
+              "thermals": 7,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 6,
+              "value": 9
+            },
+            "price_source_url": "https://www.hp.com/"
+          },
+          {
+            "brand": "Acer",
+            "model": "Aspire 5 (2024)",
+            "price": 3500,
+            "score": 81,
+            "platform": "NPU",
+            "why": "Affordable AI-ready ultraportable with Arc graphics.",
+            "scores": {
+              "ai": 7,
+              "thermals": 7,
+              "upgrade": 6,
+              "linux": 7,
+              "portability": 8,
+              "value": 9
+            },
+            "price_source_url": "https://www.acer.com/"
+          },
+          {
+            "brand": "ASUS",
+            "model": "ROG Strix G16 (2025)",
+            "price": 6299,
+            "score": 95,
+            "platform": "CUDA",
+            "why": "High performance gaming and creator.",
+            "scores": {
+              "ai": 9,
+              "thermals": 9,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 6,
+              "value": 8
+            },
+            "price_source_url": "https://rog.asus.com/"
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fullPath": "ai_pod/tokens/laptops.tokens.json",
+    "extension": ".json",
+    "length": 154,
+    "lastWriteTime": "2025-10-12T10:08:00.083Z",
+    "totalItems": 1,
+    "price_min": null,
+    "price_max": null,
+    "count_in_range_3500_7000": 0,
+    "count_lte_4500": 0,
+    "keys": [
+      "fallback_path",
+      "front_end_limit",
+      "top35_cache",
+      "ttl_hours"
+    ],
+    "sample": [
+      {
+        "fallback_path": "/data/fallbackLaptops.json",
+        "top35_cache": "/ai_pod/data/laptops/top35.cache.json",
+        "front_end_limit": 35,
+        "ttl_hours": 72
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fullPath": "data/fallbackLaptops.json",
+    "extension": ".json",
+    "length": 74979,
+    "lastWriteTime": "2025-10-12T09:24:41.999Z",
+    "totalItems": 73,
+    "price_min": null,
+    "price_max": null,
+    "count_in_range_3500_7000": 0,
+    "count_lte_4500": 0,
+    "keys": [
+      "battery_wh",
+      "brand",
+      "buy",
+      "cpu",
+      "display",
+      "first_seen",
+      "gpu",
+      "images",
+      "model",
+      "price",
+      "ram_gb",
+      "raw",
+      "region",
+      "sku",
+      "source",
+      "storage",
+      "uid",
+      "updated_at",
+      "weight_kg"
+    ],
+    "sample": [
+      {
+        "uid": "illegear|onyx g|my",
+        "brand": "Illegear",
+        "model": "Onyx G",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 6899,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.387876+00:00",
+        "first_seen": "2025-10-12T09:05:43.387876+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Illegear",
+          "model": "Onyx G",
+          "price": 6899,
+          "score": 95,
+          "platform": "CUDA",
+          "why": "Peak RTX 4060 performance and cooling",
+          "scores": {
+            "ai": 9.8,
+            "thermals": 9,
+            "upgrade": 9,
+            "linux": 7,
+            "portability": 6,
+            "value": 9.5
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "apple|macbook pro 14\" m3 pro|my",
+        "brand": "Apple",
+        "model": "MacBook Pro 14\" M3 Pro",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 6999,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.387912+00:00",
+        "first_seen": "2025-10-12T09:05:43.387912+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Apple",
+          "model": "MacBook Pro 14\" M3 Pro",
+          "price": 6999,
+          "score": 93,
+          "platform": "Mac",
+          "why": "Most powerful Mac in budget",
+          "scores": {
+            "ai": 8.8,
+            "thermals": 8,
+            "upgrade": 1,
+            "linux": 1,
+            "portability": 8.5,
+            "value": 8
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "soldered"
+          }
+        }
+      },
+      {
+        "uid": "illegear|z7|my",
+        "brand": "Illegear",
+        "model": "Z7",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5699,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.387926+00:00",
+        "first_seen": "2025-10-12T09:05:43.387926+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Illegear",
+          "model": "Z7",
+          "price": 5699,
+          "score": 92,
+          "platform": "CUDA",
+          "why": "Top-tier performance & upgradability",
+          "scores": {
+            "ai": 9.5,
+            "thermals": 8.5,
+            "upgrade": 9,
+            "linux": 7,
+            "portability": 6,
+            "value": 9
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "lenovo|yoga slim 7x|my",
+        "brand": "Lenovo",
+        "model": "Yoga Slim 7x",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5999,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.387937+00:00",
+        "first_seen": "2025-10-12T09:05:43.387937+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Lenovo",
+          "model": "Yoga Slim 7x",
+          "price": 5999,
+          "score": 89,
+          "platform": "NPU",
+          "why": "Elite efficiency & NPU power",
+          "scores": {
+            "ai": 8,
+            "thermals": 7,
+            "upgrade": 2,
+            "linux": 6,
+            "portability": 9.5,
+            "value": 8
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "asus|zenbook 14 oled|my",
+        "brand": "ASUS",
+        "model": "Zenbook 14 OLED",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5999,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.387945+00:00",
+        "first_seen": "2025-10-12T09:05:43.387945+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "ASUS",
+          "model": "Zenbook 14 OLED",
+          "price": 5999,
+          "score": 87,
+          "platform": "NPU",
+          "why": "Premium build, stunning display",
+          "scores": {
+            "ai": 7.8,
+            "thermals": 7.5,
+            "upgrade": 2,
+            "linux": 7,
+            "portability": 9.8,
+            "value": 7.5
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "apple|macbook air 15\" m3 (16gb)|my",
+        "brand": "Apple",
+        "model": "MacBook Air 15\" M3 (16GB)",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 6899,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.387957+00:00",
+        "first_seen": "2025-10-12T09:05:43.387957+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Apple",
+          "model": "MacBook Air 15\" M3 (16GB)",
+          "price": 6899,
+          "score": 86,
+          "platform": "Mac",
+          "why": "Large screen & 16GB RAM for AI",
+          "scores": {
+            "ai": 7.8,
+            "thermals": 7,
+            "upgrade": 1,
+            "linux": 1,
+            "portability": 9.5,
+            "value": 7
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "soldered"
+          }
+        }
+      },
+      {
+        "uid": "lenovo|yoga slim 7i (intel)|my",
+        "brand": "Lenovo",
+        "model": "Yoga Slim 7i (Intel)",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5799,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.387964+00:00",
+        "first_seen": "2025-10-12T09:05:43.387964+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Lenovo",
+          "model": "Yoga Slim 7i (Intel)",
+          "price": 5799,
+          "score": 85,
+          "platform": "NPU",
+          "why": "Strong Intel NPU with great build",
+          "scores": {
+            "ai": 7.7,
+            "thermals": 7.5,
+            "upgrade": 3,
+            "linux": 8,
+            "portability": 9,
+            "value": 8
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "lenovo|loq 15irh9|my",
+        "brand": "Lenovo",
+        "model": "LOQ 15IRH9",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4599,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.387971+00:00",
+        "first_seen": "2025-10-12T09:05:43.387971+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Lenovo",
+          "model": "LOQ 15IRH9",
+          "price": 4599,
+          "score": 84,
+          "platform": "CUDA",
+          "why": "Best value for RTX 40-series",
+          "scores": {
+            "ai": 8,
+            "thermals": 8,
+            "upgrade": 8,
+            "linux": 8,
+            "portability": 6.5,
+            "value": 9.5
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "honor|magicbook pro 16|my",
+        "brand": "Honor",
+        "model": "MagicBook Pro 16",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5499,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.387977+00:00",
+        "first_seen": "2025-10-12T09:05:43.387977+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Honor",
+          "model": "MagicBook Pro 16",
+          "price": 5499,
+          "score": 83,
+          "platform": "NPU",
+          "why": "Powerful AMD NPU and great display",
+          "scores": {
+            "ai": 7.5,
+            "thermals": 8,
+            "upgrade": 4,
+            "linux": 7.5,
+            "portability": 8,
+            "value": 8
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "aftershock|apex 15x lite|my",
+        "brand": "Aftershock",
+        "model": "Apex 15X Lite",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4900,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.387984+00:00",
+        "first_seen": "2025-10-12T09:05:43.387984+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Aftershock",
+          "model": "Apex 15X Lite",
+          "price": 4900,
+          "score": 82,
+          "platform": "CUDA",
+          "why": "Excellent customizability",
+          "scores": {
+            "ai": 8.2,
+            "thermals": 8.5,
+            "upgrade": 9,
+            "linux": 7,
+            "portability": 6,
+            "value": 8.5
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "hp|victus 16 (amd)|my",
+        "brand": "HP",
+        "model": "Victus 16 (AMD)",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4999,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.387991+00:00",
+        "first_seen": "2025-10-12T09:05:43.387991+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "HP",
+          "model": "Victus 16 (AMD)",
+          "price": 4999,
+          "score": 82,
+          "platform": "CUDA",
+          "why": "Large screen and solid combo",
+          "scores": {
+            "ai": 8,
+            "thermals": 8.2,
+            "upgrade": 8,
+            "linux": 7.5,
+            "portability": 5,
+            "value": 8.5
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "gigabyte|g5 mf|my",
+        "brand": "Gigabyte",
+        "model": "G5 MF",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4699,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.387997+00:00",
+        "first_seen": "2025-10-12T09:05:43.387997+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Gigabyte",
+          "model": "G5 MF",
+          "price": 4699,
+          "score": 81,
+          "platform": "CUDA",
+          "why": "Strong all-around budget CUDA",
+          "scores": {
+            "ai": 8,
+            "thermals": 7.8,
+            "upgrade": 8,
+            "linux": 7,
+            "portability": 6,
+            "value": 9
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "asus|tuf gaming a15|my",
+        "brand": "ASUS",
+        "model": "TUF Gaming A15",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4799,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388004+00:00",
+        "first_seen": "2025-10-12T09:05:43.388004+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "ASUS",
+          "model": "TUF Gaming A15",
+          "price": 4799,
+          "score": 80,
+          "platform": "CUDA",
+          "why": "Durable with solid CPU",
+          "scores": {
+            "ai": 7.8,
+            "thermals": 8,
+            "upgrade": 8,
+            "linux": 8,
+            "portability": 5.5,
+            "value": 8.5
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "msi|thin gf63|my",
+        "brand": "MSI",
+        "model": "Thin GF63",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4799,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388011+00:00",
+        "first_seen": "2025-10-12T09:05:43.388011+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "MSI",
+          "model": "Thin GF63",
+          "price": 4799,
+          "score": 79,
+          "platform": "CUDA",
+          "why": "Lightweight for a gaming laptop",
+          "scores": {
+            "ai": 7.9,
+            "thermals": 7.2,
+            "upgrade": 7,
+            "linux": 7,
+            "portability": 7,
+            "value": 8
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "dell|g15 5530|my",
+        "brand": "Dell",
+        "model": "G15 5530",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4899,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388020+00:00",
+        "first_seen": "2025-10-12T09:05:43.388020+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Dell",
+          "model": "G15 5530",
+          "price": 4899,
+          "score": 78,
+          "platform": "CUDA",
+          "why": "Powerful CPU & great warranty",
+          "scores": {
+            "ai": 8,
+            "thermals": 7.5,
+            "upgrade": 7,
+            "linux": 7.5,
+            "portability": 5,
+            "value": 8
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "infinix|gt book|my",
+        "brand": "Infinix",
+        "model": "GT Book",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4499,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388026+00:00",
+        "first_seen": "2025-10-12T09:05:43.388026+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Infinix",
+          "model": "GT Book",
+          "price": 4499,
+          "score": 77,
+          "platform": "CUDA",
+          "why": "Aggressive pricing for RTX 4050",
+          "scores": {
+            "ai": 7.8,
+            "thermals": 7,
+            "upgrade": 7,
+            "linux": 6.5,
+            "portability": 6.5,
+            "value": 9.2
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "acer|nitro v 15|my",
+        "brand": "Acer",
+        "model": "Nitro V 15",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4299,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388033+00:00",
+        "first_seen": "2025-10-12T09:05:43.388033+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Acer",
+          "model": "Nitro V 15",
+          "price": 4299,
+          "score": 76,
+          "platform": "CUDA",
+          "why": "Most affordable RTX 4050",
+          "scores": {
+            "ai": 7.5,
+            "thermals": 7,
+            "upgrade": 8,
+            "linux": 7,
+            "portability": 6,
+            "value": 9
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "illegear|arté 14|my",
+        "brand": "Illegear",
+        "model": "Arté 14",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5499,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388039+00:00",
+        "first_seen": "2025-10-12T09:05:43.388039+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Illegear",
+          "model": "Arté 14",
+          "price": 5499,
+          "score": 76,
+          "platform": "NPU",
+          "why": "Boutique ultrabook with customisation",
+          "scores": {
+            "ai": 7,
+            "thermals": 7,
+            "upgrade": 4,
+            "linux": 8,
+            "portability": 9.2,
+            "value": 7
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "acer|swift x 14|my",
+        "brand": "Acer",
+        "model": "Swift X 14",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5599,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388048+00:00",
+        "first_seen": "2025-10-12T09:05:43.388048+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Acer",
+          "model": "Swift X 14",
+          "price": 5599,
+          "score": 75,
+          "platform": "CUDA",
+          "why": "Portable creator laptop with dGPU",
+          "scores": {
+            "ai": 6.5,
+            "thermals": 7,
+            "upgrade": 2,
+            "linux": 7,
+            "portability": 9,
+            "value": 6.5
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "samsung|galaxy book4|my",
+        "brand": "Samsung",
+        "model": "Galaxy Book4",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5299,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388054+00:00",
+        "first_seen": "2025-10-12T09:05:43.388054+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Samsung",
+          "model": "Galaxy Book4",
+          "price": 5299,
+          "score": 74,
+          "platform": "NPU",
+          "why": "Ultra-premium build and AMOLED",
+          "scores": {
+            "ai": 6,
+            "thermals": 7,
+            "upgrade": 3,
+            "linux": 7,
+            "portability": 9.5,
+            "value": 6
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "huawei|matebook 14|my",
+        "brand": "HUAWEI",
+        "model": "MateBook 14",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5399,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388060+00:00",
+        "first_seen": "2025-10-12T09:05:43.388060+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "HUAWEI",
+          "model": "MateBook 14",
+          "price": 5399,
+          "score": 73,
+          "platform": "NPU",
+          "why": "Excellent display and ecosystem",
+          "scores": {
+            "ai": 6.2,
+            "thermals": 7.2,
+            "upgrade": 3,
+            "linux": 6,
+            "portability": 9.3,
+            "value": 6.5
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "asus|vivobook pro 15 oled|my",
+        "brand": "ASUS",
+        "model": "Vivobook Pro 15 OLED",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4999,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388065+00:00",
+        "first_seen": "2025-10-12T09:05:43.388065+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "ASUS",
+          "model": "Vivobook Pro 15 OLED",
+          "price": 4999,
+          "score": 72,
+          "platform": "CUDA",
+          "why": "Best-in-class display",
+          "scores": {
+            "ai": 6,
+            "thermals": 6.5,
+            "upgrade": 5,
+            "linux": 6,
+            "portability": 8,
+            "value": 7
+          },
+          "upgradability": {
+            "ram": "1 slot",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "aftershock|forge 15s|my",
+        "brand": "Aftershock",
+        "model": "Forge 15S",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 3899,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388072+00:00",
+        "first_seen": "2025-10-12T09:05:43.388072+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Aftershock",
+          "model": "Forge 15S",
+          "price": 3899,
+          "score": 71,
+          "platform": "CUDA",
+          "why": "Best value for entry-level CUDA",
+          "scores": {
+            "ai": 5.8,
+            "thermals": 7.5,
+            "upgrade": 9,
+            "linux": 7,
+            "portability": 6,
+            "value": 8.8
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "razer|blade 14 (older spec)|my",
+        "brand": "Razer",
+        "model": "Blade 14 (older spec)",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 6599,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388080+00:00",
+        "first_seen": "2025-10-12T09:05:43.388080+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Razer",
+          "model": "Blade 14 (older spec)",
+          "price": 6599,
+          "score": 70,
+          "platform": "CUDA",
+          "why": "Premium build, on clearance",
+          "scores": {
+            "ai": 7.5,
+            "thermals": 8.5,
+            "upgrade": 2,
+            "linux": 6,
+            "portability": 8,
+            "value": 5
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "hp|victus 15|my",
+        "brand": "HP",
+        "model": "Victus 15",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 3999,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388087+00:00",
+        "first_seen": "2025-10-12T09:05:43.388087+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "HP",
+          "model": "Victus 15",
+          "price": 3999,
+          "score": 69,
+          "platform": "CUDA",
+          "why": "Strong entry-level dGPU",
+          "scores": {
+            "ai": 5.5,
+            "thermals": 7,
+            "upgrade": 7,
+            "linux": 7.5,
+            "portability": 7,
+            "value": 8
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "microsoft|surface laptop 5 (15\")|my",
+        "brand": "Microsoft",
+        "model": "Surface Laptop 5 (15\")",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5899,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388092+00:00",
+        "first_seen": "2025-10-12T09:05:43.388092+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Microsoft",
+          "model": "Surface Laptop 5 (15\")",
+          "price": 5899,
+          "score": 68,
+          "platform": "NPU",
+          "why": "Excellent keyboard and premium feel",
+          "scores": {
+            "ai": 5,
+            "thermals": 6,
+            "upgrade": 1,
+            "linux": 8,
+            "portability": 9,
+            "value": 5.5
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "soldered"
+          }
+        }
+      },
+      {
+        "uid": "dell|inspiron 14 plus|my",
+        "brand": "Dell",
+        "model": "Inspiron 14 Plus",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5199,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388099+00:00",
+        "first_seen": "2025-10-12T09:05:43.388099+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Dell",
+          "model": "Inspiron 14 Plus",
+          "price": 5199,
+          "score": 67,
+          "platform": "NPU",
+          "why": "Solid workhorse with a good screen",
+          "scores": {
+            "ai": 5.8,
+            "thermals": 6.5,
+            "upgrade": 4,
+            "linux": 8.5,
+            "portability": 8.5,
+            "value": 6
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "msi|cyborg 15|my",
+        "brand": "MSI",
+        "model": "Cyborg 15",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4599,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388105+00:00",
+        "first_seen": "2025-10-12T09:05:43.388105+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "MSI",
+          "model": "Cyborg 15",
+          "price": 4599,
+          "score": 66,
+          "platform": "CUDA",
+          "why": "Unique transparent chassis",
+          "scores": {
+            "ai": 7.7,
+            "thermals": 6.5,
+            "upgrade": 7,
+            "linux": 7,
+            "portability": 7.2,
+            "value": 7
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "lenovo|ideapad slim 5 oled|my",
+        "brand": "Lenovo",
+        "model": "IdeaPad Slim 5 OLED",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4899,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388110+00:00",
+        "first_seen": "2025-10-12T09:05:43.388110+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Lenovo",
+          "model": "IdeaPad Slim 5 OLED",
+          "price": 4899,
+          "score": 65,
+          "platform": "NPU",
+          "why": "Affordable OLED with AMD Ryzen AI",
+          "scores": {
+            "ai": 6.5,
+            "thermals": 7,
+            "upgrade": 3,
+            "linux": 8,
+            "portability": 9,
+            "value": 7.5
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "gigabyte|aorus 15 (entry)|my",
+        "brand": "Gigabyte",
+        "model": "AORUS 15 (entry)",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5999,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388116+00:00",
+        "first_seen": "2025-10-12T09:05:43.388116+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Gigabyte",
+          "model": "AORUS 15 (entry)",
+          "price": 5999,
+          "score": 64,
+          "platform": "CUDA",
+          "why": "High-end brand features",
+          "scores": {
+            "ai": 8.5,
+            "thermals": 9,
+            "upgrade": 8,
+            "linux": 7,
+            "portability": 5,
+            "value": 6
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "acer|aspire 7 gaming|my",
+        "brand": "Acer",
+        "model": "Aspire 7 Gaming",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 3799,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388126+00:00",
+        "first_seen": "2025-10-12T09:05:43.388126+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Acer",
+          "model": "Aspire 7 Gaming",
+          "price": 3799,
+          "score": 63,
+          "platform": "CUDA",
+          "why": "Cheapest entry to CUDA",
+          "scores": {
+            "ai": 5.2,
+            "thermals": 6.8,
+            "upgrade": 8,
+            "linux": 7,
+            "portability": 6.5,
+            "value": 8.5
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "level51|terra 15s|my",
+        "brand": "Level51",
+        "model": "Terra 15S",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4350,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388133+00:00",
+        "first_seen": "2025-10-12T09:05:43.388133+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Level51",
+          "model": "Terra 15S",
+          "price": 4350,
+          "score": 62,
+          "platform": "CUDA",
+          "why": "Local custom builder",
+          "scores": {
+            "ai": 7.5,
+            "thermals": 7.2,
+            "upgrade": 9,
+            "linux": 7,
+            "portability": 6,
+            "value": 7.5
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "honor|magicbook x 16 pro|my",
+        "brand": "Honor",
+        "model": "MagicBook X 16 Pro",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4199,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388139+00:00",
+        "first_seen": "2025-10-12T09:05:43.388139+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Honor",
+          "model": "MagicBook X 16 Pro",
+          "price": 4199,
+          "score": 61,
+          "platform": "NPU",
+          "why": "Large lightweight screen",
+          "scores": {
+            "ai": 5.5,
+            "thermals": 7,
+            "upgrade": 2,
+            "linux": 7,
+            "portability": 8.5,
+            "value": 7
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "xiaomi|redmi g pro|my",
+        "brand": "Xiaomi",
+        "model": "Redmi G Pro",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5899,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388146+00:00",
+        "first_seen": "2025-10-12T09:05:43.388146+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Xiaomi",
+          "model": "Redmi G Pro",
+          "price": 5899,
+          "score": 60,
+          "platform": "CUDA",
+          "why": "High specs, check warranty",
+          "scores": {
+            "ai": 8.8,
+            "thermals": 8.5,
+            "upgrade": 8,
+            "linux": 5,
+            "portability": 5,
+            "value": 7
+          },
+          "upgradability": {
+            "ram": "2 slots",
+            "ssd": "2 slots"
+          }
+        }
+      },
+      {
+        "uid": "jumper|techbook 16|my",
+        "brand": "Jumper",
+        "model": "TechBook 16",
+        "sku": null,
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 3599,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388152+00:00",
+        "first_seen": "2025-10-12T09:05:43.388152+00:00",
+        "source": "uploaded:laptops.json",
+        "raw": {
+          "brand": "Jumper",
+          "model": "TechBook 16",
+          "price": 3599,
+          "score": 55,
+          "platform": "NPU",
+          "why": "Ultra-budget NPU entry",
+          "scores": {
+            "ai": 4,
+            "thermals": 5,
+            "upgrade": 2,
+            "linux": 6,
+            "portability": 9,
+            "value": 8
+          },
+          "upgradability": {
+            "ram": "soldered",
+            "ssd": "1 slot"
+          }
+        }
+      },
+      {
+        "uid": "lenovo|my",
+        "brand": "Lenovo",
+        "model": "",
+        "sku": null,
+        "cpu": "Intel Core 7-260H",
+        "gpu": "RTX 5060",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 6299,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388159+00:00",
+        "first_seen": "2025-10-12T09:05:43.388159+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 1,
+          "rank": 2,
+          "name": "Lenovo Legion Slim 5i Gen 10",
+          "brand": "Lenovo",
+          "price": 6299,
+          "cpu": "Intel Core 7-260H",
+          "gpu": "RTX 5060",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 95,
+          "brightness": 400,
+          "relevance_years": 4.5,
+          "summary": "Excellent balance of powerful performance, a top-tier creator display, and robust build quality.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "asus|my",
+        "brand": "ASUS",
+        "model": "",
+        "sku": null,
+        "cpu": "AMD Ryzen 7 9845HS",
+        "gpu": "RTX 5060",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5899,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388166+00:00",
+        "first_seen": "2025-10-12T09:05:43.388166+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 2,
+          "rank": 1,
+          "name": "ASUS TUF Gaming A16 (2025)",
+          "brand": "ASUS",
+          "price": 5899,
+          "cpu": "AMD Ryzen 7 9845HS",
+          "gpu": "RTX 5060",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 90,
+          "brightness": 350,
+          "relevance_years": 4.5,
+          "summary": "Unbeatable performance for its price. Offers next-gen components and a solid display.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "msi|my",
+        "brand": "MSI",
+        "model": "",
+        "sku": null,
+        "cpu": "Intel Core 7-255H",
+        "gpu": "RTX 5050",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5399,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388173+00:00",
+        "first_seen": "2025-10-12T09:05:43.388173+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 3,
+          "rank": 3,
+          "name": "MSI Katana 15 (2025)",
+          "brand": "MSI",
+          "price": 5399,
+          "cpu": "Intel Core 7-255H",
+          "gpu": "RTX 5050",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 85,
+          "brightness": 300,
+          "relevance_years": 4,
+          "summary": "Slightly outperforms the Alienware benchmark for a lower price, featuring a solid build.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "alienware|my",
+        "brand": "Alienware",
+        "model": "",
+        "sku": null,
+        "cpu": "Intel Core 7-240H",
+        "gpu": "RTX 5050",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5489,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388179+00:00",
+        "first_seen": "2025-10-12T09:05:43.388179+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 4,
+          "name": "Alienware 16 Aurora",
+          "brand": "Alienware",
+          "price": 5489,
+          "cpu": "Intel Core 7-240H",
+          "gpu": "RTX 5050",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 80,
+          "brightness": 300,
+          "relevance_years": 4,
+          "summary": "The benchmark model. Good performance but faces stiff competition on value and display quality.",
+          "product_link": "https://www.dell.com/en-my/shop/gaming-and-games/alienware-16-aurora-gaming-laptop/spd/alienware-aurora-ac16250-gaming-laptop",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "acer|my",
+        "brand": "Acer",
+        "model": "",
+        "sku": null,
+        "cpu": "Intel Core 7-260H",
+        "gpu": "RTX 5060",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 6499,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388185+00:00",
+        "first_seen": "2025-10-12T09:05:43.388185+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 5,
+          "name": "Acer Predator Helios Neo 16",
+          "brand": "Acer",
+          "price": 6499,
+          "cpu": "Intel Core 7-260H",
+          "gpu": "RTX 5060",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 92,
+          "brightness": 400,
+          "relevance_years": 4.5,
+          "summary": "Powerful performer with a bright, color-accurate screen.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "hp|my",
+        "brand": "HP",
+        "model": "",
+        "sku": null,
+        "cpu": "Intel Core 7-265H",
+        "gpu": "RTX 5060",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 6899,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388192+00:00",
+        "first_seen": "2025-10-12T09:05:43.388192+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 6,
+          "name": "HP Omen 16 Transcend",
+          "brand": "HP",
+          "price": 6899,
+          "cpu": "Intel Core 7-265H",
+          "gpu": "RTX 5060",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 98,
+          "brightness": 450,
+          "relevance_years": 4.5,
+          "summary": "Premium build and one of the best displays in this price range.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "asus|my",
+        "brand": "ASUS",
+        "model": "",
+        "sku": null,
+        "cpu": "AMD Ryzen 9 9950HS",
+        "gpu": "RTX 5060",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 6999,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388198+00:00",
+        "first_seen": "2025-10-12T09:05:43.388198+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 7,
+          "name": "ASUS ROG Zephyrus G16",
+          "brand": "ASUS",
+          "price": 6999,
+          "cpu": "AMD Ryzen 9 9950HS",
+          "gpu": "RTX 5060",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 100,
+          "brightness": 500,
+          "relevance_years": 5,
+          "summary": "Top-of-the-line specs and display, pushing the budget limit.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "razer|my",
+        "brand": "Razer",
+        "model": "",
+        "sku": null,
+        "cpu": "Intel Core 7-260H",
+        "gpu": "RTX 5060",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 6999,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388204+00:00",
+        "first_seen": "2025-10-12T09:05:43.388204+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 8,
+          "name": "Razer Blade 15 (Base)",
+          "brand": "Razer",
+          "price": 6999,
+          "cpu": "Intel Core 7-260H",
+          "gpu": "RTX 5060",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 95,
+          "brightness": 400,
+          "relevance_years": 4.5,
+          "summary": "Sleek design and premium feel, with strong performance.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "msi|my",
+        "brand": "MSI",
+        "model": "",
+        "sku": null,
+        "cpu": "Intel Core 7-265H",
+        "gpu": "RTX 5060",
+        "ram_gb": 16,
+        "storage": 2,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 6799,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388211+00:00",
+        "first_seen": "2025-10-12T09:05:43.388211+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 9,
+          "name": "MSI Vector GP68",
+          "brand": "MSI",
+          "price": 6799,
+          "cpu": "Intel Core 7-265H",
+          "gpu": "RTX 5060",
+          "ram": 16,
+          "storage": 2,
+          "dci_p_3": 90,
+          "brightness": 350,
+          "relevance_years": 4.5,
+          "summary": "Great performance with a generous 2TB of storage.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "acer|my",
+        "brand": "Acer",
+        "model": "",
+        "sku": null,
+        "cpu": "AMD Ryzen 7 9745HS",
+        "gpu": "RTX 5050",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4999,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388218+00:00",
+        "first_seen": "2025-10-12T09:05:43.388218+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 10,
+          "name": "Acer Nitro 5",
+          "brand": "Acer",
+          "price": 4999,
+          "cpu": "AMD Ryzen 7 9745HS",
+          "gpu": "RTX 5050",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 75,
+          "brightness": 300,
+          "relevance_years": 4,
+          "summary": "Excellent entry-level option for modern gaming.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "lenovo|my",
+        "brand": "Lenovo",
+        "model": "",
+        "sku": null,
+        "cpu": "Intel Core 7-250H",
+        "gpu": "RTX 5050",
+        "ram_gb": 16,
+        "storage": 0.5,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4899,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388224+00:00",
+        "first_seen": "2025-10-12T09:05:43.388224+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 11,
+          "name": "Lenovo LOQ 15",
+          "brand": "Lenovo",
+          "price": 4899,
+          "cpu": "Intel Core 7-250H",
+          "gpu": "RTX 5050",
+          "ram": 16,
+          "storage": 0.5,
+          "dci_p_3": 70,
+          "brightness": 300,
+          "relevance_years": 3.5,
+          "summary": "Budget-friendly choice with a slightly smaller SSD.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "hp|my",
+        "brand": "HP",
+        "model": "",
+        "sku": null,
+        "cpu": "AMD Ryzen 7 9845HS",
+        "gpu": "RTX 5050",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5199,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388230+00:00",
+        "first_seen": "2025-10-12T09:05:43.388230+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 12,
+          "name": "HP Victus 16",
+          "brand": "HP",
+          "price": 5199,
+          "cpu": "AMD Ryzen 7 9845HS",
+          "gpu": "RTX 5050",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 80,
+          "brightness": 300,
+          "relevance_years": 4,
+          "summary": "Solid all-rounder with a clean design aesthetic.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "asus|my",
+        "brand": "ASUS",
+        "model": "",
+        "sku": null,
+        "cpu": "Intel Core 7-255H",
+        "gpu": "RTX 5050",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5299,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388236+00:00",
+        "first_seen": "2025-10-12T09:05:43.388236+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 13,
+          "name": "ASUS TUF Gaming F15",
+          "brand": "ASUS",
+          "price": 5299,
+          "cpu": "Intel Core 7-255H",
+          "gpu": "RTX 5050",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 82,
+          "brightness": 300,
+          "relevance_years": 4,
+          "summary": "Durable build with reliable gaming performance.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "gigabyte|my",
+        "brand": "Gigabyte",
+        "model": "",
+        "sku": null,
+        "cpu": "Intel Core 7-250H",
+        "gpu": "RTX 5050",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 4799,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388243+00:00",
+        "first_seen": "2025-10-12T09:05:43.388243+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 14,
+          "name": "Gigabyte G5",
+          "brand": "Gigabyte",
+          "price": 4799,
+          "cpu": "Intel Core 7-250H",
+          "gpu": "RTX 5050",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 70,
+          "brightness": 280,
+          "relevance_years": 3.5,
+          "summary": "Aggressively priced with core gaming essentials.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      },
+      {
+        "uid": "illegear|my",
+        "brand": "Illegear",
+        "model": "",
+        "sku": null,
+        "cpu": "Intel Core 7-260H",
+        "gpu": "RTX 5060",
+        "ram_gb": 16,
+        "storage": 1,
+        "display": null,
+        "weight_kg": null,
+        "battery_wh": null,
+        "price": {
+          "value": 5999,
+          "currency": "MYR",
+          "promo": null
+        },
+        "buy": {
+          "url": "",
+          "seller": null
+        },
+        "region": "MY",
+        "images": [],
+        "updated_at": "2025-10-12T09:05:43.388249+00:00",
+        "first_seen": "2025-10-12T09:05:43.388249+00:00",
+        "source": "uploaded:updated laptop DB.yml",
+        "raw": {
+          "id": 15,
+          "name": "Illegear Prodigy",
+          "brand": "Illegear",
+          "price": 5999,
+          "cpu": "Intel Core 7-260H",
+          "gpu": "RTX 5060",
+          "ram": 16,
+          "storage": 1,
+          "dci_p_3": 93,
+          "brightness": 350,
+          "relevance_years": 4.5,
+          "summary": "Malaysian brand offering customizable, high-performance builds.",
+          "product_link": "#",
+          "in_stock": true,
+          "headline": ""
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fullPath": "data/laptops.json",
+    "extension": ".json",
+    "length": 15572,
+    "lastWriteTime": "2025-10-11T08:47:28.978Z",
+    "totalItems": 1,
+    "price_min": null,
+    "price_max": null,
+    "count_in_range_3500_7000": 0,
+    "count_lte_4500": 0,
+    "keys": [
+      "generated_at",
+      "items",
+      "total_count"
+    ],
+    "sample": [
+      {
+        "generated_at": "2025-10-11T16:30:00+08:00",
+        "total_count": 12,
+        "items": [
+          {
+            "brand": "Illegear",
+            "model": "Illegear Z7 (2025)",
+            "price": 6899,
+            "cpu": "Intel Core i7-14700HX",
+            "gpu": "NVIDIA RTX 4060 8GB",
+            "ram": "16GB DDR5 5600MHz",
+            "storage": "1TB NVMe Gen4 SSD",
+            "display": "17.3\" QHD 240Hz",
+            "score": 95,
+            "platform": "CUDA",
+            "why": "Exceptional thermal performance and full-power RTX 4060.",
+            "scores": {
+              "ai": 9,
+              "thermals": 10,
+              "upgrade": 9,
+              "linux": 7,
+              "portability": 6,
+              "value": 9
+            },
+            "segments": [
+              "AI Feature",
+              "Gaming",
+              "Creator"
+            ],
+            "price_source_url": "https://www.illegear.com/laptops/z7/",
+            "shopee_url": "https://shopee.com.my/search?keyword=Illegear%20Z7",
+            "tiktok_url": "https://www.tiktok.com/tag/illegearz7",
+            "lazada_url": null,
+            "best_deal_url": null,
+            "imageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22 width=%22600%22 height=%22400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%23141414%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%23595959%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3EAi%20Bradaa%20Dataset%3C/text%3E%3C/svg%3E",
+            "release_year": 2025
+          },
+          {
+            "brand": "Lenovo",
+            "model": "Legion Slim 5 16APH8",
+            "price": 6299,
+            "cpu": "AMD Ryzen 7 7840HS",
+            "gpu": "NVIDIA RTX 4060 8GB",
+            "ram": "16GB DDR5 5600MHz",
+            "storage": "512GB NVMe Gen4 SSD",
+            "display": "16\" WQXGA 165Hz",
+            "score": 93,
+            "platform": "CUDA",
+            "why": "Outstanding balance of build quality, performance, and aesthetic.",
+            "scores": {
+              "ai": 9,
+              "thermals": 9,
+              "upgrade": 8,
+              "linux": 8,
+              "portability": 7,
+              "value": 9
+            },
+            "segments": [
+              "AI Feature",
+              "Gaming",
+              "Business"
+            ],
+            "price_source_url": "https://www.lenovo.com/my/en/p/laptops/legion-laptops/legion-slim-series/legion-slim-5-gen-8-16-inch-amd/82y9006qmj",
+            "shopee_url": "https://shopee.com.my/search?keyword=Legion%20Slim%205",
+            "tiktok_url": "https://www.tiktok.com/tag/legionslim516aph8",
+            "lazada_url": null,
+            "best_deal_url": null,
+            "imageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22 width=%22600%22 height=%22400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%23141414%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%23595959%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3EAi%20Bradaa%20Dataset%3C/text%3E%3C/svg%3E",
+            "release_year": 2024
+          },
+          {
+            "brand": "ASUS",
+            "model": "ROG Zephyrus G14 (2023)",
+            "price": 6999,
+            "cpu": "AMD Ryzen 7 7735HS",
+            "gpu": "NVIDIA RTX 4050 6GB",
+            "ram": "16GB DDR5",
+            "storage": "512GB NVMe SSD",
+            "display": "14\" QHD+ 165Hz",
+            "score": 92,
+            "platform": "CUDA",
+            "why": "Benchmark for compact power; incredible performance in a 14-inch chassis.",
+            "scores": {
+              "ai": 8,
+              "thermals": 8,
+              "upgrade": 7,
+              "linux": 8,
+              "portability": 9,
+              "value": 8
+            },
+            "segments": [
+              "AI Feature",
+              "Gaming",
+              "Portable"
+            ],
+            "price_source_url": "https://www.asus.com/my/laptops/for-gaming/rog-republic-of-gamers/rog-zephyrus-g14-2023/",
+            "shopee_url": "https://shopee.com.my/search?keyword=Zephyrus%20G14%202023",
+            "tiktok_url": "https://www.tiktok.com/tag/zephyrusg14",
+            "lazada_url": null,
+            "best_deal_url": null,
+            "imageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22 width=%22600%22 height=%22400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%23141414%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%23595959%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3EAi%20Bradaa%20Dataset%3C/text%3E%3C/svg%3E",
+            "release_year": 2023
+          },
+          {
+            "brand": "Lenovo",
+            "model": "Legion Slim 5i Gen 10 (2025)",
+            "price": 6299,
+            "cpu": "Intel Core 7-260H",
+            "gpu": "NVIDIA RTX 5060",
+            "ram": "16GB DDR5",
+            "storage": "1TB NVMe SSD",
+            "display": "16\" WQXGA 240Hz",
+            "score": 98,
+            "platform": "CUDA",
+            "why": "Excellent balance of powerful performance, a top-tier creator display, and robust build quality.",
+            "scores": {
+              "ai": 9,
+              "thermals": 9,
+              "upgrade": 8,
+              "linux": 8,
+              "portability": 8,
+              "value": 9
+            },
+            "segments": [
+              "AI Feature",
+              "Creator",
+              "Portable",
+              "Gaming"
+            ],
+            "price_source_url": "https://pcsupport.lenovo.com/my/en/products/laptops-and-netbooks/legion-series/legion-slim-5-16irx9h/tech-specs",
+            "shopee_url": "https://shopee.com.my/search?keyword=Lenovo%20Legion%205i%20Gen%2010",
+            "tiktok_url": "https://www.tiktok.com/tag/legionslim5igen10",
+            "lazada_url": null,
+            "best_deal_url": null,
+            "imageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22 width=%22600%22 height=%22400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%23141414%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%23595959%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3EAi%20Bradaa%20Dataset%3C/text%3E%3C/svg%3E",
+            "release_year": 2025
+          },
+          {
+            "brand": "ASUS",
+            "model": "TUF Gaming A16 (2025)",
+            "price": 5899,
+            "cpu": "AMD Ryzen 7 9845HS",
+            "gpu": "NVIDIA RTX 5060",
+            "ram": "16GB DDR5",
+            "storage": "1TB NVMe SSD",
+            "display": "16\" FHD+ 165Hz",
+            "score": 97,
+            "platform": "CUDA",
+            "why": "Unbeatable performance for its price. Offers next-gen components and a solid display.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 8,
+              "portability": 7,
+              "value": 9
+            },
+            "segments": [
+              "Gaming",
+              "AI Feature",
+              "Student"
+            ],
+            "price_source_url": "https://rog.asus.com/my/laptops/rog-tuf-gaming/",
+            "shopee_url": "https://shopee.com.my/search?keyword=ASUS%20TUF%20A16%202025",
+            "tiktok_url": "https://www.tiktok.com/tag/asustufgaminga16",
+            "lazada_url": null,
+            "best_deal_url": null,
+            "imageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22 width=%22600%22 height=%22400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%23141414%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%23595959%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3EAi%20Bradaa%20Dataset%3C/text%3E%3C/svg%3E",
+            "release_year": 2025
+          },
+          {
+            "brand": "MSI",
+            "model": "Katana 15 (2025)",
+            "price": 5399,
+            "cpu": "Intel Core 7-255H",
+            "gpu": "NVIDIA RTX 5050",
+            "ram": "16GB DDR5",
+            "storage": "1TB NVMe SSD",
+            "display": "15.6\" FHD 144Hz",
+            "score": 96,
+            "platform": "CUDA",
+            "why": "Slightly outperforms the Alienware benchmark for a lower price, featuring a solid build.",
+            "scores": {
+              "ai": 8,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 7,
+              "value": 9
+            },
+            "segments": [
+              "Gaming",
+              "Student"
+            ],
+            "price_source_url": "https://www.msi.com/Laptop/Katana-15-A1VX",
+            "shopee_url": "https://shopee.com.my/search?keyword=MSI%20Katana%2015%202025",
+            "tiktok_url": "https://www.tiktok.com/tag/msikatana15",
+            "lazada_url": null,
+            "best_deal_url": null,
+            "imageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22 width=%22600%22 height=%22400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%23141414%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%23595959%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3EAi%20Bradaa%20Dataset%3C/text%3E%3C/svg%3E",
+            "release_year": 2025
+          },
+          {
+            "brand": "Alienware",
+            "model": "Alienware m16 Aurora",
+            "price": 5489,
+            "cpu": "Intel Core 7-240H",
+            "gpu": "NVIDIA RTX 5050",
+            "ram": "16GB DDR5",
+            "storage": "1TB NVMe SSD",
+            "display": "16\" QHD+ 165Hz",
+            "score": 92,
+            "platform": "CUDA",
+            "why": "The benchmark model. Good performance but faces stiff competition on value and display quality.",
+            "scores": {
+              "ai": 8,
+              "thermals": 8,
+              "upgrade": 7,
+              "linux": 7,
+              "portability": 6,
+              "value": 7
+            },
+            "segments": [
+              "Gaming",
+              "Creator"
+            ],
+            "price_source_url": "https://www.dell.com/en-my/shop/gaming-and-games/alienware-m16-r2-gaming-laptop/spd/alienware-m16-r2-laptop",
+            "shopee_url": "https://shopee.com.my/search?keyword=Alienware%20m16%20Aurora",
+            "tiktok_url": "https://www.tiktok.com/tag/alienwarem16",
+            "lazada_url": null,
+            "best_deal_url": null,
+            "imageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22 width=%22600%22 height=%22400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%23141414%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%23595959%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3EAi%20Bradaa%20Dataset%3C/text%3E%3C/svg%3E",
+            "release_year": 2024
+          },
+          {
+            "brand": "Acer",
+            "model": "Predator Helios Neo 16",
+            "price": 6499,
+            "cpu": "Intel Core 7-260H",
+            "gpu": "NVIDIA RTX 5060",
+            "ram": "16GB DDR5",
+            "storage": "1TB NVMe SSD",
+            "display": "16\" QHD 165Hz",
+            "score": 93,
+            "platform": "CUDA",
+            "why": "Powerful performer with a bright, color-accurate screen.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 7,
+              "value": 8
+            },
+            "segments": [
+              "Gaming",
+              "AI Feature"
+            ],
+            "price_source_url": "https://www.acer.com/my-en/predator/laptops/helios-neo-16",
+            "shopee_url": "https://shopee.com.my/search?keyword=Predator%20Helios%20Neo%2016",
+            "tiktok_url": "https://www.tiktok.com/tag/predatorheliosneo16",
+            "lazada_url": null,
+            "best_deal_url": null,
+            "imageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22 width=%22600%22 height=%22400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%23141414%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%23595959%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3EAi%20Bradaa%20Dataset%3C/text%3E%3C/svg%3E",
+            "release_year": 2024
+          },
+          {
+            "brand": "HP",
+            "model": "Omen 16 Transcend",
+            "price": 6899,
+            "cpu": "Intel Core 7-265H",
+            "gpu": "NVIDIA RTX 5060",
+            "ram": "16GB DDR5",
+            "storage": "1TB NVMe SSD",
+            "display": "16\" QHD 240Hz OLED",
+            "score": 94,
+            "platform": "CUDA",
+            "why": "Premium build and one of the best displays in this price range.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 7,
+              "portability": 7,
+              "value": 8
+            },
+            "segments": [
+              "Creator",
+              "Gaming",
+              "Business"
+            ],
+            "price_source_url": "https://www.hp.com/my-en/shop/hp-omen-transcend-16",
+            "shopee_url": "https://shopee.com.my/search?keyword=HP%20Omen%2016%20Transcend",
+            "tiktok_url": "https://www.tiktok.com/tag/hpomen16",
+            "lazada_url": null,
+            "best_deal_url": null,
+            "imageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22 width=%22600%22 height=%22400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%23141414%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%23595959%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3EAi%20Bradaa%20Dataset%3C/text%3E%3C/svg%3E",
+            "release_year": 2024
+          },
+          {
+            "brand": "ASUS",
+            "model": "ROG Zephyrus G16",
+            "price": 6999,
+            "cpu": "AMD Ryzen 9 9950HS",
+            "gpu": "NVIDIA RTX 5060",
+            "ram": "16GB DDR5",
+            "storage": "1TB NVMe SSD",
+            "display": "16\" QHD+ 240Hz",
+            "score": 96,
+            "platform": "CUDA",
+            "why": "Top-of-the-line specs and display, pushing the budget limit.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 8,
+              "linux": 8,
+              "portability": 8,
+              "value": 8
+            },
+            "segments": [
+              "AI Feature",
+              "Creator",
+              "Portable"
+            ],
+            "price_source_url": "https://rog.asus.com/laptops/rog-zephyrus/rog-zephyrus-g16-2024-series/",
+            "shopee_url": "https://shopee.com.my/search?keyword=ROG%20Zephyrus%20G16",
+            "tiktok_url": "https://www.tiktok.com/tag/rogzephyrusg16",
+            "lazada_url": null,
+            "best_deal_url": null,
+            "imageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22 width=%22600%22 height=%22400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%23141414%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%23595959%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3EAi%20Bradaa%20Dataset%3C/text%3E%3C/svg%3E",
+            "release_year": 2024
+          },
+          {
+            "brand": "Razer",
+            "model": "Razer Blade 15 (Base)",
+            "price": 6999,
+            "cpu": "Intel Core 7-260H",
+            "gpu": "NVIDIA RTX 5060",
+            "ram": "16GB DDR5",
+            "storage": "1TB NVMe SSD",
+            "display": "15.6\" QHD 240Hz",
+            "score": 95,
+            "platform": "CUDA",
+            "why": "Sleek design and premium feel, with strong performance.",
+            "scores": {
+              "ai": 9,
+              "thermals": 8,
+              "upgrade": 7,
+              "linux": 7,
+              "portability": 8,
+              "value": 7
+            },
+            "segments": [
+              "Creator",
+              "Gaming",
+              "Portable"
+            ],
+            "price_source_url": "https://www.razer.com/gaming-laptops/razer-blade-15",
+            "shopee_url": "https://shopee.com.my/search?keyword=Razer%20Blade%2015",
+            "tiktok_url": "https://www.tiktok.com/tag/razerblade15",
+            "lazada_url": null,
+            "best_deal_url": null,
+            "imageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22 width=%22600%22 height=%22400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%23141414%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%23595959%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3EAi%20Bradaa%20Dataset%3C/text%3E%3C/svg%3E",
+            "release_year": 2024
+          },
+          {
+            "brand": "MSI",
+            "model": "Vector GP68",
+            "price": 6799,
+            "cpu": "Intel Core 7-265H",
+            "gpu": "NVIDIA RTX 5060",
+            "ram": "16GB DDR5",
+            "storage": "2TB NVMe SSD",
+            "display": "16\" QHD 165Hz",
+            "score": 93,
+            "platform": "CUDA",
+            "why": "Great performance with a generous 2TB of storage.",
+            "scores": {
+              "ai": 8,
+              "thermals": 8,
+              "upgrade": 9,
+              "linux": 7,
+              "portability": 7,
+              "value": 8
+            },
+            "segments": [
+              "Creator",
+              "Gaming"
+            ],
+            "price_source_url": "https://www.msi.com/Laptop/Vector-GP68-HX-14VX",
+            "shopee_url": "https://shopee.com.my/search?keyword=MSI%20Vector%20GP68",
+            "tiktok_url": "https://www.tiktok.com/tag/msivectorgp68",
+            "lazada_url": null,
+            "best_deal_url": null,
+            "imageUrl": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22 width=%22600%22 height=%22400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%23141414%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%23595959%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2224%22 text-anchor=%22middle%22%3EAi%20Bradaa%20Dataset%3C/text%3E%3C/svg%3E",
+            "release_year": 2024
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fullPath": "data/laptops.schema.json",
+    "extension": ".json",
+    "length": 278,
+    "lastWriteTime": "2025-10-09T03:27:23.037Z",
+    "totalItems": 1,
+    "price_min": null,
+    "price_max": null,
+    "count_in_range_3500_7000": 0,
+    "count_lte_4500": 0,
+    "keys": [
+      "brand",
+      "cpu",
+      "display",
+      "gpu",
+      "links",
+      "model",
+      "price_myr",
+      "ram",
+      "score",
+      "storage",
+      "weight"
+    ],
+    "sample": [
+      {
+        "brand": "string",
+        "model": "string",
+        "cpu": "string",
+        "gpu": "string",
+        "ram": "string",
+        "storage": "string",
+        "display": "string",
+        "weight": "string",
+        "price_myr": "number",
+        "score": "number",
+        "links": {
+          "product": "string",
+          "alt": "string"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fullPath": "reports/datasets.canonical.check.json",
+    "extension": ".json",
+    "length": 202,
+    "lastWriteTime": "2025-10-19T04:03:54.469Z",
+    "totalItems": 1,
+    "price_min": null,
+    "price_max": null,
+    "count_in_range_3500_7000": 0,
+    "count_lte_4500": 0,
+    "keys": [
+      "fallback_candidates",
+      "fallback_exists",
+      "in_range_3500_7000",
+      "price_max",
+      "price_min",
+      "top35_count",
+      "top35_exists",
+      "under_4500"
+    ],
+    "sample": [
+      {
+        "top35_exists": true,
+        "fallback_exists": false,
+        "price_max": null,
+        "in_range_3500_7000": 0,
+        "top35_count": 1,
+        "under_4500": 1,
+        "price_min": null,
+        "fallback_candidates": []
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fullPath": "reports/datasets.inventory.json",
+    "extension": ".json",
+    "length": 6266,
+    "lastWriteTime": "2025-10-19T03:55:01.603Z",
+    "totalItems": 1,
+    "price_min": null,
+    "price_max": null,
+    "count_in_range_3500_7000": 0,
+    "count_lte_4500": 0,
+    "keys": [
+      "ByExtension",
+      "FallbackCandidates",
+      "Sample",
+      "Total"
+    ],
+    "sample": [
+      {
+        "Total": 52,
+        "ByExtension": {
+          "Name": ".json",
+          "Count": 52
+        },
+        "FallbackCandidates": null,
+        "Sample": [
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\data\\laptops\\explorer.top10.gaming.json",
+            "Length": 1371,
+            "LastWriteTime": "2025-10-12T18:44:14.0500146+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\data\\laptops\\top35.cache.json",
+            "Length": 6500,
+            "LastWriteTime": "2025-10-12T18:32:07.5828158+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\tokens\\laptops.tokens.json",
+            "Length": 154,
+            "LastWriteTime": "2025-10-12T18:08:00.0827915+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data\\fallbackLaptops.json",
+            "Length": 74979,
+            "LastWriteTime": "2025-10-12T17:24:41.9991593+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data\\laptops.json",
+            "Length": 15572,
+            "LastWriteTime": "2025-10-11T16:47:28.9783246+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data\\laptops.schema.json",
+            "Length": 278,
+            "LastWriteTime": "2025-10-09T11:27:23.0374348+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\data\\laptops\\explorer.top10.gaming.json",
+            "Length": 1371,
+            "LastWriteTime": "2025-10-12T18:44:14.0500146+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\data\\laptops\\top35.cache.json",
+            "Length": 6500,
+            "LastWriteTime": "2025-10-12T18:32:07.5828158+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\tokens\\laptops.tokens.json",
+            "Length": 154,
+            "LastWriteTime": "2025-10-12T18:08:00.0827915+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data\\fallbackLaptops.json",
+            "Length": 74979,
+            "LastWriteTime": "2025-10-12T17:24:41.9991593+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data\\laptops.json",
+            "Length": 15572,
+            "LastWriteTime": "2025-10-11T16:47:28.9783246+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data\\laptops.schema.json",
+            "Length": 278,
+            "LastWriteTime": "2025-10-09T11:27:23.0374348+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile\\bundle-tsconfig.json",
+            "Length": 252,
+            "LastWriteTime": "2025-10-14T21:11:36.3812579+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile\\cpu_profile-tsconfig.json",
+            "Length": 1407,
+            "LastWriteTime": "2025-10-14T21:11:36.5914995+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+            "Length": 1201,
+            "LastWriteTime": "2025-10-14T21:11:36.7110915+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras\\bundle-tsconfig.json",
+            "Length": 250,
+            "LastWriteTime": "2025-10-14T21:11:36.4020754+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+            "Length": 1208,
+            "LastWriteTime": "2025-10-14T21:11:36.733463+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras\\extras-tsconfig.json",
+            "Length": 1918,
+            "LastWriteTime": "2025-10-14T21:11:37.0530809+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers\\bundle-tsconfig.json",
+            "Length": 258,
+            "LastWriteTime": "2025-10-14T21:11:36.4097784+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+            "Length": 1216,
+            "LastWriteTime": "2025-10-14T21:11:36.7426709+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers\\handlers-tsconfig.json",
+            "Length": 4218,
+            "LastWriteTime": "2025-10-14T21:11:37.2152554+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers\\bundle-tsconfig.json",
+            "Length": 254,
+            "LastWriteTime": "2025-10-14T21:11:36.4187437+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+            "Length": 1212,
+            "LastWriteTime": "2025-10-14T21:11:36.7529565+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers\\helpers-tsconfig.json",
+            "Length": 1998,
+            "LastWriteTime": "2025-10-14T21:11:37.2496688+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\insights\\bundle-tsconfig.json",
+            "Length": 258,
+            "LastWriteTime": "2025-10-14T21:11:36.431403+08:00"
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fullPath": "reports/datasets.inventory.v2.json",
+    "extension": ".json",
+    "length": 13577,
+    "lastWriteTime": "2025-10-19T04:02:15.714Z",
+    "totalItems": 1,
+    "price_min": null,
+    "price_max": null,
+    "count_in_range_3500_7000": 0,
+    "count_lte_4500": 0,
+    "keys": [
+      "ByDir",
+      "ByExt",
+      "Sample",
+      "Total"
+    ],
+    "sample": [
+      {
+        "Total": 76,
+        "ByDir": [
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\types",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\types",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\simulation",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\metrics",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\graph",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\core",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\insights",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data",
+            "Count": 3
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\data\\laptops",
+            "Count": 2
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\workbox-recipes\\node_modules\\workbox-cacheable-response",
+            "Count": 2
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\workbox-cacheable-response",
+            "Count": 2
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\data\\laptops",
+            "Count": 2
+          },
+          {
+            "Name": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\workbox-build\\node_modules\\workbox-cacheable-response",
+            "Count": 2
+          }
+        ],
+        "ByExt": {
+          "Name": ".json",
+          "Count": 76
+        },
+        "Sample": [
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\data\\intel\\tech_signals.json",
+            "Length": 1020,
+            "LastWriteTime": "2025-10-13T03:35:24.7575621+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\data\\laptops\\explorer.top10.gaming.json",
+            "Length": 1371,
+            "LastWriteTime": "2025-10-12T18:44:14.0500146+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\data\\laptops\\top35.cache.json",
+            "Length": 6500,
+            "LastWriteTime": "2025-10-12T18:32:07.5828158+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\tokens\\laptops.tokens.json",
+            "Length": 154,
+            "LastWriteTime": "2025-10-12T18:08:00.0827915+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data\\fallbackLaptops.json",
+            "Length": 74979,
+            "LastWriteTime": "2025-10-12T17:24:41.9991593+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data\\laptops.json",
+            "Length": 15572,
+            "LastWriteTime": "2025-10-11T16:47:28.9783246+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data\\laptops.schema.json",
+            "Length": 278,
+            "LastWriteTime": "2025-10-09T11:27:23.0374348+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\data\\intel\\tech_signals.json",
+            "Length": 1020,
+            "LastWriteTime": "2025-10-13T03:35:24.7575621+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\data\\laptops\\explorer.top10.gaming.json",
+            "Length": 1371,
+            "LastWriteTime": "2025-10-12T18:44:14.0500146+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\data\\laptops\\top35.cache.json",
+            "Length": 6500,
+            "LastWriteTime": "2025-10-12T18:32:07.5828158+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\tokens\\laptops.tokens.json",
+            "Length": 154,
+            "LastWriteTime": "2025-10-12T18:08:00.0827915+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data\\fallbackLaptops.json",
+            "Length": 74979,
+            "LastWriteTime": "2025-10-12T17:24:41.9991593+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data\\laptops.json",
+            "Length": 15572,
+            "LastWriteTime": "2025-10-11T16:47:28.9783246+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data\\laptops.schema.json",
+            "Length": 278,
+            "LastWriteTime": "2025-10-09T11:27:23.0374348+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@emotion\\cache\\package.json",
+            "Length": 3563,
+            "LastWriteTime": "2025-10-14T21:11:30.8726105+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile\\bundle-tsconfig.json",
+            "Length": 252,
+            "LastWriteTime": "2025-10-14T21:11:36.3812579+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile\\cpu_profile-tsconfig.json",
+            "Length": 1407,
+            "LastWriteTime": "2025-10-14T21:11:36.5914995+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+            "Length": 1201,
+            "LastWriteTime": "2025-10-14T21:11:36.7110915+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras\\bundle-tsconfig.json",
+            "Length": 250,
+            "LastWriteTime": "2025-10-14T21:11:36.4020754+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+            "Length": 1208,
+            "LastWriteTime": "2025-10-14T21:11:36.733463+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras\\extras-tsconfig.json",
+            "Length": 1918,
+            "LastWriteTime": "2025-10-14T21:11:37.0530809+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers\\bundle-tsconfig.json",
+            "Length": 258,
+            "LastWriteTime": "2025-10-14T21:11:36.4097784+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+            "Length": 1216,
+            "LastWriteTime": "2025-10-14T21:11:36.7426709+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers\\handlers-tsconfig.json",
+            "Length": 4218,
+            "LastWriteTime": "2025-10-14T21:11:37.2152554+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers\\bundle-tsconfig.json",
+            "Length": 254,
+            "LastWriteTime": "2025-10-14T21:11:36.4187437+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+            "Length": 1212,
+            "LastWriteTime": "2025-10-14T21:11:36.7529565+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers\\helpers-tsconfig.json",
+            "Length": 1998,
+            "LastWriteTime": "2025-10-14T21:11:37.2496688+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\insights\\bundle-tsconfig.json",
+            "Length": 258,
+            "LastWriteTime": "2025-10-14T21:11:36.431403+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\insights\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+            "Length": 1216,
+            "LastWriteTime": "2025-10-14T21:11:36.7629882+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\insights\\insights-tsconfig.json",
+            "Length": 3081,
+            "LastWriteTime": "2025-10-14T21:11:37.3689608+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\core\\bundle-tsconfig.json",
+            "Length": 264,
+            "LastWriteTime": "2025-10-14T21:11:36.4514116+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\core\\core-tsconfig.json",
+            "Length": 1301,
+            "LastWriteTime": "2025-10-14T21:11:36.5801499+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\core\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+            "Length": 1231,
+            "LastWriteTime": "2025-10-14T21:11:36.7717683+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\graph\\bundle-tsconfig.json",
+            "Length": 268,
+            "LastWriteTime": "2025-10-14T21:11:36.4608874+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\graph\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+            "Length": 1235,
+            "LastWriteTime": "2025-10-14T21:11:36.7898811+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\graph\\graph-tsconfig.json",
+            "Length": 1525,
+            "LastWriteTime": "2025-10-14T21:11:37.1729404+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\metrics\\bundle-tsconfig.json",
+            "Length": 276,
+            "LastWriteTime": "2025-10-14T21:11:36.4710541+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\metrics\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+            "Length": 1243,
+            "LastWriteTime": "2025-10-14T21:11:36.8016731+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\metrics\\metrics-tsconfig.json",
+            "Length": 2020,
+            "LastWriteTime": "2025-10-14T21:11:37.7610764+08:00"
+          },
+          {
+            "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\lantern\\simulation\\bundle-tsconfig.json",
+            "Length": 288,
+            "LastWriteTime": "2025-10-14T21:11:36.4785428+08:00"
+          }
+        ]
+      }
+    ],
+    "errors": []
+  }
+]

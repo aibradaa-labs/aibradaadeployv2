@@ -1,0 +1,200 @@
+[
+  {
+    "dataset": "data/fallbackLaptops.json",
+    "totalItems": 73,
+    "counts": {
+      "price_min": 3599,
+      "price_max": 6999,
+      "count_in_range_3500_7000": 73,
+      "count_lte_4500": 10
+    },
+    "requirements": {
+      "displayName": {
+        "pass": true,
+        "via": "name"
+      },
+      "price": {
+        "pass": true,
+        "via": "price"
+      },
+      "sku": {
+        "pass": true,
+        "via": "sku"
+      },
+      "score": {
+        "pass": true,
+        "via": "score"
+      },
+      "timestamp": {
+        "pass": true,
+        "via": "updated_at"
+      }
+    },
+    "overall_pass": true,
+    "satisfied": 5,
+    "required": 5,
+    "notes": [
+      "Price stored under price.value; score lives in raw.score"
+    ]
+  },
+  {
+    "dataset": "ai_pod/data/laptops/top35.cache.json",
+    "totalItems": 22,
+    "counts": {
+      "price_min": 3500,
+      "price_max": 6999,
+      "count_in_range_3500_7000": 22,
+      "count_lte_4500": 4
+    },
+    "requirements": {
+      "displayName": {
+        "pass": true,
+        "via": "model"
+      },
+      "price": {
+        "pass": true,
+        "via": "price"
+      },
+      "sku": {
+        "pass": false,
+        "via": null
+      },
+      "score": {
+        "pass": true,
+        "via": "score"
+      },
+      "timestamp": {
+        "pass": false,
+        "via": null
+      }
+    },
+    "overall_pass": false,
+    "satisfied": 3,
+    "required": 5,
+    "notes": [
+      "No SKU/ID present",
+      "Missing updated timestamp",
+      "Fully aligned with provider expectations"
+    ]
+  },
+  {
+    "dataset": "data/laptops.json",
+    "totalItems": 12,
+    "counts": {
+      "price_min": 5399,
+      "price_max": 6999,
+      "count_in_range_3500_7000": 12,
+      "count_lte_4500": 0
+    },
+    "requirements": {
+      "displayName": {
+        "pass": true,
+        "via": "model"
+      },
+      "price": {
+        "pass": true,
+        "via": "price"
+      },
+      "sku": {
+        "pass": false,
+        "via": null
+      },
+      "score": {
+        "pass": true,
+        "via": "score"
+      },
+      "timestamp": {
+        "pass": false,
+        "via": null
+      }
+    },
+    "overall_pass": false,
+    "satisfied": 3,
+    "required": 5,
+    "notes": [
+      "No SKU/ID present",
+      "Missing updated timestamp"
+    ]
+  },
+  {
+    "dataset": "ai_pod/data/laptops/explorer.top10.gaming.json",
+    "totalItems": 5,
+    "counts": {
+      "price_min": 5399,
+      "price_max": 6999,
+      "count_in_range_3500_7000": 5,
+      "count_lte_4500": 0
+    },
+    "requirements": {
+      "displayName": {
+        "pass": true,
+        "via": "model"
+      },
+      "price": {
+        "pass": true,
+        "via": "price"
+      },
+      "sku": {
+        "pass": false,
+        "via": null
+      },
+      "score": {
+        "pass": true,
+        "via": "score"
+      },
+      "timestamp": {
+        "pass": false,
+        "via": null
+      }
+    },
+    "overall_pass": false,
+    "satisfied": 3,
+    "required": 5,
+    "notes": [
+      "No SKU/ID present",
+      "Missing updated timestamp"
+    ]
+  },
+  {
+    "dataset": "ai_pod/tokens/laptops.tokens.json",
+    "totalItems": 0,
+    "counts": {
+      "price_min": null,
+      "price_max": null,
+      "count_in_range_3500_7000": 0,
+      "count_lte_4500": 0
+    },
+    "requirements": {
+      "displayName": {
+        "pass": false,
+        "via": null
+      },
+      "price": {
+        "pass": false,
+        "via": null
+      },
+      "sku": {
+        "pass": false,
+        "via": null
+      },
+      "score": {
+        "pass": false,
+        "via": null
+      },
+      "timestamp": {
+        "pass": false,
+        "via": null
+      }
+    },
+    "overall_pass": false,
+    "satisfied": 0,
+    "required": 5,
+    "notes": [
+      "Missing name/model field",
+      "Price field needs flattening",
+      "No SKU/ID present",
+      "Score missing",
+      "Missing updated timestamp"
+    ]
+  }
+]

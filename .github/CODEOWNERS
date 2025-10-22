@@ -1,0 +1,10 @@
+# CODEOWNERS
+# Default owners for everything
+* @hoabymj
+
+# Critical areas
+/app/ @hoabymj
+/pwa/ @hoabymj
+/ai/ @hoabymj
+/scripts/ @hoabymj
+/docs/ @hoabymj

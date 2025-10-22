@@ -1,0 +1,9 @@
+# EN: A11y policy; BM: Polisi kebolehcapaian.
+contrast_min: "WCAG AA"
+keyboard_operable: true
+focus_visible: true
+targets_min_px: 44
+reduced_motion: true
+aria_patterns:
+  - "dialog with aria-modal, labelledby"
+  - "carousel with roledescription, tabs, live region"

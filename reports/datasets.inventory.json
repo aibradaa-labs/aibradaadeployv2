@@ -1,0 +1,135 @@
+{
+  "Total": 52,
+  "ByExtension": {
+    "Name": ".json",
+    "Count": 52
+  },
+  "FallbackCandidates": null,
+  "Sample": [
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\data\\laptops\\explorer.top10.gaming.json",
+      "Length": 1371,
+      "LastWriteTime": "2025-10-12T18:44:14.0500146+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\data\\laptops\\top35.cache.json",
+      "Length": 6500,
+      "LastWriteTime": "2025-10-12T18:32:07.5828158+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\ai_pod\\tokens\\laptops.tokens.json",
+      "Length": 154,
+      "LastWriteTime": "2025-10-12T18:08:00.0827915+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data\\fallbackLaptops.json",
+      "Length": 74979,
+      "LastWriteTime": "2025-10-12T17:24:41.9991593+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data\\laptops.json",
+      "Length": 15572,
+      "LastWriteTime": "2025-10-11T16:47:28.9783246+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\data\\laptops.schema.json",
+      "Length": 278,
+      "LastWriteTime": "2025-10-09T11:27:23.0374348+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\data\\laptops\\explorer.top10.gaming.json",
+      "Length": 1371,
+      "LastWriteTime": "2025-10-12T18:44:14.0500146+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\data\\laptops\\top35.cache.json",
+      "Length": 6500,
+      "LastWriteTime": "2025-10-12T18:32:07.5828158+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\ai_pod\\tokens\\laptops.tokens.json",
+      "Length": 154,
+      "LastWriteTime": "2025-10-12T18:08:00.0827915+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data\\fallbackLaptops.json",
+      "Length": 74979,
+      "LastWriteTime": "2025-10-12T17:24:41.9991593+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data\\laptops.json",
+      "Length": 15572,
+      "LastWriteTime": "2025-10-11T16:47:28.9783246+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\dist\\data\\laptops.schema.json",
+      "Length": 278,
+      "LastWriteTime": "2025-10-09T11:27:23.0374348+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile\\bundle-tsconfig.json",
+      "Length": 252,
+      "LastWriteTime": "2025-10-14T21:11:36.3812579+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile\\cpu_profile-tsconfig.json",
+      "Length": 1407,
+      "LastWriteTime": "2025-10-14T21:11:36.5914995+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\cpu_profile\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+      "Length": 1201,
+      "LastWriteTime": "2025-10-14T21:11:36.7110915+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras\\bundle-tsconfig.json",
+      "Length": 250,
+      "LastWriteTime": "2025-10-14T21:11:36.4020754+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+      "Length": 1208,
+      "LastWriteTime": "2025-10-14T21:11:36.733463+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\extras\\extras-tsconfig.json",
+      "Length": 1918,
+      "LastWriteTime": "2025-10-14T21:11:37.0530809+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers\\bundle-tsconfig.json",
+      "Length": 258,
+      "LastWriteTime": "2025-10-14T21:11:36.4097784+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+      "Length": 1216,
+      "LastWriteTime": "2025-10-14T21:11:36.7426709+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\handlers\\handlers-tsconfig.json",
+      "Length": 4218,
+      "LastWriteTime": "2025-10-14T21:11:37.2152554+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers\\bundle-tsconfig.json",
+      "Length": 254,
+      "LastWriteTime": "2025-10-14T21:11:36.4187437+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers\\devtools_entrypoint-bundle-typescript-tsconfig.json",
+      "Length": 1212,
+      "LastWriteTime": "2025-10-14T21:11:36.7529565+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\helpers\\helpers-tsconfig.json",
+      "Length": 1998,
+      "LastWriteTime": "2025-10-14T21:11:37.2496688+08:00"
+    },
+    {
+      "FullName": "C:\\Users\\syedu\\OneDrive\\Desktop\\ai-bradaa-pwa-latest\\node_modules\\@paulirish\\trace_engine\\models\\trace\\insights\\bundle-tsconfig.json",
+      "Length": 258,
+      "LastWriteTime": "2025-10-14T21:11:36.431403+08:00"
+    }
+  ]
+}

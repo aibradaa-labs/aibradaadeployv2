@@ -1,0 +1,20 @@
+
+Function           Path                                                                                                                       Length LastWriteTime
+--------           ----                                                                                                                       ------ -------------
+ai.js              C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\.netlify\functions-serve\ai\netlify\functions\ai.js                     2579 15/10/2025 9:40:49 AM
+ai.js.map          C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\.netlify\functions-serve\ai\netlify\functions\ai.js.map                 5173 15/10/2025 9:40:49 AM
+beacon.js          C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\.netlify\functions-serve\beacon\netlify\functions\beacon.js               49 15/10/2025 9:40:49 AM
+beacon.js.map      C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\.netlify\functions-serve\beacon\netlify\functions\beacon.js.map          169 15/10/2025 9:40:49 AM
+laptops.js         C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\.netlify\functions-serve\laptops\netlify\functions\laptops.js          15055 15/10/2025 9:40:50 AM
+laptops.js.map     C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\.netlify\functions-serve\laptops\netlify\functions\laptops.js.map      24293 15/10/2025 9:40:49 AM
+websearch.js       C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\.netlify\functions-serve\websearch\netlify\functions\websearch.js       1285 15/10/2025 9:40:49 AM
+websearch.js.map   C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\.netlify\functions-serve\websearch\netlify\functions\websearch.js.map   2590 15/10/2025 9:40:49 AM
+ai.js              C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\netlify\functions\ai.js                                                 2841 14/10/2025 11:40:56 PM
+beacon.js          C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\netlify\functions\beacon.js                                                0 14/10/2025 11:40:56 PM
+gemini.js          C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\netlify\functions\gemini.js                                             1040 16/10/2025 4:40:09 PM
+laptops-refresh.js C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\netlify\functions\laptops-refresh.js                                     520 16/10/2025 4:40:55 PM
+laptops.js         C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\netlify\functions\laptops.js                                            2823 11/10/2025 2:17:11 PM
+websearch.js       C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest\netlify\functions\websearch.js                                          1304 2/10/2025 7:36:35 PM
+
+
+Function endpoint error: The request was canceled due to the configured HttpClient.Timeout of 3 seconds elapsing.

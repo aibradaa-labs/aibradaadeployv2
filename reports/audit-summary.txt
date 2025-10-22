@@ -1,0 +1,13 @@
+=== AUDIT SUMMARY ===
+Repo root: C:\Users\syedu\OneDrive\Desktop\ai-bradaa-pwa-latest
+Branch: chore/orchestrator-hardening
+
+AIPOD modules: reports/aipod.modules.txt
+DOM hooks: reports/index.dom-hooks.txt
+Datasets: reports/datasets.inventory.json
+Pings: reports/pings.txt
+Emoji/Fonts: reports/emoji_fonts.scan.txt
+Branches: reports/branches.local.txt / branches.remote.txt
+Recent commits: reports/last10.txt
+
+STOPPED (audit only).
