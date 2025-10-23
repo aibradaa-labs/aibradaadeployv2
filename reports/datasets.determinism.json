@@ -1,0 +1,32 @@
+{
+  "generated_at": "2025-10-23T19:45:00+08:00",
+  "datasets": [
+    {
+      "name": "laptops.json",
+      "path": "data/laptops.json",
+      "sha256": "007D9AA1BCA501A5A653CCDC27096AEF1DB70F7CC62D1FA287FA0AADCF5F63D2",
+      "source": "reports/audit/inventory.json#datasets.laptops.json"
+    },
+    {
+      "name": "fallbackLaptops.json",
+      "path": "data/fallbackLaptops.json",
+      "sha256": "2E93A94BD0C59FADAD88F5F06572C2ACC90121AA13DFA8381A68788A23F6862B",
+      "source": "reports/audit/inventory.json#datasets.fallbackLaptops.json"
+    },
+    {
+      "name": "laptops.schema.json",
+      "path": "data/laptops.schema.json",
+      "sha256": "681A3BE115461EB9FFF340CA194DE57E72219401030C2C0E4EB71EF2E2D31E26",
+      "source": "reports/audit/inventory.json#datasets.laptops.schema.json"
+    }
+  ],
+  "verification": {
+    "method": "sha256",
+    "tooling": "Syeddy deterministic dataset audit",
+    "status": "recorded"
+  },
+  "notes": [
+    "Hashes synchronized with JSON-only data pipeline established in Step 2.",
+    "Use scripts/update-laptops.mjs to regenerate datasets before refreshing hashes."
+  ]
+}

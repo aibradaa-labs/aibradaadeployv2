@@ -1,5 +1,12 @@
 /* Resilient Gemini client for mobile + web shells via serverless proxy */
 (function(global){
+  let adapterPromise;
+  async function ensureAdapter(){
+    if (!adapterPromise) {
+      adapterPromise = import('../adapters/aiClient.js').catch(() => null);
+    }
+    return adapterPromise;
+  }
   function resolveBaseUrl(){
     if (global.__AI_POD_PROXY__) return global.__AI_POD_PROXY__;
     const origin = typeof global.location === 'object' && global.location ? (global.location.origin || '') : '';
@@ -23,7 +30,6 @@
   function recordFail(){ const t = now(); state.fails.push(t); const cutoff = t - DEFAULT.breaker.windowMs; state.fails = state.fails.filter(x => x >= cutoff); if (state.fails.length >= DEFAULT.breaker.openAfter) { state.open = true; state.halfUntil = t + DEFAULT.breaker.halfOpenAfterMs; state.successes = 0; } }
   function recordSuccess(){ state.successes++; if (state.open && state.successes >= DEFAULT.breaker.closeAfter) { state.open = false; state.fails = []; } }
   function breakerAllows(){ if (!state.open) return true; return now() >= state.halfUntil; }
-  function withTimeout(promise, ms){ const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort('timeout'), ms); return { run: (fn) => promise(ctrl.signal).then(v => { clearTimeout(t); return fn(v); }).catch(e => { clearTimeout(t); throw e; }), ctrl } }
   async function call(model, input, opts={}){
     if (!breakerAllows()) throw new Error('circuit_open');
     const baseUrl = opts.baseUrl || DEFAULT.baseUrl;
@@ -34,19 +40,17 @@
           .slice(0, 3);
     const seqIndex = typeof opts.__seqIndex === 'number' ? opts.__seqIndex : 0;
     const activeModel = fallbackSequence[seqIndex] || fallbackSequence[0];
-    const url = baseUrl + '?model=' + encodeURIComponent(activeModel || model);
-    const payload = { input, meta: { source: 'mobile', ts: new Date().toISOString() } };
+    const payload = { prompt: typeof input?.text === 'string' ? input.text : input?.input || input?.text || input };
     let attempt = 0; let lastErr;
     while (attempt <= DEFAULT.retries) {
       const baseDelay = DEFAULT.baseDelayMs * Math.pow(DEFAULT.backoff, attempt);
       try {
-        const { run } = withTimeout(async (signal) => fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload), signal }), DEFAULT.overallTimeoutMs);
-        const res = await run(v => v);
-        if (!res.ok) throw new Error('http_' + res.status);
-        const data = await res.json();
+        const adapter = await ensureAdapter();
+        if (!adapter || !adapter.callAI) throw new Error('adapter_missing');
+        const result = await adapter.callAI({ provider: 'gemini', model: activeModel || model, payload, timeoutMs: DEFAULT.overallTimeoutMs });
         recordSuccess();
-        try { window.aiPodTelemetry?.emit?.('gemini.usage', { modelUsed: data.model || activeModel, ok: true, ts: new Date().toISOString() }); } catch (emitErr) { /* telemetry optional */ }
-        return data;
+        try { window.aiPodTelemetry?.emit?.('gemini.usage', { modelUsed: result.model || activeModel, ok: !!result?.ok, ts: new Date().toISOString() }); } catch (emitErr) { /* telemetry optional */ }
+        return result;
       } catch (e) {
         lastErr = e;
         recordFail();

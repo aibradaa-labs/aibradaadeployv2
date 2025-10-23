@@ -11,7 +11,7 @@ export function buildAffiliateLink(originalUrl, platform) {
 }
 
 export async function fetchMarketIntel() {
-  // Layered strategy: Netlify Function -> local JSON -> module fallback -> legacy fallback
+  // New strategy: primary dataset + fallback JSON, then legacy constant as last resort
   const DEFAULT_IMG = 'data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22 viewBox=%220 0 600 400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%231a1a1a%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%234a4a4a%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2220%22 text-anchor=%22middle%22%3ENo Image%3C/text%3E%3C/svg%3E';
   const normalizeList = (items) => (Array.isArray(items) ? items : []).map(x => {
     const img = String(x.imageUrl || x.image_url || x.image || '').trim();
@@ -37,7 +37,7 @@ export async function fetchMarketIntel() {
       best_deal_url: x.best_deal_url || null
     };
   });
-  const tryParseItems = (payload) => {
+  const toItems = (payload) => {
     if (!payload) return [];
     if (Array.isArray(payload?.items)) return payload.items;
     if (Array.isArray(payload?.data)) return payload.data;
@@ -45,50 +45,84 @@ export async function fetchMarketIntel() {
     if (Array.isArray(payload)) return payload;
     return [];
   };
-  try {
-    // 1) Netlify Function (centralized 73 db)
-    const endpoints = ['/.netlify/functions/laptops', '/data/laptops.json'];
-    let text = null;
-    for (const url of endpoints) {
-      try {
-        const r = await fetch(url, { cache: 'no-store' });
-        if (r.ok) { text = await r.text(); break; }
-      } catch (e) { console.debug('fetchMarketIntel endpoint failed:', url, e?.message || e); }
+
+  const fetchJson = async (path, label) => {
+    try {
+      const res = await fetch(path, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`http_${res.status}`);
+      return await res.json();
+    } catch (error) {
+      console.warn('dataset load failed:', label ?? path, error?.message || error);
+      return null;
     }
-    if (text) {
-      const payload = JSON.parse(text);
-      const items = tryParseItems(payload);
-      if (items.length) {
-        STATE.data.allLaptops = normalizeList(items);
-        return;
-      }
-    }
-  } catch (e) {
-    console.debug('fetchMarketIntel primary layer failed', e?.message || e);
+  };
+
+  const [primaryRaw, fallbackRaw, schemaInfo] = await Promise.all([
+    fetchJson('/data/laptops.json', 'laptops.json'),
+    fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),
+    fetchJson('/data/laptops.schema.json', 'laptops.schema.json')
+  ]);
+
+  const primaryItems = toItems(primaryRaw);
+  const fallbackItems = toItems(fallbackRaw);
+
+  const primaryNormalized = normalizeList(primaryItems);
+  const fallbackNormalized = normalizeList(fallbackItems);
+
+  if (fallbackNormalized.length) {
+    STATE.data.fallbackLaptops = fallbackNormalized;
   }
-  // 2) Module fallback (centralized) then 3) legacy inline fallback
-  try {
-    const paths = ['/src/data/fallbackLaptops.js', 'src/data/fallbackLaptops.js', '../src/data/fallbackLaptops.js'];
-    let mod = null;
-    for (const p of paths) { try { mod = await import(p); if (mod) break; } catch (e) { /* module path miss OK */ } }
-    if (mod) {
-      const items = Array.isArray(mod?.LAPTOP_FALLBACK?.initial)
-        ? mod.LAPTOP_FALLBACK.initial
-        : Array.isArray(mod?.LAPTOP_FALLBACK?.all)
-          ? mod.LAPTOP_FALLBACK.all
-          : Array.isArray(mod?.FALLBACK_LAPTOPS)
-            ? mod.FALLBACK_LAPTOPS
-            : [];
-      if (items.length) {
-        STATE.data.allLaptops = normalizeList(items);
-        return;
-      }
+
+  const sortByScore = (list) => [...list].sort((a, b) => (Number(b?.score) || 0) - (Number(a?.score) || 0));
+  const dedupe = (list) => {
+    const out = [];
+    const seen = new Set();
+    for (const item of list) {
+      if (!item) continue;
+      const key = `${String(item.brand || '').trim().toLowerCase()}|${String(item.model || '').trim().toLowerCase()}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(item);
     }
-  } catch (e) {
-    console.debug('fetchMarketIntel module layer failed', e?.message || e);
+    return out;
+  };
+
+  const rankedPrimary = dedupe(sortByScore(primaryNormalized));
+  const rankedFallback = dedupe(sortByScore(fallbackNormalized));
+  const useFallbackOnly = rankedPrimary.length === 0 && rankedFallback.length > 0;
+  const activeDataset = useFallbackOnly ? rankedFallback : rankedPrimary;
+
+  if (activeDataset.length) {
+    STATE.data.allLaptops = activeDataset;
+  } else if (STATE.data.fallbackLaptops.length) {
+    STATE.data.allLaptops = normalizeList(STATE.data.fallbackLaptops);
+  } else {
+    STATE.data.allLaptops = [];
   }
-  console.warn('Falling back to embedded state fallback dataset.');
-  STATE.data.allLaptops = normalizeList(STATE.data.fallbackLaptops);
+
+  const timestampPool = useFallbackOnly ? fallbackItems : primaryItems;
+  const timestampCandidates = (Array.isArray(timestampPool) ? timestampPool : [])
+    .map(item => item?.generated_at_myt || item?.generated_at || item?.price_checked_at_myt || null)
+    .map(ts => {
+      if (!ts) return null;
+      const parsed = Date.parse(ts);
+      return Number.isFinite(parsed) ? parsed : null;
+    })
+    .filter(Boolean);
+  const latestTs = timestampCandidates.length
+    ? new Date(Math.max(...timestampCandidates)).toISOString()
+    : new Date().toISOString();
+  const sourceLabel = useFallbackOnly ? 'fallbackLaptops.json' : 'laptops.json';
+  const schemaVersion = (schemaInfo && typeof schemaInfo === 'object' && 'schema_version' in schemaInfo)
+    ? schemaInfo.schema_version
+    : undefined;
+
+  STATE.data.datasetMeta = {
+    generatedAt: latestTs,
+    source: sourceLabel,
+    count: STATE.data.allLaptops.length,
+    ...(schemaVersion ? { schemaVersion } : {})
+  };
 }
 
 export async function callAIAgent(task, payload, outputElement, callbacks = {}) {

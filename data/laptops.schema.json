@@ -11,6 +11,25 @@
   "score": "number",
   "links": {
     "product": "string",
-    "alt": "string"
-  }
+    "alt": "string",
+    "oem": "string",
+    "shopee": "string",
+    "lazada": "string",
+    "tiktok": "string",
+    "other": [
+      "string"
+    ]
+  },
+  "segments": [
+    "AI Feature",
+    "Gaming",
+    "Creator",
+    "Portable",
+    "Business",
+    "Student"
+  ],
+  "generated_at_myt": "string",
+  "dataset_source": "string",
+  "schema_version": "string",
+  "upstream_schema_ref": "string"
 }

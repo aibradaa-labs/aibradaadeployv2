@@ -1,0 +1,48 @@
+{
+  "generated_at": "2025-10-23T00:03:00+08:00",
+  "counts": {
+    "files_total": 110535,
+    "directories_total": null
+  },
+  "datasets": {
+    "laptops.json": {
+      "path": "data/laptops.json",
+      "bytes": 68777,
+      "sha256": "007D9AA1BCA501A5A653CCDC27096AEF1DB70F7CC62D1FA287FA0AADCF5F63D2"
+    },
+    "fallbackLaptops.json": {
+      "path": "data/fallbackLaptops.json",
+      "bytes": 38671,
+      "sha256": "2E93A94BD0C59FADAD88F5F06572C2ACC90121AA13DFA8381A68788A23F6862B"
+    },
+    "laptops.schema.json": {
+      "path": "data/laptops.schema.json",
+      "bytes": 649,
+      "sha256": "681A3BE115461EB9FFF340CA194DE57E72219401030C2C0E4EB71EF2E2D31E26"
+    }
+  },
+  "references": {
+    "app/index.v15.2.html": [
+      "/data/laptops.json",
+      "/data/fallbackLaptops.json",
+      "/data/laptops.schema.json"
+    ],
+    "src/scripts/api.js": [
+      "/data/laptops.json",
+      "/data/fallbackLaptops.json",
+      "/data/laptops.schema.json"
+    ],
+    "src/scripts/state.js": [
+      "../data/fallbackLaptops.js"
+    ],
+    "scripts/update-laptops.mjs": [
+      "data/laptops.json",
+      "data/archive"
+    ]
+  },
+  "duplicate_hashes": [],
+  "notes": [
+    "Inventory generated before archival step. Directory count pending if required.",
+    "Determinism hashes mirrored in reports/datasets.determinism.json for CI verification."
+  ]
+}

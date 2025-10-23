@@ -766,25 +766,25 @@
     <a class="sr-only focus:not-sr-only" href="#main">Skip to main</a>
 
     <div class="max-w-7xl mx-auto">
-        <header class="text-center py-8">
+        <header class="text-center py-8" id="top">
             <h1 class="font-display text-4xl md:text-6xl font-black">AI BRADAA</h1>
             <p class="text-lg text-[var(--c-text-secondary)] mt-2">Powered by Kaa-Ching!</p>
         </header>
 
-        <nav class="nav-sticky py-3 mb-12">
-            <div class="flex flex-wrap justify-center gap-4 md:gap-6 text-sm">
-                <a href="#matchmaker" class="nav-button active px-1 py-2 font-semibold">Matchmaker</a>
-                <a href="#comparison" class="nav-button px-1 py-2 font-semibold">Versus</a>
-                <a href="#explorer" class="nav-button px-1 py-2 font-semibold">Explorer</a>
-                <a href="#toolkit" class="nav-button px-1 py-2 font-semibold">Ops Command</a>
-                <a href="#intelligence" class="nav-button px-1 py-2 font-semibold">Intel</a>
-                <a href="#appendices" class="nav-button px-1 py-2 font-semibold">Appendices</a>
-                <a href="#camera" class="nav-button px-1 py-2 font-semibold">Camera Tech</a>
+        <nav class="nav-sticky py-3 mb-12" aria-label="Primary">
+            <div class="flex flex-wrap justify-center gap-4 md:gap-6 text-sm" role="tablist">
+                <button type="button" class="nav-button active px-1 py-2 font-semibold" data-target="#matchmaker" role="tab" aria-controls="matchmaker">Matchmaker</button>
+                <button type="button" class="nav-button px-1 py-2 font-semibold" data-target="#comparison" role="tab" aria-controls="comparison">Versus</button>
+                <button type="button" class="nav-button px-1 py-2 font-semibold" data-target="#explorer" role="tab" aria-controls="explorer">Explorer</button>
+                <button type="button" class="nav-button px-1 py-2 font-semibold" data-target="#toolkit" role="tab" aria-controls="toolkit">Ops Command</button>
+                <button type="button" class="nav-button px-1 py-2 font-semibold" data-target="#intelligence" role="tab" aria-controls="intelligence">Intel</button>
+                <button type="button" class="nav-button px-1 py-2 font-semibold" data-target="#appendices" role="tab" aria-controls="appendices">Appendices</button>
+                <button type="button" class="nav-button px-1 py-2 font-semibold" data-target="#camera" role="tab" aria-controls="camera">Camera Tech</button>
             </div>
         </nav>
 
         <main id="main" class="space-y-16">
-            <section id="matchmaker" class="card">
+            <section id="matchmaker" class="card" data-section="matchmaker">
                 <div class="card-content">
                     <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">AI Laptop Matchmaker</h2>
                     <div class="grid md:grid-cols-2 gap-8 items-center">
@@ -800,7 +800,7 @@
                 </div>
             </section>
 
-            <section id="comparison" class="card">
+            <section id="comparison" class="card" data-section="comparison">
                 <div class="card-content">
                     <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Head-to-Head Comparison</h2>
                     <p class="text-sm text-[var(--c-text-secondary)] mb-4">Select 2 or 3 units for a tactical breakdown. AI Bradaa will generate an automated strategic analysis.</p>
@@ -812,7 +812,7 @@
                 </div>
             </section>
 
-            <section id="explorer" class="card">
+            <section id="explorer" class="card" data-section="explorer">
                 <div class="card-content">
                     <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Interactive Market Explorer</h2>
                     <div id="filters" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6 p-4 bg-[var(--c-bg)] rounded-lg">
@@ -841,7 +841,7 @@
                 </div>
             </section>
 
-            <section id="toolkit" class="card">
+            <section id="toolkit" class="card" data-toolkit data-section="toolkit">
                 <div class="card-content" data-role="aipod-tools">
                     <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">AI Bradaa Advance Toolkit</h2>
                     <p class="text-sm text-[var(--c-text-secondary)] mb-6">AI Bradaa reporting in — cepat kerja, clean results. Pilih satu tool, biar aku jalan. Senang cerita, kita settle elok-elok.</p>
@@ -989,7 +989,7 @@
                 </div>
             </section>
 
-             <section id="intelligence" class="card">
+             <section id="intelligence" class="card" data-section="intelligence">
                 <div class="card-content">
                     <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Latest Tech Intel</h2>
                     <div data-role="intel-cards">
@@ -1012,7 +1012,7 @@
                 </div>
             </section>
 
-            <section id="appendices" class="card">
+            <section id="appendices" class="card" data-section="appendices">
                 <div class="card-content">
                     <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Appendices: Full Laptop Database</h2>
                     <p class="text-sm text-[var(--c-text-secondary)] mb-4 text-center">This list is updated automatically by the filters in the <a href="#explorer" class="underline text-[var(--c-accent-cyan)]">Explorer</a> section.</p>
@@ -1022,7 +1022,7 @@
                     </div>
                 </div>
             </section>
-            <section id="camera" class="card">
+            <section id="camera" class="card" data-section="camera">
                 <div class="card-content">
                     <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Camera Tech Division</h2>
                     <div class="ai-pod-response">
@@ -1756,57 +1756,50 @@
         return STATE.data.imageCache[cacheKey];
     },
     async fetchMarketIntel() {
-        const catalogRoot = '/data/Laptop%20Catelogue/data/laptops';
-        const endpoints = {
-            top10: `${catalogRoot}/top10.json`,
-            shortlist35: `${catalogRoot}/shortlist35.json`,
-            appendix65: `${catalogRoot}/appendix65.json`,
-            fallback65: `${catalogRoot}/catalog.jsonl`
-        };
-        const loadJson = async (url, label) => {
+        const fetchJson = async (path, label) => {
             try {
-                const res = await fetch(url, { cache: 'no-store' });
-                if (!res.ok) throw new Error(`catalog_http_${res.status}_${label}`);
-                const json = await res.json();
-                return Array.isArray(json) ? json : [];
+                const res = await fetch(path, { cache: 'no-store' });
+                if (!res.ok) throw new Error(`http_${res.status}`);
+                return await res.json();
             } catch (error) {
-                console.warn('[AI POD] catalog load failed:', label, error?.message ?? error);
-                return [];
-            }
-        };
-        const loadJsonl = async (url) => {
-            try {
-                const res = await fetch(url, { cache: 'no-store' });
-                if (!res.ok) throw new Error('catalog_jsonl_http_' + res.status);
-                const text = await res.text();
-                return text.split('\n').map(line => {
-                    const trimmed = line.trim();
-                    if (!trimmed) return null;
-                    try { return JSON.parse(trimmed); } catch { return null; }
-                }).filter(Boolean);
-            } catch (error) {
-                console.warn('[AI POD] catalog jsonl fallback failed:', error?.message ?? error);
-                return [];
+                console.warn('[AI POD] dataset load failed:', label ?? path, error?.message ?? error);
+                return null;
             }
         };
 
-        const [top10Raw, shortlistRaw, appendixRaw] = await Promise.all([
-            loadJson(endpoints.top10, 'top10'),
-            loadJson(endpoints.shortlist35, 'shortlist35'),
-            loadJson(endpoints.appendix65, 'appendix65')
+        const toItems = (payload) => {
+            if (!payload) return [];
+            if (Array.isArray(payload.items)) return payload.items;
+            if (Array.isArray(payload.data)) return payload.data;
+            if (Array.isArray(payload.laptops)) return payload.laptops;
+            if (Array.isArray(payload)) return payload;
+            return [];
+        };
+
+        const [primaryRaw, fallbackRaw, schemaInfo] = await Promise.all([
+            fetchJson('/data/laptops.json', 'laptops.json'),
+            fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),
+            fetchJson('/data/laptops.schema.json', 'laptops.schema.json')
         ]);
-        const fallbackRaw = await loadJsonl(endpoints.fallback65);
 
-        STATE.data.rankedSource.top10 = top10Raw.map(API_MODULE.normalizeLaptop).filter(Boolean);
-        STATE.data.rankedSource.shortlist35 = shortlistRaw.map(API_MODULE.normalizeLaptop).filter(Boolean);
-        STATE.data.rankedSource.appendix65 = appendixRaw.map(API_MODULE.normalizeLaptop).filter(Boolean);
-        STATE.data.rankedSource.fallback65 = fallbackRaw.map(API_MODULE.normalizeLaptop).filter(Boolean);
+        const primaryItems = toItems(primaryRaw);
+        const fallbackItems = toItems(fallbackRaw);
 
+        const normalizeList = (list) => (Array.isArray(list) ? list : []).map(API_MODULE.normalizeLaptop).filter(Boolean);
+        const primaryNormalized = normalizeList(primaryItems);
+        const fallbackNormalized = normalizeList(fallbackItems);
+
+        if (fallbackNormalized.length) {
+            STATE.data.fallbackLaptops = fallbackNormalized;
+        }
+
+        const sortByScore = (list) => [...list].sort((a, b) => (Number(b?.score) || 0) - (Number(a?.score) || 0));
         const dedupe = (list) => {
             const out = [];
             const seen = new Set();
             for (const item of list) {
-                const key = (item.brand + '|' + item.model).toLowerCase();
+                if (!item) continue;
+                const key = `${String(item.brand || '').trim().toLowerCase()}|${String(item.model || '').trim().toLowerCase()}`;
                 if (seen.has(key)) continue;
                 seen.add(key);
                 out.push(item);
@@ -1814,35 +1807,78 @@
             return out;
         };
 
-        let baseline = dedupe([
-            ...STATE.data.rankedSource.shortlist35,
-            ...STATE.data.rankedSource.appendix65
-        ]);
+        const rankedPrimary = dedupe(sortByScore(primaryNormalized));
+        const rankedFallback = dedupe(sortByScore(fallbackNormalized));
+        const useFallbackOnly = rankedPrimary.length === 0 && rankedFallback.length > 0;
+        const activeDataset = useFallbackOnly ? rankedFallback : rankedPrimary;
 
-        if (baseline.length < 35 && STATE.data.rankedSource.fallback65.length) {
-            for (const fb of STATE.data.rankedSource.fallback65) {
-                const key = (fb.brand + '|' + fb.model).toLowerCase();
-                if (baseline.some(item => (item.brand + '|' + item.model).toLowerCase() === key)) continue;
-                baseline.push(fb);
-                if (baseline.length >= 35) break;
+        STATE.data.rankedSource.top10 = activeDataset.slice(0, 10);
+        STATE.data.rankedSource.shortlist35 = activeDataset.slice(0, 35);
+        STATE.data.rankedSource.appendix65 = activeDataset.slice(0, 65);
+        STATE.data.rankedSource.fallback65 = rankedFallback.slice(0, 65);
+
+        const composeBaseline = () => {
+            const baselineSeed = dedupe([
+                ...STATE.data.rankedSource.shortlist35,
+                ...STATE.data.rankedSource.appendix65
+            ]);
+            if (baselineSeed.length < 35 && STATE.data.rankedSource.fallback65.length) {
+                const out = [...baselineSeed];
+                const seen = new Set(out.map(item => `${String(item.brand || '').trim().toLowerCase()}|${String(item.model || '').trim().toLowerCase()}`));
+                for (const fb of STATE.data.rankedSource.fallback65) {
+                    const key = `${String(fb.brand || '').trim().toLowerCase()}|${String(fb.model || '').trim().toLowerCase()}`;
+                    if (seen.has(key)) continue;
+                    seen.add(key);
+                    out.push(fb);
+                    if (out.length >= 35) break;
+                }
+                return out;
             }
-            baseline = dedupe(baseline);
-        }
+            return baselineSeed;
+        };
+
+        const baseline = composeBaseline();
 
         if (!baseline.length) {
-            const fallback = STATE.data.fallbackLaptops.map(API_MODULE.normalizeLaptop).filter(Boolean);
-            if (fallback.length) {
-                STATE.data.allLaptops = fallback;
-                STATE.data.datasetMeta = { generatedAt: new Date().toISOString(), source: 'legacy-fallback', count: fallback.length };
+            if (fallbackNormalized.length) {
+                STATE.data.allLaptops = fallbackNormalized;
+                STATE.data.datasetMeta = {
+                    generatedAt: new Date().toISOString(),
+                    source: 'fallbackLaptops.json',
+                    count: fallbackNormalized.length
+                };
                 return;
             }
+            STATE.data.allLaptops = [];
+            STATE.data.datasetMeta = { generatedAt: null, source: 'unavailable', count: 0 };
+            return;
         }
 
         STATE.data.allLaptops = baseline;
-        const first = STATE.data.rankedSource.top10[0] || STATE.data.rankedSource.shortlist35[0] || STATE.data.rankedSource.appendix65[0] || baseline[0] || null;
-        const generatedAt = first?.collected_at_myt || first?.collected_at || new Date().toISOString();
-        const source = baseline.length >= 35 ? 'catalog' : 'catalog+fallback';
-        STATE.data.datasetMeta = { generatedAt, source, count: baseline.length };
+
+        const timestampPool = useFallbackOnly ? fallbackItems : primaryItems;
+        const timestampCandidates = (Array.isArray(timestampPool) ? timestampPool : [])
+            .map(item => item?.generated_at_myt || item?.generated_at || item?.price_checked_at_myt || null)
+            .map(ts => {
+                if (!ts) return null;
+                const parsed = Date.parse(ts);
+                return Number.isFinite(parsed) ? parsed : null;
+            })
+            .filter(Boolean);
+        const latestTs = timestampCandidates.length
+            ? new Date(Math.max(...timestampCandidates)).toISOString()
+            : new Date().toISOString();
+        const sourceLabel = useFallbackOnly ? 'fallbackLaptops.json' : 'laptops.json';
+        const schemaVersion = (schemaInfo && typeof schemaInfo === 'object' && 'schema_version' in schemaInfo)
+            ? schemaInfo.schema_version
+            : undefined;
+
+        STATE.data.datasetMeta = {
+            generatedAt: latestTs,
+            source: sourceLabel,
+            count: baseline.length,
+            ...(schemaVersion ? { schemaVersion } : {})
+        };
     },
     async callAIAgent(task, payload, outputElement) {
         const liveDropdown = document.getElementById('toolkit-live-dropdown');
@@ -3574,6 +3610,36 @@
         }
         return APP.computeFilteredSet(limit);
       },
+      findLaptopByKey(identifier) {
+        if (!identifier) return null;
+        const [brandRaw, modelRaw] = String(identifier).split('|');
+        const brand = (brandRaw || '').trim().toLowerCase();
+        const model = (modelRaw || '').trim().toLowerCase();
+        if (!brand && !model) return null;
+
+        const toKey = (item) => `${String(item?.brand || '').trim().toLowerCase()}|${String(item?.model || '').trim().toLowerCase()}`;
+        const searchPools = [
+          ...(Array.isArray(STATE.data.rankedSource.top10) ? STATE.data.rankedSource.top10 : []),
+          ...(Array.isArray(STATE.data.rankedSource.shortlist35) ? STATE.data.rankedSource.shortlist35 : []),
+          ...(Array.isArray(STATE.data.rankedSource.appendix65) ? STATE.data.rankedSource.appendix65 : []),
+          ...(Array.isArray(STATE.data.allLaptops) ? STATE.data.allLaptops : []),
+          ...(Array.isArray(STATE.data.fallbackLaptops) ? STATE.data.fallbackLaptops : [])
+        ];
+
+        for (const entry of searchPools) {
+          if (!entry) continue;
+          const key = toKey(entry);
+          if (!key) continue;
+          if (brand && model) {
+            if (key === `${brand}|${model}`) return entry;
+          } else if (brand && key.startsWith(`${brand}|`)) {
+            return entry;
+          } else if (model && key.endsWith(`|${model}`)) {
+            return entry;
+          }
+        }
+        return null;
+      },
       computeTopPicks(data) {
         if (!Array.isArray(data) || !data.length) return [];
         const seg = STATE.ui.app.segment || 'All';
@@ -3809,16 +3875,34 @@
             }
         });
 
-        const navLinks = document.querySelectorAll('.nav-button');
-        const sections = document.querySelectorAll('main section');
+        const navLinks = Array.from(document.querySelectorAll('.nav-button'));
+        const sections = Array.from(document.querySelectorAll('main section'));
+        const scrollToSection = (target) => {
+          const el = typeof target === 'string' ? document.querySelector(target) : target;
+          if (!el) return;
+          const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+          el.scrollIntoView({ behavior: prefersReduced ? 'auto' : 'smooth', block: 'start' });
+        };
+        navLinks.forEach(btn => {
+          btn.addEventListener('click', () => {
+            const selector = btn.getAttribute('data-target');
+            if (!selector) return;
+            scrollToSection(selector);
+            navLinks.forEach(link => link.classList.toggle('active', link === btn));
+          });
+        });
         const observer = new IntersectionObserver(entries => {
           entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              const id = entry.target.id;
-              navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === `#${id}`));
-            }
+            if (!entry.isIntersecting) return;
+            const id = entry.target.id;
+            navLinks.forEach(link => {
+              const selector = link.getAttribute('data-target');
+              const match = selector === `#${id}`;
+              link.classList.toggle('active', match);
+              link.setAttribute('aria-selected', match ? 'true' : 'false');
+            });
           });
-        }, { rootMargin: '-40% 0px -60% 0px' });
+        }, { rootMargin: '-35% 0px -55% 0px', threshold: [0.2, 0.4, 0.6] });
         sections.forEach(section => observer.observe(section));
       },
       async initialize() {
@@ -3912,6 +3996,7 @@
   <script src="/ai_pod/prototypes/soul_v1/fsm.js" defer></script>
   <script src="/ai_pod/mobile/bridge/index.js" defer></script>
   <script src="/ai_pod/mobile/bridge/deepLinkRouter.js" defer></script>
+  <script type="module" src="/ai_pod/adapters/aiClient.js"></script>
   <script src="/ai_pod/clients/geminiClient.js" defer></script>
   <script src="./js/aipod/provider-proxy.js" defer></script>
   <script type="module" src="./js/ai-pod-loader.js"></script>

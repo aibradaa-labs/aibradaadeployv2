@@ -9,12 +9,19 @@
     try {
       let model = localStorage.getItem('GEMINI_MODEL') || PRIMARY_MODEL;
       if (!ALLOWED_MODELS.has(model)) model = PRIMARY_MODEL;
-      const baseUrl = window.__AI_POD_PROXY__ || '/.netlify/functions/ai';
       const text = [systemPrompt || '', userPrompt || ''].filter(Boolean).join('\n\n');
-      const client = window.AI_POD.clients.gemini;
-      if (!client?.call) return Promise.resolve({ ok: false, error: 'gemini_client_missing' });
-      return client.call(model, { text }, { baseUrl, fallbackSequence: [PRIMARY_MODEL, FALLBACK_MODEL] })
-        .then(r => ({ ok: true, data: { text: r?.text || '' }, model: r?.model || model }))
+      const adapter = window.AI_POD?.callAI;
+      if (typeof adapter !== 'function') {
+        return Promise.resolve({ ok: false, error: 'ai_adapter_missing' });
+      }
+      return adapter({ provider: 'gemini', model, payload: { prompt: text, topic } })
+        .then(result => ({
+          ok: result?.ok !== false,
+          mocked: !!result?.mocked,
+          data: result?.output?.text ?? result?.raw?.text ?? '',
+          model: result?.model || model,
+          raw: result
+        }))
         .catch(e => ({ ok: false, error: String(e && e.message || e) }));
     } catch (e) {
       return Promise.resolve({ ok: false, error: String(e && e.message || e) });
