@@ -1,0 +1,3322 @@
+[
+  {
+    "uid": "illegear|onyx g|my",
+    "brand": "Illegear",
+    "model": "Onyx G",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6899.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.387876+00:00",
+    "first_seen": "2025-10-12T09:05:43.387876+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Illegear",
+      "model": "Onyx G",
+      "price": 6899,
+      "score": 95,
+      "platform": "CUDA",
+      "why": "Peak RTX 4060 performance and cooling",
+      "scores": {
+        "ai": 9.8,
+        "thermals": 9,
+        "upgrade": 9,
+        "linux": 7,
+        "portability": 6,
+        "value": 9.5
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "apple|macbook pro 14\" m3 pro|my",
+    "brand": "Apple",
+    "model": "MacBook Pro 14\" M3 Pro",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.387912+00:00",
+    "first_seen": "2025-10-12T09:05:43.387912+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Apple",
+      "model": "MacBook Pro 14\" M3 Pro",
+      "price": 6999,
+      "score": 93,
+      "platform": "Mac",
+      "why": "Most powerful Mac in budget",
+      "scores": {
+        "ai": 8.8,
+        "thermals": 8,
+        "upgrade": 1,
+        "linux": 1,
+        "portability": 8.5,
+        "value": 8
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "soldered"
+      }
+    }
+  },
+  {
+    "uid": "illegear|z7|my",
+    "brand": "Illegear",
+    "model": "Z7",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5699.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.387926+00:00",
+    "first_seen": "2025-10-12T09:05:43.387926+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Illegear",
+      "model": "Z7",
+      "price": 5699,
+      "score": 92,
+      "platform": "CUDA",
+      "why": "Top-tier performance & upgradability",
+      "scores": {
+        "ai": 9.5,
+        "thermals": 8.5,
+        "upgrade": 9,
+        "linux": 7,
+        "portability": 6,
+        "value": 9
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "lenovo|yoga slim 7x|my",
+    "brand": "Lenovo",
+    "model": "Yoga Slim 7x",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.387937+00:00",
+    "first_seen": "2025-10-12T09:05:43.387937+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Lenovo",
+      "model": "Yoga Slim 7x",
+      "price": 5999,
+      "score": 89,
+      "platform": "NPU",
+      "why": "Elite efficiency & NPU power",
+      "scores": {
+        "ai": 8,
+        "thermals": 7,
+        "upgrade": 2,
+        "linux": 6,
+        "portability": 9.5,
+        "value": 8
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "asus|zenbook 14 oled|my",
+    "brand": "ASUS",
+    "model": "Zenbook 14 OLED",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.387945+00:00",
+    "first_seen": "2025-10-12T09:05:43.387945+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "ASUS",
+      "model": "Zenbook 14 OLED",
+      "price": 5999,
+      "score": 87,
+      "platform": "NPU",
+      "why": "Premium build, stunning display",
+      "scores": {
+        "ai": 7.8,
+        "thermals": 7.5,
+        "upgrade": 2,
+        "linux": 7,
+        "portability": 9.8,
+        "value": 7.5
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "apple|macbook air 15\" m3 (16gb)|my",
+    "brand": "Apple",
+    "model": "MacBook Air 15\" M3 (16GB)",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6899.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.387957+00:00",
+    "first_seen": "2025-10-12T09:05:43.387957+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Apple",
+      "model": "MacBook Air 15\" M3 (16GB)",
+      "price": 6899,
+      "score": 86,
+      "platform": "Mac",
+      "why": "Large screen & 16GB RAM for AI",
+      "scores": {
+        "ai": 7.8,
+        "thermals": 7,
+        "upgrade": 1,
+        "linux": 1,
+        "portability": 9.5,
+        "value": 7
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "soldered"
+      }
+    }
+  },
+  {
+    "uid": "lenovo|yoga slim 7i (intel)|my",
+    "brand": "Lenovo",
+    "model": "Yoga Slim 7i (Intel)",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5799.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.387964+00:00",
+    "first_seen": "2025-10-12T09:05:43.387964+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Lenovo",
+      "model": "Yoga Slim 7i (Intel)",
+      "price": 5799,
+      "score": 85,
+      "platform": "NPU",
+      "why": "Strong Intel NPU with great build",
+      "scores": {
+        "ai": 7.7,
+        "thermals": 7.5,
+        "upgrade": 3,
+        "linux": 8,
+        "portability": 9,
+        "value": 8
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "lenovo|loq 15irh9|my",
+    "brand": "Lenovo",
+    "model": "LOQ 15IRH9",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4599.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.387971+00:00",
+    "first_seen": "2025-10-12T09:05:43.387971+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Lenovo",
+      "model": "LOQ 15IRH9",
+      "price": 4599,
+      "score": 84,
+      "platform": "CUDA",
+      "why": "Best value for RTX 40-series",
+      "scores": {
+        "ai": 8,
+        "thermals": 8,
+        "upgrade": 8,
+        "linux": 8,
+        "portability": 6.5,
+        "value": 9.5
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "honor|magicbook pro 16|my",
+    "brand": "Honor",
+    "model": "MagicBook Pro 16",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5499.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.387977+00:00",
+    "first_seen": "2025-10-12T09:05:43.387977+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Honor",
+      "model": "MagicBook Pro 16",
+      "price": 5499,
+      "score": 83,
+      "platform": "NPU",
+      "why": "Powerful AMD NPU and great display",
+      "scores": {
+        "ai": 7.5,
+        "thermals": 8,
+        "upgrade": 4,
+        "linux": 7.5,
+        "portability": 8,
+        "value": 8
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "aftershock|apex 15x lite|my",
+    "brand": "Aftershock",
+    "model": "Apex 15X Lite",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4900.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.387984+00:00",
+    "first_seen": "2025-10-12T09:05:43.387984+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Aftershock",
+      "model": "Apex 15X Lite",
+      "price": 4900,
+      "score": 82,
+      "platform": "CUDA",
+      "why": "Excellent customizability",
+      "scores": {
+        "ai": 8.2,
+        "thermals": 8.5,
+        "upgrade": 9,
+        "linux": 7,
+        "portability": 6,
+        "value": 8.5
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "hp|victus 16 (amd)|my",
+    "brand": "HP",
+    "model": "Victus 16 (AMD)",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.387991+00:00",
+    "first_seen": "2025-10-12T09:05:43.387991+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "HP",
+      "model": "Victus 16 (AMD)",
+      "price": 4999,
+      "score": 82,
+      "platform": "CUDA",
+      "why": "Large screen and solid combo",
+      "scores": {
+        "ai": 8,
+        "thermals": 8.2,
+        "upgrade": 8,
+        "linux": 7.5,
+        "portability": 5,
+        "value": 8.5
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "gigabyte|g5 mf|my",
+    "brand": "Gigabyte",
+    "model": "G5 MF",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4699.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.387997+00:00",
+    "first_seen": "2025-10-12T09:05:43.387997+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Gigabyte",
+      "model": "G5 MF",
+      "price": 4699,
+      "score": 81,
+      "platform": "CUDA",
+      "why": "Strong all-around budget CUDA",
+      "scores": {
+        "ai": 8,
+        "thermals": 7.8,
+        "upgrade": 8,
+        "linux": 7,
+        "portability": 6,
+        "value": 9
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "asus|tuf gaming a15|my",
+    "brand": "ASUS",
+    "model": "TUF Gaming A15",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4799.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388004+00:00",
+    "first_seen": "2025-10-12T09:05:43.388004+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "ASUS",
+      "model": "TUF Gaming A15",
+      "price": 4799,
+      "score": 80,
+      "platform": "CUDA",
+      "why": "Durable with solid CPU",
+      "scores": {
+        "ai": 7.8,
+        "thermals": 8,
+        "upgrade": 8,
+        "linux": 8,
+        "portability": 5.5,
+        "value": 8.5
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "msi|thin gf63|my",
+    "brand": "MSI",
+    "model": "Thin GF63",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4799.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388011+00:00",
+    "first_seen": "2025-10-12T09:05:43.388011+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "MSI",
+      "model": "Thin GF63",
+      "price": 4799,
+      "score": 79,
+      "platform": "CUDA",
+      "why": "Lightweight for a gaming laptop",
+      "scores": {
+        "ai": 7.9,
+        "thermals": 7.2,
+        "upgrade": 7,
+        "linux": 7,
+        "portability": 7,
+        "value": 8
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "dell|g15 5530|my",
+    "brand": "Dell",
+    "model": "G15 5530",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4899.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388020+00:00",
+    "first_seen": "2025-10-12T09:05:43.388020+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Dell",
+      "model": "G15 5530",
+      "price": 4899,
+      "score": 78,
+      "platform": "CUDA",
+      "why": "Powerful CPU & great warranty",
+      "scores": {
+        "ai": 8,
+        "thermals": 7.5,
+        "upgrade": 7,
+        "linux": 7.5,
+        "portability": 5,
+        "value": 8
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "infinix|gt book|my",
+    "brand": "Infinix",
+    "model": "GT Book",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4499.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388026+00:00",
+    "first_seen": "2025-10-12T09:05:43.388026+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Infinix",
+      "model": "GT Book",
+      "price": 4499,
+      "score": 77,
+      "platform": "CUDA",
+      "why": "Aggressive pricing for RTX 4050",
+      "scores": {
+        "ai": 7.8,
+        "thermals": 7,
+        "upgrade": 7,
+        "linux": 6.5,
+        "portability": 6.5,
+        "value": 9.2
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "acer|nitro v 15|my",
+    "brand": "Acer",
+    "model": "Nitro V 15",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4299.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388033+00:00",
+    "first_seen": "2025-10-12T09:05:43.388033+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Acer",
+      "model": "Nitro V 15",
+      "price": 4299,
+      "score": 76,
+      "platform": "CUDA",
+      "why": "Most affordable RTX 4050",
+      "scores": {
+        "ai": 7.5,
+        "thermals": 7,
+        "upgrade": 8,
+        "linux": 7,
+        "portability": 6,
+        "value": 9
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "illegear|arté 14|my",
+    "brand": "Illegear",
+    "model": "Arté 14",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5499.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388039+00:00",
+    "first_seen": "2025-10-12T09:05:43.388039+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Illegear",
+      "model": "Arté 14",
+      "price": 5499,
+      "score": 76,
+      "platform": "NPU",
+      "why": "Boutique ultrabook with customisation",
+      "scores": {
+        "ai": 7,
+        "thermals": 7,
+        "upgrade": 4,
+        "linux": 8,
+        "portability": 9.2,
+        "value": 7
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "acer|swift x 14|my",
+    "brand": "Acer",
+    "model": "Swift X 14",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5599.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388048+00:00",
+    "first_seen": "2025-10-12T09:05:43.388048+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Acer",
+      "model": "Swift X 14",
+      "price": 5599,
+      "score": 75,
+      "platform": "CUDA",
+      "why": "Portable creator laptop with dGPU",
+      "scores": {
+        "ai": 6.5,
+        "thermals": 7,
+        "upgrade": 2,
+        "linux": 7,
+        "portability": 9,
+        "value": 6.5
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "samsung|galaxy book4|my",
+    "brand": "Samsung",
+    "model": "Galaxy Book4",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5299.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388054+00:00",
+    "first_seen": "2025-10-12T09:05:43.388054+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Samsung",
+      "model": "Galaxy Book4",
+      "price": 5299,
+      "score": 74,
+      "platform": "NPU",
+      "why": "Ultra-premium build and AMOLED",
+      "scores": {
+        "ai": 6,
+        "thermals": 7,
+        "upgrade": 3,
+        "linux": 7,
+        "portability": 9.5,
+        "value": 6
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "huawei|matebook 14|my",
+    "brand": "HUAWEI",
+    "model": "MateBook 14",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5399.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388060+00:00",
+    "first_seen": "2025-10-12T09:05:43.388060+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "HUAWEI",
+      "model": "MateBook 14",
+      "price": 5399,
+      "score": 73,
+      "platform": "NPU",
+      "why": "Excellent display and ecosystem",
+      "scores": {
+        "ai": 6.2,
+        "thermals": 7.2,
+        "upgrade": 3,
+        "linux": 6,
+        "portability": 9.3,
+        "value": 6.5
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "asus|vivobook pro 15 oled|my",
+    "brand": "ASUS",
+    "model": "Vivobook Pro 15 OLED",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388065+00:00",
+    "first_seen": "2025-10-12T09:05:43.388065+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "ASUS",
+      "model": "Vivobook Pro 15 OLED",
+      "price": 4999,
+      "score": 72,
+      "platform": "CUDA",
+      "why": "Best-in-class display",
+      "scores": {
+        "ai": 6,
+        "thermals": 6.5,
+        "upgrade": 5,
+        "linux": 6,
+        "portability": 8,
+        "value": 7
+      },
+      "upgradability": {
+        "ram": "1 slot",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "aftershock|forge 15s|my",
+    "brand": "Aftershock",
+    "model": "Forge 15S",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 3899.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388072+00:00",
+    "first_seen": "2025-10-12T09:05:43.388072+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Aftershock",
+      "model": "Forge 15S",
+      "price": 3899,
+      "score": 71,
+      "platform": "CUDA",
+      "why": "Best value for entry-level CUDA",
+      "scores": {
+        "ai": 5.8,
+        "thermals": 7.5,
+        "upgrade": 9,
+        "linux": 7,
+        "portability": 6,
+        "value": 8.8
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "razer|blade 14 (older spec)|my",
+    "brand": "Razer",
+    "model": "Blade 14 (older spec)",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6599.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388080+00:00",
+    "first_seen": "2025-10-12T09:05:43.388080+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Razer",
+      "model": "Blade 14 (older spec)",
+      "price": 6599,
+      "score": 70,
+      "platform": "CUDA",
+      "why": "Premium build, on clearance",
+      "scores": {
+        "ai": 7.5,
+        "thermals": 8.5,
+        "upgrade": 2,
+        "linux": 6,
+        "portability": 8,
+        "value": 5
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "hp|victus 15|my",
+    "brand": "HP",
+    "model": "Victus 15",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 3999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388087+00:00",
+    "first_seen": "2025-10-12T09:05:43.388087+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "HP",
+      "model": "Victus 15",
+      "price": 3999,
+      "score": 69,
+      "platform": "CUDA",
+      "why": "Strong entry-level dGPU",
+      "scores": {
+        "ai": 5.5,
+        "thermals": 7,
+        "upgrade": 7,
+        "linux": 7.5,
+        "portability": 7,
+        "value": 8
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "microsoft|surface laptop 5 (15\")|my",
+    "brand": "Microsoft",
+    "model": "Surface Laptop 5 (15\")",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5899.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388092+00:00",
+    "first_seen": "2025-10-12T09:05:43.388092+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Microsoft",
+      "model": "Surface Laptop 5 (15\")",
+      "price": 5899,
+      "score": 68,
+      "platform": "NPU",
+      "why": "Excellent keyboard and premium feel",
+      "scores": {
+        "ai": 5,
+        "thermals": 6,
+        "upgrade": 1,
+        "linux": 8,
+        "portability": 9,
+        "value": 5.5
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "soldered"
+      }
+    }
+  },
+  {
+    "uid": "dell|inspiron 14 plus|my",
+    "brand": "Dell",
+    "model": "Inspiron 14 Plus",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5199.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388099+00:00",
+    "first_seen": "2025-10-12T09:05:43.388099+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Dell",
+      "model": "Inspiron 14 Plus",
+      "price": 5199,
+      "score": 67,
+      "platform": "NPU",
+      "why": "Solid workhorse with a good screen",
+      "scores": {
+        "ai": 5.8,
+        "thermals": 6.5,
+        "upgrade": 4,
+        "linux": 8.5,
+        "portability": 8.5,
+        "value": 6
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "msi|cyborg 15|my",
+    "brand": "MSI",
+    "model": "Cyborg 15",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4599.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388105+00:00",
+    "first_seen": "2025-10-12T09:05:43.388105+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "MSI",
+      "model": "Cyborg 15",
+      "price": 4599,
+      "score": 66,
+      "platform": "CUDA",
+      "why": "Unique transparent chassis",
+      "scores": {
+        "ai": 7.7,
+        "thermals": 6.5,
+        "upgrade": 7,
+        "linux": 7,
+        "portability": 7.2,
+        "value": 7
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "lenovo|ideapad slim 5 oled|my",
+    "brand": "Lenovo",
+    "model": "IdeaPad Slim 5 OLED",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4899.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388110+00:00",
+    "first_seen": "2025-10-12T09:05:43.388110+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Lenovo",
+      "model": "IdeaPad Slim 5 OLED",
+      "price": 4899,
+      "score": 65,
+      "platform": "NPU",
+      "why": "Affordable OLED with AMD Ryzen AI",
+      "scores": {
+        "ai": 6.5,
+        "thermals": 7,
+        "upgrade": 3,
+        "linux": 8,
+        "portability": 9,
+        "value": 7.5
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "gigabyte|aorus 15 (entry)|my",
+    "brand": "Gigabyte",
+    "model": "AORUS 15 (entry)",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388116+00:00",
+    "first_seen": "2025-10-12T09:05:43.388116+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Gigabyte",
+      "model": "AORUS 15 (entry)",
+      "price": 5999,
+      "score": 64,
+      "platform": "CUDA",
+      "why": "High-end brand features",
+      "scores": {
+        "ai": 8.5,
+        "thermals": 9,
+        "upgrade": 8,
+        "linux": 7,
+        "portability": 5,
+        "value": 6
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "acer|aspire 7 gaming|my",
+    "brand": "Acer",
+    "model": "Aspire 7 Gaming",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 3799.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388126+00:00",
+    "first_seen": "2025-10-12T09:05:43.388126+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Acer",
+      "model": "Aspire 7 Gaming",
+      "price": 3799,
+      "score": 63,
+      "platform": "CUDA",
+      "why": "Cheapest entry to CUDA",
+      "scores": {
+        "ai": 5.2,
+        "thermals": 6.8,
+        "upgrade": 8,
+        "linux": 7,
+        "portability": 6.5,
+        "value": 8.5
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "level51|terra 15s|my",
+    "brand": "Level51",
+    "model": "Terra 15S",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4350.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388133+00:00",
+    "first_seen": "2025-10-12T09:05:43.388133+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Level51",
+      "model": "Terra 15S",
+      "price": 4350,
+      "score": 62,
+      "platform": "CUDA",
+      "why": "Local custom builder",
+      "scores": {
+        "ai": 7.5,
+        "thermals": 7.2,
+        "upgrade": 9,
+        "linux": 7,
+        "portability": 6,
+        "value": 7.5
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "honor|magicbook x 16 pro|my",
+    "brand": "Honor",
+    "model": "MagicBook X 16 Pro",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4199.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388139+00:00",
+    "first_seen": "2025-10-12T09:05:43.388139+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Honor",
+      "model": "MagicBook X 16 Pro",
+      "price": 4199,
+      "score": 61,
+      "platform": "NPU",
+      "why": "Large lightweight screen",
+      "scores": {
+        "ai": 5.5,
+        "thermals": 7,
+        "upgrade": 2,
+        "linux": 7,
+        "portability": 8.5,
+        "value": 7
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "xiaomi|redmi g pro|my",
+    "brand": "Xiaomi",
+    "model": "Redmi G Pro",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5899.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388146+00:00",
+    "first_seen": "2025-10-12T09:05:43.388146+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Xiaomi",
+      "model": "Redmi G Pro",
+      "price": 5899,
+      "score": 60,
+      "platform": "CUDA",
+      "why": "High specs, check warranty",
+      "scores": {
+        "ai": 8.8,
+        "thermals": 8.5,
+        "upgrade": 8,
+        "linux": 5,
+        "portability": 5,
+        "value": 7
+      },
+      "upgradability": {
+        "ram": "2 slots",
+        "ssd": "2 slots"
+      }
+    }
+  },
+  {
+    "uid": "jumper|techbook 16|my",
+    "brand": "Jumper",
+    "model": "TechBook 16",
+    "sku": null,
+    "cpu": null,
+    "gpu": null,
+    "ram_gb": null,
+    "storage": null,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 3599.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388152+00:00",
+    "first_seen": "2025-10-12T09:05:43.388152+00:00",
+    "source": "uploaded:laptops.json",
+    "raw": {
+      "brand": "Jumper",
+      "model": "TechBook 16",
+      "price": 3599,
+      "score": 55,
+      "platform": "NPU",
+      "why": "Ultra-budget NPU entry",
+      "scores": {
+        "ai": 4,
+        "thermals": 5,
+        "upgrade": 2,
+        "linux": 6,
+        "portability": 9,
+        "value": 8
+      },
+      "upgradability": {
+        "ram": "soldered",
+        "ssd": "1 slot"
+      }
+    }
+  },
+  {
+    "uid": "lenovo|my",
+    "brand": "Lenovo",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-260H",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6299.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388159+00:00",
+    "first_seen": "2025-10-12T09:05:43.388159+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 1,
+      "rank": 2,
+      "name": "Lenovo Legion Slim 5i Gen 10",
+      "brand": "Lenovo",
+      "price": 6299,
+      "cpu": "Intel Core 7-260H",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 95,
+      "brightness": 400,
+      "relevance_years": 4.5,
+      "summary": "Excellent balance of powerful performance, a top-tier creator display, and robust build quality.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "asus|my",
+    "brand": "ASUS",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 7 9845HS",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5899.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388166+00:00",
+    "first_seen": "2025-10-12T09:05:43.388166+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 2,
+      "rank": 1,
+      "name": "ASUS TUF Gaming A16 (2025)",
+      "brand": "ASUS",
+      "price": 5899,
+      "cpu": "AMD Ryzen 7 9845HS",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 90,
+      "brightness": 350,
+      "relevance_years": 4.5,
+      "summary": "Unbeatable performance for its price. Offers next-gen components and a solid display.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "msi|my",
+    "brand": "MSI",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-255H",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5399.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388173+00:00",
+    "first_seen": "2025-10-12T09:05:43.388173+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 3,
+      "rank": 3,
+      "name": "MSI Katana 15 (2025)",
+      "brand": "MSI",
+      "price": 5399,
+      "cpu": "Intel Core 7-255H",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 85,
+      "brightness": 300,
+      "relevance_years": 4,
+      "summary": "Slightly outperforms the Alienware benchmark for a lower price, featuring a solid build.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "alienware|my",
+    "brand": "Alienware",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-240H",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5489.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388179+00:00",
+    "first_seen": "2025-10-12T09:05:43.388179+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 4,
+      "name": "Alienware 16 Aurora",
+      "brand": "Alienware",
+      "price": 5489,
+      "cpu": "Intel Core 7-240H",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 80,
+      "brightness": 300,
+      "relevance_years": 4,
+      "summary": "The benchmark model. Good performance but faces stiff competition on value and display quality.",
+      "product_link": "https://www.dell.com/en-my/shop/gaming-and-games/alienware-16-aurora-gaming-laptop/spd/alienware-aurora-ac16250-gaming-laptop",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "acer|my",
+    "brand": "Acer",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-260H",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6499.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388185+00:00",
+    "first_seen": "2025-10-12T09:05:43.388185+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 5,
+      "name": "Acer Predator Helios Neo 16",
+      "brand": "Acer",
+      "price": 6499,
+      "cpu": "Intel Core 7-260H",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 92,
+      "brightness": 400,
+      "relevance_years": 4.5,
+      "summary": "Powerful performer with a bright, color-accurate screen.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "hp|my",
+    "brand": "HP",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-265H",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6899.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388192+00:00",
+    "first_seen": "2025-10-12T09:05:43.388192+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 6,
+      "name": "HP Omen 16 Transcend",
+      "brand": "HP",
+      "price": 6899,
+      "cpu": "Intel Core 7-265H",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 98,
+      "brightness": 450,
+      "relevance_years": 4.5,
+      "summary": "Premium build and one of the best displays in this price range.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "asus|my",
+    "brand": "ASUS",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 9 9950HS",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388198+00:00",
+    "first_seen": "2025-10-12T09:05:43.388198+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 7,
+      "name": "ASUS ROG Zephyrus G16",
+      "brand": "ASUS",
+      "price": 6999,
+      "cpu": "AMD Ryzen 9 9950HS",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 100,
+      "brightness": 500,
+      "relevance_years": 5,
+      "summary": "Top-of-the-line specs and display, pushing the budget limit.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "razer|my",
+    "brand": "Razer",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-260H",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388204+00:00",
+    "first_seen": "2025-10-12T09:05:43.388204+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 8,
+      "name": "Razer Blade 15 (Base)",
+      "brand": "Razer",
+      "price": 6999,
+      "cpu": "Intel Core 7-260H",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 95,
+      "brightness": 400,
+      "relevance_years": 4.5,
+      "summary": "Sleek design and premium feel, with strong performance.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "msi|my",
+    "brand": "MSI",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-265H",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 2,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6799.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388211+00:00",
+    "first_seen": "2025-10-12T09:05:43.388211+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 9,
+      "name": "MSI Vector GP68",
+      "brand": "MSI",
+      "price": 6799,
+      "cpu": "Intel Core 7-265H",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 2,
+      "dci_p_3": 90,
+      "brightness": 350,
+      "relevance_years": 4.5,
+      "summary": "Great performance with a generous 2TB of storage.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "acer|my",
+    "brand": "Acer",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 7 9745HS",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388218+00:00",
+    "first_seen": "2025-10-12T09:05:43.388218+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 10,
+      "name": "Acer Nitro 5",
+      "brand": "Acer",
+      "price": 4999,
+      "cpu": "AMD Ryzen 7 9745HS",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 75,
+      "brightness": 300,
+      "relevance_years": 4,
+      "summary": "Excellent entry-level option for modern gaming.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "lenovo|my",
+    "brand": "Lenovo",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-250H",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 0.5,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4899.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388224+00:00",
+    "first_seen": "2025-10-12T09:05:43.388224+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 11,
+      "name": "Lenovo LOQ 15",
+      "brand": "Lenovo",
+      "price": 4899,
+      "cpu": "Intel Core 7-250H",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 0.5,
+      "dci_p_3": 70,
+      "brightness": 300,
+      "relevance_years": 3.5,
+      "summary": "Budget-friendly choice with a slightly smaller SSD.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "hp|my",
+    "brand": "HP",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 7 9845HS",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5199.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388230+00:00",
+    "first_seen": "2025-10-12T09:05:43.388230+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 12,
+      "name": "HP Victus 16",
+      "brand": "HP",
+      "price": 5199,
+      "cpu": "AMD Ryzen 7 9845HS",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 80,
+      "brightness": 300,
+      "relevance_years": 4,
+      "summary": "Solid all-rounder with a clean design aesthetic.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "asus|my",
+    "brand": "ASUS",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-255H",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5299.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388236+00:00",
+    "first_seen": "2025-10-12T09:05:43.388236+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 13,
+      "name": "ASUS TUF Gaming F15",
+      "brand": "ASUS",
+      "price": 5299,
+      "cpu": "Intel Core 7-255H",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 82,
+      "brightness": 300,
+      "relevance_years": 4,
+      "summary": "Durable build with reliable gaming performance.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "gigabyte|my",
+    "brand": "Gigabyte",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-250H",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4799.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388243+00:00",
+    "first_seen": "2025-10-12T09:05:43.388243+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 14,
+      "name": "Gigabyte G5",
+      "brand": "Gigabyte",
+      "price": 4799,
+      "cpu": "Intel Core 7-250H",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 70,
+      "brightness": 280,
+      "relevance_years": 3.5,
+      "summary": "Aggressively priced with core gaming essentials.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "illegear|my",
+    "brand": "Illegear",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-260H",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388249+00:00",
+    "first_seen": "2025-10-12T09:05:43.388249+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 15,
+      "name": "Illegear Prodigy",
+      "brand": "Illegear",
+      "price": 5999,
+      "cpu": "Intel Core 7-260H",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 93,
+      "brightness": 350,
+      "relevance_years": 4.5,
+      "summary": "Malaysian brand offering customizable, high-performance builds.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "commandos|my",
+    "brand": "Commandos",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 7 9845HS",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5599.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388256+00:00",
+    "first_seen": "2025-10-12T09:05:43.388256+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 16,
+      "name": "Commandos Glock 5",
+      "brand": "Commandos",
+      "price": 5599,
+      "cpu": "AMD Ryzen 7 9845HS",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 88,
+      "brightness": 350,
+      "relevance_years": 4,
+      "summary": "Another local player with competitive pricing and specs.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "msi|my",
+    "brand": "MSI",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-240H",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 0.5,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4699.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388262+00:00",
+    "first_seen": "2025-10-12T09:05:43.388262+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 17,
+      "name": "MSI Cyborg 15",
+      "brand": "MSI",
+      "price": 4699,
+      "cpu": "Intel Core 7-240H",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 0.5,
+      "dci_p_3": 68,
+      "brightness": 250,
+      "relevance_years": 3.5,
+      "summary": "Futuristic design at a very accessible price point.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "dell|my",
+    "brand": "Dell",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-255H",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5699.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388268+00:00",
+    "first_seen": "2025-10-12T09:05:43.388268+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 18,
+      "name": "Dell G16 Gaming",
+      "brand": "Dell",
+      "price": 5699,
+      "cpu": "Intel Core 7-255H",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 85,
+      "brightness": 300,
+      "relevance_years": 4,
+      "summary": "Dell's mainstream gaming offering, a solid alternative to Alienware.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "lenovo|my",
+    "brand": "Lenovo",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 7 9845HS",
+    "gpu": "RTX 5060",
+    "ram_gb": 32.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388274+00:00",
+    "first_seen": "2025-10-12T09:05:43.388274+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 19,
+      "name": "Lenovo Legion Pro 5",
+      "brand": "Lenovo",
+      "price": 6999,
+      "cpu": "AMD Ryzen 7 9845HS",
+      "gpu": "RTX 5060",
+      "ram": 32,
+      "storage": 1,
+      "dci_p_3": 95,
+      "brightness": 450,
+      "relevance_years": 5,
+      "summary": "Excellent thermals and a generous 32GB of RAM.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "asus|my",
+    "brand": "ASUS",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-260H",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6599.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388280+00:00",
+    "first_seen": "2025-10-12T09:05:43.388280+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 20,
+      "name": "ASUS ROG Strix G16",
+      "brand": "ASUS",
+      "price": 6599,
+      "cpu": "Intel Core 7-260H",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 94,
+      "brightness": 400,
+      "relevance_years": 4.5,
+      "summary": "Classic ROG styling with potent performance.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "acer|my",
+    "brand": "Acer",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-265H",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 2,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388287+00:00",
+    "first_seen": "2025-10-12T09:05:43.388287+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 21,
+      "name": "Acer Predator Triton 16",
+      "brand": "Acer",
+      "price": 6999,
+      "cpu": "Intel Core 7-265H",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 2,
+      "dci_p_3": 96,
+      "brightness": 400,
+      "relevance_years": 5,
+      "summary": "Sleek, powerful, and comes with a 2TB SSD.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "hp|my",
+    "brand": "HP",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 7 9845HS",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6199.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388293+00:00",
+    "first_seen": "2025-10-12T09:05:43.388293+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 22,
+      "name": "HP Omen 16",
+      "brand": "HP",
+      "price": 6199,
+      "cpu": "AMD Ryzen 7 9845HS",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 90,
+      "brightness": 350,
+      "relevance_years": 4.5,
+      "summary": "A strong Omen model without the premium 'Transcend' price tag.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "msi|my",
+    "brand": "MSI",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 5-230H",
+    "gpu": "RTX 5050",
+    "ram_gb": 8.0,
+    "storage": 0.5,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4299.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388299+00:00",
+    "first_seen": "2025-10-12T09:05:43.388299+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 23,
+      "name": "MSI Thin GF63",
+      "brand": "MSI",
+      "price": 4299,
+      "cpu": "Intel Core 5-230H",
+      "gpu": "RTX 5050",
+      "ram": 8,
+      "storage": 0.5,
+      "dci_p_3": 65,
+      "brightness": 250,
+      "relevance_years": 3,
+      "summary": "One of the cheapest ways to get a current-gen RTX GPU.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "gigabyte|my",
+    "brand": "Gigabyte",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-260H",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6399.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388306+00:00",
+    "first_seen": "2025-10-12T09:05:43.388306+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 24,
+      "name": "Gigabyte Aorus 15",
+      "brand": "Gigabyte",
+      "price": 6399,
+      "cpu": "Intel Core 7-260H",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 92,
+      "brightness": 350,
+      "relevance_years": 4.5,
+      "summary": "Strong performance and a high-refresh-rate display.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "illegear|my",
+    "brand": "Illegear",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 9 9950HS",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6599.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388312+00:00",
+    "first_seen": "2025-10-12T09:05:43.388312+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 25,
+      "name": "Illegear Onyx V",
+      "brand": "Illegear",
+      "price": 6599,
+      "cpu": "AMD Ryzen 9 9950HS",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 95,
+      "brightness": 400,
+      "relevance_years": 5,
+      "summary": "High-end CPU in a custom Malaysian build.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "lenovo|my",
+    "brand": "Lenovo",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 5 9645HS",
+    "gpu": "RTX 5050",
+    "ram_gb": 8.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4499.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388319+00:00",
+    "first_seen": "2025-10-12T09:05:43.388319+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 26,
+      "name": "Lenovo IdeaPad Gaming 3",
+      "brand": "Lenovo",
+      "price": 4499,
+      "cpu": "AMD Ryzen 5 9645HS",
+      "gpu": "RTX 5050",
+      "ram": 8,
+      "storage": 1,
+      "dci_p_3": 70,
+      "brightness": 300,
+      "relevance_years": 3.5,
+      "summary": "Entry-level gaming laptop with a generous 1TB SSD.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "dell|my",
+    "brand": "Dell",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-240H",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 0.5,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388360+00:00",
+    "first_seen": "2025-10-12T09:05:43.388360+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 27,
+      "name": "Dell G15 Gaming",
+      "brand": "Dell",
+      "price": 4999,
+      "cpu": "Intel Core 7-240H",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 0.5,
+      "dci_p_3": 75,
+      "brightness": 300,
+      "relevance_years": 3.5,
+      "summary": "A 15-inch alternative to the G16 with a smaller SSD.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "asus|my",
+    "brand": "ASUS",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 7 9845HS",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 2,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388367+00:00",
+    "first_seen": "2025-10-12T09:05:43.388367+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 28,
+      "name": "ASUS TUF Gaming A17",
+      "brand": "ASUS",
+      "price": 5999,
+      "cpu": "AMD Ryzen 7 9845HS",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 2,
+      "dci_p_3": 85,
+      "brightness": 300,
+      "relevance_years": 4,
+      "summary": "A larger 17-inch screen and 2TB of storage.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "msi|my",
+    "brand": "MSI",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 7 9745HS",
+    "gpu": "RX 8700M",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4599.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388374+00:00",
+    "first_seen": "2025-10-12T09:05:43.388374+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 29,
+      "name": "MSI Bravo 15",
+      "brand": "MSI",
+      "price": 4599,
+      "cpu": "AMD Ryzen 7 9745HS",
+      "gpu": "RX 8700M",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 72,
+      "brightness": 280,
+      "relevance_years": 3.5,
+      "summary": "An all-AMD option providing competitive performance.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "acer|my",
+    "brand": "Acer",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-250H",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5499.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388380+00:00",
+    "first_seen": "2025-10-12T09:05:43.388380+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 30,
+      "name": "Acer Nitro 17",
+      "brand": "Acer",
+      "price": 5499,
+      "cpu": "Intel Core 7-250H",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 80,
+      "brightness": 300,
+      "relevance_years": 4,
+      "summary": "Large screen gaming at a competitive price.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "hp|my",
+    "brand": "HP",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-250H",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 0.5,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 4799.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388386+00:00",
+    "first_seen": "2025-10-12T09:05:43.388386+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 31,
+      "name": "HP Victus 15",
+      "brand": "HP",
+      "price": 4799,
+      "cpu": "Intel Core 7-250H",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 0.5,
+      "dci_p_3": 75,
+      "brightness": 300,
+      "relevance_years": 3.5,
+      "summary": "A more compact and affordable version of the Victus.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "razer|my",
+    "brand": "Razer",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 7 9845HS",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388393+00:00",
+    "first_seen": "2025-10-12T09:05:43.388393+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 32,
+      "name": "Razer Blade 14 (Base AMD)",
+      "brand": "Razer",
+      "price": 6999,
+      "cpu": "AMD Ryzen 7 9845HS",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 97,
+      "brightness": 400,
+      "relevance_years": 4.5,
+      "summary": "Premium, portable, and powerful with a fantastic screen.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "commandos|my",
+    "brand": "Commandos",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-260H",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6499.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388399+00:00",
+    "first_seen": "2025-10-12T09:05:43.388399+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 33,
+      "name": "Commandos Glock 7",
+      "brand": "Commandos",
+      "price": 6499,
+      "cpu": "Intel Core 7-260H",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 90,
+      "brightness": 350,
+      "relevance_years": 4.5,
+      "summary": "Local brand stepping up with an RTX 5060 option.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "gigabyte|my",
+    "brand": "Gigabyte",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-255H",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 5299.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388406+00:00",
+    "first_seen": "2025-10-12T09:05:43.388406+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 34,
+      "name": "Gigabyte G7",
+      "brand": "Gigabyte",
+      "price": 5299,
+      "cpu": "Intel Core 7-255H",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 75,
+      "brightness": 300,
+      "relevance_years": 4,
+      "summary": "A 17-inch version of Gigabyte's budget-friendly gaming line.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "medion|my",
+    "brand": "Medion",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-265H",
+    "gpu": "RTX 5060",
+    "ram_gb": 32.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6899.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388412+00:00",
+    "first_seen": "2025-10-12T09:05:43.388412+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 35,
+      "name": "Medion Erazer Major X10",
+      "brand": "Medion",
+      "price": 6899,
+      "cpu": "Intel Core 7-265H",
+      "gpu": "RTX 5060",
+      "ram": 32,
+      "storage": 1,
+      "dci_p_3": 95,
+      "brightness": 400,
+      "relevance_years": 5,
+      "summary": "High-spec challenger brand with a focus on memory.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "lenovo|my",
+    "brand": "Lenovo",
+    "model": "",
+    "sku": null,
+    "cpu": "AMD Ryzen 7 9845HS",
+    "gpu": "RTX 5060",
+    "ram_gb": 16.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6899.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388419+00:00",
+    "first_seen": "2025-10-12T09:05:43.388419+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 36,
+      "name": "Lenovo Legion Slim 7",
+      "brand": "Lenovo",
+      "price": 6899,
+      "cpu": "AMD Ryzen 7 9845HS",
+      "gpu": "RTX 5060",
+      "ram": 16,
+      "storage": 1,
+      "dci_p_3": 98,
+      "brightness": 450,
+      "relevance_years": 5,
+      "summary": "A premium, thin-and-light powerhouse.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "asus|my",
+    "brand": "ASUS",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-260H",
+    "gpu": "RTX 5050",
+    "ram_gb": 32.0,
+    "storage": 1,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6999.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388425+00:00",
+    "first_seen": "2025-10-12T09:05:43.388425+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 37,
+      "name": "ASUS ProArt StudioBook 16",
+      "brand": "ASUS",
+      "price": 6999,
+      "cpu": "Intel Core 7-260H",
+      "gpu": "RTX 5050",
+      "ram": 32,
+      "storage": 1,
+      "dci_p_3": 100,
+      "brightness": 500,
+      "relevance_years": 5,
+      "summary": "Creator-focused laptop with a calibrated display and 32GB RAM.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  },
+  {
+    "uid": "msi|my",
+    "brand": "MSI",
+    "model": "",
+    "sku": null,
+    "cpu": "Intel Core 7-260H",
+    "gpu": "RTX 5050",
+    "ram_gb": 16.0,
+    "storage": 2,
+    "display": null,
+    "weight_kg": null,
+    "battery_wh": null,
+    "price": {
+      "value": 6499.0,
+      "currency": "MYR",
+      "promo": null
+    },
+    "buy": {
+      "url": "",
+      "seller": null
+    },
+    "region": "MY",
+    "images": [],
+    "updated_at": "2025-10-12T09:05:43.388432+00:00",
+    "first_seen": "2025-10-12T09:05:43.388432+00:00",
+    "source": "uploaded:updated laptop DB.yml",
+    "raw": {
+      "id": 38,
+      "name": "MSI Creator M16",
+      "brand": "MSI",
+      "price": 6499,
+      "cpu": "Intel Core 7-260H",
+      "gpu": "RTX 5050",
+      "ram": 16,
+      "storage": 2,
+      "dci_p_3": 100,
+      "brightness": 400,
+      "relevance_years": 4.5,
+      "summary": "Perfect display for creators with a massive 2TB SSD.",
+      "product_link": "#",
+      "in_stock": true,
+      "headline": ""
+    }
+  }
+]

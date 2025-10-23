@@ -1,0 +1,29 @@
+{
+  "payloadSummary": {
+    "totalFiles": 258,
+    "totalBytes": 12023207,
+    "directories": [
+      "app",
+      "pwa",
+      "ai_pod",
+      "src",
+      "lib",
+      "scripts",
+      "tools",
+      "configs",
+      "data",
+      "reports",
+      ".github/workflows",
+      "__tests__"
+    ],
+    "duplicates": {
+      "exactGroups": 3,
+      "structuralGroups": 3
+    },
+    "deadFileCandidates": 75
+  },
+  "datasetHashes": [
+    "ccf95b71dd57b4680dfe87aefcf772aa07e6103332a591c92776af7257125c0e",
+    "f945ba7394b4f0e47b70e900cd6d5b1499320dae2bb3a606d89660d5cd528b79"
+  ]
+}

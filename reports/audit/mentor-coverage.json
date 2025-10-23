@@ -1,0 +1,687 @@
+{
+  "generatedAt": "2025-10-23T09:13:59+08:00",
+  "timezone": "Asia/Kuala_Lumpur",
+  "notes": "Auto-generated baseline coverage derived from inventory metrics. Manual validation recommended.",
+  "mentors": [
+    {
+      "mentorId": "mentor-01",
+      "label": "Mentor 01",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-02",
+      "label": "Mentor 02",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-03",
+      "label": "Mentor 03",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-04",
+      "label": "Mentor 04",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-05",
+      "label": "Mentor 05",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-06",
+      "label": "Mentor 06",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-07",
+      "label": "Mentor 07",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-08",
+      "label": "Mentor 08",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-09",
+      "label": "Mentor 09",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-10",
+      "label": "Mentor 10",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-11",
+      "label": "Mentor 11",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-12",
+      "label": "Mentor 12",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-13",
+      "label": "Mentor 13",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-14",
+      "label": "Mentor 14",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-15",
+      "label": "Mentor 15",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-16",
+      "label": "Mentor 16",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-17",
+      "label": "Mentor 17",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-18",
+      "label": "Mentor 18",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-19",
+      "label": "Mentor 19",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-20",
+      "label": "Mentor 20",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-21",
+      "label": "Mentor 21",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-22",
+      "label": "Mentor 22",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-23",
+      "label": "Mentor 23",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-24",
+      "label": "Mentor 24",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-25",
+      "label": "Mentor 25",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-26",
+      "label": "Mentor 26",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-27",
+      "label": "Mentor 27",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-28",
+      "label": "Mentor 28",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-29",
+      "label": "Mentor 29",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-30",
+      "label": "Mentor 30",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-31",
+      "label": "Mentor 31",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-32",
+      "label": "Mentor 32",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-33",
+      "label": "Mentor 33",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-34",
+      "label": "Mentor 34",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-35",
+      "label": "Mentor 35",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-36",
+      "label": "Mentor 36",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-37",
+      "label": "Mentor 37",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-38",
+      "label": "Mentor 38",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-39",
+      "label": "Mentor 39",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-40",
+      "label": "Mentor 40",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-41",
+      "label": "Mentor 41",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-42",
+      "label": "Mentor 42",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-43",
+      "label": "Mentor 43",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-44",
+      "label": "Mentor 44",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-45",
+      "label": "Mentor 45",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-46",
+      "label": "Mentor 46",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-47",
+      "label": "Mentor 47",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-48",
+      "label": "Mentor 48",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-49",
+      "label": "Mentor 49",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-50",
+      "label": "Mentor 50",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-51",
+      "label": "Mentor 51",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-52",
+      "label": "Mentor 52",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-53",
+      "label": "Mentor 53",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-54",
+      "label": "Mentor 54",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-55",
+      "label": "Mentor 55",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-56",
+      "label": "Mentor 56",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-57",
+      "label": "Mentor 57",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-58",
+      "label": "Mentor 58",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-59",
+      "label": "Mentor 59",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-60",
+      "label": "Mentor 60",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-61",
+      "label": "Mentor 61",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-62",
+      "label": "Mentor 62",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-63",
+      "label": "Mentor 63",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-64",
+      "label": "Mentor 64",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-65",
+      "label": "Mentor 65",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-66",
+      "label": "Mentor 66",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-67",
+      "label": "Mentor 67",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-68",
+      "label": "Mentor 68",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-69",
+      "label": "Mentor 69",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-70",
+      "label": "Mentor 70",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-71",
+      "label": "Mentor 71",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-72",
+      "label": "Mentor 72",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-73",
+      "label": "Mentor 73",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    },
+    {
+      "mentorId": "mentor-74",
+      "label": "Mentor 74",
+      "coverage": 69.65,
+      "weakLenses": [
+        "duplication",
+        "dead-code"
+      ]
+    }
+  ],
+  "weakLensSummary": {
+    "duplicationGroups": 3,
+    "exactDuplicates": 3,
+    "deadFileCandidates": 75
+  },
+  "composite": {
+    "Data": 40,
+    "Safety": 20,
+    "Platform": 20,
+    "Perf/A11y": 10,
+    "Docs": 5,
+    "Governance": 5
+  },
+  "compositeScore": 100
+}

@@ -205,6 +205,30 @@ Run audit (see section below). Target:
 
 ---
 
+## Inventory & Mentor Coverage Audit
+
+### Generate reports
+
+```bash
+npm run audit:inventory
+```
+
+- Rebuilds `reports/audit/` with the latest inventory snapshot (size, import graph, duplicate clusters, dead-file candidates).
+- Updates `reports/audit/mentor-coverage.json` and appends hashes to `reports/ci/determinism-hash.txt`.
+- Produces timestamped Markdown/JSON artifacts under `reports/audit/` (append-only).
+
+### Verify workspace (CI parity)
+
+```bash
+npm run audit:inventory:check
+```
+
+- Re-runs the audit engine without writing files.
+- Fails if any tracked file differs from the latest committed snapshot (mirrors CI guardrail).
+- Run this before pushing to ensure PRs pass the inventory drift gate.
+
+---
+
 ## Run Smoke Tests
 
 ### Test 1: Build Check

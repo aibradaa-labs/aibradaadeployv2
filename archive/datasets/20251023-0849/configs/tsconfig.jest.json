@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "types": ["jest", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@features/*": ["src/features/*"],
+      "@utils/*": ["src/utils/*"],
+      "@store/*": ["src/store/*"],
+      "@config/*": ["config/*"],
+      "@i18n/*": ["i18n/*"]
+    }
+  },
+  "include": ["__tests__/**/*.ts", "__tests__/**/*.tsx", "src/**/*.ts", "src/**/*.tsx"],
+  "exclude": []
+}

@@ -1,0 +1,4089 @@
+{
+  "generatedAt": "2025-10-23T09:07:21+08:00",
+  "timezone": "Asia/Kuala_Lumpur",
+  "summary": {
+    "totalFiles": 258,
+    "totalBytes": 12023207,
+    "directories": [
+      "app",
+      "pwa",
+      "ai_pod",
+      "src",
+      "lib",
+      "scripts",
+      "tools",
+      "configs",
+      "data",
+      "reports",
+      ".github/workflows",
+      "__tests__"
+    ],
+    "duplicates": {
+      "exactGroups": 3,
+      "structuralGroups": 3
+    },
+    "deadFileCandidates": 75
+  },
+  "files": [
+    {
+      "path": "__tests__/laptopsState.test.ts",
+      "size": 2495,
+      "hash": "b6bb725347e2d68d98f06bbb55207c7deeaa00911bff20b5194c0a823a12a58e",
+      "structuralHash": "5bb5973f219e76642ee24f641d116f326fc6d929d25e69b52f19d5cc99746233",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 2
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 285,
+      "hash": "1f25bcbf56a4ac1e9288153696a7fa8aa72e73b8221e508c22f955cece5b461f",
+      "structuralHash": "a876cf151f6741fae317a98726ad880d8125f2ffcb73d4070804fd10c316aedd",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": ".github/workflows/mobile-lint.yml",
+      "size": 334,
+      "hash": "ad0334852b420ff896dd23574990619045cb76f272e64291ee8dcc0da951a868",
+      "structuralHash": "d8a56b7ede6e49938e3d29cbb8025ac2312f2e9b9ddb100d85e0890139c2de53",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": ".github/workflows/netlify-deploy.yml",
+      "size": 1069,
+      "hash": "601a46aabe2039d3d0e1084bab90ba1ae4a6b6d69a2073c8b96bf773f1e009c4",
+      "structuralHash": "f541fec498accc6a668ece843528b124c38433b287c768d0393ff3020ae83744",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": ".github/workflows/update-laptops.yml",
+      "size": 630,
+      "hash": "c52dc9ea6f8e667f599d2c543c94cbfc5869cd95a4f24d40f7571566063711d3",
+      "structuralHash": "d32f1a2635c7b23ec819c6c575f04744c9109e0ab3c36e49c6acfa532a9eb289",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/clients/geminiClient.js",
+      "size": 4260,
+      "hash": "8bb4f4cd0c7d0ecbce2dc4e80ab2252666808a851a4674916397b0e8dd1fa74e",
+      "structuralHash": "dc2b84661b4d33d1361acbddecee95d73410e1288059327a5271d9a01beb25ce",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/config/governance.mobile.json",
+      "size": 211,
+      "hash": "687d0642226514449a2256d4f5c8eeab5d4ccd5309099788d2450746cb8863b6",
+      "structuralHash": "d44df36bfaa37bf0acd3ca8bbbcd3deb9acf2e823053ffd456bb62cb4b82a153",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/Council Lenses Mentor Board.csv",
+      "size": 126631,
+      "hash": "5e2a507085c57ad060c71657bd7c79600ead12e5d201b5f5e1ae9314282a4d3b",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/Council Lenses Mentor Board.json",
+      "size": 60844,
+      "hash": "bbcee955659684027e99f9bef584f9f5e39dca4254865bbfe58f3622dc06270e",
+      "structuralHash": "00962afe9c242933fe745e957e29a6593aa9f2b378b9171becdcdd0c0045c6d7",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/data/intel/tech_signals.json",
+      "size": 1020,
+      "hash": "25ea6c78b8c2d1b203436d1be055fa80bc427b29a179e1432bb27357ae8490b8",
+      "structuralHash": "26829510663b72ec7f0a76e035460dc75a4246f294f9eb2ac537f2b40e0365c9",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/data/laptops/explorer.top10.gaming.json",
+      "size": 1371,
+      "hash": "137970817512b86256ba159b6ad9e2006525e8249d3af6d2bb2e1963012baf13",
+      "structuralHash": "b34876bdf5a4733707eeb7ea8953efeb6404c1f211ff340b0a9d3997caa909cf",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/data/laptops/top35.cache.json",
+      "size": 6500,
+      "hash": "2ade4ac77e9af91a868fcd8ce71987d9f384f9f44f732fba36ff95a993521059",
+      "structuralHash": "769afa71d321c0545eeb044b0dbda59ad6c2bb09f060910a2f6282ecbdd947be",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/data/persona_weights.json",
+      "size": 113,
+      "hash": "f3a76e25bd9c4f0ecec80a8f662d4836aecf73a1647ed6a59535018345e3861e",
+      "structuralHash": "280792bdc5e2fcef4d089730af289340ad070f423348c8420dc4b7cf0363a10a",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/docs/csp.example.md",
+      "size": 1542,
+      "hash": "1626157f3606fd49cd90969b2c738379e91debdf90d040d876972beaf6a3658a",
+      "structuralHash": "f2d8e8dd64dd90c1a9330620d0e1443b7700e703822268f1e4526568178bd0f1",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/docs/LENS_COVERAGE_V1_summary.md",
+      "size": 259,
+      "hash": "c41ab40af4c05f2fd126a7e428bf3a933a0215a1528de9d66a81f5051e1ea717",
+      "structuralHash": "c3eb975905994f4acb29797c0f612201592cc3d05f61431bf13c994579c2e927",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/docs/mobile.md",
+      "size": 1172,
+      "hash": "8d43adc7b9c28d3829be210a0df23e97d247050174b2cf1db69711fb44483ef5",
+      "structuralHash": "48d50f711a303a75ab6ee08a09ae0ca7b329a98429ea38f2d42f44e27946eb6a",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/docs/sri-manifest.example.json",
+      "size": 386,
+      "hash": "45320e5472906b70e383f1591289b6dc31774a7d7c7835184dad070a0dd05d6b",
+      "structuralHash": "2e0a11f68af4751da7b53deb2197f4f933108aca8c24bb3188dc60e0e1ef1b01",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/Master Operation Config.json",
+      "size": 4354,
+      "hash": "12287103d4bd72c4286867dc61b4c82feb2fa1ade335931589faa294f90a2ef4",
+      "structuralHash": "09c67f08a82579fe4fe7dda7d2a9c9ad65317cca339a75f917ab582cf4e6a0dd",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json",
+      "size": 8149,
+      "hash": "5064415fe4c1cc2830b36271d765e177be697b99dd243b9dd3af004956f75cb5",
+      "structuralHash": "bdb7e37312d1b97038fb8b485e455743539ee0f02e5529334bb1349fadb90911",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/mentors_enriched.json",
+      "size": 248342,
+      "hash": "0056d5b3d535525f4f9e1faf0996f08174d8b5c4c15ec451a27e5ecdd69dc239",
+      "structuralHash": "d4241b84530a5f47b55dba2c2f1c02a742d48796f544b2459f159c397d9cc93b",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/mobile/background/androidWork.js",
+      "size": 379,
+      "hash": "e3bcfa1b736326cb1583691cf3e74ab9aa7015572dcfc801c14a9671fc7c4ff7",
+      "structuralHash": "d6034945151e75ec6dfa376f9b9b407a0cd769d2e3d7574af910555d87154195",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/mobile/background/iosBgTask.js",
+      "size": 375,
+      "hash": "e09c6a5781d367658180f35d9cf5bdfab314eabd7c121f0245c7feb5366ee7c6",
+      "structuralHash": "eb870759a6ac6c30aacecdc754b9a2fba86fe839c49d5bfc56d74392b0758d2e",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/mobile/bridge/appLinks.js",
+      "size": 539,
+      "hash": "48094e73461fa6af3cec2b9246172c99747a4a6e4ee72ef225b12cc96bcb670c",
+      "structuralHash": "6a0412857803ca773e14ec8d4f3262a1f204fe0e986641a597ca86b231652cd8",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/mobile/bridge/deepLinkRouter.js",
+      "size": 1202,
+      "hash": "73b30e53c18c636850a7981c630fa03d40383035a67c1ad4e217d7b25563784c",
+      "structuralHash": "d9677b5bc7a3d9784d3f0830d53bf52efa0a17f9023438e831e797e334a2ea1e",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/mobile/bridge/index.js",
+      "size": 503,
+      "hash": "11010b2cdc59c9e048701d1f669bdeb6209fbe69d6d1892ccf9f738f0250b3fb",
+      "structuralHash": "97eb6c57ec493ebc9adda2c8ee60edc549127420d9655bac8bd87daa0f5c8ee5",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/mobile/bridge/offlineQueue.js",
+      "size": 1200,
+      "hash": "fd88234714ef8587ea8bc0a6d1f6d76bc1dcb10b59ee981d19c7760b5705ea10",
+      "structuralHash": "d2c9deb9481b54dd03adc2957c19ec152047c05f75f1cabf737721fef81a8d3a",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/mobile/bridge/share.js",
+      "size": 960,
+      "hash": "33d1415fdfc20ab5c7239f706c9b111245527a5e29709a5e21055f8a820e4fac",
+      "structuralHash": "0d46ddef1e87b57e61212959c3a9e930d76a3d6cfb87dadd71964b7dd68c0dfc",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/mobile/config/capacitor.config.json",
+      "size": 152,
+      "hash": "8aa3b510902f57474f1df1518256c0534178b26e9c32a696107e3b5072156c1f",
+      "structuralHash": "9ad239b09b57d3454c67f89e93b04d81d4fd5f463bac3c85be03aa13b448e87b",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/mobile/deeplinks/android/assetlinks.json",
+      "size": 308,
+      "hash": "ffb68a932b158c92814ef03e579a20f59522c3f81cfcb0d7e665de1aa7bb6d81",
+      "structuralHash": "d37d2fd3ad8b405ecc13fa898402b7cfa93d54985581d2de37fdc3454b307d8c",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/mobile/deeplinks/ios/apple-app-site-association",
+      "size": 182,
+      "hash": "a94ca057a0ff3a2919d3f226fa48134dff378333abdadfb403b024f768607480",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/mobile/security/secureStorage.js",
+      "size": 669,
+      "hash": "7f4770eb03d165f8ed4c4e85697d6c980a685455f600ea8c92dda0c9f630a3ef",
+      "structuralHash": "e83b60e7cd81b465eff8f3e3a9a163f26785b59b9356b69d584cb007cab4a386",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/mobile/shortcuts/android.shortcuts.xml",
+      "size": 803,
+      "hash": "ad65fedebee26ae9cb16b9b0ddb8d81c4d353d0b56b7aa6ff633bcebf910f407",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/mobile/shortcuts/ios.appintents.json",
+      "size": 179,
+      "hash": "c8b25618d848762a804b168559e6668445dd13b4c0371a369b669337ef895a57",
+      "structuralHash": "7824c3daa505ba79b7f103b3d63d751047cfa195c1b615b1e26a71d01c1d0232",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/pipelines/ai_pod_pipelines.yaml",
+      "size": 892,
+      "hash": "0238e043e139b48e85c6b1f9c8c34a71d96c398e57734e81e5642bb261f8079c",
+      "structuralHash": "c8942b24f01b149f40e39b27fb047869ccd5bbf929226a09a44096a95308b579",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/prototypes/soul_v1/fsm.js",
+      "size": 6974,
+      "hash": "89cf666daed81433ebd0dbbe175725fae02b42e2bbe29ca9bc14f8916c2f08d0",
+      "structuralHash": "c3578e6943c56d9c7197158ec9b4b579604cdf8f974b9b743ca01a2b95c54894",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/scripts/inject_sri.js",
+      "size": 3148,
+      "hash": "99926fbc8fc69557bac531d88caf611b14b3b413720bcd6fdeefc051a9db54e4",
+      "structuralHash": "e397b21ed0a789d328fc3ed35c8b3f661790ae8bb2418743f1aa64b0f415efcf",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/seed_bundle.txt",
+      "size": 949,
+      "hash": "c694169cf7534c01ae7302f301de17e68690209a69bcf844c31afafd57d982f3",
+      "structuralHash": "d22f64c6b482788c0bde7098ea358e78358b444fcd80ccd7b54055ce84aa1d6a",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/sources/sources_index.curated.md",
+      "size": 37315,
+      "hash": "37c034d2a8fe387ad1806e3f6faa887d331bebb33dcbb4b8a521b00946d9323f",
+      "structuralHash": "ef97b11a5c6880cd68fde0521e312d2fb75e8db761e4050507cb0c1e229a6c6f",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/sources/sources_index.md",
+      "size": 39500,
+      "hash": "641bb3b0d15792c22dbc1a64c5fa86c63abd7ca6f3bdea0c2469f89cf108bae2",
+      "structuralHash": "b4312a2eb3c774912bb53ceba98287ee75d0b3ee013eb140a9e25d65ce03b3cd",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/syeddy-orchestrator.flagON.json",
+      "size": 4156,
+      "hash": "6825bcfd7228c9571597b155465dd001148687f15154fdde51a3c8cfede051ea",
+      "structuralHash": "026813108b59ae3e61c722fcfa70e677d73c5a9514257d091fca9624e2c9dab4",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/syeddy-orchestrator.json",
+      "size": 4104,
+      "hash": "c27c15d5c6d34e9fa6ce1db8ffe45cfd4e6d57021db6c96c91a264b41adcaa41",
+      "structuralHash": "29c99eb549a664a0aaa6e7edb8519ac0d88fe5b5535a6a3f2f04faca279ef0c9",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/tests/check_assets_licenses.js",
+      "size": 3269,
+      "hash": "2e80a344febe8db3c168c8185607e46863b00b5f0b57bd2b8dccdf9b0b19d816",
+      "structuralHash": "d7502c5b7b0331f00ebe8cb126daed5a957224c59b50d9096e62375ea11a4f84",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/tests/hardening-gate.mjs",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/tests/laptops.spec.mjs",
+      "size": 4069,
+      "hash": "8e95b80208d4cc84591c64ac3fa3e4b9772541a741917f3741fd188fe66241ff",
+      "structuralHash": "09e0b6b35d6fd7f1592290fa3ded7164ec23961cdfff534df9ebf2b2bbf4a1ca",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/tests/mobile_check.js",
+      "size": 1127,
+      "hash": "3aa661914947522526a193c5a26d0ff892a6d9ea3ba546477263fbb2d7c24757",
+      "structuralHash": "a7f089f4484f95917eb9db95264c8984efbb7b981100d778681c6099ce57a612",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/tests/test_report.md",
+      "size": 1253,
+      "hash": "9fc6da0032fe720274edc7190248eab949c63c43536cccbef9ee13d47d0c97aa",
+      "structuralHash": "057d7a3f83c0158aae2344a56cd1434983a7ff3693e6af9bfcf6f11ed8184e42",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/tests/test_run_logs.jsonl",
+      "size": 5318,
+      "hash": "6a1e50222f9045266fa3c9ead625eac34b0c63ff2cc6cf1bdc8f2381f928baf1",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ai_pod/tokens/laptops.tokens.json",
+      "size": 154,
+      "hash": "705f5297593afe7d9ada8dd34f05c932c69f5f0560409748e9faade6c906f3ac",
+      "structuralHash": "b347290ed4497458cca99d673871d4354a91759e1dcd015e9b2db4fcb4e90b15",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "ai_pod/validator.js",
+      "size": 302,
+      "hash": "23dba0db168bdd29450f9f4e2465faed3a7f6494b58bb84ce5412995fe8baa70",
+      "structuralHash": "ac205fd24dd51e37fc842665f0ce2e72e5e3b2c3c4afd9aff74ddb8c01ddba32",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/AI Bradaa Soul prototype v1.html",
+      "size": 15285,
+      "hash": "8aacc3265d3680ee9e2af2c587cb356051962588edf4a227b8fdad0ac0109864",
+      "structuralHash": "a7fa31baaa678202ba4c444aa12f4102c2391f1406851a592f423474da22bfbc",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/assets/lottie/ai-bradaa-soul-inner.json",
+      "size": 5919,
+      "hash": "1a1931f786f9b86906da8207c8c200833654551f756ddc0bc006ccd984cac11b",
+      "structuralHash": "d68aceb2762a7de19ac324b8b5ee9a013a70fe5b6c20ac4f7fe36200f481919c",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/assets/lottie/ai-bradaa-soul.json",
+      "size": 18202,
+      "hash": "d59b35258e1b70f31470be73689b0e2fc68d992d6b7b10173a410db4bf4b4bcb",
+      "structuralHash": "3c67f32b93a97997147575a79f61ea246905c241f5108291011502aa71dbca0d",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/assets/soul/AI Bradaa Animation 1.mp4",
+      "size": 3005418,
+      "hash": "dc2a9f66d7c05f2f94d903fa8eef00e6e1fa5d0dc79035fe8f92f9bf790149ca",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/assets/soul/AI Bradaa Animation 2.mp4",
+      "size": 2449822,
+      "hash": "93c5312babfbb03423243c13c2e5124ca7368a9bdee2a330d4259cf09a04efdc",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/assets/soul/AI Bradaa Soul - Amber.png",
+      "size": 1023594,
+      "hash": "bd891e2a4c5c51815f4c7a6ed2a186b9e6bff16d538752b507b27e29685778f2",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/assets/soul/AI Bradaa Soul - Green.png",
+      "size": 858222,
+      "hash": "4eadf751f1d16710a133a20fc380d0712944fd6b50388b79799d7d4771f2d17a",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/assets/soul/AI Bradaa Soul - Neutral.png",
+      "size": 956599,
+      "hash": "2691dabab0df86f3235c478c34c1e7e30343926f6c08ea2bd1c7525e42cbeb29",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/assets/soul/AI Bradaa Soul - Red.png",
+      "size": 1053510,
+      "hash": "7913f7297cab99869145fba92aea7abc482bd25fa50f2b814e8212f19d293661",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/css/ai-pod-loading.css",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/css/ai-pod-result.css",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/css/tokens.css",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/i18n/en.json",
+      "size": 315,
+      "hash": "4473d340ac9020bdad076f54a526ae49cc6455079182c494b68352ed7cc51683",
+      "structuralHash": "5b352efe6c95855f5f65431be3e05c1e9cd85a63a4f4f24786802702019fbce3",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/i18n/ms.json",
+      "size": 347,
+      "hash": "bc5e2201e5467f8a3adadd8ac7c0d7cdb955dedeefa53f74fcae0e900414092b",
+      "structuralHash": "5b352efe6c95855f5f65431be3e05c1e9cd85a63a4f4f24786802702019fbce3",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/index.v15.2.html",
+      "size": 243873,
+      "hash": "24f1eb7c01838ac41552354b0581cd5566db67e60ac41f1c169e825aa0876041",
+      "structuralHash": "86ebdd30413002b17b673863d834c7f27c0c391b26206603cc0c1928e05d66f3",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/js/ai-pod-loader.js",
+      "size": 280,
+      "hash": "6b491f1188cf697f22be06d3bcf5ce2e8de8a5131744874828fdc8aeedbc9f21",
+      "structuralHash": "c31a61e240381f1e4a339b7a6adb4e1983d33748a171280f2bfbbb1ef151c5e6",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 3
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/js/ai-pod-v2-pro.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/aipod/ai-pod-view.js",
+      "size": 1,
+      "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/aipod/fluid-core.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/aipod/intel-cards.js",
+      "size": 5414,
+      "hash": "90e30f2042716b14eb31b6c545febc777bb0eb365742a415b50cc34a5bb8e28f",
+      "structuralHash": "8f11a4dd63fdeac4fa06e1e885b3d8f40d12acfbf882143bdc5961039745674b",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 1
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/js/aipod/loading-controller.js",
+      "size": 1,
+      "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/aipod/mock-provider.js",
+      "size": 117,
+      "hash": "bcb6ff57e3e68ae701936e45e933819e285ac6557921bf3b383550bbf05f29ca",
+      "structuralHash": "8b5cf3fe505e6c5526e9d5f34cb802246e8a55ec49d3b528b1d21585c1b542ea",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/aipod/progress-ring.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/aipod/provider-proxy.js",
+      "size": 1303,
+      "hash": "ce0507df5ad799fbacc0b9f371179eeef69be49ee36355b95ed5825ac557bc7c",
+      "structuralHash": "82db4aded9c22e303a65d13c0a1031878a2f4ac05066a82082e03421543e6204",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/aipod/result-view.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/aipod/runtime-lite.js",
+      "size": 7446,
+      "hash": "2a0bbb1b43df23d83083471300f3894caa87c50b47d9bc9e220ecb174edc6133",
+      "structuralHash": "dfb6f836a392df6b0e000390a848f6b6223ecfc697dc654fe57106baec23e65c",
+      "importDegree": {
+        "inbound": 3,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/js/aipod/runtime.js",
+      "size": 2402,
+      "hash": "7e906dad49d52b7d50a4249819cb1fb1121a0266ee8ba9eb112231643832c5fa",
+      "structuralHash": "cba98f4dc84bde34af10cf0bc7e4515edc6378fb57a57b9b86fb1acf9294fc4b",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/aipod/tools-wire.js",
+      "size": 8099,
+      "hash": "e234085746c149a00baaff00809a474569f2f2357ec5510fcc73f236a0c5b2c0",
+      "structuralHash": "1d97ed4a2e9f53272280f2f48ef6f12b074d290bb1cafe6aaccc778254a01341",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 1
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/js/bradaa-flags.js",
+      "size": 245,
+      "hash": "b8ef8bbd4813110bf7473fb58cf81bf3c84e144614c41698f5c6c8a4dc434303",
+      "structuralHash": "19db31f4405b7365fb113e5c4253b03e32b75d266b7705ad1b552d84aa5e0c13",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/CSS.html",
+      "size": 9680,
+      "hash": "dbc23c697d59eed8e63064c84d6eda789d3bd6ebf4734fb9c5f034e41ad2fbde",
+      "structuralHash": "2d3c1b1903671e454dcf950f8decc1726aa450b92c1f962a047efd8c3122e3e3",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "app/js/deck-emit-shim.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/i18n.js",
+      "size": 406,
+      "hash": "5689b7f439b8ff39cb084161dae1f1ca49d17bffbf0a4902165dd4e85a57456e",
+      "structuralHash": "76119be65ef7113055899686d48d2372880275ad1de2aa8d4830b614beef03a4",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/legacy-deck-emit-shim.js",
+      "size": 126,
+      "hash": "5e1bb4c2f8850b1a7c7caaabe0e3aafe405e666f78a7ff4d1572f5dbbc83aa0b",
+      "structuralHash": "4a7e578e52870c470a418b0c36c0738f09ee2b6c400ec14eb08db5cb74e9c57d",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "app/js/soul.js",
+      "size": 5701,
+      "hash": "713eb3620e189d9e46e58f5f016ffd1c20db3c12dfbaee5119791adfe752f512",
+      "structuralHash": "e8e3b70555d829a47d87b8a61bacb008bdd63b11e8ffac2cb72a059899b1e804",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "data/fallbackLaptops.json",
+      "size": 74979,
+      "hash": "e1b6906f87273f716f443998543cf25c57b36ef683f62f9860debedf83b51a7c",
+      "structuralHash": "7b04a1dce34f9e338e085e5cdf3982925a0527ead229f576f4307c059337db27",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/.github/workflows/laptops_manual.yml",
+      "size": 1118,
+      "hash": "eec94db3f2896abe74f22985dfa09b3bd5fc0bd220b502398a6c935d6e089f4d",
+      "structuralHash": "6657ab481ac85ba9b5e37cc78142c1410c8e7008eb6f093f1637e401ba48280d",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/.github/workflows/laptops_refresh.yml",
+      "size": 728,
+      "hash": "bc2dbec56ca54b19147b3eb22e2bcd5d6e48ba560b257d20c4dbc5fcd9458d33",
+      "structuralHash": "0326b29b7876b48f79e2f4824ce84a2667b08f96e8547dfb144313498e8bca31",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/.gitignore",
+      "size": 98,
+      "hash": "d454d7c4c27556e7e1c3c296fbc793635fe4c4406c875cc9dc4672ce262b7fc1",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/data/laptops/appendix65.json",
+      "size": 144603,
+      "hash": "c9cef0c2f83ea3619f641bd0325f354afa789a92da221c70c90dc4014892ca7f",
+      "structuralHash": "4c506e2101dc34bcdcbd18fddabfbbbb119ab191fd4a3a646f6ddc92d419c8e3",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/data/laptops/catalog.jsonl",
+      "size": 173815,
+      "hash": "69bed5d0a08ac201fdab041b2e55d80078ed6ad161ad56963853ecddf669ad1f",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/data/laptops/index.json",
+      "size": 304,
+      "hash": "1a84c7f3709920ee9ec735d39c95ed82e227eac16df96c9647ee5513b5b110cd",
+      "structuralHash": "4cd18f79fe74ea2895a9110aac73203b84ab2238cc6efbc4fc2f04ba82d12580",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/data/laptops/schema.json",
+      "size": 2745,
+      "hash": "6b430fb0dd95db61656cfc0b9b1f345eb0f4e7d05eb0945a60c26d2bc0b51da4",
+      "structuralHash": "0e4458680699163b2b2d6c56acd98e4715d68ddd48e3d8b9c4c518ba526de1bf",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/data/laptops/shortlist35.json",
+      "size": 77588,
+      "hash": "92b7f1a81ad8aa1f3e0d5f0dd8be0af8ed9aba2ef88554bd53697637785f546d",
+      "structuralHash": "3cfa9d441f5199b1659cf6140648ee1f8b83ae499e893843ca81297d30459afd",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/data/laptops/top10.json",
+      "size": 22133,
+      "hash": "0189d2309f3ed73ef5c145acaca2b9691498eb8ae4091132ec4f07c16dbdbaa0",
+      "structuralHash": "0a97fa7382782c267737bb132707a6b4ac18b54b2eda618ca7eae6cf22260b5d",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/data/laptops/top100.json",
+      "size": 222189,
+      "hash": "d2cfcd365a9932e5d6674ab6627a394be330222cd7b7df731ccbb56166516410",
+      "structuralHash": "32bbe539544babb2202e43cc9d7268022cca5371ec3e75838242be758cee3642",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/README.md",
+      "size": 351,
+      "hash": "2163a8f01d88cdc060dc53960439072e0fe8135b8a12ab13b005e8de038d1441",
+      "structuralHash": "2c374dd24d579acd27073aaf4d35f0420bfe3837779a711c43ace91f0867b429",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/scripts/fetch/auto/fetch_prices.js",
+      "size": 184,
+      "hash": "a85bfaea0ed714cc28d8738bb1cdf25cd75c5ab7b9f1b476c8b92690800ca4a4",
+      "structuralHash": "888c71a3fd748fb1f04bf74007f6aff47eb91f424f4ce2576a86699245c6c2f1",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/scripts/fetch/manual/manual_fetch.sh",
+      "size": 350,
+      "hash": "5d13f381944cdeca268f5e5f81bc04113870ea597388274ba111d009d6c5d2d1",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/Laptop Catelogue/scripts/validate/validator.js",
+      "size": 705,
+      "hash": "9bfd417abe935adf53768c62f6b5d5b16138b1dea5be2129a1e7b1a6a0487522",
+      "structuralHash": "6946e888b0c5ccfe8409d7192778b6af84aa3394bdb7c200ea2340a5b4b79331",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/laptops.json",
+      "size": 15572,
+      "hash": "5167dbb76f4f5e647145c39b05569ccee234f88875a6402e147e05deb2efd654",
+      "structuralHash": "f4f9b1ed3dafddcd21a3590361e0cb098dc14267f024af2e941c0dd109a95ca2",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "data/laptops.schema.json",
+      "size": 278,
+      "hash": "23ed23e7290023c7e99d2aff403f79c572254083a1d207ba7fbdabffa2e8a6ae",
+      "structuralHash": "c6610c01e486881a60d303707e1ee39440f49acbc2feb6e7f1c53eedbba5cc67",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "lib/links/marketplaces.js",
+      "size": 875,
+      "hash": "90ee639ddf783816ec9cc52ac8b91e68d64c5d7aaa0eba296627ddba20f9e7be",
+      "structuralHash": "6264e0d17efe39d5ea3c08e8602b1490b785f50a182dbaf4675a7280e03a299e",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "LICENSE",
+      "size": 1066,
+      "hash": "88c6f9e845dad4cacd0c60caccdbd76791fb638d80b5236997b0acc9e0af39ef",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "MIGRATION.md",
+      "size": 1544,
+      "hash": "8dbe011f280ff4c960c8bb53c3126e6401f3bbf299ac0120242cbf7a4f0905a8",
+      "structuralHash": "a91341e83a04b63a23b4a4de78e07de2986217f5539fe6305bbdc0a52e1fc095",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "package-lock.json",
+      "size": 590447,
+      "hash": "dce2d1e64a549e93821d5947865e2fbb26c0054c5c1bec6cf197208b8fa5fe13",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "package.json",
+      "size": 3183,
+      "hash": "c786de0821e67abe70e79b96e9dbc0a3094bd7ca8dd98c842062270b2e6e5d79",
+      "structuralHash": "bbba91603735d5a87b34c163cf810e62cec6ff4b76b0e479fe35de5e35780f2d",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "pwa/manifest.json",
+      "size": 1017,
+      "hash": "d829de7778db383de3191bfba98d39a5e2c90cd9795661eec31d27bf07685644",
+      "structuralHash": "f158b58a202d932a7bfc2ec013939b84434194b17697fc2736210890de22b12b",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "pwa/service-worker.js",
+      "size": 1630,
+      "hash": "15260d57587fd981c09e6591a48914c110407ad4f5a4ca7ac921f4b6e523bffc",
+      "structuralHash": "3f69cb43fe3c6c2a76225f61b469106475526f542486c7e0173ca64bbfa5c507",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "README-RUNBOOK.md",
+      "size": 10175,
+      "hash": "99559ae9c876b67912bd32677cccccfdb6cf98ce9d41c63b846c4f8c55afd98a",
+      "structuralHash": "a7d52ba0f49a0a0f84c5ee60a685d081684ddee37f2e3cd617fbd8ba42e8457f",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "README.md",
+      "size": 645,
+      "hash": "d8a25ea35632a1e7dc4f3ecc2f967a0b01047e4ec074bb5b0c7f66ef4f5504be",
+      "structuralHash": "74d53e5ff7c20e477900f129246025dee827633c36d0f1ecf4555a874fdf9f8d",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/aipod.modules.graph.v3.txt",
+      "size": 353,
+      "hash": "2fb4729cc18aa1812021e904a07423015881e078494825d4ab50de58ebdf07b3",
+      "structuralHash": "75b91867d8ad12f8e8d5d7a89d9dcd6e185e88e2ac4f0add5a63a2f77dc90dd3",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/aipod.modules.txt",
+      "size": 304,
+      "hash": "983fec28ed1fc3d96416cea176fc6741435641ac14d5d47fccd2030e4eb6a270",
+      "structuralHash": "f7e5777e4c5c8c2be5b129b12afb7d6b03c2bd74b698bf7a69fdf090dd577193",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/branches.local.txt",
+      "size": 770,
+      "hash": "5d349642f7974598af0e0a31c3e31262d8fa5de8d1c7d463cb66b0277c950f9f",
+      "structuralHash": "d63f9fcfe6205a8ef499535af721e6a78a332c8b388f4eae60b1c361a855b3f6",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/branches.remote.txt",
+      "size": 472,
+      "hash": "119499ae7e46c97c7ad3c4673496e023d402c13e15ae219298ce89d866ed3bc5",
+      "structuralHash": "1e4396a50f8bd8283c96ec52f9757cc0cb6c50881f0e65525f4eb5247f26786c",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/ci/determinism-hash.txt",
+      "size": 312,
+      "hash": "4d9a28704ba89397d48ba9e0ab853aa0df69db11e2c4d3d1a8ecce6ec364040e",
+      "structuralHash": "2734141d40fc6076f9c69009b0685bc5ed3986feb8d64a34a2503ed0c86911e3",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/dataset_census.js",
+      "size": 6286,
+      "hash": "31986a65696f95ef0fcd0111acbe7289b2042f93821aee96d2e5b05eeb4c58e4",
+      "structuralHash": "84073c850267bab8285673838a22d567350f0f5e764f5b0a0ae4a16cd0bd5705",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/dataset_metrics.js",
+      "size": 4539,
+      "hash": "63ed5f9b91e356e09edd4fcf3b7917fec26206a4dd1c8c383fd872530d2a4d05",
+      "structuralHash": "2a4b11aa28d567449f4b64e032f144b1e709485e53065d81f766da5dd6852f46",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/datasets.canonical.check.json",
+      "size": 192,
+      "hash": "a4076e3eca4a3b98953680649c3ff4ba2d79a38855d5754da1f931c21d6e7d56",
+      "structuralHash": "88407db6f6c2dbe6817b40a2b314b4c8d5b6bef31da6603b3373782d1a1b89c5",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/datasets.canonical.plan.json",
+      "size": 1772,
+      "hash": "5377f986eea0775df819aedb788046289628c343c7d5f55904ee059d0e84959f",
+      "structuralHash": "68767b3ff328e48052083dda6f68b4b029727cc2341910db67cb955a3f32f334",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/datasets.canonical.plan.txt",
+      "size": 1017,
+      "hash": "3001e4f2411413203a343db54b109e795e6a68bf43c05287af7cc8e69c4ae039",
+      "structuralHash": "3301afdf9cb850a6587092a552f6ba98699b38c799fae7f475b1d0227d4feb33",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/datasets.census.json",
+      "size": 120715,
+      "hash": "f10aa82ca4f8f9eef2e2f261ec53aefae15f41a1b702ad93aca1f074020f585d",
+      "structuralHash": "afb66e3a4f06786f3d6675ccaa81a1d15678469932abca15ece0ddaa3ba9a9ef",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/datasets.census.table.txt",
+      "size": 530,
+      "hash": "24d8b86119ff7bdbf1962e4a62020704bd2f4e3f8de685a46c03d013709bd1b6",
+      "structuralHash": "c73747d95a1f4a4d665e2c5d204d3facbca6ae182cfecf4245064ab607bd8e4f",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/datasets.inventory.json",
+      "size": 6131,
+      "hash": "0941906a6e06613fc344a4381b96de5d07843f2925c2e50e162754b4b52e679e",
+      "structuralHash": "31095e5ff3556f47c613e09eb43643545217c4d58ed853294511e5504e963166",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/datasets.inventory.note.txt",
+      "size": 32,
+      "hash": "e022375e4de672a0984a55215824035fddb1d1210f33a7067013e8adcb57c9e3",
+      "structuralHash": "6a9f18ae41d2ea19620eed81c23b2b221c2d61f9d5702d08ba0a9844254410bd",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/datasets.inventory.v2.json",
+      "size": 13286,
+      "hash": "5d17b1a6a7d626799e6d199d348b635a48b0f1c9a2f8b39e1076367491fd2ed1",
+      "structuralHash": "db0102996272d1afb33070b4d55381488ca754e22498c2f0e1c312616fbaff42",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/datasets.metrics.json",
+      "size": 2339,
+      "hash": "9397a3f4c9c1c2e2c957e5edbaefcb304bbd1806b69ad4c0bc98c3e5590775d3",
+      "structuralHash": "e51e68cbd134665215bf636ce2686299c24f7c9dad657c4507b41ecbd9e43c44",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/datasets.metrics.table.txt",
+      "size": 480,
+      "hash": "2d91c3e72e048e49f09be64ba22ec3e4ac7db01c17d57bacc5fb245c13742a36",
+      "structuralHash": "4cf519131812a48a2ae4791783cb10f6b6f713b954fc45b029a96737437688e5",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/dom_hooks_scan.js",
+      "size": 1079,
+      "hash": "8febe92986cc5bf335e0c3774c5f3fd96a2152a787dce133601f66721d43ee40",
+      "structuralHash": "84df2e147a16b09ee23ab1dc7539548fdb1b532be644364ca5ede33da22cc4aa",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/emoji_fonts.scan.txt",
+      "size": 6041,
+      "hash": "d4d220f25c42038c95b8b3d65d5d7929c9d0fcd9163a8ea6007647354db312de",
+      "structuralHash": "e0480aa7ccdc45e70bd2d675c6ecfe5e3bcc1deaff18e0bf248d07e25514771f",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/emoji_fonts.scan.v2.txt",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/emoji_fonts.scan.v3.txt",
+      "size": 5783,
+      "hash": "0259174a2a482fdfe0df3eaabf520ee7c09d6b36f1dc869c681cd60e62223adf",
+      "structuralHash": "4a0289ba1cbc2a6299d3ea21cbda0183c66688e4a51d8950c053ca4354ddf581",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/functions_scan.js",
+      "size": 2945,
+      "hash": "db0f6b28b50208aba41e4c12919b8fa10fb3c95c323d4816266370c3112b4827",
+      "structuralHash": "bc4a87f6e2f40c25a968a2156abda1161b7b351b24dc5d14e631aa9654a91acf",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/functions.scan.txt",
+      "size": 2838,
+      "hash": "c6039ad55ccddbf7b4d61626ce305b750f056866302ed3f7320b6f506cffd5dc",
+      "structuralHash": "fa8c4bf482562e44bc3d62fcb40788bcf3efeee3ba029f55ab8745f250037cd8",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/functions.scan.v3.txt",
+      "size": 4854,
+      "hash": "cbd10c4daacd6b52fae7f8a1e550e74c4c67bb6220663b1afbb653c3f8511651",
+      "structuralHash": "2f82decf35031dcf8c2a7dba67d0d65ab2c08f281db53e4b67eace40c5d243aa",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/git.branch.txt",
+      "size": 29,
+      "hash": "a22f612ae59825b1091d2659dc10d225031757844a779dd094270660d1098e37",
+      "structuralHash": "b25122518076e7f93b7a4360794ce7437c347df43c5edaa57910e662584495de",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/git.branches.aheadbehind.txt",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/git.branches.aheadbehind.v3.txt",
+      "size": 45,
+      "hash": "3817199f37c107ce5dc2db5b94eabd5655750193bd16c7ac6caca718b419d6d3",
+      "structuralHash": "ac3fe382b456717e0d8b4039caf098527cff364e5198ff92539574cbe4fa5bd5",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/git.fetch.v3.txt",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/git.root.txt",
+      "size": 53,
+      "hash": "2613777eccd9930b21167037858c065b2750d6627287ca2868aee561cc4d6b48",
+      "structuralHash": "ac07d12e72bbc0d5b71d46c2e94f0a0f328bf2b8cc4c9eebf59fe5533e3ee391",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/git.status.txt",
+      "size": 79,
+      "hash": "571addfaf0547dac5eefeafe95a08c77caa3ea4883048979ee76086480833a3c",
+      "structuralHash": "f0161cff4cea3641334e940f5a8f13f049c2aefc7aa283667a5bb3d68718964f",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/git.status.v3.txt",
+      "size": 79,
+      "hash": "571addfaf0547dac5eefeafe95a08c77caa3ea4883048979ee76086480833a3c",
+      "structuralHash": "f0161cff4cea3641334e940f5a8f13f049c2aefc7aa283667a5bb3d68718964f",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/index.dom-hooks.matrix.json",
+      "size": 382,
+      "hash": "35a7d396c3cb26cc2ff1abec081049864e25a28fd663f825a36170a44bd7d835",
+      "structuralHash": "e0141205549a0ab45589241daf24e0a7d1e5f73d200441a1b005352fec9db0f1",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/index.dom-hooks.matrix.v3.json",
+      "size": 386,
+      "hash": "66c2de7d2e9d3a0c0582c0df7dda2cd7caac5e5689fbbd20d14c27ddafc1fabd",
+      "structuralHash": "2b0bf6bd5f6f9cbf072a17975489c6cdd28540d1e513dea12baf7c33de5b9d0d",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/index.dom-hooks.txt",
+      "size": 145,
+      "hash": "0f2a0d3438102b7b64533f760ef2ee99286ef6796a6591b72e20432fcbedde67",
+      "structuralHash": "ec90e94bfb1637f6b52c23ff6a7e0aeb6168e3dc41b65e76eb8c5396aeff0677",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/index.hooks.diff.proposed.patch",
+      "size": 1157,
+      "hash": "0bf64ec6b397dd0ed3c19db9cc72522e73d41378d844418a279012e46da55706",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/index.scripts.refs.txt",
+      "size": 121,
+      "hash": "33cc209f79235826e2e150f1c16ee5844bfb6aad358762fc2f0c57a542a80299",
+      "structuralHash": "1af5ff8b6a0133d0bc64ebad812ef578e2a2d290fedf7ad2617c80768d34eda7",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/last10.txt",
+      "size": 913,
+      "hash": "ad293b7e91803d9eb0ba59cdf53e3f804a1b080d02eb9349bec150ce29a7ad63",
+      "structuralHash": "dc488d034f0509fd573a3b3c1d2eb2b71207dd5d0255ea15da5be3277aa00f91",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/provider_schema_matrix.js",
+      "size": 5135,
+      "hash": "24f5db10d0f29fdce682cfad9ab3796ac48ab2c8019b627ce07ba5fdd7420fa7",
+      "structuralHash": "9236e637f32834b079e5964bfd3367095b343354540865f8af569ddcb2701063",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/provider.schema.matrix.json",
+      "size": 3914,
+      "hash": "415fa61357aa1dbc1fcf6119e9e17de4b30c8a80225ef0f595c3db3f004e36c6",
+      "structuralHash": "0ea92417aa021b6d07824665c375a50325d90ed75ecf9f488a427cb38a14e031",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/provider.schema.matrix.txt",
+      "size": 690,
+      "hash": "98900930b8ff7753f6b51e95c3c5304fe0061127a19315018ef9ecca44e19529",
+      "structuralHash": "5903480fefac13a3421ad0b72c3f4b65deb7e61f7e8691627709a10b2113ec46",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/sectionF.js",
+      "size": 4526,
+      "hash": "a5d92f41cb1b3ac5992b82a170d35c7cab9d395f574b8f12c70476541e9e3ffb",
+      "structuralHash": "5be83635f316e2e477085547cb914eecaefe11aab6f4a3c55335e07a55e6aaf3",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/sectionG.js",
+      "size": 2204,
+      "hash": "80b32ef460443f31809580813aeed235e34163d8d488b7f6837860060d39e30e",
+      "structuralHash": "858e354bf99dbdc08cf9c8af1c1b678fb97043a8f40341bffa651ec2ae58e7f9",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/sectionH.js",
+      "size": 1043,
+      "hash": "06801b30c39c1fbacb1182b303bb0801e93da1e1ad22f4cd8e2e7db5300efe53",
+      "structuralHash": "71adc582d7185d6617a2bb15725db130683adab39a2cf586c988e3b61f5cb686",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "reports/sectionI.js",
+      "size": 3762,
+      "hash": "388cc258d99d9b129a3bd8548dd66fe0d9f4f5765c27d51cb98d01ea5fcdbb18",
+      "structuralHash": "3cbbdaa08694c12be09e8e7c4b66a29dcebcbe4f8816a1bc9bd7dc0c883896df",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "ROLLBACK.md",
+      "size": 403,
+      "hash": "9127a87b3f3d0419baa5c8d9c9b108ffea1d15b4a6e56f8bce13231469748d7b",
+      "structuralHash": "8495c530b46f27f9deb2bfa01f1abc912bc915a867886440c7f9948d78966df1",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/apply_hooks.mjs",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/apply_index_hunks.ps1",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/audit-css.mjs",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/audit/generate-inventory.mjs",
+      "size": 22173,
+      "hash": "c6e672f35ddcb7ec712864f78cddfd340504e62fe4657b4108a801891319e59f",
+      "structuralHash": "2870a68762e16f319b24e02abf8fb54bd18dfc7949fef3e8e1893cf034ebd836",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/build.js",
+      "size": 2966,
+      "hash": "4a074d60a0b0f49ac44ef959db503cfad20102f0700f42ea5f4a28187c070fad",
+      "structuralHash": "a7ec50a335b31004d80253db0c7d7e424266792e1bab065fd539dd87a6b38255",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/data_ttl_sweeper.mjs",
+      "size": 945,
+      "hash": "a59955a5a433d613f4caf686dae02c3290821ea62d58fc24bdc9bddbe84a81de",
+      "structuralHash": "388f40f9a57c95dbc89290b36eae3d95e460c3a4fe5c1c199c5784d835869c62",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/ensure-css-links.mjs",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/ensure-fonts.mjs",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/ensure-vendors.mjs",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/fix_duplicate_org_config.ps1",
+      "size": 1290,
+      "hash": "943b7ccef8056cb3582e4e140dd177d3325cfdde8ec1583de0ae4c9a56597703",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/fix_fonts.mjs",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/homepage_repair.mjs",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/link_check.mjs",
+      "size": 1562,
+      "hash": "29c29652f513b03ef982b2104787de902cc454e1146730037191f16a9493102b",
+      "structuralHash": "909b0ce60057a9e90e68efba0c488f1a79f87d26ea0bda3be33cc8f602d84e52",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/make-tailwind-input.mjs",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/migrate_to_target_tree.mjs",
+      "size": 1108,
+      "hash": "9bf631b5b8c0211406695da2e23e31acdb78a4eb25023fcb2f10ef5e7f52b851",
+      "structuralHash": "677308fa5dcd455bd1423de5c29cc066dd2f4af4778bb5c865c27b0fd6fe8fe7",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/migrate-inline.mjs",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/patch-tailwind-config.mjs",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/prompt_lint.mjs",
+      "size": 842,
+      "hash": "f282ca017c3d7d9ee18f5c30c4925a5eb0ec1fd48b1cfbbdcad9edcec49d57c0",
+      "structuralHash": "0de9340ec508a702897f08e7fc987de3ba877b7d37809e959e41e4fff3a12e95",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/replace_master_op_config.ps1",
+      "size": 1856,
+      "hash": "26bb355d073a1930ca91c7dad7ba0cd818150ebdf6974fb17e466a3054250ed6",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/rollback.mjs",
+      "size": 262,
+      "hash": "fc236592b6cb1cfffd9ef46ae9027f9f5c420aae7cb229ffe2d5f6ab524082de",
+      "structuralHash": "fd3f5636628bc83a975989f51dc72f52e3ccf26c194e84286e32b60c7a8c6f95",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/run-lint.js",
+      "size": 847,
+      "hash": "81e24f533c1c9ec0ff63f43115380f27db7e8023340de8b4433a36ac7697e77c",
+      "structuralHash": "71298de519cf79db79a62a2d302c4e3a7c441ba4e97053d464cf170c6a2c1982",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/schema_validate.mjs",
+      "size": 849,
+      "hash": "86f10a4467b0c81b6f31cc5d3ec608f7b3d381d3d79ca8b552522127c524d9f2",
+      "structuralHash": "36dcf3eae8c98a106fb30aab25d14660770abe149aef54e27c5faddbd0c01488",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/secrets_scan.mjs",
+      "size": 511,
+      "hash": "279cbf30e4e76bec7fc2ff1960cb23325fe15c467a2a9915a0378db3f8db20f5",
+      "structuralHash": "07cdb76bd390c3a2f3e39e3550adb1bc19b295d003062c47653f4e71dde54ee6",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/serve.js",
+      "size": 1867,
+      "hash": "4eedff9da3d58421864cd329a30d479e057c37f8c2092c9609264def46b02c00",
+      "structuralHash": "a3f0800557f939be8ade930b3410d647b99cd68ac74e3844d24f099277c96abd",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/smoke-ai.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "scripts/update-laptops.mjs",
+      "size": 868,
+      "hash": "62f5f4206c27d9f23ddefd10baceb6a11b8295d89d00aad640863e5d416bfe1f",
+      "structuralHash": "edbbc02693783faaf4c857505b16125b685f88b894951cfc43d803ec57b785e7",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 346,
+      "hash": "836c8314677fd1e5b1699fce985470d0f8128f2a8c97e3ce6a5ab139a2653ff2",
+      "structuralHash": "76a5f939f3af4a3c5d0816c360464c7e323fafc230e67a9e5608cbca76fca396",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/ai/constants.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/data/fallbackLaptops.js",
+      "size": 10444,
+      "hash": "4074b5eeda51f4a67ddf326143cb8c106560b6357853389c2270a088809c21d7",
+      "structuralHash": "8bcfe43a0763ae32eceed2855abd40e2dfb08e56ff4942de1487ff4de83c22da",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/error-handling.ts",
+      "size": 136,
+      "hash": "aee61cc5a2ff27ba59643fb43ea82658a74c9f3698676860f0ff97a49fa52259",
+      "structuralHash": "599838f4012cb000ca59e09ef360cf59c2608f029e0888d13ee61cd0d9cea528",
+      "importDegree": {
+        "inbound": 2,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/analytics/hooks/trackingHooks.ts",
+      "size": 516,
+      "hash": "fc833368ddebc6a839d076853a6059f6cb37f2f1b074412bfe5d5b427f1646cb",
+      "structuralHash": "a3f8b6b965d55192f04e6079b366bc26f2dfcca56934683026eec467652b3e18",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 1
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/analytics/services/analytics.ts",
+      "size": 909,
+      "hash": "2fa6d9ab2e4bdb4ce3b4c008b928dc103a754b62dddd50c072ea4054be9fcc2f",
+      "structuralHash": "2b2de244a7fadf4e825f5bc2de55cfd690124b5f035da024196a28b34746d4f5",
+      "importDegree": {
+        "inbound": 2,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/analytics/services/analytics.tsx",
+      "size": 899,
+      "hash": "bd1a2b7f803ba9f89fdcb8ae6d5dc464b71bfcd325232afacfa527510813c19c",
+      "structuralHash": "72d62919fb79a4781634b66552ecf9d4e674413a06e9917b6a81a9ca2eb5aa0c",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/features/analytics/utils/ErrorBoundary.tsx",
+      "size": 644,
+      "hash": "e9f58fcedb0fcfa935705ff5fa95bdc4802708304d83e242ac3541ccad423a8b",
+      "structuralHash": "a28a0e2f320d4c9acada733dc24d241767a6221c073cf7925ee59ddc1c83a4b3",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/analytics/utils/trackingHOCs.tsx",
+      "size": 1394,
+      "hash": "8756e9422645517026ced3ae8d329aed363f3d5a6dbca85485e6e679b8efb0c0",
+      "structuralHash": "02cce18acbe3866d065ef1dc7bc312ef2549052bcb8092df8bda7092e303594a",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 2
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/cameras/domain/cameraDomainService.ts",
+      "size": 3000,
+      "hash": "d0bcc4d3548e871985a6f8d575bda9a393550279eb1b27e975a7412eddcb03b7",
+      "structuralHash": "a7073ddd9346046b4d66650d5c1f6dc784dd80910cdc28899c9a786cbc518af7",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/cameras/infrastructure/cameraRepository.ts",
+      "size": 3702,
+      "hash": "7ecc94bc6c83b87632ed2882e02d5c10f21680bd40d16b95f288d293484939f8",
+      "structuralHash": "3bb8121dae0a0e68e492787f9beb5553a753327d201257ec3588ecd05b1acc72",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/cameras/infrastructure/cameraStore.ts",
+      "size": 3772,
+      "hash": "ee4a554d8063d2ae3081da7526aab1a9e9bd4801903ee8dbd14545a9e178406e",
+      "structuralHash": "1d2903570e2aedc2065984fe4284805d3cd72c56ad823b759a061f40b78c1362",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 2
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/laptops/components/LaptopCard.tsx",
+      "size": 1723,
+      "hash": "e0390bceec629f5573dd574b1d7c9c8e2556682ea25e1be484af6aa71c6265b5",
+      "structuralHash": "e04c4d472bc12bfb92db92567d64d312a839874cadf625ccd5b37d058b46f014",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/laptops/components/LaptopFilters.tsx",
+      "size": 3914,
+      "hash": "d616d45acc8301b9c50da519ec1950b3cba90b0f53bd46eb8a03b70af0290fab",
+      "structuralHash": "170bd08cab3acfb1e3fc97258c238cb1db7c1e04398123e8f750a3dd01ea0eeb",
+      "importDegree": {
+        "inbound": 2,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/laptops/components/LaptopsInfiniteScroll.tsx",
+      "size": 1273,
+      "hash": "9ccdb0d8189c7cd121f71b886f45d352bf8b60b608b1869f4701d04ba6c87814",
+      "structuralHash": "077d678478da94dd501de792f7c154f8ab0217215906b19ead2124809c5cc316",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 2
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/laptops/components/LaptopsView.tsx",
+      "size": 1403,
+      "hash": "0fb42c2b52a2305f46680e820652d5745782ecceb630ac933e63e4b93da0f8d7",
+      "structuralHash": "f15652a1694786c891f4f9f5d4e95bb0a4acadaae98ac2d9bb60478b310f4677",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 4
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/laptops/domain/laptopDomainService.ts",
+      "size": 3042,
+      "hash": "616a1702a947020087eaebbb08464cda81c75c00d367f10559a2ec5dde9c6940",
+      "structuralHash": "70cfe765f0aa09b9ec2144a8a965697113070161eeff70a6bf8e4e544610c2fc",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/laptops/domain/laptopsState.ts",
+      "size": 2101,
+      "hash": "279b83f935760e52a40adce590578b9269c6a03bce9fa25ea904b1ec49463d39",
+      "structuralHash": "b1c74e032ed991a73dd1e71da1c22f78747c00201a89c3fd086f3d7f4b5fe2bf",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 2
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/laptops/infrastructure/laptopRepository.ts",
+      "size": 3750,
+      "hash": "6148c135e5d99f8dd8f9460592682c0c958b1dea2391c6e3ed1a2c6c49a45509",
+      "structuralHash": "aa342622efe3f5ad1d45d10dd6e2baef95f4189ade9ff6a14a06ab7c31d503c7",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/laptops/infrastructure/laptopStore.ts",
+      "size": 3828,
+      "hash": "f0172b309a679fbdb49a350006f56e962c26880fb883a8597e4f6a2d08afecf4",
+      "structuralHash": "98bc298625f2848eee8d80b7574c98516474edc480a497967fb8d075113c4ffc",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 2
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/laptops/services/laptopsApi.ts",
+      "size": 401,
+      "hash": "ec9770f7533d38cc594ce9b505eac74b6ef8b2705049dcd85e60c3143d40cd88",
+      "structuralHash": "11ba65aaaf6e7920c3f29ba6e2a99464ebd80f9c0437a0febe4fa0a03a8e4ffe",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 1
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/laptops/services/laptopsHooks.ts",
+      "size": 644,
+      "hash": "de86f3534f33597e37afa61498f4b1d09a4394e3ec345d499589bf86356c0ba4",
+      "structuralHash": "4f76ec75751cce424277e4d28f695c717bd3afd4ff1e61f9950470c46e50d009",
+      "importDegree": {
+        "inbound": 2,
+        "outbound": 3
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/laptops/types/laptops.ts",
+      "size": 271,
+      "hash": "e45f357c6b34cb0517a5608c16ffd4682ad246ec3d26531185c284d45e54f746",
+      "structuralHash": "e41898b73f2051c0aaecced4da821230d0ca1efb63662d4755451a043cd46a19",
+      "importDegree": {
+        "inbound": 3,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/laptops/utils/filterHooks.ts",
+      "size": 2268,
+      "hash": "050ae2fcd5521a52e9ac14b1d8e6fbc5ff61e4ceaad5f80f7e0a00a8eff3803d",
+      "structuralHash": "5a7cd0e0033042a8c93b57fe0121038fa78279280623907e80482e6fb4a8223c",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 2
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/shared/components/CustomButton.tsx",
+      "size": 282,
+      "hash": "74ef72a41e98b8e32edb2ecc1ea25ef16b0cdcfbef97e7aab2017d8180b32237",
+      "structuralHash": "96afa76162f1035f3342f315f833f1bd10d9901f587b016546a32669335b460c",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/features/shared/components/CustomGrid.tsx",
+      "size": 672,
+      "hash": "4e660518b337141acbe90bec63c31d2519039d9461db7a139ee52ef66377aa62",
+      "structuralHash": "a6190f40b4f635bfba48c7d1ef9377736f259d90130a79a1c6f84d8a4d6c08c7",
+      "importDegree": {
+        "inbound": 2,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/shared/components/Grid.tsx",
+      "size": 409,
+      "hash": "1a2663313654f1fabd8c0583a68860f76ae7f7efa25359b33b5582d2cecc4b31",
+      "structuralHash": "4be19789a2e7049f7a4a25f25895d98f47da13d99b529819f722f6f070165fe3",
+      "importDegree": {
+        "inbound": 2,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/shared/components/QueryProvider.tsx",
+      "size": 501,
+      "hash": "89d47be66ade5574919dc07b0604f684dd9ab995e90264e9b6777e943bcd9543",
+      "structuralHash": "e728890818369737bb4c1545bbe5442179a4f19458009b83be5f559ac470d803",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 1
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/shared/components/StyledGrid.tsx",
+      "size": 434,
+      "hash": "2737333726c08f3db82acb4bb5a9d9a8fccb2f395a9268539a15a2947541d38e",
+      "structuralHash": "4eb247682e489bba1f60533b5f3321e7510a6ef77f4b43a7d2b440a350ae1456",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/features/shared/domain/types.ts",
+      "size": 2838,
+      "hash": "696b9f0056c7a182c052c1b5eb2b2bd0da3ca32da3ca3eb13b8407e311bb8171",
+      "structuralHash": "c42502c4ba99fd3b1180e00b0540e5693ff6c13e15c9f69d9f0a07078ba3d8ce",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/shared/services/queryClient.ts",
+      "size": 1247,
+      "hash": "c1308163d8ac1486129f5d78f3a4e16d52e64fd72e4724752df20ceb11150e44",
+      "structuralHash": "21ccb3dba6ddd1b0f7065995333b3799ef86f30e88a09981369c58e144227eb0",
+      "importDegree": {
+        "inbound": 2,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/shared/theme/ThemeProvider.tsx",
+      "size": 2241,
+      "hash": "ec87f1472e9592102fd6caefd8ce530a92ef05438da564df0515fb2ba4717975",
+      "structuralHash": "f1ac09fcad7c177c432065f5b460c71ca9e46e7e51db9fec51489d50b934f966",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/features/smartphones/domain/__tests__/smartphoneDomainService.test.ts",
+      "size": 5323,
+      "hash": "38dd441bf96ad41e3656a31c7c1ac9fd828505bc7022e0a9d973f38c531da4c8",
+      "structuralHash": "243c3ade6220db0e383f6163f8c92359bc6132dadb8d717e48e37ef7e1a236d4",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/smartphones/domain/smartphoneDomainService.ts",
+      "size": 8946,
+      "hash": "a1c980328613da83848d5789b5b7b774eafdc23b18760241c905b5787780b56b",
+      "structuralHash": "14d322c81a09993e684a9ef0b95e8acd7013ed41f96e63a07ae8e7a2748be8ac",
+      "importDegree": {
+        "inbound": 2,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/smartphones/infrastructure/smartphoneRepository.ts",
+      "size": 2905,
+      "hash": "9f322b689e226f3c1afacaa4f096e1c4294b17956354e9867eb60a1c23c2dd9b",
+      "structuralHash": "ea9863a55e2c9f4c5c3e32b70c0d805fa2d560b4475ee6c54f725eaa0d300ad4",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/smartphones/infrastructure/smartphoneStore.ts",
+      "size": 3904,
+      "hash": "daeb0b4684263974f9cf53374cec947f77a6e96f29eadf72de0c3aeb1c4d8a1a",
+      "structuralHash": "cdb632b3360cd00e6329f76d3f02f2c572f78bc92ec2e4590afc0a3fa7f13bbb",
+      "importDegree": {
+        "inbound": 4,
+        "outbound": 2
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/smartphones/presentation/components/SmartphoneComparison.tsx",
+      "size": 12279,
+      "hash": "63373a892449cbc1b3a8b2366858154a095d6305cd4207bdf15d8c910c33b81b",
+      "structuralHash": "1ae56e63ec01c2fe7d06dfe853dbd7d2ba82b67fd6769eb57f6cf5c6cbd638ee",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 3
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/smartphones/presentation/components/SmartphoneDetail.tsx",
+      "size": 6413,
+      "hash": "6e07ffddb493a9ba9ade5e3d1ff3bf6df0a9befd59e50d26f9845036b74c3844",
+      "structuralHash": "882fc71e9cd2050bccb2add2f8c09e16cc673c2ec306e68f7ce5525481ad8ff4",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 2
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/smartphones/presentation/components/SmartphoneFilters.tsx",
+      "size": 5205,
+      "hash": "aa905cff2f7647b28cace315b7253b21c0754e7889cd08ccbedb213b8a155d93",
+      "structuralHash": "9d1b02f82657e0b82ed92ac2694e30f0731714b1d8ce4934b3fbd5ca8b3397c6",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 2
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/smartphones/presentation/components/SmartphoneList.tsx",
+      "size": 3466,
+      "hash": "49f555e9bb3b4efcea64fbad631d2067e344661d9d18d5f4498de29b2464a90c",
+      "structuralHash": "eca1865fab46fa4b6181c0e222fe220d4821cf4bd5688e8807edb8e68943c943",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 2
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/features/smartphones/presentation/services/smartphoneUIService.ts",
+      "size": 2498,
+      "hash": "484370255c0658a8a6e14cca5b345818e902fa8c94f95462f6d6bf12f52d7566",
+      "structuralHash": "9a961d3b184e8999dbfd5761a19b8366dcad38b0f88f1dfd3931d60ccbf866c7",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/lib/ai/index.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/scripts/api.js",
+      "size": 5998,
+      "hash": "729b865f7d93f36b74ad36c04a95e1eb6fd9e4a78422ae69b9eacc3a2c1506b3",
+      "structuralHash": "a2b75ffaa0c88dbffe3c788071cc450379a7ee4e332d8b9bcd186b8bde3e84fb",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 2
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/scripts/app.js",
+      "size": 1517,
+      "hash": "d94aed69de49d711c9d349c59bf9c98df1ddab0813812b22d0c31e6cc742f43b",
+      "structuralHash": "bc20508246a196deb87f429303e0b24e065d598fcefb0fa3fad8a1983a6adccc",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 5
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/scripts/events.js",
+      "size": 4387,
+      "hash": "711a8afd40017b8ba8ed9d090009c63e6042754099f022b941dd83d2e2206c57",
+      "structuralHash": "e950c756f8817211bf182dcd05e2b2425ae7ebc6cd84d1494c475338e9e94a7c",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 1
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/scripts/filters.js",
+      "size": 1048,
+      "hash": "03dd7440f86a807335d39c37c0651d9119dab95c4ebf4681186a1615a098b406",
+      "structuralHash": "baaef045123409eea734f1c462f2ce34c47feef29742ec8d72c9ad7d6d426863",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 1
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/scripts/prompts.js",
+      "size": 2709,
+      "hash": "37feeddc6cb17ae9994af67deb6f77391abe963d63beeac7a9b738631991d6ca",
+      "structuralHash": "27c737a706f3a0aa5e7861b565ca52d93a398ddbcab01047436895d15a50d2fe",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/scripts/state.js",
+      "size": 1209,
+      "hash": "7e203af2520f3f6686118dbf7772d3de36c87b2746e36642148341eb2b229ae4",
+      "structuralHash": "0253880abda45217111572ff2b8f20b457f1b16b7c480881192929ef3cc9ea7e",
+      "importDegree": {
+        "inbound": 5,
+        "outbound": 1
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/scripts/ui.js",
+      "size": 14666,
+      "hash": "e7a83d68baec182cb9f8f4ecf62d875e0e209872cb1e187eb1a5934d16d4a365",
+      "structuralHash": "d539c277cced9b286a12fc1733d19d2fa7130cc5c5d06006d73daae86a9cc6e5",
+      "importDegree": {
+        "inbound": 1,
+        "outbound": 1
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "src/service-worker-types.d.ts",
+      "size": 208,
+      "hash": "86e9809e9d81d42f9c3825dc36e6a34406e40dc39e7a72bdbd1da78a2a26d277",
+      "structuralHash": "435edf81c20f43571556fef6c44cfadd33b0ee83bfa0d8a667dc692b541310b5",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/serviceWorkerRegistration.ts",
+      "size": 1559,
+      "hash": "1638f2fb317b6ce736dae4a42c6d17f76ad856f9ce919f3d6b7c9cc5cdb72d0d",
+      "structuralHash": "20e9062edc57f0947a14087bf08dac052696242c51dc0ea6e3d15bb8c5cad73e",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/shared/config/flags.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/shared/copy/strings.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/shared/utils/analytics.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/shared/utils/marketplaces.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/shared/utils/money.js",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/types/global.d.ts",
+      "size": 404,
+      "hash": "f71976be1958f1329ca6da84b8175ca164dfd07db8a3bfd94ad47dddb7993448",
+      "structuralHash": "7ca60716066ae80446bfa4d1102262713872cf577b4cb063d66b8772849da1be",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/types/messages.d.ts",
+      "size": 224,
+      "hash": "d29dd7d71179ddc16eb7341378e8744e3a94edc25fa74a8b161fcab085f90568",
+      "structuralHash": "227bd20bbdf5e0a51c24a56dcd2f1bf8b1e3bc55974766e668bc067f8ca67a0a",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/types/mui.d.ts",
+      "size": 687,
+      "hash": "92fe9de8de32b68a2f168d63e9392131aaec445eb4dea6f505b7f56b6d1c232a",
+      "structuralHash": "fa62d1ee1fdfd29d8508eef7ca14e8b1184bd612ee760a3b5d09b09d667ae316",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "src/types/utils.d.ts",
+      "size": 116,
+      "hash": "5866afe0f647e96c2574719ff1890dc53aac5360c8f380b5901dcb5e1e77a4a6",
+      "structuralHash": "9091ee94be4186867717923310601510e7d81921ae5a332e9016b8e0c18d0f29",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "tools/apply_appendices_patch2.ps1",
+      "size": 4136,
+      "hash": "653430f038084d8d728f3146b001a40b2bfff38801cc0def684ac6e5aded4641",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/apply_cleanup_safe.ps1",
+      "size": 659,
+      "hash": "c3ac6274e826fb0b6d9be5f5bb659ef90f27b122b79a506824e74ab46d0fd5c0",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/apply_fixes_batch_v2.disabled.ps1",
+      "size": 843,
+      "hash": "5afa11ad979a93c81714041ef257260c0e8561c46b91e08f1aefb0a5260b4b69",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/apply_fixes_batch.ps1",
+      "size": 762,
+      "hash": "426715c374a3b4b07e7a0da2e8abc4e4e4e4813ea5285386bfedcfeca922313c",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/apply_simple_fixes.ps1",
+      "size": 559,
+      "hash": "c9f817d2195f07098b13c685a992e51fdef52ed4f9a1cd13ed38e7d6c8a9e625",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/cleanup_api_insertion.ps1",
+      "size": 626,
+      "hash": "45f1af203087a53c084e2f2827a289700c017090d22a1975d7bf232eb44e93c1",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/final_cleanup.ps1",
+      "size": 1142,
+      "hash": "5522a51b4f8dc0e0a0f1fb4fce817b8524120a21e4181a6294439d29aa98eb55",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/fix_api_closure.ps1",
+      "size": 426,
+      "hash": "b4ee96c393096d84639accb801d28d2c392e46e7b36635897697318152110ff2",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/fix_api_missing_closer.ps1",
+      "size": 434,
+      "hash": "93d841a4869ccdad10553828f80145d69aabba0c89eccff7ff9ee2148b5084be",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/fix_api_order.ps1",
+      "size": 706,
+      "hash": "db387703ac3326a7551e3aa3435d1efa277c6b20f38a0d198d78a23dc7ca18fe",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/mini_cleanup.ps1",
+      "size": 606,
+      "hash": "07ab40da3c729e2c6cc5e180cdccb604bc13c5ffde977bef8446080b6f69f802",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/patch_appendices_v2.ps1",
+      "size": 4501,
+      "hash": "a3628b461a47d0b21bcb83d6efe919604dce76f71c10296b9be116ef8f6e0c97",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/patch_appendices.ps1",
+      "size": 3971,
+      "hash": "1cb838e028a16083d8db2c95d1cad73516d555920af9547164b7e82ade68bec4",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/patch_radar.ps1",
+      "size": 500,
+      "hash": "958105df312455459aee132844159b9ed7f2d410a1eaa74eccf34100e96e726b",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tools/reencode_index.ps1",
+      "size": 602,
+      "hash": "3a8df6706e1f69b391b5f0a8bd57ea42944ee0dab51bca65a0b8d5e008627cbd",
+      "structuralHash": null,
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": false
+    },
+    {
+      "path": "tsconfig.eslint.json",
+      "size": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": true,
+        "structural": true
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "tsconfig.jest.json",
+      "size": 438,
+      "hash": "a161ada5ed60b1e26c755633c579793a467ac194346c1e02d6e422cb7469b7ff",
+      "structuralHash": "e3d85f812b5afc95f88a4f584afb517e1184a479c3ffce36e7fdba5b068d32c9",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    },
+    {
+      "path": "tsconfig.json",
+      "size": 942,
+      "hash": "7f38fb6e6345e2d0258eea65bc9f49a6dc21610a055ad314aecea5319b4b6ea4",
+      "structuralHash": "65c90bbadcd2944ebdda891e849f241402bf4a083361e477d5a239e1a7504764",
+      "importDegree": {
+        "inbound": 0,
+        "outbound": 0
+      },
+      "duplicates": {
+        "exact": false,
+        "structural": false
+      },
+      "deadCandidate": true
+    }
+  ],
+  "duplicates": {
+    "exact": [
+      {
+        "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "files": [
+          "app/js/aipod/ai-pod-view.js",
+          "app/js/aipod/loading-controller.js"
+        ]
+      },
+      {
+        "hash": "571addfaf0547dac5eefeafe95a08c77caa3ea4883048979ee76086480833a3c",
+        "files": [
+          "reports/git.status.txt",
+          "reports/git.status.v3.txt"
+        ]
+      },
+      {
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "files": [
+          "ai_pod/tests/hardening-gate.mjs",
+          "app/css/ai-pod-loading.css",
+          "app/css/ai-pod-result.css",
+          "app/css/tokens.css",
+          "app/js/ai-pod-v2-pro.js",
+          "app/js/aipod/fluid-core.js",
+          "app/js/aipod/progress-ring.js",
+          "app/js/aipod/result-view.js",
+          "app/js/deck-emit-shim.js",
+          "reports/emoji_fonts.scan.v2.txt",
+          "reports/git.branches.aheadbehind.txt",
+          "reports/git.fetch.v3.txt",
+          "scripts/apply_hooks.mjs",
+          "scripts/apply_index_hunks.ps1",
+          "scripts/audit-css.mjs",
+          "scripts/ensure-css-links.mjs",
+          "scripts/ensure-fonts.mjs",
+          "scripts/ensure-vendors.mjs",
+          "scripts/fix_fonts.mjs",
+          "scripts/homepage_repair.mjs",
+          "scripts/make-tailwind-input.mjs",
+          "scripts/migrate-inline.mjs",
+          "scripts/patch-tailwind-config.mjs",
+          "scripts/smoke-ai.js",
+          "src/ai/constants.js",
+          "src/lib/ai/index.js",
+          "src/shared/config/flags.js",
+          "src/shared/copy/strings.js",
+          "src/shared/utils/analytics.js",
+          "src/shared/utils/marketplaces.js",
+          "src/shared/utils/money.js",
+          "tsconfig.eslint.json"
+        ]
+      }
+    ],
+    "structural": [
+      {
+        "structuralHash": "5b352efe6c95855f5f65431be3e05c1e9cd85a63a4f4f24786802702019fbce3",
+        "files": [
+          "app/i18n/en.json",
+          "app/i18n/ms.json"
+        ]
+      },
+      {
+        "structuralHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "files": [
+          "ai_pod/tests/hardening-gate.mjs",
+          "app/css/ai-pod-loading.css",
+          "app/css/ai-pod-result.css",
+          "app/css/tokens.css",
+          "app/js/ai-pod-v2-pro.js",
+          "app/js/aipod/ai-pod-view.js",
+          "app/js/aipod/fluid-core.js",
+          "app/js/aipod/loading-controller.js",
+          "app/js/aipod/progress-ring.js",
+          "app/js/aipod/result-view.js",
+          "app/js/deck-emit-shim.js",
+          "reports/emoji_fonts.scan.v2.txt",
+          "reports/git.branches.aheadbehind.txt",
+          "reports/git.fetch.v3.txt",
+          "scripts/apply_hooks.mjs",
+          "scripts/audit-css.mjs",
+          "scripts/ensure-css-links.mjs",
+          "scripts/ensure-fonts.mjs",
+          "scripts/ensure-vendors.mjs",
+          "scripts/fix_fonts.mjs",
+          "scripts/homepage_repair.mjs",
+          "scripts/make-tailwind-input.mjs",
+          "scripts/migrate-inline.mjs",
+          "scripts/patch-tailwind-config.mjs",
+          "scripts/smoke-ai.js",
+          "src/ai/constants.js",
+          "src/lib/ai/index.js",
+          "src/shared/config/flags.js",
+          "src/shared/copy/strings.js",
+          "src/shared/utils/analytics.js",
+          "src/shared/utils/marketplaces.js",
+          "src/shared/utils/money.js",
+          "tsconfig.eslint.json"
+        ]
+      },
+      {
+        "structuralHash": "f0161cff4cea3641334e940f5a8f13f049c2aefc7aa283667a5bb3d68718964f",
+        "files": [
+          "reports/git.status.txt",
+          "reports/git.status.v3.txt"
+        ]
+      }
+    ]
+  },
+  "deadFiles": [
+    "ai_pod/Council Lenses Mentor Board.json",
+    "ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json",
+    "ai_pod/Master Operation Config.json",
+    "ai_pod/clients/geminiClient.js",
+    "ai_pod/config/governance.mobile.json",
+    "ai_pod/data/intel/tech_signals.json",
+    "ai_pod/data/laptops/explorer.top10.gaming.json",
+    "ai_pod/data/laptops/top35.cache.json",
+    "ai_pod/data/persona_weights.json",
+    "ai_pod/docs/sri-manifest.example.json",
+    "ai_pod/mentors_enriched.json",
+    "ai_pod/mobile/background/androidWork.js",
+    "ai_pod/mobile/background/iosBgTask.js",
+    "ai_pod/mobile/bridge/appLinks.js",
+    "ai_pod/mobile/bridge/deepLinkRouter.js",
+    "ai_pod/mobile/bridge/index.js",
+    "ai_pod/mobile/bridge/offlineQueue.js",
+    "ai_pod/mobile/bridge/share.js",
+    "ai_pod/mobile/config/capacitor.config.json",
+    "ai_pod/mobile/deeplinks/android/assetlinks.json",
+    "ai_pod/mobile/security/secureStorage.js",
+    "ai_pod/mobile/shortcuts/ios.appintents.json",
+    "ai_pod/prototypes/soul_v1/fsm.js",
+    "ai_pod/scripts/inject_sri.js",
+    "ai_pod/syeddy-orchestrator.flagON.json",
+    "ai_pod/syeddy-orchestrator.json",
+    "ai_pod/tests/check_assets_licenses.js",
+    "ai_pod/tests/hardening-gate.mjs",
+    "ai_pod/tests/mobile_check.js",
+    "ai_pod/tokens/laptops.tokens.json",
+    "ai_pod/validator.js",
+    "app/assets/lottie/ai-bradaa-soul-inner.json",
+    "app/assets/lottie/ai-bradaa-soul.json",
+    "app/i18n/en.json",
+    "app/i18n/ms.json",
+    "app/js/ai-pod-v2-pro.js",
+    "app/js/aipod/ai-pod-view.js",
+    "app/js/aipod/fluid-core.js",
+    "app/js/aipod/loading-controller.js",
+    "app/js/aipod/mock-provider.js",
+    "app/js/aipod/progress-ring.js",
+    "app/js/aipod/provider-proxy.js",
+    "app/js/aipod/result-view.js",
+    "app/js/aipod/runtime.js",
+    "app/js/bradaa-flags.js",
+    "app/js/deck-emit-shim.js",
+    "app/js/i18n.js",
+    "app/js/legacy-deck-emit-shim.js",
+    "app/js/soul.js",
+    "lib/links/marketplaces.js",
+    "package-lock.json",
+    "package.json",
+    "pwa/manifest.json",
+    "pwa/service-worker.js",
+    "src/ai/constants.js",
+    "src/features/analytics/services/analytics.tsx",
+    "src/features/shared/components/CustomButton.tsx",
+    "src/features/shared/components/StyledGrid.tsx",
+    "src/features/shared/theme/ThemeProvider.tsx",
+    "src/features/smartphones/presentation/services/smartphoneUIService.ts",
+    "src/lib/ai/index.js",
+    "src/service-worker-types.d.ts",
+    "src/serviceWorkerRegistration.ts",
+    "src/shared/config/flags.js",
+    "src/shared/copy/strings.js",
+    "src/shared/utils/analytics.js",
+    "src/shared/utils/marketplaces.js",
+    "src/shared/utils/money.js",
+    "src/types/global.d.ts",
+    "src/types/messages.d.ts",
+    "src/types/mui.d.ts",
+    "src/types/utils.d.ts",
+    "tsconfig.eslint.json",
+    "tsconfig.jest.json",
+    "tsconfig.json"
+  ],
+  "datasetHashes": [
+    "ccf95b71dd57b4680dfe87aefcf772aa07e6103332a591c92776af7257125c0e",
+    "f945ba7394b4f0e47b70e900cd6d5b1499320dae2bb3a606d89660d5cd528b79"
+  ]
+}

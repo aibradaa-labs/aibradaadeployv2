@@ -19,9 +19,7 @@
     "sri:inject": "node ./ai_pod/scripts/inject_sri.js",
     "mobile:check": "node ./ai_pod/tests/mobile_check.js",
     "syeddy:prune": "node -e \"try{const fs=require('fs');const p='ai_pod/tests/test_run_logs.jsonl';if(fs.existsSync(p)){const l=fs.readFileSync(p,'utf8').trim().split(/\n/).slice(-5000).join('\n');fs.writeFileSync(p,l)} }catch(e){}\"",
-    "syeddy:ci": "npm run syeddy:lint && npm run syeddy:test && npm run laptops:test && npm run brand:check && npm run mobile:check && npm run syeddy:regress && npm run syeddy:prune",
-    "audit:inventory": "node scripts/audit/generate-inventory.mjs",
-    "audit:inventory:check": "node scripts/audit/generate-inventory.mjs --check"
+    "syeddy:ci": "npm run syeddy:lint && npm run syeddy:test && npm run laptops:test && npm run brand:check && npm run mobile:check && npm run syeddy:regress && npm run syeddy:prune"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
