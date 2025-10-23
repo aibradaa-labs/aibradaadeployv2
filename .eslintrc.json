@@ -25,11 +25,37 @@
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off"
   },
+  "parserOptions": {
+    "project": ["./tsconfig.eslint.json"],
+    "tsconfigRootDir": "."
+  },
   "overrides": [
     {
       "files": ["**/*.ts", "**/*.tsx"],
       "parserOptions": {
-        "project": ["./tsconfig.json"]
+        "project": ["./tsconfig.eslint.json"]
+      }
+    },
+    {
+      "files": [
+        "scripts/**/*.js",
+        "reports/**/*.js",
+        "ai_pod/tests/**/*.js",
+        "ai_pod/scripts/**/*.js",
+        "data/**/scripts/**/*.js"
+      ],
+      "env": { "node": true },
+      "parserOptions": { "sourceType": "script" },
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off",
+        "no-undef": "off",
+        "no-empty": "off"
+      }
+    },
+    {
+      "files": ["**/*.d.ts"],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "warn"
       }
     }
   ]

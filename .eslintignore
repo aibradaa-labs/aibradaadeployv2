@@ -1,5 +1,5 @@
-﻿dist/**
+dist/**
 archive/**
+reports/**
 data/**/scripts/validate/**
 data/**/Laptop Catelogue/scripts/**
-reports/**    # report generators (CJS) – we add overrides below too

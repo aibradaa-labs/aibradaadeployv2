@@ -1,11 +1,8 @@
-// Lightweight public API for fallback laptops
-// Keeps backward-compat exports expected by app/index.v15.2.html
-// - Exports LAPTOP_FALLBACK (meta + all)
-// - Exports getTop35, refreshIfStale, searchExpanded, queryLaptops, getExplorerTop10
-
 const TOKENS_URL = '/ai_pod/tokens/laptops.tokens.json';
 const DEFAULT_TTL_HOURS = 72;
 const REGION_PRIORITY = ['MY','SG','ID','TH','PH','VN','US','UK','EU'];
+
+import normalizeLaptop from '../../ai_pod/data/normalizeLaptop.js';
 
 const etagCache = new Map();
 const controllers = new Map();
@@ -46,39 +43,27 @@ function debounce(fn, ms = 180) { let t; return (...args) => { clearTimeout(t); 
 function normalizeFromFallback(entry) {
   if (!entry) return null;
   const raw = entry.raw || entry;
-  const price = typeof raw.price === 'number' ? raw.price : (entry.price?.value || 0);
-  if (!Number.isFinite(price) || price <= 0) return null;
-  const model = String(raw.model || entry.model || '').trim();
-  const brand = String(raw.brand || entry.brand || '').trim();
-  if (!brand || !model) return null;
-  const scores = raw.scores || {};
-  const platform = String(raw.platform || entry.platform || (raw.gpu?.toLowerCase()?.includes?.('rtx') ? 'CUDA' : 'NPU') || 'NPU');
-  const why = String(raw.why || raw.summary || entry.why || 'Strategic intel pending.');
-  const bestUrl = entry.buy?.url && isHttpUrl(entry.buy.url) ? entry.buy.url : (raw.price_source_url || null);
+  const base = normalizeLaptop(raw) || normalizeLaptop(entry);
+  if (!base) return null;
+
+  const platformOverride = (() => {
+    if (raw?.platform || entry?.platform) return String(raw.platform || entry.platform).toUpperCase();
+    const gpu = String(raw?.gpu || entry?.gpu || '').toLowerCase();
+    return gpu.includes('rtx') ? 'CUDA' : base.platform || 'NPU';
+  })();
+
+  const bestUrl = entry.buy?.url && isHttpUrl(entry.buy.url) ? entry.buy.url : base.best_deal_url;
+  const region = String(entry.region || raw.region || 'MY').toUpperCase();
+  const updatedAt = entry.updated_at || raw.updated_at || nowISO();
+  const uid = entry.uid || `${base.brand}|${base.model}|${region.toLowerCase()}`;
+
   return {
-    brand,
-    model,
-    price,
-    imageUrl: raw.imageUrl || entry.imageUrl || '',
-    cpu: raw.cpu || entry.cpu || 'TBD',
-    gpu: raw.gpu || entry.gpu || 'TBD',
-    ram: raw.ram || entry.ram || 'TBD',
-    storage: raw.storage || entry.storage || 'TBD',
-    display: raw.display || entry.display || 'TBD',
-    price_source_url: raw.price_source_url || null,
-    shopee_url: raw.shopee_url || null,
-    tiktok_url: raw.tiktok_url || null,
-    lazada_url: raw.lazada_url || null,
+    ...base,
+    platform: platformOverride,
     best_deal_url: bestUrl,
-    score: Number(raw.score || 0),
-    platform,
-    why,
-    scores: {
-      ai: Number(scores.ai || 0), thermals: Number(scores.thermals || 0), upgrade: Number(scores.upgrade || 0), linux: Number(scores.linux || 0), portability: Number(scores.portability || 0), value: Number(scores.value || 0)
-    },
-    updated_at: entry.updated_at || nowISO(),
-    region: (entry.region || 'MY').toUpperCase(),
-    uid: entry.uid || `${brand}|${model}|${(entry.region || 'MY').toLowerCase()}`
+    updated_at: updatedAt,
+    region,
+    uid
   };
 }
 

@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Bradaa</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
     <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Share+Tech+Mono&display=optional" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js" defer></script>
 
     <meta name="description" content="AI Bradaa Strategic Command surfaces Malaysia-first AI laptop intelligence, comparisons, and operations tooling.">
@@ -65,10 +67,10 @@
         @keyframes rotate { 0% { transform: translate(-50%, -50%) rotate(0deg); } 100% { transform: translate(-50%, -50%) rotate(360deg); } }
         .card-content { position: relative; z-index: 1; padding: 1.5rem; }
         .nav-sticky { position: sticky; top: 0; z-index: 50; background-color: rgba(1, 4, 9, 0.7); backdrop-filter: blur(12px); border-bottom: 1px solid var(--c-border); }
-        .nav-button { border-bottom: 2px solid transparent; transition: all 0.3s; }
+        .nav-button { border-bottom: 2px solid transparent; transition: all 0.3s; min-height: 44px; min-width: 44px; }
         .nav-button:hover, .nav-button.active { color: var(--c-accent-cyan); border-bottom-color: var(--c-accent-cyan); text-shadow: 0 0 5px var(--c-accent-cyan); }
         .filter-button.active { background-color: var(--c-accent-pink); border-color: var(--c-accent-pink); color: var(--c-text-primary); }
-        .tool-selector-btn { text-align: left; width: 100%; padding: 0.75rem; border-radius: 0.375rem; transition: all 0.2s; border: 1px solid transparent;}
+        .tool-selector-btn { text-align: left; width: 100%; padding: 0.75rem; border-radius: 0.375rem; transition: all 0.2s; border: 1px solid transparent; min-height: 44px; }
         .tool-selector-btn:hover { background-color: var(--c-border); }
         .tool-selector-btn.active {
             background-color: var(--c-accent-cyan);
@@ -79,8 +81,8 @@
         }
         ::-webkit-scrollbar { width: 8px; } ::-webkit-scrollbar-track { background: transparent; } ::-webkit-scrollbar-thumb { background: var(--c-border); border-radius: 4px; } ::-webkit-scrollbar-thumb:hover { background: var(--c-accent-cyan); }
         select, input, textarea { font-family: var(--font-body); background-color: rgba(1, 4, 9, 0.8); border: 1px solid var(--c-border); border-radius: 0.375rem; padding: 0.65rem; }
-        .action-button { background-color: var(--c-accent-pink); color: white; padding: 0.65rem 1.5rem; font-weight: bold; border-radius: 0.375rem; transition: opacity 0.2s; cursor: pointer; } .action-button:hover { opacity: 0.9; }
-        section { padding-top: 6rem; margin-top: -5rem; }
+        .action-button { background-color: var(--c-accent-pink); color: white; padding: 0.65rem 1.5rem; font-weight: bold; border-radius: 0.375rem; transition: opacity 0.2s; cursor: pointer; min-height: 44px; min-width: 44px; display: inline-flex; align-items: center; justify-content: center; } .action-button:hover { opacity: 0.9; }
+        .laptop-image { aspect-ratio: 3 / 2; object-fit: cover; }
         .gemini-output { white-space: pre-wrap; line-height: 1.7; }
         .ai-pod-response { border: 1px solid rgba(0,240,255,0.18); background: linear-gradient(145deg, rgba(5,9,18,0.95), rgba(9,21,36,0.92)); border-radius: 12px; padding: 0.8rem 1rem; color: var(--c-text-secondary); box-shadow: 0 12px 24px rgba(0,0,0,0.35); }
         .ai-pod-response__header { display: flex; align-items: center; justify-content: space-between; font-size: 0.82rem; margin-bottom: 0.5rem; opacity: 0.9; }
@@ -226,7 +228,7 @@
         @media (min-width: 1024px) and (max-width: 1279px) { .intel-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
         @media (max-width: 1023px) { .intel-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); } }
         @media (max-width: 640px) { .intel-grid { grid-template-columns: 1fr; gap: 1rem; } }
-        .intel-card { background: linear-gradient(160deg, rgba(0, 240, 255, 0.18), rgba(216, 63, 135, 0.08)); border: 1px solid rgba(0, 240, 255, 0.25); border-radius: 0.85rem; padding: 1.25rem; box-shadow: 0 12px 36px rgba(0,0,0,0.45); display: flex; flex-direction: column; min-height: 260px; }
+        .intel-card { background: linear-gradient(160deg, rgba(0, 240, 255, 0.18), rgba(216, 63, 135, 0.08)); border: 1px solid rgba(0, 240, 255, 0.25); border-radius: 0.85rem; padding: 1.25rem; box-shadow: 0 12px 36px rgba(0,0,0,0.45); display: flex; flex-direction: column; min-height: 260px; will-change: transform; }
         .intel-card__header { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; margin-bottom: 0.75rem; }
         .intel-chip { font-family: var(--font-display); color: var(--c-accent-cyan); text-shadow: 0 0 6px var(--c-accent-cyan); font-size: 0.95rem; }
         .intel-chip--pulse { animation: intelPulse 1.2s ease-in-out infinite alternate; }
@@ -263,6 +265,7 @@
         .toolkit-status span[data-status="live"]::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(0,240,255,0), rgba(0,240,255,0.6), rgba(0,240,255,0)); animation: pulse-sweep 2.2s infinite; }
         @keyframes pulse-sweep { 0% { transform: translateX(-100%); opacity: 0; } 30% { opacity: 0.6; } 100% { transform: translateX(100%); opacity: 0; } }
         .toolkit-gauge { position: relative; height: 260px; display: flex; justify-content: center; align-items: center; margin: 0 auto 0.5rem; width: min(360px, 100%); padding: 1.25rem; --gauge-progress: 0.72; --gauge-color-start: #00F0FF; --gauge-color-end: #D83F87; --gauge-track: rgba(0, 240, 255, 0.08); --ferro-glow: rgba(230,0,128,0.9); --ferro-splash-base: rgba(255, 95, 220, 0.92); --ferro-splash-rim: rgba(255, 178, 238, 0.92); --ferro-droplet-base: rgba(255, 168, 236, 0.86); }
+
         .toolkit-gauge::before { content: ''; position: absolute; inset: 4px; border-radius: 999px; background: radial-gradient(circle at 50% 30%, rgba(0,240,255,0.22), transparent 70%); filter: blur(12px); opacity: 0.85; }
         /* No outer ring — ferrofluid takes center stage */
         .toolkit-gauge-ferro { position: absolute; width: 180px; height: 180px; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 2; background: transparent; transform: translate(var(--mx, 0px), var(--my, 0px)); overflow: visible; }
@@ -373,17 +376,6 @@
             pointer-events: none;
             animation: deckAmbientRise 260ms ease-out;
             will-change: transform, opacity;
-        }
-        #toolkit[data-deck-open="true"].card { background: transparent; border: none; box-shadow: none; backdrop-filter: none; overflow: visible; }
-        #toolkit[data-deck-open="true"].card::before { opacity: 0; }
-        #toolkit[data-deck-open="true"] .card-content {
-            position: relative;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
         #toolkit[data-deck-open="true"] .toolkit-layout {
             position: fixed;
@@ -784,9 +776,9 @@
         </nav>
 
         <main id="main" class="space-y-16">
-            <section id="matchmaker" class="card" data-section="matchmaker">
+            <section id="matchmaker" class="card" data-section="matchmaker" role="region" aria-labelledby="section-matchmaker">
                 <div class="card-content">
-                    <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">AI Laptop Matchmaker</h2>
+                    <h2 id="section-matchmaker" class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">AI Laptop Matchmaker</h2>
                     <div class="grid md:grid-cols-2 gap-8 items-center">
                         <div class="space-y-4">
                             <p class="text-[var(--c-text-secondary)]">Yo. I'm AI Bradaa. Stop guessing. Provide your parameters, and I'll give you the optimal choice. Let's execute.</p>
@@ -800,9 +792,9 @@
                 </div>
             </section>
 
-            <section id="comparison" class="card" data-section="comparison">
+            <section id="comparison" class="card" data-section="comparison" role="region" aria-labelledby="section-comparison">
                 <div class="card-content">
-                    <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Head-to-Head Comparison</h2>
+                    <h2 id="section-comparison" class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Head-to-Head Comparison</h2>
                     <p class="text-sm text-[var(--c-text-secondary)] mb-4">Select 2 or 3 units for a tactical breakdown. AI Bradaa will generate an automated strategic analysis.</p>
                     <div class="max-h-48 overflow-y-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-2 mb-6 p-2 bg-[var(--c-bg)] rounded-lg" id="laptop-selector-container">Loading Intel...</div>
                     <div class="grid md:grid-cols-2 gap-8 items-center">
@@ -812,9 +804,9 @@
                 </div>
             </section>
 
-            <section id="explorer" class="card" data-section="explorer">
+            <section id="explorer" class="card" data-section="explorer" role="region" aria-labelledby="section-explorer">
                 <div class="card-content">
-                    <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Interactive Market Explorer</h2>
+                    <h2 id="section-explorer" class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Interactive Market Explorer</h2>
                     <div id="filters" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6 p-4 bg-[var(--c-bg)] rounded-lg">
                         <div><label class="font-semibold text-sm mb-2 block">Price Range (≤ RM<span id="price-value">7000</span>)</label><input type="range" id="price-filter" min="3500" max="7000" value="7000" step="100" class="w-full"></div>
                         <div><label class="font-semibold text-sm mb-2 block">Platform</label><div class="flex gap-2"><button class="filter-button platform-filter flex-1 border border-[var(--c-border)] px-3 py-2 text-sm rounded-md active" data-platform="All">All</button><button class="filter-button platform-filter flex-1 border border-[var(--c-border)] px-3 py-2 text-sm rounded-md" data-platform="CUDA">CUDA</button><button class="filter-button platform-filter flex-1 border border-[var(--c-border)] px-3 py-2 text-sm rounded-md" data-platform="NPU">NPU</button><button class="filter-button platform-filter flex-1 border border-[var(--c-border)] px-3 py-2 text-sm rounded-md" data-platform="Mac">Mac</button></div></div>
@@ -841,9 +833,9 @@
                 </div>
             </section>
 
-            <section id="toolkit" class="card" data-toolkit data-section="toolkit">
+            <section id="toolkit" class="card" data-toolkit data-section="toolkit" role="region" aria-labelledby="section-toolkit">
                 <div class="card-content" data-role="aipod-tools">
-                    <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">AI Bradaa Advance Toolkit</h2>
+                    <h2 id="section-toolkit" class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">AI Bradaa Advance Toolkit</h2>
                     <p class="text-sm text-[var(--c-text-secondary)] mb-6">AI Bradaa reporting in — cepat kerja, clean results. Pilih satu tool, biar aku jalan. Senang cerita, kita settle elok-elok.</p>
                     <div class="deck-backdrop" id="deck-backdrop" aria-hidden="true"></div>
                     <div class="toolkit-layout" data-collapsed="true" tabindex="-1">
@@ -989,9 +981,9 @@
                 </div>
             </section>
 
-             <section id="intelligence" class="card" data-section="intelligence">
+             <section id="intelligence" class="card" data-section="intelligence" role="region" aria-labelledby="section-intelligence">
                 <div class="card-content">
-                    <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Latest Tech Intel</h2>
+                    <h2 id="section-intelligence" class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Latest Tech Intel</h2>
                     <div data-role="intel-cards">
                         <div class="p-4 bg-[var(--c-bg)] rounded-lg">
                             <h3 id="intel-0-title" class="font-display text-lg text-[var(--c-accent-pink)]">Acquiring Intel...</h3>
@@ -1012,9 +1004,9 @@
                 </div>
             </section>
 
-            <section id="appendices" class="card" data-section="appendices">
+            <section id="appendices" class="card" data-section="appendices" role="region" aria-labelledby="section-appendices">
                 <div class="card-content">
-                    <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Appendices: Full Laptop Database</h2>
+                    <h2 id="section-appendices" class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Appendices: Full Laptop Database</h2>
                     <p class="text-sm text-[var(--c-text-secondary)] mb-4 text-center">This list is updated automatically by the filters in the <a href="#explorer" class="underline text-[var(--c-accent-cyan)]">Explorer</a> section.</p>
                     <p id="appendix-dataset-meta" class="text-xs text-[var(--c-text-secondary)] mb-4 text-center" aria-live="polite"></p>
                     <div id="laptop-list-container" class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 max-h-[80vh] overflow-y-auto p-2">
@@ -1022,9 +1014,9 @@
                     </div>
                 </div>
             </section>
-            <section id="camera" class="card" data-section="camera">
+            <section id="camera" class="card" data-section="camera" role="region" aria-labelledby="section-camera">
                 <div class="card-content">
-                    <h2 class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Camera Tech Division</h2>
+                    <h2 id="section-camera" class="font-display text-2xl mb-4 text-[var(--c-accent-cyan)]">Camera Tech Division</h2>
                     <div class="ai-pod-response">
                         <div class="ai-pod-response__header">
                             <span class="ai-pod-response__title">Coming soon</span>
@@ -1488,71 +1480,8 @@
         return String(text ?? '').replace(/^```(?:json)?\s*/i, '').replace(/```\s*$/i, '');
     },
     normalizeLaptop(item) {
-        if (!item) return null;
-        const toNumber = (value, fallback = 0) => {
-            const num = Number(value);
-            return Number.isFinite(num) ? num : fallback;
-        };
-        const toPrice = (value, fallback = 0) => {
-            if (typeof value === 'string') {
-                const digits = value.replace(/[^0-9.]/g, '');
-                if (digits) {
-                    const parsed = Number(digits);
-                    if (Number.isFinite(parsed)) return parsed;
-                }
-            }
-            if (typeof value === 'number') return Number.isFinite(value) ? value : fallback;
-            return toNumber(value, fallback);
-        };
-        const ensureText = (value, fallback = 'Pending intel') => {
-            if (typeof value === 'string' && value.trim()) return value.trim();
-            return fallback;
-        };
-        const scoresSource = item.scores || item.score_breakdown || item.metrics || {};
-        const scores = {
-            ai: toNumber(scoresSource.ai ?? scoresSource.AI ?? item.ai, 0),
-            thermals: toNumber(scoresSource.thermals ?? scoresSource.cooling ?? item.thermals, 0),
-            upgrade: toNumber(scoresSource.upgrade ?? scoresSource.upgradability ?? item.upgrade, 0),
-            linux: toNumber(scoresSource.linux ?? scoresSource.compatibility ?? item.linux, 0),
-            portability: toNumber(scoresSource.portability ?? scoresSource.mobility ?? item.portability, 0),
-            value: toNumber(scoresSource.value ?? scoresSource.score_value ?? item.value, 0)
-        };
-        const modelName = ensureText(item.model ?? item.name ?? 'Unknown Model');
-        let scoreVal = toNumber(item.score ?? item.overall ?? item.rating, 0);
-        if (!scoreVal) {
-            const rankVal = toNumber(item.rank ?? item.ranking, 0);
-            if (rankVal) scoreVal = Math.max(36, 100 - (rankVal - 1));
-        }
-        // Normalize score to 0..100 if various scales are detected
-        if (scoreVal > 0 && scoreVal <= 1) scoreVal = Math.round(scoreVal * 100);
-        else if (scoreVal > 1 && scoreVal <= 10) scoreVal = Math.round(scoreVal * 10);
-        const DEFAULT_IMG = 'data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22 viewBox=%220 0 600 400%22%3E%3Crect width=%22600%22 height=%22400%22 fill=%22%231a1a1a%22/%3E%3Ctext x=%22300%22 y=%22205%22 fill=%22%234a4a4a%22 font-family=%22Arial%2CHelvetica%2Csans-serif%22 font-size=%2220%22 text-anchor=%22middle%22%3ENo Image%3C/text%3E%3C/svg%3E';
-        const candidateImg = (item.imageUrl ?? item.image_url ?? item.image ?? '').trim();
-        const safeImg = candidateImg && !/placehold\.co|placeholder/i.test(candidateImg) ? candidateImg : DEFAULT_IMG;
-        return {
-            brand: ensureText(item.brand ?? item.maker ?? item.vendor ?? 'Unknown'),
-            model: modelName,
-            price: toPrice(item.price ?? item.price_myr ?? item.priceMYR ?? item.priceMY ?? item.cost, 0),
-            imageUrl: safeImg,
-            cpu: ensureText(item.cpu ?? item.specs?.cpu ?? 'TBD'),
-            gpu: ensureText(item.gpu ?? item.specs?.gpu ?? 'TBD'),
-            ram: ensureText(item.ram ?? item.specs?.ram ?? 'TBD'),
-            storage: ensureText(item.storage ?? item.specs?.storage ?? 'TBD'),
-            display: ensureText(item.display ?? item.specs?.display ?? 'TBD'),
-            price_source_url: item.price_source_url ?? item.links?.product ?? '#',
-            shopee_url: item.shopee_url ?? item.links?.shopee ?? item.links?.alt ?? null,
-            tiktok_url: item.tiktok_url ?? item.links?.tiktok ?? null,
-            lazada_url: item.lazada_url ?? item.links?.lazada ?? null,
-            best_deal_url: item.best_deal_url ?? item.links?.best ?? item.links?.cheapest ?? null,
-            score: scoreVal,
-            platform: ensureText((item.platform ?? item.segment ?? 'NPU').toUpperCase()),
-            why: ensureText(item.why ?? item.summary ?? item.pitch ?? 'Strategic intel pending.'),
-            scores,
-            // Value rating: higher is better. Scale by 1000 so ranges are readable.
-            value_rating: (scoreVal && toNumber(item.price ?? item.price_myr ?? item.priceMYR ?? item.priceMY ?? item.cost, 0))
-              ? Number((scoreVal / Math.max(1, toPrice(item.price ?? item.price_myr ?? item.priceMYR ?? item.priceMY ?? item.cost, 1) / 1000)).toFixed(4))
-              : 0
-        };
+        const shared = window.AI_POD?.normalizeLaptop;
+        return typeof shared === 'function' ? shared(item) : null;
     },
     buildAffiliateLink(originalUrl, platform) {
         if (!originalUrl) return '#';
@@ -1785,7 +1714,10 @@
         const primaryItems = toItems(primaryRaw);
         const fallbackItems = toItems(fallbackRaw);
 
-        const normalizeList = (list) => (Array.isArray(list) ? list : []).map(API_MODULE.normalizeLaptop).filter(Boolean);
+        const normalizeList = (list) => (Array.isArray(list) ? list : [])
+            .map(item => API_MODULE.normalizeLaptop(item) ?? null)
+            .filter(Boolean);
+
         const primaryNormalized = normalizeList(primaryItems);
         const fallbackNormalized = normalizeList(fallbackItems);
 

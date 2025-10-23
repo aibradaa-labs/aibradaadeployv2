@@ -19,7 +19,8 @@
     "sri:inject": "node ./ai_pod/scripts/inject_sri.js",
     "mobile:check": "node ./ai_pod/tests/mobile_check.js",
     "syeddy:prune": "node -e \"try{const fs=require('fs');const p='ai_pod/tests/test_run_logs.jsonl';if(fs.existsSync(p)){const l=fs.readFileSync(p,'utf8').trim().split(/\n/).slice(-5000).join('\n');fs.writeFileSync(p,l)} }catch(e){}\"",
-    "syeddy:ci": "npm run syeddy:lint && npm run syeddy:test && npm run laptops:test && npm run brand:check && npm run mobile:check && npm run syeddy:regress && npm run syeddy:prune"
+    "syeddy:ci": "npm run syeddy:lint && npm run syeddy:test && npm run laptops:test && npm run brand:check && npm run mobile:check && npm run syeddy:regress && npm run playwright:test && npm run syeddy:prune",
+    "playwright:test": "playwright test"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -48,6 +49,7 @@
     "zustand": "^4.3.8"
   },
   "devDependencies": {
+    "@playwright/test": "^1.48.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
@@ -63,7 +65,7 @@
     "axe-core": "^4.11.0",
     "eslint": "^9.38.0",
     "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "lighthouse": "^12.8.2",

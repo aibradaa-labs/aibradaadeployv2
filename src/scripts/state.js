@@ -1,11 +1,17 @@
 import { LAPTOP_FALLBACK, FALLBACK_LAPTOPS } from '../data/fallbackLaptops.js';
 
+const initialFallback = Array.isArray(LAPTOP_FALLBACK?.all)
+  ? LAPTOP_FALLBACK.all
+  : Array.isArray(FALLBACK_LAPTOPS)
+    ? FALLBACK_LAPTOPS
+    : [];
+
 export const STATE = {
   data: {
     allLaptops: [],
     sortedByRank: [],
     // Prefer the structured centralized set (73 initial), fallback to legacy constant
-    fallbackLaptops: (LAPTOP_FALLBACK && Array.isArray(LAPTOP_FALLBACK.initial) ? LAPTOP_FALLBACK.initial : FALLBACK_LAPTOPS)
+    fallbackLaptops: initialFallback
   },
   ui: {
     app: {
