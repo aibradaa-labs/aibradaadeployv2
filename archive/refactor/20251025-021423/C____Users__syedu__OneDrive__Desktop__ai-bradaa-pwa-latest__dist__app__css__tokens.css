@@ -1,0 +1,6 @@
+/**
+ * @deprecated Use canonical: app/css/tokens.css
+ * This file remains for backward-compat. Re-exports delegate to canonical module.
+ */
+export * from "../../../app/css/tokens.css";
+export { default } from "../../../app/css/tokens.css";

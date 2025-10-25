@@ -1,0 +1,7 @@
+{
+  "intents": [
+    { "name": "OpenMatchmaker", "route": "matchmaker" },
+    { "name": "OpenVersus", "route": "versus" },
+    { "name": "OpenExplore", "route": "explore" }
+  ]
+}

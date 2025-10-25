@@ -1,0 +1,229 @@
+# orphans-and-dups
+
+## ORPHANS
+- .eslintrc.cjs
+- ai/deck/replyDeck.js
+- ai/providers/geminiClient.js
+- ai_pod/validator.js
+- app/homepage-wiring.ts
+- app/js/aipod/mock-provider.js
+- app/js/i18n.js
+- archive/20251012/ai_pod/docs/LENS_COVERAGE_V1_summary.md
+- archive/20251012/ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json
+- archive/20251012/ai_pod/mentors_enriched.json
+- archive/20251012/ai_pod/sources/sources_index.curated.md
+- archive/20251012/ai_pod/syeddy-orchestrator.flagON.json
+- archive/20251012/ai_pod/syeddy-orchestrator.json
+- archive/20251012/ai_pod/validator.js
+- archive/datasets/20251023-2140/.eslintrc.cjs
+- archive/datasets/20251023-2140/package-lock.json
+- archive/datasets/20251023-2140/package.json
+- archive/datasets/20251023-2140/tsconfig.eslint.json
+- archive/qa-core/20251025-114923/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__ai__deck__replyDeck.js
+- archive/qa-core/20251025-114923/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__src__features__laptops__components__LaptopFilters.tsx
+- archive/qa-core/20251025-114923/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__src__features__shared__components__CustomGrid.tsx
+- archive/qa-core/20251025-114923/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__src__features__smartphones__presentation__components__SmartphoneFilters.tsx
+- archive/qa-core/20251025-114958/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__ai__deck__replyDeck.js
+- archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__src__features__laptops__components__LaptopFilters.tsx
+- archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__src__features__smartphones__presentation__components__SmartphoneFilters.tsx
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__archive__20251012__ai_pod__docs__LENS_COVERAGE_V1_summary.md
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__archive__20251012__ai_pod__MASTER_UNIVERSAL_BLUEPRINT.json
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__archive__20251012__ai_pod__sources__sources_index.curated.md
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__archive__20251012__ai_pod__sources__sources_index.md
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__archive__20251012__ai_pod__syeddy-orchestrator.flagON.json
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__archive__20251012__ai_pod__tests__test_report.md
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__archive__20251012__ai_pod__validator.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__ai_pod__adapters__aiClient.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__ai__deck__replyDeck.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__assets__lottie__ai-bradaa-soul-inner.json
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__assets__lottie__ai-bradaa-soul.json
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__css__ai-pod-result.css
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__css__tokens.css
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__ai-pod-loader.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__ai-pod-v2-pro.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__aipod__ai-pod-view.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__aipod__intel-cards.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__aipod__loading-controller.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__aipod__mock-provider.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__aipod__provider-proxy.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__aipod__result-view.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__aipod__runtime.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__aipod__tools-wire.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__CSS.html
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__deck-emit-shim.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__i18n.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__js__legacy-deck-emit-shim.js
+- archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__homepage-wiring.ts
+- archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__ai_pod__mobile__bridge__index.js
+- archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__index.v15.2.html
+- AUDIT-REPORT.md
+- dist/ai/deck/replyDeck.js
+- dist/ai/providers/geminiClient.js
+- dist/ai_pod/data/normalizeLaptop.js
+- dist/ai_pod/lib/normalizeLaptop.mjs
+- dist/ai_pod/validator.js
+- dist/app/homepage-wiring.ts
+- dist/app/js/aipod/mock-provider.js
+- dist/app/js/i18n.js
+- dist/build-meta.json
+- dist/js/aipod/mock-provider.js
+- dist/js/i18n.js
+- lib/links/marketplaces.js
+- netlify/functions/ai.js
+- netlify/functions/laptops.js
+- playwright.config.ts
+- privacy.md
+- scripts/build.js
+- src/features/analytics/hooks/trackingHooks.ts
+- src/features/analytics/services/analytics.tsx
+- src/features/analytics/utils/trackingHOCs.tsx
+- src/features/cameras/infrastructure/cameraStore.ts
+- src/features/laptops/infrastructure/laptopStore.ts
+- src/features/shared/components/CustomButton.tsx
+- src/features/shared/components/QueryProvider.tsx
+- src/features/shared/components/StyledGrid.tsx
+- src/features/shared/theme/ThemeProvider.tsx
+- src/features/smartphones/presentation/components/SmartphoneComparison.tsx
+- src/features/smartphones/presentation/components/SmartphoneFilters.tsx
+- src/features/smartphones/presentation/services/smartphoneUIService.ts
+- src/service-worker-types.d.ts
+- src/serviceWorkerRegistration.ts
+- src/types/global.d.ts
+- src/types/mui.d.ts
+- Syeddy Orchestrator/validator.js
+- tests/perf/lighthouse.config.cjs
+- workbox-config.js
+
+## NEAR_DUPLICATES
+- ai/deck/replyDeck.js ↔ dist/ai/deck/replyDeck.js  _similar size ±15% (6001 vs 6001) & basename "replyDeck.js"_
+- ai/deck/replyModalDeck.js ↔ dist/ai/deck/replyModalDeck.js  _similar size ±15% (12209 vs 12209) & basename "replyModalDeck.js"_
+- ai/providers/adapter_spec.md ↔ dist/ai/providers/adapter_spec.md  _similar size ±15% (595 vs 595) & basename "adapter_spec.md"_
+- ai_pod/adapters/aiClient.js ↔ dist/ai_pod/adapters/aiClient.js  _similar size ±15% (1962 vs 1962) & basename "aiClient.js"_
+- ai_pod/config/governance.mobile.json ↔ dist/ai_pod/config/governance.mobile.json  _similar size ±15% (211 vs 211) & basename "governance.mobile.json"_
+- ai_pod/Council Lenses Mentor Board.json ↔ archive/20251012/ai_pod/Council Lenses Mentor Board.json  _similar size ±15% (63413 vs 60844) & basename "Council Lenses Mentor Board.json"_
+- archive/20251012/ai_pod/Council Lenses Mentor Board.json ↔ dist/ai_pod/Council Lenses Mentor Board.json  _similar size ±15% (60844 vs 63413) & basename "Council Lenses Mentor Board.json"_
+- dist/ai_pod/Council Lenses Mentor Board.json ↔ Syeddy Orchestrator/Council Lenses Mentor Board.json  _similar size ±15% (63413 vs 60844) & basename "Council Lenses Mentor Board.json"_
+- ai_pod/data/intel/tech_signals.json ↔ dist/ai_pod/data/intel/tech_signals.json  _similar size ±15% (1020 vs 1020) & basename "tech_signals.json"_
+- ai_pod/data/laptops/explorer.top10.gaming.json ↔ dist/ai_pod/data/laptops/explorer.top10.gaming.json  _similar size ±15% (1371 vs 1371) & basename "explorer.top10.gaming.json"_
+- ai_pod/data/laptops/top35.cache.json ↔ dist/ai_pod/data/laptops/top35.cache.json  _similar size ±15% (6527 vs 6527) & basename "top35.cache.json"_
+- ai_pod/data/persona_weights.json ↔ dist/ai_pod/data/persona_weights.json  _similar size ±15% (121 vs 121) & basename "persona_weights.json"_
+- ai_pod/docs/csp.example.md ↔ dist/ai_pod/docs/csp.example.md  _similar size ±15% (1578 vs 1578) & basename "csp.example.md"_
+- dist/ai_pod/docs/LENS_COVERAGE_V1_summary.md ↔ Syeddy Orchestrator/LENS_COVERAGE_V1_summary.md  _similar size ±15% (259 vs 259) & basename "LENS_COVERAGE_V1_summary.md"_
+- ai_pod/docs/mobile.md ↔ dist/ai_pod/docs/mobile.md  _similar size ±15% (1172 vs 1172) & basename "mobile.md"_
+- ai_pod/docs/sri-manifest.example.json ↔ dist/ai_pod/docs/sri-manifest.example.json  _similar size ±15% (400 vs 400) & basename "sri-manifest.example.json"_
+- ai_pod/lib/normalizeLaptop.mjs ↔ dist/ai_pod/lib/normalizeLaptop.mjs  _similar size ±15% (3064 vs 3064) & basename "normalizeLaptop.mjs"_
+- ai_pod/Master Operation Config.json ↔ archive/20251012/ai_pod/Master Operation Config.json  _similar size ±15% (4567 vs 4354) & basename "Master Operation Config.json"_
+- archive/20251012/ai_pod/Master Operation Config.json ↔ dist/ai_pod/Master Operation Config.json  _similar size ±15% (4354 vs 4567) & basename "Master Operation Config.json"_
+- dist/ai_pod/Master Operation Config.json ↔ Syeddy Orchestrator/Master Operation Config.json  _similar size ±15% (4567 vs 4354) & basename "Master Operation Config.json"_
+- dist/ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json ↔ Syeddy Orchestrator/MASTER_UNIVERSAL_BLUEPRINT.json  _similar size ±15% (8463 vs 8149) & basename "MASTER_UNIVERSAL_BLUEPRINT.json"_
+- dist/ai_pod/mentors_enriched.json ↔ Syeddy Orchestrator/mentors_enriched.json  _similar size ±15% (257524 vs 248342) & basename "mentors_enriched.json"_
+- ai_pod/mobile/background/androidWork.js ↔ dist/ai_pod/mobile/background/androidWork.js  _similar size ±15% (425 vs 425) & basename "androidWork.js"_
+- ai_pod/mobile/background/iosBgTask.js ↔ dist/ai_pod/mobile/background/iosBgTask.js  _similar size ±15% (382 vs 382) & basename "iosBgTask.js"_
+- ai_pod/mobile/bridge/appLinks.js ↔ dist/ai_pod/mobile/bridge/appLinks.js  _similar size ±15% (553 vs 553) & basename "appLinks.js"_
+- ai_pod/mobile/bridge/deepLinkRouter.js ↔ dist/ai_pod/mobile/bridge/deepLinkRouter.js  _similar size ±15% (1231 vs 1231) & basename "deepLinkRouter.js"_
+- ai_pod/mobile/bridge/index.js ↔ dist/ai_pod/mobile/bridge/index.js  _similar size ±15% (558 vs 558) & basename "index.js"_
+- ai_pod/mobile/bridge/offlineQueue.js ↔ dist/ai_pod/mobile/bridge/offlineQueue.js  _similar size ±15% (1229 vs 1229) & basename "offlineQueue.js"_
+- ai_pod/mobile/bridge/share.js ↔ dist/ai_pod/mobile/bridge/share.js  _similar size ±15% (981 vs 981) & basename "share.js"_
+- ai_pod/mobile/config/capacitor.config.json ↔ dist/ai_pod/mobile/config/capacitor.config.json  _similar size ±15% (152 vs 152) & basename "capacitor.config.json"_
+- ai_pod/mobile/deeplinks/android/assetlinks.json ↔ dist/ai_pod/mobile/deeplinks/android/assetlinks.json  _similar size ±15% (318 vs 318) & basename "assetlinks.json"_
+- ai_pod/mobile/security/secureStorage.js ↔ dist/ai_pod/mobile/security/secureStorage.js  _similar size ±15% (680 vs 680) & basename "secureStorage.js"_
+- ai_pod/mobile/shortcuts/ios.appintents.json ↔ dist/ai_pod/mobile/shortcuts/ios.appintents.json  _similar size ±15% (179 vs 179) & basename "ios.appintents.json"_
+- ai_pod/prototypes/soul_v1/fsm.js ↔ dist/ai_pod/prototypes/soul_v1/fsm.js  _similar size ±15% (6974 vs 6974) & basename "fsm.js"_
+- ai_pod/scripts/inject_sri.js ↔ dist/ai_pod/scripts/inject_sri.js  _similar size ±15% (3148 vs 3148) & basename "inject_sri.js"_
+- dist/ai_pod/sources/sources_index.curated.md ↔ Syeddy Orchestrator/sources_index.curated.md  _similar size ±15% (37315 vs 37315) & basename "sources_index.curated.md"_
+- dist/ai_pod/sources/sources_index.md ↔ Syeddy Orchestrator/sources_index.md  _similar size ±15% (39500 vs 39500) & basename "sources_index.md"_
+- dist/ai_pod/syeddy-orchestrator.flagON.json ↔ Syeddy Orchestrator/syeddy-orchestrator.flagON.json  _similar size ±15% (4362 vs 4156) & basename "syeddy-orchestrator.flagON.json"_
+- dist/ai_pod/syeddy-orchestrator.json ↔ Syeddy Orchestrator/syeddy-orchestrator.json  _similar size ±15% (4309 vs 4104) & basename "syeddy-orchestrator.json"_
+- ai_pod/tests/check_assets_licenses.js ↔ dist/ai_pod/tests/check_assets_licenses.js  _similar size ±15% (3269 vs 3269) & basename "check_assets_licenses.js"_
+- ai_pod/tests/hardening-gate.mjs ↔ dist/ai_pod/tests/hardening-gate.mjs  _similar size ±15% (0 vs 0) & basename "hardening-gate.mjs"_
+- ai_pod/tests/laptops.spec.mjs ↔ dist/ai_pod/tests/laptops.spec.mjs  _similar size ±15% (4069 vs 4069) & basename "laptops.spec.mjs"_
+- ai_pod/tests/mobile_check.js ↔ dist/ai_pod/tests/mobile_check.js  _similar size ±15% (1127 vs 1127) & basename "mobile_check.js"_
+- dist/ai_pod/tests/test_report.md ↔ Syeddy Orchestrator/test_report.md  _similar size ±15% (1253 vs 1253) & basename "test_report.md"_
+- ai_pod/tokens/laptops.tokens.json ↔ dist/ai_pod/tokens/laptops.tokens.json  _similar size ±15% (154 vs 154) & basename "laptops.tokens.json"_
+- app/AI Bradaa Soul prototype v1.html ↔ dist/app/AI Bradaa Soul prototype v1.html  _similar size ±15% (15306 vs 15306) & basename "AI Bradaa Soul prototype v1.html"_
+- app/assets/lottie/ai-bradaa-soul-inner.json ↔ dist/app/assets/lottie/ai-bradaa-soul-inner.json  _similar size ±15% (5919 vs 5919) & basename "ai-bradaa-soul-inner.json"_
+- dist/app/assets/lottie/ai-bradaa-soul-inner.json ↔ dist/assets/lottie/ai-bradaa-soul-inner.json  _similar size ±15% (5919 vs 5919) & basename "ai-bradaa-soul-inner.json"_
+- dist/assets/lottie/ai-bradaa-soul-inner.json ↔ public/lottie/ai-bradaa-soul-inner.json  _similar size ±15% (5919 vs 6048) & basename "ai-bradaa-soul-inner.json"_
+- app/assets/lottie/ai-bradaa-soul.json ↔ dist/app/assets/lottie/ai-bradaa-soul.json  _similar size ±15% (18202 vs 18202) & basename "ai-bradaa-soul.json"_
+- dist/app/assets/lottie/ai-bradaa-soul.json ↔ dist/assets/lottie/ai-bradaa-soul.json  _similar size ±15% (18202 vs 18202) & basename "ai-bradaa-soul.json"_
+- app/css/ai-pod-loading.css ↔ dist/app/css/ai-pod-loading.css  _similar size ±15% (0 vs 0) & basename "ai-pod-loading.css"_
+- dist/app/css/ai-pod-loading.css ↔ dist/css/ai-pod-loading.css  _similar size ±15% (0 vs 0) & basename "ai-pod-loading.css"_
+- app/css/ai-pod-result.css ↔ dist/app/css/ai-pod-result.css  _similar size ±15% (0 vs 0) & basename "ai-pod-result.css"_
+- dist/app/css/ai-pod-result.css ↔ dist/css/ai-pod-result.css  _similar size ±15% (0 vs 0) & basename "ai-pod-result.css"_
+- app/css/tokens.css ↔ dist/app/css/tokens.css  _similar size ±15% (0 vs 0) & basename "tokens.css"_
+- dist/app/css/tokens.css ↔ dist/css/tokens.css  _similar size ±15% (0 vs 0) & basename "tokens.css"_
+- app/homepage-wiring.ts ↔ dist/app/homepage-wiring.ts  _similar size ±15% (223 vs 223) & basename "homepage-wiring.ts"_
+- app/i18n/en.json ↔ dist/app/i18n/en.json  _similar size ±15% (315 vs 315) & basename "en.json"_
+- app/i18n/ms.json ↔ dist/app/i18n/ms.json  _similar size ±15% (347 vs 347) & basename "ms.json"_
+- app/index.v15.2.html ↔ dist/app/index.v15.2.html  _similar size ±15% (285358 vs 285358) & basename "index.v15.2.html"_
+- app/js/ai-pod-loader.js ↔ dist/app/js/ai-pod-loader.js  _similar size ±15% (288 vs 288) & basename "ai-pod-loader.js"_
+- dist/app/js/ai-pod-loader.js ↔ dist/js/ai-pod-loader.js  _similar size ±15% (288 vs 288) & basename "ai-pod-loader.js"_
+- app/js/ai-pod-v2-pro.js ↔ dist/app/js/ai-pod-v2-pro.js  _similar size ±15% (0 vs 0) & basename "ai-pod-v2-pro.js"_
+- dist/app/js/ai-pod-v2-pro.js ↔ dist/js/ai-pod-v2-pro.js  _similar size ±15% (0 vs 0) & basename "ai-pod-v2-pro.js"_
+- app/js/aipod/ai-pod-view.js ↔ dist/app/js/aipod/ai-pod-view.js  _similar size ±15% (2 vs 2) & basename "ai-pod-view.js"_
+- dist/app/js/aipod/ai-pod-view.js ↔ dist/js/aipod/ai-pod-view.js  _similar size ±15% (2 vs 2) & basename "ai-pod-view.js"_
+- app/js/aipod/fluid-core.js ↔ dist/app/js/aipod/fluid-core.js  _similar size ±15% (0 vs 0) & basename "fluid-core.js"_
+- dist/app/js/aipod/fluid-core.js ↔ dist/js/aipod/fluid-core.js  _similar size ±15% (0 vs 0) & basename "fluid-core.js"_
+- app/js/aipod/intel-cards.js ↔ dist/app/js/aipod/intel-cards.js  _similar size ±15% (5414 vs 5414) & basename "intel-cards.js"_
+- dist/app/js/aipod/intel-cards.js ↔ dist/js/aipod/intel-cards.js  _similar size ±15% (5414 vs 5414) & basename "intel-cards.js"_
+- app/js/aipod/loading-controller.js ↔ dist/app/js/aipod/loading-controller.js  _similar size ±15% (2 vs 2) & basename "loading-controller.js"_
+- dist/app/js/aipod/loading-controller.js ↔ dist/js/aipod/loading-controller.js  _similar size ±15% (2 vs 2) & basename "loading-controller.js"_
+- app/js/aipod/mock-provider.js ↔ dist/app/js/aipod/mock-provider.js  _similar size ±15% (121 vs 121) & basename "mock-provider.js"_
+- dist/app/js/aipod/mock-provider.js ↔ dist/js/aipod/mock-provider.js  _similar size ±15% (121 vs 121) & basename "mock-provider.js"_
+- app/js/aipod/progress-ring.js ↔ dist/app/js/aipod/progress-ring.js  _similar size ±15% (0 vs 0) & basename "progress-ring.js"_
+- dist/app/js/aipod/progress-ring.js ↔ dist/js/aipod/progress-ring.js  _similar size ±15% (0 vs 0) & basename "progress-ring.js"_
+- app/js/aipod/provider-proxy.js ↔ dist/app/js/aipod/provider-proxy.js  _similar size ±15% (1412 vs 1412) & basename "provider-proxy.js"_
+- dist/app/js/aipod/provider-proxy.js ↔ dist/js/aipod/provider-proxy.js  _similar size ±15% (1412 vs 1412) & basename "provider-proxy.js"_
+- app/js/aipod/result-view.js ↔ dist/app/js/aipod/result-view.js  _similar size ±15% (0 vs 0) & basename "result-view.js"_
+- dist/app/js/aipod/result-view.js ↔ dist/js/aipod/result-view.js  _similar size ±15% (0 vs 0) & basename "result-view.js"_
+- app/js/aipod/runtime-lite.js ↔ dist/app/js/aipod/runtime-lite.js  _similar size ±15% (7623 vs 7623) & basename "runtime-lite.js"_
+- dist/app/js/aipod/runtime-lite.js ↔ dist/js/aipod/runtime-lite.js  _similar size ±15% (7623 vs 7623) & basename "runtime-lite.js"_
+- app/js/aipod/runtime.js ↔ dist/app/js/aipod/runtime.js  _similar size ±15% (2456 vs 2456) & basename "runtime.js"_
+- dist/app/js/aipod/runtime.js ↔ dist/js/aipod/runtime.js  _similar size ±15% (2456 vs 2456) & basename "runtime.js"_
+- app/js/aipod/tools-wire.js ↔ dist/app/js/aipod/tools-wire.js  _similar size ±15% (8099 vs 8099) & basename "tools-wire.js"_
+- dist/app/js/aipod/tools-wire.js ↔ dist/js/aipod/tools-wire.js  _similar size ±15% (8099 vs 8099) & basename "tools-wire.js"_
+- app/js/bradaa-flags.js ↔ dist/app/js/bradaa-flags.js  _similar size ±15% (254 vs 254) & basename "bradaa-flags.js"_
+- dist/app/js/bradaa-flags.js ↔ dist/js/bradaa-flags.js  _similar size ±15% (254 vs 254) & basename "bradaa-flags.js"_
+- app/js/CSS.html ↔ dist/app/js/CSS.html  _similar size ±15% (9934 vs 9934) & basename "CSS.html"_
+- dist/app/js/CSS.html ↔ dist/js/CSS.html  _similar size ±15% (9934 vs 9934) & basename "CSS.html"_
+- app/js/deck-emit-shim.js ↔ dist/app/js/deck-emit-shim.js  _similar size ±15% (0 vs 0) & basename "deck-emit-shim.js"_
+- dist/app/js/deck-emit-shim.js ↔ dist/js/deck-emit-shim.js  _similar size ±15% (0 vs 0) & basename "deck-emit-shim.js"_
+- app/js/i18n.js ↔ dist/app/js/i18n.js  _similar size ±15% (418 vs 418) & basename "i18n.js"_
+- dist/app/js/i18n.js ↔ dist/js/i18n.js  _similar size ±15% (418 vs 418) & basename "i18n.js"_
+- app/js/legacy-deck-emit-shim.js ↔ dist/app/js/legacy-deck-emit-shim.js  _similar size ±15% (128 vs 128) & basename "legacy-deck-emit-shim.js"_
+- dist/app/js/legacy-deck-emit-shim.js ↔ dist/js/legacy-deck-emit-shim.js  _similar size ±15% (128 vs 128) & basename "legacy-deck-emit-shim.js"_
+- app/js/soul.js ↔ dist/app/js/soul.js  _similar size ±15% (5701 vs 5701) & basename "soul.js"_
+- dist/app/js/soul.js ↔ dist/js/soul.js  _similar size ±15% (5701 vs 5701) & basename "soul.js"_
+- archive/qa-core/20251025-114923/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__ai__deck__replyDeck.js ↔ archive/qa-core/20251025-114958/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__ai__deck__replyDeck.js  _similar size ±15% (5961 vs 5981) & basename "C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__ai__deck__replyDeck.js"_
+- archive/qa-core/20251025-114958/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__ai__deck__replyDeck.js ↔ archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__ai__deck__replyDeck.js  _similar size ±15% (5981 vs 5941) & basename "C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__ai__deck__replyDeck.js"_
+- archive/qa-core/20251025-114923/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__src__features__laptops__components__LaptopFilters.tsx ↔ archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__src__features__laptops__components__LaptopFilters.tsx  _similar size ±15% (4129 vs 4045) & basename "C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__src__features__laptops__components__LaptopFilters.tsx"_
+- archive/qa-core/20251025-114923/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__src__features__smartphones__presentation__components__SmartphoneFilters.tsx ↔ archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__src__features__smartphones__presentation__components__SmartphoneFilters.tsx  _similar size ±15% (5436 vs 5373) & basename "C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__src__features__smartphones__presentation__components__SmartphoneFilters.tsx"_
+- archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html ↔ archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html  _similar size ±15% (248447 vs 248404) & basename "C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html"_
+- data/fallbackLaptops.json ↔ dist/data/fallbackLaptops.json  _similar size ±15% (47486 vs 47486) & basename "fallbackLaptops.json"_
+- data/Laptop Catelogue/data/laptops/appendix65.json ↔ dist/data/Laptop Catelogue/data/laptops/appendix65.json  _similar size ±15% (144603 vs 144603) & basename "appendix65.json"_
+- data/Laptop Catelogue/data/laptops/index.json ↔ dist/data/Laptop Catelogue/data/laptops/index.json  _similar size ±15% (304 vs 304) & basename "index.json"_
+- data/Laptop Catelogue/data/laptops/schema.json ↔ dist/data/Laptop Catelogue/data/laptops/schema.json  _similar size ±15% (2745 vs 2745) & basename "schema.json"_
+- data/Laptop Catelogue/data/laptops/shortlist35.json ↔ dist/data/Laptop Catelogue/data/laptops/shortlist35.json  _similar size ±15% (77588 vs 77588) & basename "shortlist35.json"_
+- data/Laptop Catelogue/data/laptops/top10.json ↔ dist/data/Laptop Catelogue/data/laptops/top10.json  _similar size ±15% (22133 vs 22133) & basename "top10.json"_
+- data/Laptop Catelogue/data/laptops/top100.json ↔ dist/data/Laptop Catelogue/data/laptops/top100.json  _similar size ±15% (222189 vs 222189) & basename "top100.json"_
+- data/Laptop Catelogue/README.md ↔ dist/data/Laptop Catelogue/README.md  _similar size ±15% (351 vs 351) & basename "README.md"_
+- data/Laptop Catelogue/scripts/fetch/auto/fetch_prices.js ↔ dist/data/Laptop Catelogue/scripts/fetch/auto/fetch_prices.js  _similar size ±15% (184 vs 184) & basename "fetch_prices.js"_
+- data/laptops.json ↔ dist/data/laptops.json  _similar size ±15% (84591 vs 84591) & basename "laptops.json"_
+- data/laptops.schema.json ↔ dist/data/laptops.schema.json  _similar size ±15% (3397 vs 3397) & basename "laptops.schema.json"_
+- dist/pwa/manifest.json ↔ pwa/manifest.json  _similar size ±15% (1039 vs 1039) & basename "manifest.json"_
+- dist/pwa/service-worker.js ↔ pwa/service-worker.js  _similar size ±15% (1692 vs 1692) & basename "service-worker.js"_
+- dist/sw.js ↔ sw.js  _similar size ±15% (377 vs 377) & basename "sw.js"_
+
+## HOMEPAGE_WIRING_GAPS (heuristic)
+- ai_pod/mobile/bridge/index.js
+- archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__ai_pod__mobile__bridge__index.js
+- archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__ai_pod__mobile__bridge__index.js
+- archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__ai_pod__mobile__bridge__index.js
+- archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__index.v15.2.html
+- archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__public__index.html
+- archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__src__lib__ai__index.js
+- archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__tests__e2e__playwright__homepage.smoke.spec.ts
+- dist/ai_pod/mobile/bridge/index.js
+- public/index.html
+- src/lib/ai/index.js
+- tests/e2e/playwright/homepage.smoke.spec.ts

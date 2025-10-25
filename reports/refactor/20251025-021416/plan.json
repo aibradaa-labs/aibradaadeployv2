@@ -1,0 +1,573 @@
+{
+  "counts": {
+    "orphans": 41,
+    "near_dups": 133,
+    "homepage_gaps": 5,
+    "proxies": 110
+  },
+  "create_adapter": "app/homepage-wiring.ts",
+  "proxies": [
+    {
+      "proxy": "archive/datasets/20251023-2140/.eslintrc.cjs",
+      "canonical": ".eslintrc.cjs",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai/deck/replyDeck.js",
+      "canonical": "ai/deck/replyDeck.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai/deck/replyModalDeck.js",
+      "canonical": "ai/deck/replyModalDeck.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai/providers/adapter_spec.md",
+      "canonical": "ai/providers/adapter_spec.md",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/adapters/aiClient.js",
+      "canonical": "ai_pod/adapters/aiClient.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/config/governance.mobile.json",
+      "canonical": "ai_pod/config/governance.mobile.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/data/intel/tech_signals.json",
+      "canonical": "ai_pod/data/intel/tech_signals.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/data/laptops/explorer.top10.gaming.json",
+      "canonical": "ai_pod/data/laptops/explorer.top10.gaming.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/data/laptops/top35.cache.json",
+      "canonical": "ai_pod/data/laptops/top35.cache.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/data/persona_weights.json",
+      "canonical": "ai_pod/data/persona_weights.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/docs/csp.example.md",
+      "canonical": "ai_pod/docs/csp.example.md",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/docs/LENS_COVERAGE_V1_summary.md",
+      "canonical": "ai_pod/docs/LENS_COVERAGE_V1_summary.md",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/docs/LENS_COVERAGE_V1_summary.md",
+      "canonical": "dist/ai_pod/docs/LENS_COVERAGE_V1_summary.md",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/docs/mobile.md",
+      "canonical": "ai_pod/docs/mobile.md",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/docs/sri-manifest.example.json",
+      "canonical": "ai_pod/docs/sri-manifest.example.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json",
+      "canonical": "ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json",
+      "canonical": "dist/ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/mentors_enriched.json",
+      "canonical": "ai_pod/mentors_enriched.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/mentors_enriched.json",
+      "canonical": "dist/ai_pod/mentors_enriched.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/mobile/background/androidWork.js",
+      "canonical": "ai_pod/mobile/background/androidWork.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/mobile/background/iosBgTask.js",
+      "canonical": "ai_pod/mobile/background/iosBgTask.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/mobile/bridge/appLinks.js",
+      "canonical": "ai_pod/mobile/bridge/appLinks.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/mobile/bridge/deepLinkRouter.js",
+      "canonical": "ai_pod/mobile/bridge/deepLinkRouter.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/mobile/bridge/index.js",
+      "canonical": "ai_pod/mobile/bridge/index.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/mobile/bridge/offlineQueue.js",
+      "canonical": "ai_pod/mobile/bridge/offlineQueue.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/mobile/bridge/share.js",
+      "canonical": "ai_pod/mobile/bridge/share.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/mobile/config/capacitor.config.json",
+      "canonical": "ai_pod/mobile/config/capacitor.config.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/mobile/deeplinks/android/assetlinks.json",
+      "canonical": "ai_pod/mobile/deeplinks/android/assetlinks.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/mobile/security/secureStorage.js",
+      "canonical": "ai_pod/mobile/security/secureStorage.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/mobile/shortcuts/ios.appintents.json",
+      "canonical": "ai_pod/mobile/shortcuts/ios.appintents.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/prototypes/soul_v1/fsm.js",
+      "canonical": "ai_pod/prototypes/soul_v1/fsm.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/scripts/inject_sri.js",
+      "canonical": "ai_pod/scripts/inject_sri.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/sources/sources_index.curated.md",
+      "canonical": "ai_pod/sources/sources_index.curated.md",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/sources/sources_index.curated.md",
+      "canonical": "dist/ai_pod/sources/sources_index.curated.md",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/sources/sources_index.md",
+      "canonical": "ai_pod/sources/sources_index.md",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/sources/sources_index.md",
+      "canonical": "dist/ai_pod/sources/sources_index.md",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/syeddy-orchestrator.flagON.json",
+      "canonical": "ai_pod/syeddy-orchestrator.flagON.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/syeddy-orchestrator.flagON.json",
+      "canonical": "dist/ai_pod/syeddy-orchestrator.flagON.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/syeddy-orchestrator.json",
+      "canonical": "ai_pod/syeddy-orchestrator.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/syeddy-orchestrator.json",
+      "canonical": "dist/ai_pod/syeddy-orchestrator.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/tests/check_assets_licenses.js",
+      "canonical": "ai_pod/tests/check_assets_licenses.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/tests/hardening-gate.mjs",
+      "canonical": "ai_pod/tests/hardening-gate.mjs",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/tests/laptops.spec.mjs",
+      "canonical": "ai_pod/tests/laptops.spec.mjs",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/tests/mobile_check.js",
+      "canonical": "ai_pod/tests/mobile_check.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/tests/test_report.md",
+      "canonical": "ai_pod/tests/test_report.md",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/tests/test_report.md",
+      "canonical": "dist/ai_pod/tests/test_report.md",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/ai_pod/tokens/laptops.tokens.json",
+      "canonical": "ai_pod/tokens/laptops.tokens.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/20251012/ai_pod/validator.js",
+      "canonical": "ai_pod/validator.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/assets/lottie/ai-bradaa-soul-inner.json",
+      "canonical": "app/assets/lottie/ai-bradaa-soul-inner.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/assets/lottie/ai-bradaa-soul-inner.json",
+      "canonical": "dist/assets/lottie/ai-bradaa-soul-inner.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/assets/lottie/ai-bradaa-soul-inner.json",
+      "canonical": "public/lottie/ai-bradaa-soul-inner.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/assets/lottie/ai-bradaa-soul.json",
+      "canonical": "app/assets/lottie/ai-bradaa-soul.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/assets/lottie/ai-bradaa-soul.json",
+      "canonical": "dist/assets/lottie/ai-bradaa-soul.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/css/ai-pod-loading.css",
+      "canonical": "app/css/ai-pod-loading.css",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/css/ai-pod-loading.css",
+      "canonical": "dist/css/ai-pod-loading.css",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/css/ai-pod-result.css",
+      "canonical": "app/css/ai-pod-result.css",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/css/ai-pod-result.css",
+      "canonical": "dist/css/ai-pod-result.css",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/css/tokens.css",
+      "canonical": "app/css/tokens.css",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/css/tokens.css",
+      "canonical": "dist/css/tokens.css",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/i18n/en.json",
+      "canonical": "app/i18n/en.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/i18n/ms.json",
+      "canonical": "app/i18n/ms.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/index.v15.2.html",
+      "canonical": "app/index.v15.2.html",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/ai-pod-loader.js",
+      "canonical": "app/js/ai-pod-loader.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/ai-pod-loader.js",
+      "canonical": "dist/js/ai-pod-loader.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/ai-pod-v2-pro.js",
+      "canonical": "app/js/ai-pod-v2-pro.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/ai-pod-v2-pro.js",
+      "canonical": "dist/js/ai-pod-v2-pro.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/ai-pod-view.js",
+      "canonical": "app/js/aipod/ai-pod-view.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/ai-pod-view.js",
+      "canonical": "dist/js/aipod/ai-pod-view.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/fluid-core.js",
+      "canonical": "app/js/aipod/fluid-core.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/fluid-core.js",
+      "canonical": "dist/js/aipod/fluid-core.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/intel-cards.js",
+      "canonical": "app/js/aipod/intel-cards.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/intel-cards.js",
+      "canonical": "dist/js/aipod/intel-cards.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/loading-controller.js",
+      "canonical": "app/js/aipod/loading-controller.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/loading-controller.js",
+      "canonical": "dist/js/aipod/loading-controller.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/mock-provider.js",
+      "canonical": "app/js/aipod/mock-provider.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/mock-provider.js",
+      "canonical": "dist/js/aipod/mock-provider.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/progress-ring.js",
+      "canonical": "app/js/aipod/progress-ring.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/progress-ring.js",
+      "canonical": "dist/js/aipod/progress-ring.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/provider-proxy.js",
+      "canonical": "app/js/aipod/provider-proxy.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/provider-proxy.js",
+      "canonical": "dist/js/aipod/provider-proxy.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/result-view.js",
+      "canonical": "app/js/aipod/result-view.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/result-view.js",
+      "canonical": "dist/js/aipod/result-view.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/runtime-lite.js",
+      "canonical": "app/js/aipod/runtime-lite.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/runtime-lite.js",
+      "canonical": "dist/js/aipod/runtime-lite.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/runtime.js",
+      "canonical": "app/js/aipod/runtime.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/runtime.js",
+      "canonical": "dist/js/aipod/runtime.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/tools-wire.js",
+      "canonical": "app/js/aipod/tools-wire.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/aipod/tools-wire.js",
+      "canonical": "dist/js/aipod/tools-wire.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/bradaa-flags.js",
+      "canonical": "app/js/bradaa-flags.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/bradaa-flags.js",
+      "canonical": "dist/js/bradaa-flags.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/CSS.html",
+      "canonical": "app/js/CSS.html",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/CSS.html",
+      "canonical": "dist/js/CSS.html",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/deck-emit-shim.js",
+      "canonical": "app/js/deck-emit-shim.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/deck-emit-shim.js",
+      "canonical": "dist/js/deck-emit-shim.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/i18n.js",
+      "canonical": "app/js/i18n.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/i18n.js",
+      "canonical": "dist/js/i18n.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/legacy-deck-emit-shim.js",
+      "canonical": "app/js/legacy-deck-emit-shim.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/legacy-deck-emit-shim.js",
+      "canonical": "dist/js/legacy-deck-emit-shim.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/soul.js",
+      "canonical": "app/js/soul.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/app/js/soul.js",
+      "canonical": "dist/js/soul.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/datasets/20251023-2140/package-lock.json",
+      "canonical": "package-lock.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/datasets/20251023-2140/package.json",
+      "canonical": "package.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/datasets/20251023-2140/tsconfig.eslint.json",
+      "canonical": "tsconfig.eslint.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "archive/datasets/20251023-2140/tsconfig.json",
+      "canonical": "tsconfig.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/data/fallbackLaptops.json",
+      "canonical": "data/fallbackLaptops.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/data/laptops.json",
+      "canonical": "data/laptops.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/data/laptops.schema.json",
+      "canonical": "data/laptops.schema.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/pwa/manifest.json",
+      "canonical": "pwa/manifest.json",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/pwa/service-worker.js",
+      "canonical": "pwa/service-worker.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    },
+    {
+      "proxy": "dist/sw.js",
+      "canonical": "sw.js",
+      "action": "comment-deprecate + re-export * from canonical"
+    }
+  ],
+  "homepage_gaps": [
+    "ai_pod/mobile/bridge/index.js",
+    "dist/ai_pod/mobile/bridge/index.js",
+    "public/index.html",
+    "src/lib/ai/index.js",
+    "tests/e2e/playwright/homepage.smoke.spec.ts"
+  ],
+  "notes": [
+    "No file moves or deletions. All changes are reversible.",
+    "Imports will be retargeted to canonical paths only where safe (exact string matches).",
+    "Adapter provides stable homepage imports to reduce churn."
+  ]
+}

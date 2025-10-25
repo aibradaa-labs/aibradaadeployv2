@@ -1,0 +1,1099 @@
+{
+  "summary": {
+    "counts": {
+      "files_scanned": 231,
+      "homepage_files": 12,
+      "adapter_users": 12,
+      "adapter_missing": 0,
+      "data_consumers": 16,
+      "prototype_refs": 0
+    },
+    "advice": {
+      "require_adapter_for_homepage": false,
+      "block_prod_to_prototype": false,
+      "retarget_imports": false
+    }
+  },
+  "findings": {
+    "homepage_files": [
+      "ai_pod/mobile/bridge/index.js",
+      "app/homepage-wiring.ts",
+      "app/index.v15.2.html",
+      "dist/ai_pod/mobile/bridge/index.js",
+      "dist/app/index.v15.2.html",
+      "dist/index.html",
+      "public/index.html",
+      "scripts/analyze/homepage-wiring.mjs",
+      "scripts/homepage_repair.mjs",
+      "scripts/refactor/fix-homepage-adapter.mjs",
+      "src/lib/ai/index.js",
+      "tests/e2e/playwright/homepage.smoke.spec.ts"
+    ],
+    "data_consumers": [
+      {
+        "file": "ai_pod/data/normalizeLaptop.js",
+        "hits": [
+          {
+            "line": 30,
+            "match": "/normalizeLaptop\\b/",
+            "text": "export function normalizeLaptop(entry, options = {}) {"
+          },
+          {
+            "line": 100,
+            "match": "/normalizeLaptop\\b/",
+            "text": "export default normalizeLaptop;"
+          },
+          {
+            "line": 104,
+            "match": "/normalizeLaptop\\b/",
+            "text": "  globalThis.AI_POD.normalizeLaptop = normalizeLaptop;"
+          },
+          {
+            "line": 106,
+            "match": "/normalizeLaptop\\b/",
+            "text": "  globalThis.AI_POD_DATA.normalizeLaptop = normalizeLaptop;"
+          }
+        ]
+      },
+      {
+        "file": "ai_pod/lib/normalizeLaptop.js",
+        "hits": [
+          {
+            "line": 34,
+            "match": "/normalizeLaptop\\b/",
+            "text": "export function normalizeLaptop(raw = {}) {"
+          },
+          {
+            "line": 59,
+            "match": "/laptops\\.schema\\.json\\b/",
+            "text": "    upstream_schema_ref: raw.upstream_schema_ref ?? \"data/laptops.schema.json\","
+          },
+          {
+            "line": 70,
+            "match": "/normalizeLaptop\\b/",
+            "text": "  return arr.map(normalizeLaptop);"
+          },
+          {
+            "line": 73,
+            "match": "/normalizeLaptop\\b/",
+            "text": "export default normalizeLaptop;"
+          }
+        ]
+      },
+      {
+        "file": "ai_pod/lib/normalizeLaptop.mjs",
+        "hits": [
+          {
+            "line": 34,
+            "match": "/normalizeLaptop\\b/",
+            "text": "export function normalizeLaptop(raw = {}) {"
+          },
+          {
+            "line": 59,
+            "match": "/laptops\\.schema\\.json\\b/",
+            "text": "    upstream_schema_ref: raw.upstream_schema_ref ?? \"data/laptops.schema.json\","
+          },
+          {
+            "line": 70,
+            "match": "/normalizeLaptop\\b/",
+            "text": "  return arr.map(normalizeLaptop);"
+          },
+          {
+            "line": 73,
+            "match": "/normalizeLaptop\\b/",
+            "text": "export default normalizeLaptop;"
+          }
+        ]
+      },
+      {
+        "file": "app/homepage-wiring.ts",
+        "hits": [
+          {
+            "line": 3,
+            "match": "/normalizeLaptop\\b/",
+            "text": "export { normalizeLaptop, normalizeMany } from \"../ai_pod/lib/normalizeLaptop.js\";"
+          },
+          {
+            "line": 4,
+            "match": "/normalizeLaptop\\b/",
+            "text": "export * from \"../ai_pod/lib/normalizeLaptop.js\";"
+          }
+        ]
+      },
+      {
+        "file": "app/index.v15.2.html",
+        "hits": [
+          {
+            "line": 1483,
+            "match": "/normalizeLaptop\\b/",
+            "text": "    normalizeLaptop(item) {"
+          },
+          {
+            "line": 1484,
+            "match": "/normalizeLaptop\\b/",
+            "text": "        const shared = window.AI_POD?.normalizeLaptop;"
+          },
+          {
+            "line": 1710,
+            "match": "/data\\/laptops\\.json\\b/",
+            "text": "            fetchJson('/data/laptops.json', 'laptops.json'),"
+          },
+          {
+            "line": 1711,
+            "match": "/data\\/fallbackLaptops\\.json\\b/",
+            "text": "            fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),"
+          },
+          {
+            "line": 1712,
+            "match": "/laptops\\.schema\\.json\\b/",
+            "text": "            fetchJson('/data/laptops.schema.json', 'laptops.schema.json')"
+          },
+          {
+            "line": 1719,
+            "match": "/normalizeLaptop\\b/",
+            "text": "            .map(item => API_MODULE.normalizeLaptop(item) ?? null)"
+          }
+        ]
+      },
+      {
+        "file": "dist/index.html",
+        "hits": [
+          {
+            "line": 1491,
+            "match": "/normalizeLaptop\\b/",
+            "text": "    normalizeLaptop(item) {"
+          },
+          {
+            "line": 1781,
+            "match": "/data\\/laptops\\.json\\b/",
+            "text": "            fetchJson('/data/laptops.json', 'laptops.json'),"
+          },
+          {
+            "line": 1782,
+            "match": "/data\\/fallbackLaptops\\.json\\b/",
+            "text": "            fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),"
+          },
+          {
+            "line": 1783,
+            "match": "/laptops\\.schema\\.json\\b/",
+            "text": "            fetchJson('/data/laptops.schema.json', 'laptops.schema.json')"
+          },
+          {
+            "line": 1789,
+            "match": "/normalizeLaptop\\b/",
+            "text": "        const normalizeList = (list) => (Array.isArray(list) ? list : []).map(API_MODULE.normalizeLaptop).filter(Boolean);"
+          }
+        ]
+      },
+      {
+        "file": "pwa/service-worker.js",
+        "hits": [
+          {
+            "line": 6,
+            "match": "/data\\/laptops\\.json\\b/",
+            "text": "  '/data/laptops.json',"
+          }
+        ]
+      },
+      {
+        "file": "scripts/analyze/homepage-wiring.mjs",
+        "hits": [
+          {
+            "line": 13,
+            "match": "/normalizeLaptop\\b/",
+            "text": "const LAPTOP_HINTS = [/data\\/laptops\\.json\\b/, /data\\/fallbackLaptops\\.json\\b/, /laptops\\.schema\\.json\\b/, /normalizeLaptop\\b/];"
+          },
+          {
+            "line": 99,
+            "match": "/normalizeLaptop\\b/",
+            "text": "## DATA CONSUMERS (laptops/fallback/schema/normalizeLaptop)"
+          }
+        ]
+      },
+      {
+        "file": "scripts/local/analyze-step-0.mjs",
+        "hits": [
+          {
+            "line": 23,
+            "match": "/normalizeLaptop\\b/",
+            "text": "        if(/data\\/laptops\\.json|data\\/fallbackLaptops\\.json|data\\/laptops\\.schema\\.json|normalizeLaptop/.test(txt)){"
+          },
+          {
+            "line": 25,
+            "match": "/laptops\\.schema\\.json\\b/",
+            "text": "          lines.forEach((ln,i)=>{ if(ln.includes(\"laptops.json\")||ln.includes(\"fallbackLaptops.json\")||ln.includes(\"laptops.schema.json\")||ln.includes(\"normalizeLaptop\")) hits.push({file:rel(p),line:i+1,snippet:ln.trim().slice(0,160)}); });"
+          },
+          {
+            "line": 25,
+            "match": "/normalizeLaptop\\b/",
+            "text": "          lines.forEach((ln,i)=>{ if(ln.includes(\"laptops.json\")||ln.includes(\"fallbackLaptops.json\")||ln.includes(\"laptops.schema.json\")||ln.includes(\"normalizeLaptop\")) hits.push({file:rel(p),line:i+1,snippet:ln.trim().slice(0,160)}); });"
+          },
+          {
+            "line": 82,
+            "match": "/laptops\\.schema\\.json\\b/",
+            "text": "  const sp = await findFile([path.join(ROOT,\"data\",\"laptops.schema.json\")]);"
+          },
+          {
+            "line": 83,
+            "match": "/normalizeLaptop\\b/",
+            "text": "  const np = await findFile([path.join(ROOT,\"ai_pod\",\"lib\",\"normalizeLaptop.js\"), path.join(ROOT,\"ai_pod\",\"data\",\"normalizeLaptop.js\"), path.join(ROOT,\"ai_pod\",\"normalizeLaptop.js\")]);"
+          }
+        ]
+      },
+      {
+        "file": "scripts/local/analyze-step-1.mjs",
+        "hits": [
+          {
+            "line": 58,
+            "match": "/normalizeLaptop\\b/",
+            "text": "      if (!/fetchMarketIntel|normalizeLaptop|laptops\\.json/.test(txt)) homeGaps.push(rel(file));"
+          }
+        ]
+      },
+      {
+        "file": "scripts/local/enrich-datasets.mjs",
+        "hits": [
+          {
+            "line": 17,
+            "match": "/laptops\\.schema\\.json\\b/",
+            "text": "  e.upstream_schema_ref ||= \"data/laptops.schema.json\";"
+          }
+        ]
+      },
+      {
+        "file": "scripts/local/extend-schema.mjs",
+        "hits": [
+          {
+            "line": 7,
+            "match": "/laptops\\.schema\\.json\\b/",
+            "text": "const SCHEMA = path.join(ROOT, \"data\", \"laptops.schema.json\");"
+          },
+          {
+            "line": 14,
+            "match": "/laptops\\.schema\\.json\\b/",
+            "text": "  if (!fs.existsSync(SCHEMA)) throw new Error(\"data/laptops.schema.json not found\");"
+          },
+          {
+            "line": 17,
+            "match": "/laptops\\.schema\\.json\\b/",
+            "text": "  await fsp.writeFile(path.join(BAKDIR, \"laptops.schema.json.bak\"), raw, \"utf8\");"
+          }
+        ]
+      },
+      {
+        "file": "scripts/merge/merge-laptops.mjs",
+        "hits": [
+          {
+            "line": 7,
+            "match": "/normalizeLaptop\\b/",
+            "text": "try { _mod = await import('../../ai_pod/lib/normalizeLaptop.mjs'); }"
+          },
+          {
+            "line": 8,
+            "match": "/normalizeLaptop\\b/",
+            "text": "catch(e){ _mod = await import('../../ai_pod/lib/normalizeLaptop.js'); }"
+          }
+        ]
+      },
+      {
+        "file": "scripts/refactor/apply-plan.mjs",
+        "hits": [
+          {
+            "line": 28,
+            "match": "/normalizeLaptop\\b/",
+            "text": "  const src = `// homepage adapter — central import surface\\nexport { normalizeLaptop, normalizeMany } from \"../ai_pod/lib/normalizeLaptop.js\";\\nexport * from \"../ai_pod/lib/normalizeLaptop.js\";\\n`;"
+          }
+        ]
+      },
+      {
+        "file": "src/data/fallbackLaptops.js",
+        "hits": [
+          {
+            "line": 5,
+            "match": "/normalizeLaptop\\b/",
+            "text": "import normalizeLaptop from '../../ai_pod/data/normalizeLaptop.js';"
+          },
+          {
+            "line": 21,
+            "match": "/data\\/fallbackLaptops\\.json\\b/",
+            "text": "  tokens = r.ok ? await r.json() : { fallback_path: '/data/fallbackLaptops.json', top35_cache: '/ai_pod/data/laptops/top35.cache.json', front_end_limit: 35, ttl_hours: DEFAULT_TTL_HOURS };"
+          },
+          {
+            "line": 46,
+            "match": "/normalizeLaptop\\b/",
+            "text": "  const base = normalizeLaptop(raw) || normalizeLaptop(entry);"
+          },
+          {
+            "line": 86,
+            "match": "/data\\/fallbackLaptops\\.json\\b/",
+            "text": "    const fallbackUrl = t.fallback_path || '/data/fallbackLaptops.json';"
+          },
+          {
+            "line": 143,
+            "match": "/data\\/fallbackLaptops\\.json\\b/",
+            "text": "    const res2 = await fetchJson(t.fallback_path || '/data/fallbackLaptops.json', { signal: c.signal });"
+          }
+        ]
+      },
+      {
+        "file": "src/scripts/api.js",
+        "hits": [
+          {
+            "line": 3,
+            "match": "/normalizeLaptop\\b/",
+            "text": "import { normalizeLaptop } from '../../ai_pod/data/normalizeLaptop.js';"
+          },
+          {
+            "line": 18,
+            "match": "/normalizeLaptop\\b/",
+            "text": "    .map(entry => normalizeLaptop(entry, { defaultImage: DEFAULT_IMG }))"
+          },
+          {
+            "line": 41,
+            "match": "/data\\/laptops\\.json\\b/",
+            "text": "    fetchJson('/data/laptops.json', 'laptops.json'),"
+          },
+          {
+            "line": 42,
+            "match": "/data\\/fallbackLaptops\\.json\\b/",
+            "text": "    fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),"
+          },
+          {
+            "line": 43,
+            "match": "/laptops\\.schema\\.json\\b/",
+            "text": "    fetchJson('/data/laptops.schema.json', 'laptops.schema.json')"
+          }
+        ]
+      }
+    ],
+    "proto_refs": [],
+    "adapter_users": [
+      "ai_pod/mobile/bridge/index.js",
+      "app/homepage-wiring.ts",
+      "app/index.v15.2.html",
+      "dist/ai_pod/mobile/bridge/index.js",
+      "dist/app/index.v15.2.html",
+      "dist/index.html",
+      "public/index.html",
+      "scripts/analyze/homepage-wiring.mjs",
+      "scripts/homepage_repair.mjs",
+      "scripts/refactor/fix-homepage-adapter.mjs",
+      "src/lib/ai/index.js",
+      "tests/e2e/playwright/homepage.smoke.spec.ts"
+    ],
+    "adapter_missing": [],
+    "imports": [
+      {
+        "file": "ai_pod/mobile/bridge/index.js",
+        "imports": [
+          "app/homepage-wiring"
+        ]
+      },
+      {
+        "file": "ai_pod/scripts/inject_sri.js",
+        "imports": [
+          "fs",
+          "path"
+        ]
+      },
+      {
+        "file": "ai_pod/tests/check_assets_licenses.js",
+        "imports": [
+          "fs",
+          "path"
+        ]
+      },
+      {
+        "file": "ai_pod/tests/laptops.spec.mjs",
+        "imports": [
+          "node:assert",
+          "node:fs/promises",
+          "node:path",
+          "node:url"
+        ]
+      },
+      {
+        "file": "ai_pod/tests/mobile_check.js",
+        "imports": [
+          "fs",
+          "path"
+        ]
+      },
+      {
+        "file": "app/homepage-wiring.ts",
+        "imports": [
+          "app/homepage-wiring"
+        ]
+      },
+      {
+        "file": "app/index.v15.2.html",
+        "imports": [
+          "app/homepage-wiring"
+        ]
+      },
+      {
+        "file": "app/js/ai-pod-loader.js",
+        "imports": [
+          "./aipod/intel-cards.js",
+          "./aipod/tools-wire.js"
+        ]
+      },
+      {
+        "file": "app/js/aipod/intel-cards.js",
+        "imports": [
+          "./runtime-lite.js"
+        ]
+      },
+      {
+        "file": "app/js/aipod/tools-wire.js",
+        "imports": [
+          "./runtime-lite.js"
+        ]
+      },
+      {
+        "file": "data/Laptop Catelogue/scripts/validate/validator.js",
+        "imports": [
+          "fs",
+          "path"
+        ]
+      },
+      {
+        "file": "dist/ai_pod/mobile/bridge/index.js",
+        "imports": [
+          "app/homepage-wiring"
+        ]
+      },
+      {
+        "file": "dist/app/index.v15.2.html",
+        "imports": [
+          "app/homepage-wiring"
+        ]
+      },
+      {
+        "file": "dist/data/Laptop Catelogue/scripts/validate/validator.js",
+        "imports": [
+          "fs",
+          "path"
+        ]
+      },
+      {
+        "file": "dist/index.html",
+        "imports": [
+          "app/homepage-wiring"
+        ]
+      },
+      {
+        "file": "dist/js/ai-pod-loader.js",
+        "imports": [
+          "./aipod/intel-cards.js",
+          "./aipod/tools-wire.js"
+        ]
+      },
+      {
+        "file": "dist/js/aipod/intel-cards.js",
+        "imports": [
+          "./runtime-lite.js"
+        ]
+      },
+      {
+        "file": "dist/js/aipod/tools-wire.js",
+        "imports": [
+          "./runtime-lite.js"
+        ]
+      },
+      {
+        "file": "playwright.config.ts",
+        "imports": [
+          "@playwright/test"
+        ]
+      },
+      {
+        "file": "public/index.html",
+        "imports": [
+          "app/homepage-wiring"
+        ]
+      },
+      {
+        "file": "scripts/analyze/homepage-wiring.mjs",
+        "imports": [
+          "node:fs",
+          "node:fs/promises",
+          "node:path",
+          "app/homepage-wiring"
+        ]
+      },
+      {
+        "file": "scripts/auto-debug/health.mjs",
+        "imports": [
+          "node:fs",
+          "node:fs/promises",
+          "node:path"
+        ]
+      },
+      {
+        "file": "scripts/build.js",
+        "imports": [
+          "fs",
+          "path"
+        ]
+      },
+      {
+        "file": "scripts/data_ttl_sweeper.mjs",
+        "imports": [
+          "node:fs/promises",
+          "node:path",
+          "yaml"
+        ]
+      },
+      {
+        "file": "scripts/homepage_repair.mjs",
+        "imports": [
+          "app/homepage-wiring"
+        ]
+      },
+      {
+        "file": "scripts/link_check.mjs",
+        "imports": [
+          "node:fs",
+          "node:path"
+        ]
+      },
+      {
+        "file": "scripts/local/analyze-step-0.mjs",
+        "imports": [
+          "node:fs",
+          "node:fs/promises",
+          "node:path",
+          "node:crypto"
+        ]
+      },
+      {
+        "file": "scripts/local/analyze-step-1.mjs",
+        "imports": [
+          "node:fs",
+          "node:fs/promises",
+          "node:path"
+        ]
+      },
+      {
+        "file": "scripts/local/enrich-datasets.mjs",
+        "imports": [
+          "node:fs",
+          "node:fs/promises",
+          "node:path"
+        ]
+      },
+      {
+        "file": "scripts/local/extend-schema.mjs",
+        "imports": [
+          "node:fs",
+          "node:fs/promises",
+          "node:path"
+        ]
+      },
+      {
+        "file": "scripts/local/step0-remediate.mjs",
+        "imports": [
+          "node:fs",
+          "node:fs/promises",
+          "node:path"
+        ]
+      },
+      {
+        "file": "scripts/merge/merge-laptops.mjs",
+        "imports": [
+          "node:fs",
+          "node:fs/promises",
+          "node:path"
+        ]
+      },
+      {
+        "file": "scripts/migrate_to_target_tree.mjs",
+        "imports": [
+          "node:fs/promises",
+          "node:path"
+        ]
+      },
+      {
+        "file": "scripts/prompt_lint.mjs",
+        "imports": [
+          "node:fs",
+          "node:path"
+        ]
+      },
+      {
+        "file": "scripts/refactor/apply-plan.mjs",
+        "imports": [
+          "node:fs",
+          "node:fs/promises",
+          "node:path",
+          "../ai_pod/lib/normalizeLaptop.js"
+        ]
+      },
+      {
+        "file": "scripts/refactor/fix-homepage-adapter.mjs",
+        "imports": [
+          "app/homepage-wiring",
+          "node:fs",
+          "node:fs/promises",
+          "node:path"
+        ]
+      },
+      {
+        "file": "scripts/refactor/plan-wiring-and-dedup.mjs",
+        "imports": [
+          "node:fs",
+          "node:fs/promises",
+          "node:path"
+        ]
+      },
+      {
+        "file": "scripts/rollback.mjs",
+        "imports": [
+          "node:child_process"
+        ]
+      },
+      {
+        "file": "scripts/run-lint.js",
+        "imports": [
+          "child_process",
+          "fs",
+          "path"
+        ]
+      },
+      {
+        "file": "scripts/schema_validate.mjs",
+        "imports": [
+          "node:fs/promises",
+          "node:module",
+          "ajv/dist/2020",
+          "ajv-formats",
+          "yaml"
+        ]
+      },
+      {
+        "file": "scripts/secrets_scan.mjs",
+        "imports": [
+          "node:child_process",
+          "node:fs"
+        ]
+      },
+      {
+        "file": "scripts/serve.js",
+        "imports": [
+          "http",
+          "fs",
+          "path"
+        ]
+      },
+      {
+        "file": "scripts/update-laptops.mjs",
+        "imports": [
+          "node:fs",
+          "node:path"
+        ]
+      },
+      {
+        "file": "scripts/validate/policy-validate.mjs",
+        "imports": [
+          "node:fs",
+          "node:fs/promises",
+          "node:path",
+          "node:crypto"
+        ]
+      },
+      {
+        "file": "scripts/validate/validator.js",
+        "imports": [
+          "node:child_process",
+          "node:path"
+        ]
+      },
+      {
+        "file": "src/data/fallbackLaptops.js",
+        "imports": [
+          "../../ai_pod/data/normalizeLaptop.js"
+        ]
+      },
+      {
+        "file": "src/features/analytics/hooks/trackingHooks.ts",
+        "imports": [
+          "react",
+          "react-router-dom",
+          "../services/analytics"
+        ]
+      },
+      {
+        "file": "src/features/analytics/services/analytics.ts",
+        "imports": [
+          "react",
+          "react-ga4"
+        ]
+      },
+      {
+        "file": "src/features/analytics/services/analytics.tsx",
+        "imports": [
+          "react",
+          "react-ga4"
+        ]
+      },
+      {
+        "file": "src/features/analytics/utils/ErrorBoundary.tsx",
+        "imports": [
+          "react"
+        ]
+      },
+      {
+        "file": "src/features/analytics/utils/trackingHOCs.tsx",
+        "imports": [
+          "react",
+          "./ErrorBoundary",
+          "../services/analytics"
+        ]
+      },
+      {
+        "file": "src/features/cameras/domain/cameraDomainService.ts",
+        "imports": [
+          "@features/shared/domain/types"
+        ]
+      },
+      {
+        "file": "src/features/cameras/infrastructure/cameraRepository.ts",
+        "imports": [
+          "@features/shared/domain/types"
+        ]
+      },
+      {
+        "file": "src/features/cameras/infrastructure/cameraStore.ts",
+        "imports": [
+          "zustand",
+          "@features/shared/domain/types",
+          "../domain/cameraDomainService",
+          "./cameraRepository"
+        ]
+      },
+      {
+        "file": "src/features/laptops/components/LaptopCard.tsx",
+        "imports": [
+          "@mui/material",
+          "react-lazy-load-image-component",
+          "@features/shared/domain/types"
+        ]
+      },
+      {
+        "file": "src/features/laptops/components/LaptopFilters.tsx",
+        "imports": [
+          "@mui/material",
+          "@mui/system",
+          "react"
+        ]
+      },
+      {
+        "file": "src/features/laptops/components/LaptopsInfiniteScroll.tsx",
+        "imports": [
+          "@mui/material",
+          "../../../shared/components/Grid",
+          "react",
+          "react-intersection-observer",
+          "../services/laptopsHooks",
+          "./LaptopCard"
+        ]
+      },
+      {
+        "file": "src/features/laptops/components/LaptopsView.tsx",
+        "imports": [
+          "@mui/material",
+          "react",
+          "./LaptopFilters",
+          "./LaptopsInfiniteScroll",
+          "../utils/filterHooks",
+          "../services/laptopsHooks"
+        ]
+      },
+      {
+        "file": "src/features/laptops/domain/laptopDomainService.ts",
+        "imports": [
+          "@features/shared/domain/types"
+        ]
+      },
+      {
+        "file": "src/features/laptops/domain/laptopsState.ts",
+        "imports": [
+          "../../../error-handling"
+        ]
+      },
+      {
+        "file": "src/features/laptops/infrastructure/laptopRepository.ts",
+        "imports": [
+          "@features/shared/domain/types"
+        ]
+      },
+      {
+        "file": "src/features/laptops/infrastructure/laptopStore.ts",
+        "imports": [
+          "zustand",
+          "@features/shared/domain/types",
+          "../domain/laptopDomainService",
+          "./laptopRepository"
+        ]
+      },
+      {
+        "file": "src/features/laptops/services/laptopsApi.ts",
+        "imports": [
+          "../types/laptops"
+        ]
+      },
+      {
+        "file": "src/features/laptops/services/laptopsHooks.ts",
+        "imports": [
+          "@tanstack/react-query",
+          "../../shared/services/queryClient",
+          "./laptopsApi",
+          "../types/laptops"
+        ]
+      },
+      {
+        "file": "src/features/laptops/utils/filterHooks.ts",
+        "imports": [
+          "react",
+          "../components/LaptopFilters",
+          "../types/laptops"
+        ]
+      },
+      {
+        "file": "src/features/shared/components/CustomButton.tsx",
+        "imports": [
+          "@mui/material",
+          "react"
+        ]
+      },
+      {
+        "file": "src/features/shared/components/CustomGrid.tsx",
+        "imports": [
+          "@mui/material",
+          "react",
+          "@mui/material/styles",
+          "@mui/material"
+        ]
+      },
+      {
+        "file": "src/features/shared/components/Grid.tsx",
+        "imports": [
+          "react",
+          "@mui/material"
+        ]
+      },
+      {
+        "file": "src/features/shared/components/QueryProvider.tsx",
+        "imports": [
+          "@tanstack/react-query",
+          "@tanstack/react-query-devtools",
+          "../services/queryClient"
+        ]
+      },
+      {
+        "file": "src/features/shared/components/StyledGrid.tsx",
+        "imports": [
+          "@mui/material/styles",
+          "@mui/material"
+        ]
+      },
+      {
+        "file": "src/features/shared/services/queryClient.ts",
+        "imports": [
+          "@tanstack/react-query",
+          "@tanstack/react-query-persist-client",
+          "@tanstack/query-sync-storage-persister"
+        ]
+      },
+      {
+        "file": "src/features/shared/theme/ThemeProvider.tsx",
+        "imports": [
+          "@mui/material/styles",
+          "@mui/material"
+        ]
+      },
+      {
+        "file": "src/features/smartphones/domain/__tests__/smartphoneDomainService.test.ts",
+        "imports": [
+          "../domain/smartphoneDomainService",
+          "@features/shared/domain/types"
+        ]
+      },
+      {
+        "file": "src/features/smartphones/infrastructure/smartphoneRepository.ts",
+        "imports": [
+          "@features/shared/domain/types"
+        ]
+      },
+      {
+        "file": "src/features/smartphones/infrastructure/smartphoneStore.ts",
+        "imports": [
+          "zustand",
+          "@features/shared/domain/types",
+          "../domain/smartphoneDomainService",
+          "./smartphoneRepository"
+        ]
+      },
+      {
+        "file": "src/features/smartphones/presentation/components/SmartphoneComparison.tsx",
+        "imports": [
+          "react",
+          "../../infrastructure/smartphoneStore",
+          "../../domain/smartphoneDomainService",
+          "react-i18next",
+          "../../../shared/components/Grid"
+        ]
+      },
+      {
+        "file": "src/features/smartphones/presentation/components/SmartphoneDetail.tsx",
+        "imports": [
+          "react",
+          "../../infrastructure/smartphoneStore",
+          "react-i18next",
+          "react-router-dom",
+          "../../../shared/components/Grid",
+          "react-lazy-load-image-component"
+        ]
+      },
+      {
+        "file": "src/features/smartphones/presentation/components/SmartphoneFilters.tsx",
+        "imports": [
+          "react",
+          "../../infrastructure/smartphoneStore",
+          "react-i18next",
+          "../../../shared/components/CustomGrid",
+          "@features/shared/domain/types"
+        ]
+      },
+      {
+        "file": "src/features/smartphones/presentation/components/SmartphoneList.tsx",
+        "imports": [
+          "react",
+          "../../infrastructure/smartphoneStore",
+          "react-i18next",
+          "@mui/material",
+          "../../../shared/components/CustomGrid",
+          "react-lazy-load-image-component",
+          "react-router-dom"
+        ]
+      },
+      {
+        "file": "src/features/smartphones/presentation/services/smartphoneUIService.ts",
+        "imports": [
+          "../domain/smartphoneDomainService",
+          "../infrastructure/smartphoneRepository",
+          "react-i18next"
+        ]
+      },
+      {
+        "file": "src/lib/ai/index.js",
+        "imports": [
+          "app/homepage-wiring"
+        ]
+      },
+      {
+        "file": "src/scripts/api.js",
+        "imports": [
+          "./state.js",
+          "./prompts.js",
+          "../../ai_pod/data/normalizeLaptop.js"
+        ]
+      },
+      {
+        "file": "src/scripts/app.js",
+        "imports": [
+          "./state.js",
+          "./ui.js",
+          "./filters.js",
+          "./api.js",
+          "./events.js"
+        ]
+      },
+      {
+        "file": "src/scripts/events.js",
+        "imports": [
+          "./state.js"
+        ]
+      },
+      {
+        "file": "src/scripts/filters.js",
+        "imports": [
+          "./state.js"
+        ]
+      },
+      {
+        "file": "src/scripts/state.js",
+        "imports": [
+          "../data/fallbackLaptops.js"
+        ]
+      },
+      {
+        "file": "src/scripts/ui.js",
+        "imports": [
+          "./state.js"
+        ]
+      },
+      {
+        "file": "src/types/global.d.ts",
+        "imports": [
+          "react"
+        ]
+      },
+      {
+        "file": "src/types/mui.d.ts",
+        "imports": [
+          "@mui/material"
+        ]
+      },
+      {
+        "file": "tests/a11y/axe.smoke.mjs",
+        "imports": [
+          "node:http",
+          "node:fs/promises",
+          "puppeteer",
+          "@axe-core/puppeteer"
+        ]
+      },
+      {
+        "file": "tests/deck/telemetry-harvest.mjs",
+        "imports": [
+          "node:http",
+          "node:fs/promises",
+          "puppeteer"
+        ]
+      },
+      {
+        "file": "tests/e2e/playwright/homepage.smoke.spec.ts",
+        "imports": [
+          "app/homepage-wiring",
+          "@playwright/test",
+          "http",
+          "fs",
+          "path"
+        ]
+      },
+      {
+        "file": "tests/e2e/smoke.spec.mjs",
+        "imports": [
+          "node:http",
+          "node:fs/promises",
+          "puppeteer"
+        ]
+      },
+      {
+        "file": "tests/perf/run-lh.mjs",
+        "imports": [
+          "node:child_process",
+          "node:fs"
+        ]
+      },
+      {
+        "file": "__tests__/laptopsState.test.ts",
+        "imports": [
+          "../src/error-handling"
+        ]
+      }
+    ]
+  }
+}

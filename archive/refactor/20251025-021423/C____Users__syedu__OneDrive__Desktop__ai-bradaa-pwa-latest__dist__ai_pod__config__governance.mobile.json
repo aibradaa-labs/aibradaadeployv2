@@ -1,0 +1,5 @@
+{
+  "telemetry": { "non_pii": true, "ttl_days": 14, "rotate_mb": 10 },
+  "ai": { "primary": "gemini-1.5-pro", "fallback": "gemini-1.5-flash" },
+  "deeplinks": { "routes": ["matchmaker", "versus", "explore"] }
+}

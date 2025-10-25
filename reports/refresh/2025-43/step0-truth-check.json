@@ -1,0 +1,1726 @@
+{
+  "determinism": {
+    "hash_main": "ea476d0fae660f92166fba3f59dc0fac64b3d99eddb9f6b70b9ef1a988857ce4",
+    "hash_fallback": "68ce651b21a86ced5112a4f86d2ce5cb75eb345c53f10372ed76359f8867acbc"
+  },
+  "mismatches": [],
+  "gates": {
+    "price_band": {
+      "inBand": 64,
+      "outBand": 0
+    },
+    "sentinel": {
+      "present": true,
+      "rank": 11
+    },
+    "lifecycle": {
+      "violations": [],
+      "missingModelYear": []
+    }
+  },
+  "links": {
+    "total": 700,
+    "unique": 106,
+    "dupes": [
+      {
+        "url": "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+        "occurrences": 100
+      },
+      {
+        "url": "https://www.rtings.com/laptop",
+        "occurrences": 100
+      },
+      {
+        "url": "https://www.notebookcheck.net/these-are-the-best-laptops-to-buy-in-summer-2025-78-notebooks-thoroughly-tested.1054483.0.html",
+        "occurrences": 100
+      },
+      {
+        "url": "https://www.tomshardware.com/laptops/macbooks/macbook-air-m4-2025-review",
+        "occurrences": 100
+      },
+      {
+        "url": "https://www.laptopmag.com/reviews/best-laptops-1",
+        "occurrences": 100
+      },
+      {
+        "url": "https://www.ultrabookreview.com/251-best-ultrabooks/",
+        "occurrences": 100
+      }
+    ],
+    "https_pct": 100,
+    "probe_sample_total": 15,
+    "probe_ok200": 13,
+    "probe_results": [
+      {
+        "origin": "https://cnet.com",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://www.techradar.com",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://www.rtings.com",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://www.notebookcheck.net",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://www.tomshardware.com",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://www.laptopmag.com",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://www.ultrabookreview.com",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://wired.com",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://theatlantic.com",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://quora.com",
+        "status": 403,
+        "ok": false
+      },
+      {
+        "origin": "https://businessinsider.com",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://engadget.com",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://tomsguide.com",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://theverge.com",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "origin": "https://pcmag.com",
+        "status": 403,
+        "ok": false
+      }
+    ]
+  },
+  "segments": {
+    "AI Feature": 64,
+    "Gaming": 20,
+    "Creator": 11,
+    "Portable": 22,
+    "Business": 36,
+    "Student": 36
+  },
+  "consumers": [
+    {
+      "file": "ai_pod/data/normalizeLaptop.js",
+      "line": 30,
+      "snippet": "export function normalizeLaptop(entry, options = {}) {"
+    },
+    {
+      "file": "ai_pod/data/normalizeLaptop.js",
+      "line": 100,
+      "snippet": "export default normalizeLaptop;"
+    },
+    {
+      "file": "ai_pod/data/normalizeLaptop.js",
+      "line": 104,
+      "snippet": "globalThis.AI_POD.normalizeLaptop = normalizeLaptop;"
+    },
+    {
+      "file": "ai_pod/data/normalizeLaptop.js",
+      "line": 106,
+      "snippet": "globalThis.AI_POD_DATA.normalizeLaptop = normalizeLaptop;"
+    },
+    {
+      "file": "ai_pod/lib/normalizeLaptop.js",
+      "line": 34,
+      "snippet": "export function normalizeLaptop(raw = {}) {"
+    },
+    {
+      "file": "ai_pod/lib/normalizeLaptop.js",
+      "line": 59,
+      "snippet": "upstream_schema_ref: raw.upstream_schema_ref ?? \"data/laptops.schema.json\","
+    },
+    {
+      "file": "ai_pod/lib/normalizeLaptop.js",
+      "line": 70,
+      "snippet": "return arr.map(normalizeLaptop);"
+    },
+    {
+      "file": "ai_pod/lib/normalizeLaptop.js",
+      "line": 73,
+      "snippet": "export default normalizeLaptop;"
+    },
+    {
+      "file": "ai_pod/lib/normalizeLaptop.mjs",
+      "line": 34,
+      "snippet": "export function normalizeLaptop(raw = {}) {"
+    },
+    {
+      "file": "ai_pod/lib/normalizeLaptop.mjs",
+      "line": 59,
+      "snippet": "upstream_schema_ref: raw.upstream_schema_ref ?? \"data/laptops.schema.json\","
+    },
+    {
+      "file": "ai_pod/lib/normalizeLaptop.mjs",
+      "line": 70,
+      "snippet": "return arr.map(normalizeLaptop);"
+    },
+    {
+      "file": "ai_pod/lib/normalizeLaptop.mjs",
+      "line": 73,
+      "snippet": "export default normalizeLaptop;"
+    },
+    {
+      "file": "ai_pod/tokens/laptops.tokens.json",
+      "line": 2,
+      "snippet": "\"fallback_path\": \"/data/fallbackLaptops.json\","
+    },
+    {
+      "file": "app/homepage-wiring.ts",
+      "line": 3,
+      "snippet": "export { normalizeLaptop, normalizeMany } from \"../ai_pod/lib/normalizeLaptop.js\";"
+    },
+    {
+      "file": "app/homepage-wiring.ts",
+      "line": 4,
+      "snippet": "export * from \"../ai_pod/lib/normalizeLaptop.js\";"
+    },
+    {
+      "file": "app/index.v15.2.html",
+      "line": 1710,
+      "snippet": "fetchJson('/data/laptops.json', 'laptops.json'),"
+    },
+    {
+      "file": "app/index.v15.2.html",
+      "line": 1711,
+      "snippet": "fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),"
+    },
+    {
+      "file": "app/index.v15.2.html",
+      "line": 1712,
+      "snippet": "fetchJson('/data/laptops.schema.json', 'laptops.schema.json')"
+    },
+    {
+      "file": "app/index.v15.2.html",
+      "line": 1719,
+      "snippet": ".map(item => API_MODULE.normalizeLaptop(item) ?? null)"
+    },
+    {
+      "file": "app/index.v15.2.html",
+      "line": 1780,
+      "snippet": "source: 'fallbackLaptops.json',"
+    },
+    {
+      "file": "app/index.v15.2.html",
+      "line": 1804,
+      "snippet": "const sourceLabel = useFallbackOnly ? 'fallbackLaptops.json' : 'laptops.json';"
+    },
+    {
+      "file": "archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1483,
+      "snippet": "normalizeLaptop(item) {"
+    },
+    {
+      "file": "archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1484,
+      "snippet": "const shared = window.AI_POD?.normalizeLaptop;"
+    },
+    {
+      "file": "archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1710,
+      "snippet": "fetchJson('/data/laptops.json', 'laptops.json'),"
+    },
+    {
+      "file": "archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1711,
+      "snippet": "fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),"
+    },
+    {
+      "file": "archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1712,
+      "snippet": "fetchJson('/data/laptops.schema.json', 'laptops.schema.json')"
+    },
+    {
+      "file": "archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1719,
+      "snippet": ".map(item => API_MODULE.normalizeLaptop(item) ?? null)"
+    },
+    {
+      "file": "archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1780,
+      "snippet": "source: 'fallbackLaptops.json',"
+    },
+    {
+      "file": "archive/qa-fixes/20251025-114210/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1804,
+      "snippet": "const sourceLabel = useFallbackOnly ? 'fallbackLaptops.json' : 'laptops.json';"
+    },
+    {
+      "file": "archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__ai_pod__tokens__laptops.tokens.json",
+      "line": 2,
+      "snippet": "\"fallback_path\": \"/data/fallbackLaptops.json\","
+    },
+    {
+      "file": "archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__index.v15.2.html",
+      "line": 1490,
+      "snippet": "normalizeLaptop(item) {"
+    },
+    {
+      "file": "archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__index.v15.2.html",
+      "line": 1780,
+      "snippet": "fetchJson('/data/laptops.json', 'laptops.json'),"
+    },
+    {
+      "file": "archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__index.v15.2.html",
+      "line": 1781,
+      "snippet": "fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),"
+    },
+    {
+      "file": "archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__index.v15.2.html",
+      "line": 1782,
+      "snippet": "fetchJson('/data/laptops.schema.json', 'laptops.schema.json')"
+    },
+    {
+      "file": "archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__index.v15.2.html",
+      "line": 1788,
+      "snippet": "const normalizeList = (list) => (Array.isArray(list) ? list : []).map(API_MODULE.normalizeLaptop).filter(Boolean);"
+    },
+    {
+      "file": "archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__index.v15.2.html",
+      "line": 1847,
+      "snippet": "source: 'fallbackLaptops.json',"
+    },
+    {
+      "file": "archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__app__index.v15.2.html",
+      "line": 1871,
+      "snippet": "const sourceLabel = useFallbackOnly ? 'fallbackLaptops.json' : 'laptops.json';"
+    },
+    {
+      "file": "archive/refactor/20251025-021423/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__pwa__service-worker.js",
+      "line": 6,
+      "snippet": "'/data/laptops.json',"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__homepage-wiring.ts",
+      "line": 2,
+      "snippet": "export { normalizeLaptop, normalizeMany } from \"../ai_pod/lib/normalizeLaptop.js\";"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__homepage-wiring.ts",
+      "line": 3,
+      "snippet": "export * from \"../ai_pod/lib/normalizeLaptop.js\";"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1482,
+      "snippet": "normalizeLaptop(item) {"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1483,
+      "snippet": "const shared = window.AI_POD?.normalizeLaptop;"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1709,
+      "snippet": "fetchJson('/data/laptops.json', 'laptops.json'),"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1710,
+      "snippet": "fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1711,
+      "snippet": "fetchJson('/data/laptops.schema.json', 'laptops.schema.json')"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1718,
+      "snippet": ".map(item => API_MODULE.normalizeLaptop(item) ?? null)"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1779,
+      "snippet": "source: 'fallbackLaptops.json',"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__app__index.v15.2.html",
+      "line": 1803,
+      "snippet": "const sourceLabel = useFallbackOnly ? 'fallbackLaptops.json' : 'laptops.json';"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__index.html",
+      "line": 1490,
+      "snippet": "normalizeLaptop(item) {"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__index.html",
+      "line": 1780,
+      "snippet": "fetchJson('/data/laptops.json', 'laptops.json'),"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__index.html",
+      "line": 1781,
+      "snippet": "fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__index.html",
+      "line": 1782,
+      "snippet": "fetchJson('/data/laptops.schema.json', 'laptops.schema.json')"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__index.html",
+      "line": 1788,
+      "snippet": "const normalizeList = (list) => (Array.isArray(list) ? list : []).map(API_MODULE.normalizeLaptop).filter(Boolean);"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__index.html",
+      "line": 1847,
+      "snippet": "source: 'fallbackLaptops.json',"
+    },
+    {
+      "file": "archive/refactor/20251025-024554-fix-homepage-adapter/C____Users__syedu__OneDrive__Desktop__ai-bradaa-pwa-latest__dist__index.html",
+      "line": 1871,
+      "snippet": "const sourceLabel = useFallbackOnly ? 'fallbackLaptops.json' : 'laptops.json';"
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 38,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 79,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 119,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 160,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 201,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 243,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 284,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 326,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 366,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 407,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 447,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 488,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 529,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 571,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 611,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 652,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 693,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 733,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 773,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 813,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 854,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 895,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 935,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 976,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 1017,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 1058,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 1098,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 1138,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 1179,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 1219,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 1259,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 1299,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 1340,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 1381,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 1421,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/fallbackLaptops.json",
+      "line": 1462,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 38,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 79,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 121,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 162,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 204,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 244,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 286,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 328,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 370,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 410,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 450,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 490,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 530,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 570,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 610,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 651,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 692,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 732,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 772,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 812,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 854,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 895,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 937,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 978,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1019,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1061,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1102,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1144,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1185,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1226,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1268,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1309,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1350,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1392,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1433,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1475,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1515,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1557,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1597,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1638,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1679,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1719,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1760,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1801,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1841,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1881,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1922,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 1964,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2006,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2046,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2088,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2130,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2172,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2212,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2252,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2294,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2335,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2376,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2417,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2457,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2498,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2538,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2578,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "data/laptops.json",
+      "line": 2618,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/ai_pod/data/normalizeLaptop.js",
+      "line": 30,
+      "snippet": "export function normalizeLaptop(entry, options = {}) {"
+    },
+    {
+      "file": "dist/ai_pod/data/normalizeLaptop.js",
+      "line": 100,
+      "snippet": "export default normalizeLaptop;"
+    },
+    {
+      "file": "dist/ai_pod/data/normalizeLaptop.js",
+      "line": 104,
+      "snippet": "globalThis.AI_POD.normalizeLaptop = normalizeLaptop;"
+    },
+    {
+      "file": "dist/ai_pod/data/normalizeLaptop.js",
+      "line": 106,
+      "snippet": "globalThis.AI_POD_DATA.normalizeLaptop = normalizeLaptop;"
+    },
+    {
+      "file": "dist/ai_pod/lib/normalizeLaptop.js",
+      "line": 34,
+      "snippet": "export function normalizeLaptop(raw = {}) {"
+    },
+    {
+      "file": "dist/ai_pod/lib/normalizeLaptop.js",
+      "line": 59,
+      "snippet": "upstream_schema_ref: raw.upstream_schema_ref ?? \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/ai_pod/lib/normalizeLaptop.js",
+      "line": 70,
+      "snippet": "return arr.map(normalizeLaptop);"
+    },
+    {
+      "file": "dist/ai_pod/lib/normalizeLaptop.js",
+      "line": 73,
+      "snippet": "export default normalizeLaptop;"
+    },
+    {
+      "file": "dist/ai_pod/lib/normalizeLaptop.mjs",
+      "line": 34,
+      "snippet": "export function normalizeLaptop(raw = {}) {"
+    },
+    {
+      "file": "dist/ai_pod/lib/normalizeLaptop.mjs",
+      "line": 59,
+      "snippet": "upstream_schema_ref: raw.upstream_schema_ref ?? \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/ai_pod/lib/normalizeLaptop.mjs",
+      "line": 70,
+      "snippet": "return arr.map(normalizeLaptop);"
+    },
+    {
+      "file": "dist/ai_pod/lib/normalizeLaptop.mjs",
+      "line": 73,
+      "snippet": "export default normalizeLaptop;"
+    },
+    {
+      "file": "dist/ai_pod/tokens/laptops.tokens.json",
+      "line": 2,
+      "snippet": "\"fallback_path\": \"/data/fallbackLaptops.json\","
+    },
+    {
+      "file": "dist/app/homepage-wiring.ts",
+      "line": 3,
+      "snippet": "export { normalizeLaptop, normalizeMany } from \"../ai_pod/lib/normalizeLaptop.js\";"
+    },
+    {
+      "file": "dist/app/homepage-wiring.ts",
+      "line": 4,
+      "snippet": "export * from \"../ai_pod/lib/normalizeLaptop.js\";"
+    },
+    {
+      "file": "dist/app/index.v15.2.html",
+      "line": 1710,
+      "snippet": "fetchJson('/data/laptops.json', 'laptops.json'),"
+    },
+    {
+      "file": "dist/app/index.v15.2.html",
+      "line": 1711,
+      "snippet": "fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),"
+    },
+    {
+      "file": "dist/app/index.v15.2.html",
+      "line": 1712,
+      "snippet": "fetchJson('/data/laptops.schema.json', 'laptops.schema.json')"
+    },
+    {
+      "file": "dist/app/index.v15.2.html",
+      "line": 1719,
+      "snippet": ".map(item => API_MODULE.normalizeLaptop(item) ?? null)"
+    },
+    {
+      "file": "dist/app/index.v15.2.html",
+      "line": 1780,
+      "snippet": "source: 'fallbackLaptops.json',"
+    },
+    {
+      "file": "dist/app/index.v15.2.html",
+      "line": 1804,
+      "snippet": "const sourceLabel = useFallbackOnly ? 'fallbackLaptops.json' : 'laptops.json';"
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 38,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 79,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 119,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 160,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 201,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 243,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 284,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 326,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 366,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 407,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 447,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 488,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 529,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 571,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 611,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 652,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 693,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 733,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 773,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 813,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 854,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 895,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 935,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 976,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 1017,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 1058,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 1098,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 1138,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 1179,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 1219,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 1259,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 1299,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 1340,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 1381,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 1421,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/fallbackLaptops.json",
+      "line": 1462,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 38,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 79,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 121,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 162,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 204,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 244,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 286,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 328,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 370,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 410,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 450,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 490,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 530,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 570,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 610,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 651,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 692,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 732,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 772,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 812,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 854,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 895,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 937,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 978,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1019,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1061,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1102,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1144,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1185,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1226,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1268,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1309,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1350,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1392,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1433,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1475,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1515,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1557,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1597,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1638,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1679,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1719,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1760,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1801,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1841,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1881,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1922,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 1964,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2006,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2046,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2088,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2130,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2172,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2212,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2252,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2294,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2335,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2376,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2417,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2457,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2498,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2538,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2578,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/data/laptops.json",
+      "line": 2618,
+      "snippet": "\"upstream_schema_ref\": \"data/laptops.schema.json\","
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1710,
+      "snippet": "fetchJson('/data/laptops.json', 'laptops.json'),"
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1711,
+      "snippet": "fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),"
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1712,
+      "snippet": "fetchJson('/data/laptops.schema.json', 'laptops.schema.json')"
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1719,
+      "snippet": ".map(item => API_MODULE.normalizeLaptop(item) ?? null)"
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1780,
+      "snippet": "source: 'fallbackLaptops.json',"
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1804,
+      "snippet": "const sourceLabel = useFallbackOnly ? 'fallbackLaptops.json' : 'laptops.json';"
+    },
+    {
+      "file": "dist/pwa/service-worker.js",
+      "line": 6,
+      "snippet": "'/data/laptops.json',"
+    },
+    {
+      "file": "pwa/service-worker.js",
+      "line": 6,
+      "snippet": "'/data/laptops.json',"
+    },
+    {
+      "file": "scripts/analyze/homepage-wiring.mjs",
+      "line": 13,
+      "snippet": "const LAPTOP_HINTS = [/data\\/laptops\\.json\\b/, /data\\/fallbackLaptops\\.json\\b/, /laptops\\.schema\\.json\\b/, /normalizeLaptop\\b/];"
+    },
+    {
+      "file": "scripts/analyze/homepage-wiring.mjs",
+      "line": 99,
+      "snippet": "## DATA CONSUMERS (laptops/fallback/schema/normalizeLaptop)"
+    },
+    {
+      "file": "scripts/local/analyze-step-0.mjs",
+      "line": 23,
+      "snippet": "if(/data\\/laptops\\.json|data\\/fallbackLaptops\\.json|data\\/laptops\\.schema\\.json|normalizeLaptop/.test(txt)){"
+    },
+    {
+      "file": "scripts/local/analyze-step-0.mjs",
+      "line": 25,
+      "snippet": "lines.forEach((ln,i)=>{ if(ln.includes(\"laptops.json\")||ln.includes(\"fallbackLaptops.json\")||ln.includes(\"laptops.schema.json\")||ln.includes(\"normalizeLaptop\"))"
+    },
+    {
+      "file": "scripts/local/analyze-step-0.mjs",
+      "line": 80,
+      "snippet": "const lp = await findFile([path.join(ROOT,\"data\",\"laptops.json\")]);"
+    },
+    {
+      "file": "scripts/local/analyze-step-0.mjs",
+      "line": 81,
+      "snippet": "const fb = await findFile([path.join(ROOT,\"data\",\"fallbackLaptops.json\")]);"
+    },
+    {
+      "file": "scripts/local/analyze-step-0.mjs",
+      "line": 82,
+      "snippet": "const sp = await findFile([path.join(ROOT,\"data\",\"laptops.schema.json\")]);"
+    },
+    {
+      "file": "scripts/local/analyze-step-0.mjs",
+      "line": 83,
+      "snippet": "const np = await findFile([path.join(ROOT,\"ai_pod\",\"lib\",\"normalizeLaptop.js\"), path.join(ROOT,\"ai_pod\",\"data\",\"normalizeLaptop.js\"), path.join(ROOT,\"ai_pod\",\"n"
+    },
+    {
+      "file": "scripts/local/analyze-step-1.mjs",
+      "line": 58,
+      "snippet": "if (!/fetchMarketIntel|normalizeLaptop|laptops\\.json/.test(txt)) homeGaps.push(rel(file));"
+    },
+    {
+      "file": "scripts/local/enrich-datasets.mjs",
+      "line": 7,
+      "snippet": "const DATA_MAIN = path.join(ROOT, \"data\", \"laptops.json\");"
+    },
+    {
+      "file": "scripts/local/enrich-datasets.mjs",
+      "line": 8,
+      "snippet": "const DATA_FB = path.join(ROOT, \"data\", \"fallbackLaptops.json\");"
+    },
+    {
+      "file": "scripts/local/enrich-datasets.mjs",
+      "line": 17,
+      "snippet": "e.upstream_schema_ref ||= \"data/laptops.schema.json\";"
+    },
+    {
+      "file": "scripts/local/extend-schema.mjs",
+      "line": 7,
+      "snippet": "const SCHEMA = path.join(ROOT, \"data\", \"laptops.schema.json\");"
+    },
+    {
+      "file": "scripts/local/extend-schema.mjs",
+      "line": 14,
+      "snippet": "if (!fs.existsSync(SCHEMA)) throw new Error(\"data/laptops.schema.json not found\");"
+    },
+    {
+      "file": "scripts/local/extend-schema.mjs",
+      "line": 17,
+      "snippet": "await fsp.writeFile(path.join(BAKDIR, \"laptops.schema.json.bak\"), raw, \"utf8\");"
+    },
+    {
+      "file": "scripts/merge/merge-laptops.mjs",
+      "line": 7,
+      "snippet": "try { _mod = await import('../../ai_pod/lib/normalizeLaptop.mjs'); }"
+    },
+    {
+      "file": "scripts/merge/merge-laptops.mjs",
+      "line": 8,
+      "snippet": "catch(e){ _mod = await import('../../ai_pod/lib/normalizeLaptop.js'); }"
+    },
+    {
+      "file": "scripts/merge/merge-laptops.mjs",
+      "line": 13,
+      "snippet": "const IN_MAIN = path.join(ROOT,\"data\",\"laptops.json\");"
+    },
+    {
+      "file": "scripts/merge/merge-laptops.mjs",
+      "line": 14,
+      "snippet": "const IN_FB   = path.join(ROOT,\"data\",\"fallbackLaptops.json\");"
+    },
+    {
+      "file": "scripts/refactor/apply-plan.mjs",
+      "line": 28,
+      "snippet": "const src = `// homepage adapter — central import surface\\nexport { normalizeLaptop, normalizeMany } from \"../ai_pod/lib/normalizeLaptop.js\";\\nexport * from \".."
+    },
+    {
+      "file": "src/data/fallbackLaptops.js",
+      "line": 5,
+      "snippet": "import normalizeLaptop from '../../ai_pod/data/normalizeLaptop.js';"
+    },
+    {
+      "file": "src/data/fallbackLaptops.js",
+      "line": 21,
+      "snippet": "tokens = r.ok ? await r.json() : { fallback_path: '/data/fallbackLaptops.json', top35_cache: '/ai_pod/data/laptops/top35.cache.json', front_end_limit: 35, ttl_h"
+    },
+    {
+      "file": "src/data/fallbackLaptops.js",
+      "line": 46,
+      "snippet": "const base = normalizeLaptop(raw) || normalizeLaptop(entry);"
+    },
+    {
+      "file": "src/data/fallbackLaptops.js",
+      "line": 85,
+      "snippet": "// Fallback to raw fallbackLaptops.json"
+    },
+    {
+      "file": "src/data/fallbackLaptops.js",
+      "line": 86,
+      "snippet": "const fallbackUrl = t.fallback_path || '/data/fallbackLaptops.json';"
+    },
+    {
+      "file": "src/data/fallbackLaptops.js",
+      "line": 133,
+      "snippet": "const url = '/ai_pod/data/laptops/fallback.laptops.json';"
+    },
+    {
+      "file": "src/data/fallbackLaptops.js",
+      "line": 143,
+      "snippet": "const res2 = await fetchJson(t.fallback_path || '/data/fallbackLaptops.json', { signal: c.signal });"
+    },
+    {
+      "file": "src/scripts/api.js",
+      "line": 3,
+      "snippet": "import { normalizeLaptop } from '../../ai_pod/data/normalizeLaptop.js';"
+    },
+    {
+      "file": "src/scripts/api.js",
+      "line": 18,
+      "snippet": ".map(entry => normalizeLaptop(entry, { defaultImage: DEFAULT_IMG }))"
+    },
+    {
+      "file": "src/scripts/api.js",
+      "line": 41,
+      "snippet": "fetchJson('/data/laptops.json', 'laptops.json'),"
+    },
+    {
+      "file": "src/scripts/api.js",
+      "line": 42,
+      "snippet": "fetchJson('/data/fallbackLaptops.json', 'fallbackLaptops.json'),"
+    },
+    {
+      "file": "src/scripts/api.js",
+      "line": 43,
+      "snippet": "fetchJson('/data/laptops.schema.json', 'laptops.schema.json')"
+    },
+    {
+      "file": "src/scripts/api.js",
+      "line": 95,
+      "snippet": "const sourceLabel = useFallbackOnly ? 'fallbackLaptops.json' : 'laptops.json';"
+    }
+  ]
+}

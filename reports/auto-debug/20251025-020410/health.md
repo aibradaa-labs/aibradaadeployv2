@@ -1,0 +1,19 @@
+# auto-health (20251025-020410)
+sources:
+- orphans-and-dups: reports/audit/20251025-0030/orphans-and-dups.md
+- prototype-coupling: reports/audit/20251025-0030/prototype-coupling.md
+- step0-truth-check.json: reports/refresh/2025-43/step0-truth-check.json
+- policy-validate.json: reports/validate/20251025-013857/policy-validate.json
+
+## counts
+- orphans: 41
+- near_dups: 133
+- homepage_gaps: 5
+- prototype_coupling: 0
+- links_dupes: 106
+- https_pct: 100%
+- lifecycle_violations: 0
+- missing_model_year: 0
+- sentinel_rank: 11
+- composite: 100
+- pass: true

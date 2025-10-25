@@ -1,1 +1,6 @@
-class Validator{static checkLensCoverage(q,t,cfg){const m=cfg.lens_requirements||{};const req=m[t]||[];q=(q||'').toLowerCase();return req.filter(k=>!q.includes(k.toLowerCase()));}static validateComposite(r){return typeof r?.composite==='number' && Array.isArray(r?.details);}};module.exports=Validator;
+/**
+ * @deprecated Use canonical: ai_pod/validator.js
+ * This file remains for backward-compat. Re-exports delegate to canonical module.
+ */
+export * from "../../../ai_pod/validator.js";
+export { default } from "../../../ai_pod/validator.js";

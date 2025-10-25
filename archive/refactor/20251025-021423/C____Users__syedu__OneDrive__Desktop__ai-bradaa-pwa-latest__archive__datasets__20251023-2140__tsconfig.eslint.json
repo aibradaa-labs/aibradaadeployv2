@@ -1,0 +1,9 @@
+﻿{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*",
+    "app/**/*",
+    "ai_pod/**/*",
+    "__tests__/**/*"
+  ]
+}

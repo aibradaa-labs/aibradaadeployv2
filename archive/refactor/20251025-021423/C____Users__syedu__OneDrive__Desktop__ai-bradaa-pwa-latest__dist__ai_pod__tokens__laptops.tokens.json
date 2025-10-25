@@ -1,0 +1,6 @@
+{
+  "fallback_path": "/data/fallbackLaptops.json",
+  "top35_cache": "/ai_pod/data/laptops/top35.cache.json",
+  "front_end_limit": 35,
+  "ttl_hours": 72
+}

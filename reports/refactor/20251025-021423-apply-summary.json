@@ -1,0 +1,667 @@
+{
+  "proxies": [
+    "archive/datasets/20251023-2140/.eslintrc.cjs",
+    "dist/ai/deck/replyDeck.js",
+    "dist/ai/deck/replyModalDeck.js",
+    "dist/ai/providers/adapter_spec.md",
+    "dist/ai_pod/adapters/aiClient.js",
+    "dist/ai_pod/config/governance.mobile.json",
+    "dist/ai_pod/data/intel/tech_signals.json",
+    "dist/ai_pod/data/laptops/explorer.top10.gaming.json",
+    "dist/ai_pod/data/laptops/top35.cache.json",
+    "dist/ai_pod/data/persona_weights.json",
+    "dist/ai_pod/docs/csp.example.md",
+    "archive/20251012/ai_pod/docs/LENS_COVERAGE_V1_summary.md",
+    "archive/20251012/ai_pod/docs/LENS_COVERAGE_V1_summary.md",
+    "dist/ai_pod/docs/mobile.md",
+    "dist/ai_pod/docs/sri-manifest.example.json",
+    "archive/20251012/ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json",
+    "archive/20251012/ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json",
+    "archive/20251012/ai_pod/mentors_enriched.json",
+    "archive/20251012/ai_pod/mentors_enriched.json",
+    "dist/ai_pod/mobile/background/androidWork.js",
+    "dist/ai_pod/mobile/background/iosBgTask.js",
+    "dist/ai_pod/mobile/bridge/appLinks.js",
+    "dist/ai_pod/mobile/bridge/deepLinkRouter.js",
+    "dist/ai_pod/mobile/bridge/index.js",
+    "dist/ai_pod/mobile/bridge/offlineQueue.js",
+    "dist/ai_pod/mobile/bridge/share.js",
+    "dist/ai_pod/mobile/config/capacitor.config.json",
+    "dist/ai_pod/mobile/deeplinks/android/assetlinks.json",
+    "dist/ai_pod/mobile/security/secureStorage.js",
+    "dist/ai_pod/mobile/shortcuts/ios.appintents.json",
+    "dist/ai_pod/prototypes/soul_v1/fsm.js",
+    "dist/ai_pod/scripts/inject_sri.js",
+    "archive/20251012/ai_pod/sources/sources_index.curated.md",
+    "archive/20251012/ai_pod/sources/sources_index.curated.md",
+    "archive/20251012/ai_pod/sources/sources_index.md",
+    "archive/20251012/ai_pod/sources/sources_index.md",
+    "archive/20251012/ai_pod/syeddy-orchestrator.flagON.json",
+    "archive/20251012/ai_pod/syeddy-orchestrator.flagON.json",
+    "archive/20251012/ai_pod/syeddy-orchestrator.json",
+    "archive/20251012/ai_pod/syeddy-orchestrator.json",
+    "dist/ai_pod/tests/check_assets_licenses.js",
+    "dist/ai_pod/tests/hardening-gate.mjs",
+    "dist/ai_pod/tests/laptops.spec.mjs",
+    "dist/ai_pod/tests/mobile_check.js",
+    "archive/20251012/ai_pod/tests/test_report.md",
+    "archive/20251012/ai_pod/tests/test_report.md",
+    "dist/ai_pod/tokens/laptops.tokens.json",
+    "archive/20251012/ai_pod/validator.js",
+    "dist/app/assets/lottie/ai-bradaa-soul-inner.json",
+    "dist/app/assets/lottie/ai-bradaa-soul-inner.json",
+    "dist/assets/lottie/ai-bradaa-soul-inner.json",
+    "dist/app/assets/lottie/ai-bradaa-soul.json",
+    "dist/app/assets/lottie/ai-bradaa-soul.json",
+    "dist/app/css/ai-pod-loading.css",
+    "dist/app/css/ai-pod-loading.css",
+    "dist/app/css/ai-pod-result.css",
+    "dist/app/css/ai-pod-result.css",
+    "dist/app/css/tokens.css",
+    "dist/app/css/tokens.css",
+    "dist/app/i18n/en.json",
+    "dist/app/i18n/ms.json",
+    "dist/app/index.v15.2.html",
+    "dist/app/js/ai-pod-loader.js",
+    "dist/app/js/ai-pod-loader.js",
+    "dist/app/js/ai-pod-v2-pro.js",
+    "dist/app/js/ai-pod-v2-pro.js",
+    "dist/app/js/aipod/ai-pod-view.js",
+    "dist/app/js/aipod/ai-pod-view.js",
+    "dist/app/js/aipod/fluid-core.js",
+    "dist/app/js/aipod/fluid-core.js",
+    "dist/app/js/aipod/intel-cards.js",
+    "dist/app/js/aipod/intel-cards.js",
+    "dist/app/js/aipod/loading-controller.js",
+    "dist/app/js/aipod/loading-controller.js",
+    "dist/app/js/aipod/mock-provider.js",
+    "dist/app/js/aipod/mock-provider.js",
+    "dist/app/js/aipod/progress-ring.js",
+    "dist/app/js/aipod/progress-ring.js",
+    "dist/app/js/aipod/provider-proxy.js",
+    "dist/app/js/aipod/provider-proxy.js",
+    "dist/app/js/aipod/result-view.js",
+    "dist/app/js/aipod/result-view.js",
+    "dist/app/js/aipod/runtime-lite.js",
+    "dist/app/js/aipod/runtime-lite.js",
+    "dist/app/js/aipod/runtime.js",
+    "dist/app/js/aipod/runtime.js",
+    "dist/app/js/aipod/tools-wire.js",
+    "dist/app/js/aipod/tools-wire.js",
+    "dist/app/js/bradaa-flags.js",
+    "dist/app/js/bradaa-flags.js",
+    "dist/app/js/CSS.html",
+    "dist/app/js/CSS.html",
+    "dist/app/js/deck-emit-shim.js",
+    "dist/app/js/deck-emit-shim.js",
+    "dist/app/js/i18n.js",
+    "dist/app/js/i18n.js",
+    "dist/app/js/legacy-deck-emit-shim.js",
+    "dist/app/js/legacy-deck-emit-shim.js",
+    "dist/app/js/soul.js",
+    "dist/app/js/soul.js",
+    "archive/datasets/20251023-2140/package-lock.json",
+    "archive/datasets/20251023-2140/package.json",
+    "archive/datasets/20251023-2140/tsconfig.eslint.json",
+    "archive/datasets/20251023-2140/tsconfig.json",
+    "dist/data/fallbackLaptops.json",
+    "dist/data/laptops.json",
+    "dist/data/laptops.schema.json",
+    "dist/pwa/manifest.json",
+    "dist/pwa/service-worker.js",
+    "dist/sw.js"
+  ],
+  "imports": [
+    {
+      "from": "archive/datasets/20251023-2140/.eslintrc.cjs",
+      "to": ".eslintrc.cjs",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai/deck/replyDeck.js",
+      "to": "ai/deck/replyDeck.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai/deck/replyModalDeck.js",
+      "to": "ai/deck/replyModalDeck.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai/providers/adapter_spec.md",
+      "to": "ai/providers/adapter_spec.md",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/adapters/aiClient.js",
+      "to": "ai_pod/adapters/aiClient.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/config/governance.mobile.json",
+      "to": "ai_pod/config/governance.mobile.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/data/intel/tech_signals.json",
+      "to": "ai_pod/data/intel/tech_signals.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/data/laptops/explorer.top10.gaming.json",
+      "to": "ai_pod/data/laptops/explorer.top10.gaming.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/data/laptops/top35.cache.json",
+      "to": "ai_pod/data/laptops/top35.cache.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/data/persona_weights.json",
+      "to": "ai_pod/data/persona_weights.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/docs/csp.example.md",
+      "to": "ai_pod/docs/csp.example.md",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/docs/LENS_COVERAGE_V1_summary.md",
+      "to": "ai_pod/docs/LENS_COVERAGE_V1_summary.md",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/docs/LENS_COVERAGE_V1_summary.md",
+      "to": "dist/ai_pod/docs/LENS_COVERAGE_V1_summary.md",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/docs/mobile.md",
+      "to": "ai_pod/docs/mobile.md",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/docs/sri-manifest.example.json",
+      "to": "ai_pod/docs/sri-manifest.example.json",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json",
+      "to": "ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json",
+      "to": "dist/ai_pod/MASTER_UNIVERSAL_BLUEPRINT.json",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/mentors_enriched.json",
+      "to": "ai_pod/mentors_enriched.json",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/mentors_enriched.json",
+      "to": "dist/ai_pod/mentors_enriched.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/mobile/background/androidWork.js",
+      "to": "ai_pod/mobile/background/androidWork.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/mobile/background/iosBgTask.js",
+      "to": "ai_pod/mobile/background/iosBgTask.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/mobile/bridge/appLinks.js",
+      "to": "ai_pod/mobile/bridge/appLinks.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/mobile/bridge/deepLinkRouter.js",
+      "to": "ai_pod/mobile/bridge/deepLinkRouter.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/mobile/bridge/index.js",
+      "to": "ai_pod/mobile/bridge/index.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/mobile/bridge/offlineQueue.js",
+      "to": "ai_pod/mobile/bridge/offlineQueue.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/mobile/bridge/share.js",
+      "to": "ai_pod/mobile/bridge/share.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/mobile/config/capacitor.config.json",
+      "to": "ai_pod/mobile/config/capacitor.config.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/mobile/deeplinks/android/assetlinks.json",
+      "to": "ai_pod/mobile/deeplinks/android/assetlinks.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/mobile/security/secureStorage.js",
+      "to": "ai_pod/mobile/security/secureStorage.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/mobile/shortcuts/ios.appintents.json",
+      "to": "ai_pod/mobile/shortcuts/ios.appintents.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/prototypes/soul_v1/fsm.js",
+      "to": "ai_pod/prototypes/soul_v1/fsm.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/scripts/inject_sri.js",
+      "to": "ai_pod/scripts/inject_sri.js",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/sources/sources_index.curated.md",
+      "to": "ai_pod/sources/sources_index.curated.md",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/sources/sources_index.curated.md",
+      "to": "dist/ai_pod/sources/sources_index.curated.md",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/sources/sources_index.md",
+      "to": "ai_pod/sources/sources_index.md",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/sources/sources_index.md",
+      "to": "dist/ai_pod/sources/sources_index.md",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/syeddy-orchestrator.flagON.json",
+      "to": "ai_pod/syeddy-orchestrator.flagON.json",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/syeddy-orchestrator.flagON.json",
+      "to": "dist/ai_pod/syeddy-orchestrator.flagON.json",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/syeddy-orchestrator.json",
+      "to": "ai_pod/syeddy-orchestrator.json",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/syeddy-orchestrator.json",
+      "to": "dist/ai_pod/syeddy-orchestrator.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/tests/check_assets_licenses.js",
+      "to": "ai_pod/tests/check_assets_licenses.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/tests/hardening-gate.mjs",
+      "to": "ai_pod/tests/hardening-gate.mjs",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/tests/laptops.spec.mjs",
+      "to": "ai_pod/tests/laptops.spec.mjs",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/tests/mobile_check.js",
+      "to": "ai_pod/tests/mobile_check.js",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/tests/test_report.md",
+      "to": "ai_pod/tests/test_report.md",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/tests/test_report.md",
+      "to": "dist/ai_pod/tests/test_report.md",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/ai_pod/tokens/laptops.tokens.json",
+      "to": "ai_pod/tokens/laptops.tokens.json",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/20251012/ai_pod/validator.js",
+      "to": "ai_pod/validator.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/assets/lottie/ai-bradaa-soul-inner.json",
+      "to": "app/assets/lottie/ai-bradaa-soul-inner.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/assets/lottie/ai-bradaa-soul-inner.json",
+      "to": "dist/assets/lottie/ai-bradaa-soul-inner.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/assets/lottie/ai-bradaa-soul-inner.json",
+      "to": "public/lottie/ai-bradaa-soul-inner.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/assets/lottie/ai-bradaa-soul.json",
+      "to": "app/assets/lottie/ai-bradaa-soul.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/assets/lottie/ai-bradaa-soul.json",
+      "to": "dist/assets/lottie/ai-bradaa-soul.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/css/ai-pod-loading.css",
+      "to": "app/css/ai-pod-loading.css",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/css/ai-pod-loading.css",
+      "to": "dist/css/ai-pod-loading.css",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/css/ai-pod-result.css",
+      "to": "app/css/ai-pod-result.css",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/css/ai-pod-result.css",
+      "to": "dist/css/ai-pod-result.css",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/css/tokens.css",
+      "to": "app/css/tokens.css",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/css/tokens.css",
+      "to": "dist/css/tokens.css",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/i18n/en.json",
+      "to": "app/i18n/en.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/i18n/ms.json",
+      "to": "app/i18n/ms.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/index.v15.2.html",
+      "to": "app/index.v15.2.html",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/ai-pod-loader.js",
+      "to": "app/js/ai-pod-loader.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/ai-pod-loader.js",
+      "to": "dist/js/ai-pod-loader.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/ai-pod-v2-pro.js",
+      "to": "app/js/ai-pod-v2-pro.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/ai-pod-v2-pro.js",
+      "to": "dist/js/ai-pod-v2-pro.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/ai-pod-view.js",
+      "to": "app/js/aipod/ai-pod-view.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/ai-pod-view.js",
+      "to": "dist/js/aipod/ai-pod-view.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/fluid-core.js",
+      "to": "app/js/aipod/fluid-core.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/fluid-core.js",
+      "to": "dist/js/aipod/fluid-core.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/intel-cards.js",
+      "to": "app/js/aipod/intel-cards.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/intel-cards.js",
+      "to": "dist/js/aipod/intel-cards.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/loading-controller.js",
+      "to": "app/js/aipod/loading-controller.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/loading-controller.js",
+      "to": "dist/js/aipod/loading-controller.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/mock-provider.js",
+      "to": "app/js/aipod/mock-provider.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/mock-provider.js",
+      "to": "dist/js/aipod/mock-provider.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/progress-ring.js",
+      "to": "app/js/aipod/progress-ring.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/progress-ring.js",
+      "to": "dist/js/aipod/progress-ring.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/provider-proxy.js",
+      "to": "app/js/aipod/provider-proxy.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/provider-proxy.js",
+      "to": "dist/js/aipod/provider-proxy.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/result-view.js",
+      "to": "app/js/aipod/result-view.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/result-view.js",
+      "to": "dist/js/aipod/result-view.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/runtime-lite.js",
+      "to": "app/js/aipod/runtime-lite.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/runtime-lite.js",
+      "to": "dist/js/aipod/runtime-lite.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/runtime.js",
+      "to": "app/js/aipod/runtime.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/runtime.js",
+      "to": "dist/js/aipod/runtime.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/tools-wire.js",
+      "to": "app/js/aipod/tools-wire.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/aipod/tools-wire.js",
+      "to": "dist/js/aipod/tools-wire.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/bradaa-flags.js",
+      "to": "app/js/bradaa-flags.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/bradaa-flags.js",
+      "to": "dist/js/bradaa-flags.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/CSS.html",
+      "to": "app/js/CSS.html",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/CSS.html",
+      "to": "dist/js/CSS.html",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/deck-emit-shim.js",
+      "to": "app/js/deck-emit-shim.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/deck-emit-shim.js",
+      "to": "dist/js/deck-emit-shim.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/i18n.js",
+      "to": "app/js/i18n.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/i18n.js",
+      "to": "dist/js/i18n.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/legacy-deck-emit-shim.js",
+      "to": "app/js/legacy-deck-emit-shim.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/legacy-deck-emit-shim.js",
+      "to": "dist/js/legacy-deck-emit-shim.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/soul.js",
+      "to": "app/js/soul.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/app/js/soul.js",
+      "to": "dist/js/soul.js",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/datasets/20251023-2140/package-lock.json",
+      "to": "package-lock.json",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/datasets/20251023-2140/package.json",
+      "to": "package.json",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/datasets/20251023-2140/tsconfig.eslint.json",
+      "to": "tsconfig.eslint.json",
+      "files_changed": 0
+    },
+    {
+      "from": "archive/datasets/20251023-2140/tsconfig.json",
+      "to": "tsconfig.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/data/fallbackLaptops.json",
+      "to": "data/fallbackLaptops.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/data/laptops.json",
+      "to": "data/laptops.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/data/laptops.schema.json",
+      "to": "data/laptops.schema.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/pwa/manifest.json",
+      "to": "pwa/manifest.json",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/pwa/service-worker.js",
+      "to": "pwa/service-worker.js",
+      "files_changed": 0
+    },
+    {
+      "from": "dist/sw.js",
+      "to": "sw.js",
+      "files_changed": 0
+    }
+  ],
+  "adapter": "app/homepage-wiring.ts"
+}

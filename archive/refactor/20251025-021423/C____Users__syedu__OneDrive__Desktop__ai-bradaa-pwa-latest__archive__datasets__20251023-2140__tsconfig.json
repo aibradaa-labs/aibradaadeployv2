@@ -1,0 +1,31 @@
+﻿{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext", "webworker"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": ["node", "jest", "react", "react-dom", "@testing-library/jest-dom"],
+    "baseUrl": "src",
+    "paths": {
+      "@features/*": ["features/*"],
+      "@shared/*": ["shared/*"],
+      "@utils/*": ["utils/*"],
+      "@types/*": ["types/*"],
+      "@config/*": ["config/*"],
+      "@i18n/*": ["i18n/*"]
+    }
+  },
+  "include": ["src", "**/*.ts", "**/*.tsx", "service-worker.ts"],
+  "exclude": ["node_modules", "build", "dist", "coverage"]
+}

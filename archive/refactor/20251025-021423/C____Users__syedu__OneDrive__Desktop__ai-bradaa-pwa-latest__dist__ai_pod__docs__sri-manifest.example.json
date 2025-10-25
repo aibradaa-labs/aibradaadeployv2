@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "as_of_myt": "2025-10-13 01:55:00 +08:00",
+    "tz": "Asia/Kuala_Lumpur",
+    "notes": "Map external CDN URLs to SRI integrity hashes. Use crossorigin=anonymous."
+  },
+  "entries": [
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js",
+      "integrity": "sha384-REPLACE_WITH_HASH",
+      "crossorigin": "anonymous"
+    }
+  ]
+}

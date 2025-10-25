@@ -1,0 +1,6 @@
+/**
+ * @deprecated Use canonical: ai_pod/mentors_enriched.json
+ * This file remains for backward-compat. Re-exports delegate to canonical module.
+ */
+export * from "../../../ai_pod/mentors_enriched.json";
+export { default } from "../../../ai_pod/mentors_enriched.json";

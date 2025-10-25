@@ -1,0 +1,6 @@
+/**
+ * @deprecated Use canonical: tsconfig.eslint.json
+ * This file remains for backward-compat. Re-exports delegate to canonical module.
+ */
+export * from "../../../tsconfig.eslint.json";
+export { default } from "../../../tsconfig.eslint.json";

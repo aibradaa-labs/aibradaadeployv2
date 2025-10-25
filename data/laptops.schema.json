@@ -31,5 +31,135 @@
   "generated_at_myt": "string",
   "dataset_source": "string",
   "schema_version": "string",
-  "upstream_schema_ref": "string"
+  "upstream_schema_ref": "string",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "generated_at_myt": {
+        "type": "string"
+      },
+      "dataset_source": {
+        "type": "string"
+      },
+      "schema_version": {
+        "type": "string"
+      },
+      "upstream_schema_ref": {
+        "type": "string"
+      },
+      "segments": {
+        "type": "array",
+        "items": {
+          "enum": [
+            "AI Feature",
+            "Gaming",
+            "Creator",
+            "Portable",
+            "Business",
+            "Student"
+          ]
+        },
+        "uniqueItems": true
+      },
+      "links": {
+        "type": "object",
+        "properties": {
+          "oem": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "shopee": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "lazada": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "tiktok": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "product": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "alt": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "other": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "additionalProperties": true
+  }
 }

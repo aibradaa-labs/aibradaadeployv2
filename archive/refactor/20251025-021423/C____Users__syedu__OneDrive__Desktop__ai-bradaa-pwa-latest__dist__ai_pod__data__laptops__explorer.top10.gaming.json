@@ -1,0 +1,10 @@
+{
+  "generated_at": "2025-10-12T17:15:00+08:00",
+  "items": [
+    {"brand":"Lenovo","model":"Legion Slim 5i Gen 10 (2025)","price":6299,"score":98,"platform":"CUDA","why":"Excellent balance of powerful performance, a top-tier creator display, and robust build quality.","scores":{"ai":9,"thermals":9,"upgrade":8,"linux":8,"portability":8,"value":9}},
+    {"brand":"ASUS","model":"ROG Zephyrus G16","price":6999,"score":96,"platform":"CUDA","why":"Top-of-the-line specs and display, pushing the budget limit.","scores":{"ai":9,"thermals":8,"upgrade":8,"linux":8,"portability":8,"value":8}},
+    {"brand":"Acer","model":"Predator Helios Neo 16","price":6499,"score":93,"platform":"CUDA","why":"Powerful performer with a bright, color-accurate screen.","scores":{"ai":9,"thermals":8,"upgrade":8,"linux":7,"portability":7,"value":8}},
+    {"brand":"ASUS","model":"TUF Gaming A16 (2025)","price":5899,"score":97,"platform":"CUDA","why":"Unbeatable performance for its price. Offers next-gen components and a solid display.","scores":{"ai":9,"thermals":8,"upgrade":8,"linux":8,"portability":7,"value":9}},
+    {"brand":"MSI","model":"Katana 15 (2025)","price":5399,"score":96,"platform":"CUDA","why":"Slightly outperforms the Alienware benchmark for a lower price, featuring a solid build.","scores":{"ai":8,"thermals":8,"upgrade":8,"linux":7,"portability":7,"value":9}}
+  ]
+}

@@ -1,10 +1,26 @@
 fullPath | totalItems | price_min | price_max | in_range_3500_7000 | <=4500
+data/laptops.json | 64 | 3539.6 | 6955.87 | 50 | 14
+data/Laptop Catelogue/data/laptops/catalog.jsonl | 100 | 3631 | 11476.08 | 42 | 11
+data/Laptop Catelogue/data/laptops/top100.json | 100 | 3631 | 11476.08 | 42 | 11
+data/Laptop Catelogue/data/laptops/shortlist35.json | 35 | 3631 | 6904 | 35 | 9
+data/Laptop Catelogue/data/laptops/appendix65.json | 65 | 3246.27 | 14404.6 | 24 | 7
+data/Laptop Catelogue/data/laptops/top10.json | 10 | 4491.85 | 6678 | 10 | 1
+reports/datasets.metrics.json | 6 | 3500 | 5399 | 4 | 2
+data/fallbackLaptops.json | 36 | 3246.27 | 14653.2 | 0 | 1
 ai_pod/data/laptops/explorer.top10.gaming.json | 1 |  |  | 0 | 0
 ai_pod/data/laptops/top35.cache.json | 1 |  |  | 0 | 0
 ai_pod/tokens/laptops.tokens.json | 1 |  |  | 0 | 0
-data/fallbackLaptops.json | 73 |  |  | 0 | 0
-data/laptops.json | 1 |  |  | 0 | 0
+archive/datasets/20251023-2140/.eslintrc.json | 1 |  |  | 0 | 0
+archive/datasets/20251023-2140/package-lock.json | 1 |  |  | 0 | 0
+archive/datasets/20251023-2140/package.json | 1 |  |  | 0 | 0
+archive/datasets/20251023-2140/tsconfig.eslint.json |  |  |  | 0 | 0
+archive/datasets/20251023-2140/tsconfig.json |  |  |  | 0 | 0
+data/Laptop Catelogue/data/laptops/index.json | 1 |  |  | 0 | 0
+data/Laptop Catelogue/data/laptops/schema.json | 1 |  |  | 0 | 0
 data/laptops.schema.json | 1 |  |  | 0 | 0
 reports/datasets.canonical.check.json | 1 |  |  | 0 | 0
+reports/datasets.canonical.plan.json | 1 |  |  | 0 | 0
+reports/datasets.census.json | 9 |  |  | 0 | 0
+reports/datasets.determinism.json | 1 |  |  | 0 | 0
 reports/datasets.inventory.json | 1 |  |  | 0 | 0
 reports/datasets.inventory.v2.json | 1 |  |  | 0 | 0
