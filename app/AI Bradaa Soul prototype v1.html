@@ -87,7 +87,7 @@
       <button onclick="aiBradaaSoul.setStatus('running')">Running</button>
       <button onclick="aiBradaaSoul.setStatus('success')">Success</button>
       <button onclick="aiBradaaSoul.setStatus('error')">Error</button>
-      <label>Progress <input id="prog" type="range" min="0" max="1" step="0.01" value="0.6" oninput="aiBradaaSoul.setProgress(parseFloat(this.value))"></label>
+      <label>Progress <input aria-label="input" id="prog" type="range" min="0" max="1" step="0.01" value="0.6" oninput="aiBradaaSoul.setProgress(parseFloat(this.value))" /></label>
     </div>
   </div>
 

@@ -65,7 +65,7 @@ export const SmartphoneFilters: React.FC = () => {
     }
   };
 
-  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleSearchChange = (event: React.ChangeEvent<html lang="en"InputElement>) => {
     debouncedSearch(event.target.value);
   };
 
@@ -86,7 +86,7 @@ export const SmartphoneFilters: React.FC = () => {
         {/* Brand Filter */}
         <Grid item xs={12} sm={6} md={3}>
           <FormControl fullWidth>
-            <InputLabel>{t('brand')}</InputLabel>
+            <input aria-label="input"Label />{t('brand')}</InputLabel>
             <Select
               value={selectedBrand}
               label={t('brand')}
@@ -107,7 +107,7 @@ export const SmartphoneFilters: React.FC = () => {
         {/* OS Filter */}
         <Grid item xs={12} sm={6} md={3}>
           <FormControl fullWidth>
-            <InputLabel>{t('operatingSystem')}</InputLabel>
+            <input aria-label="input"Label />{t('operatingSystem')}</InputLabel>
             <Select
               value={selectedType}
               label={t('operatingSystem')}
@@ -123,7 +123,7 @@ export const SmartphoneFilters: React.FC = () => {
         {/* Sort Options */}
         <Grid item xs={12} sm={6} md={3}>
           <FormControl fullWidth>
-            <InputLabel>{t('sortBy')}</InputLabel>
+            <input aria-label="input"Label />{t('sortBy')}</InputLabel>
             <Select
               value={sortOption}
               label={t('sortBy')}

@@ -4,7 +4,7 @@ import { ElementType } from 'react';
 import { Theme, SxProps } from '@mui/material/styles';
 import { GridSize } from '@mui/material';
 
-export interface CustomGridProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'color'> {
+export interface CustomGridProps extends Omit<React.HTMLAttributes<html lang="en"DivElement>, 'color'> {
   children?: React.ReactNode;
   component?: ElementType;
   item?: boolean;

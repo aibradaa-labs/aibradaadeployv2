@@ -53,7 +53,7 @@ export const LaptopFilters: React.FC<LaptopFiltersProps> = ({
     onFiltersChange(newFilters);
   };
 
-  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleSearchChange = (event: React.ChangeEvent<html lang="en"InputElement>) => {
     const newFilters = { ...filters, searchQuery: event.target.value };
     setFilters(newFilters);
     onFiltersChange(newFilters);
@@ -71,7 +71,7 @@ export const LaptopFilters: React.FC<LaptopFiltersProps> = ({
       />
 
       <Box sx={{ mb: 3 }}>
-        <InputLabel>Price Range</InputLabel>
+        <input aria-label="input"Label />Price Range</InputLabel>
         <Slider
           value={filters.priceRange}
           onChange={handlePriceChange}
@@ -87,7 +87,7 @@ export const LaptopFilters: React.FC<LaptopFiltersProps> = ({
       </Box>
 
       <Box sx={{ mb: 2 }}>
-        <InputLabel>Brands</InputLabel>
+        <input aria-label="input"Label />Brands</InputLabel>
         <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mt: 1 }}>
           {availableBrands.map(brand => (
             <Chip
@@ -101,7 +101,7 @@ export const LaptopFilters: React.FC<LaptopFiltersProps> = ({
       </Box>
 
       <Box sx={{ mb: 2 }}>
-        <InputLabel>Processor Types</InputLabel>
+        <input aria-label="input"Label />Processor Types</InputLabel>
         <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mt: 1 }}>
           {availableProcessors.map(processor => (
             <Chip
@@ -115,7 +115,7 @@ export const LaptopFilters: React.FC<LaptopFiltersProps> = ({
       </Box>
 
       <Box>
-        <InputLabel>RAM Sizes</InputLabel>
+        <input aria-label="input"Label />RAM Sizes</InputLabel>
         <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mt: 1 }}>
           {availableRamSizes.map(ram => (
             <Chip

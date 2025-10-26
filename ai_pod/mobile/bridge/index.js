@@ -1,3 +1,4 @@
+import * as hw from "app/homepage-wiring";
 (function(){
   if (!window.AI_POD) window.AI_POD = {};
   if (!window.AI_POD.mobile) window.AI_POD.mobile = {};

@@ -73,7 +73,7 @@ try {
   globalThis.fetch = mockFetch;
   globalThis.aiPodTelemetry = telemetry;
 
-  const mod = await import('../data/fallbackLaptops.js');
+  const mod = await import('../../src/data/fallbackLaptops.js');
   const { getTop35, queryLaptops, getExplorerTop10, refreshIfStale } = mod;
 
   const top35 = await getTop35();
@@ -114,3 +114,4 @@ try {
   globalThis.fetch = originalFetch;
   globalThis.aiPodTelemetry = originalTelemetry;
 }
+
